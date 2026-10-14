@@ -8,8 +8,8 @@ export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
     return (<board width={42} height={42} thickness={1.6} layers={2} outline={[{ "x": -21, "y": 21 }, { "x": 21, "y": 21 }, { "x": 21, "y": -21 }, { "x": -21, "y": -21 }, { "x": -21, "y": 21 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
-    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
-    <copperpour name="GND_bottom_0_0" connectsTo="net.GND" layer="bottom" clearance={0.5} useThermalReliefs coveredWithSolderMask />
+    <copperpour connectsTo="net.GND" layer="top" useThermalReliefs coveredWithSolderMask />
+    <copperpour connectsTo="net.GND" layer="bottom" useThermalReliefs coveredWithSolderMask />
     {/* C22: 10nF */}
     <capacitor name={"C22"} pcbX={-6} pcbY={-13.9625} pcbRotation={-90} capacitance={"10nF"} footprint={<Footprint_C22 />} schX={8.750000000000004} schY={2.8500000000000005} schRotation={-90} schSheetName={"Overview"}/>
 

@@ -8,11 +8,8 @@ export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
     return (<board width={84.99999999999999} height={60.05} thickness={1.6} layers={4} outline={[{ "x": -42.499999999999986, "y": 30.02499999999999 }, { "x": 42.5, "y": 30.02499999999999 }, { "x": 42.5, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": 30.02499999999999 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
-    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
-    <copperpour name="GND_inner1_0_0" connectsTo="net.GND" layer="inner1" clearance={0.5} useThermalReliefs unbroken coveredWithSolderMask />
-    <copperpour name="GND_top_1_0" connectsTo="net.GND" layer="top" clearance={0.5} coveredWithSolderMask />
-    <copperpour name="GND_inner2_2_0" connectsTo="net.GND" layer="inner2" clearance={0.5} unbroken coveredWithSolderMask />
-    <copperpour name="GND_bottom_3_0" connectsTo="net.GND" layer="bottom" clearance={0.5} coveredWithSolderMask />
+    <copperpour connectsTo="net.GND" layer="top" useThermalReliefs coveredWithSolderMask />
+    <copperpour connectsTo="net.GND" layer="bottom" useThermalReliefs coveredWithSolderMask />
     {/* C16: 39pF */}
     <capacitor name={"C16"} pcbX={38.3} pcbY={18.475} pcbRotation={-90} capacitance={"39pF"} footprint={<Footprint_C16 />} schX={1} schY={0.15000000000000036} schRotation={0} schSheetName={"Antenna GNSS"}/>
 
