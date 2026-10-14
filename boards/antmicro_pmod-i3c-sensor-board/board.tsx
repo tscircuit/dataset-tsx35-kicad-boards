@@ -8,10 +8,8 @@ export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
     return (<board width={33.02000000000001} height={20.319999999999993} thickness={1.59} layers={4} outline={[{ "x": -16.50999999999999, "y": 10.159999999999997 }, { "x": 16.51000000000002, "y": 10.159999999999997 }, { "x": 16.51000000000002, "y": -10.159999999999997 }, { "x": -16.50999999999999, "y": -10.159999999999997 }, { "x": -16.50999999999999, "y": 10.159999999999997 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
-    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
-    <copperpour name="GND_inner1_0_0" connectsTo="net.GND" layer="inner1" clearance={0.25} useThermalReliefs unbroken coveredWithSolderMask />
-    <copperpour name="VCC_inner2_1_0" connectsTo="net.VCC" layer="inner2" clearance={0.25} useThermalReliefs unbroken coveredWithSolderMask />
-    <copperpour name="_SEN1_VCC_inner2_2_0" connectsTo="net._SEN1_VCC" layer="inner2" clearance={0.25} useThermalReliefs unbroken coveredWithSolderMask outline={[{"x":16.51,"y":8.97976923},{"x":13.94,"y":8.96},{"x":13.94,"y":4.71},{"x":7.65593,"y":4.710275},{"x":7.641124,"y":2.735},{"x":16.51,"y":2.735}]} />
+    <copperpour connectsTo="net.GND" layer="top" useThermalReliefs coveredWithSolderMask />
+    <copperpour connectsTo="net.GND" layer="bottom" useThermalReliefs coveredWithSolderMask />
     {/* U5: MMC5603NJ */}
     <chip name={"U5"} pcbX={12.82} pcbY={-3.01} pcbRotation={0} pinLabels={{ "pin1": ["A1"], "pin2": ["A2"], "pin3": ["B1"], "pin4": ["B2"] }} manufacturerPartNumber={"MMC5603NJ"} displayName={"MMC5603NJ"} footprint={<Footprint_U5 />} noSchematicRepresentation={true}/>
 
