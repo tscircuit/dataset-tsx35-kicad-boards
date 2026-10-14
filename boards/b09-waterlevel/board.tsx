@@ -4,10 +4,13 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Commit: 7b47f46949e99d8075590de0c5a08a550d646d84; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
 import { Footprint_R4, Footprint_RV1, Footprint_J4, Footprint_U2, Footprint_C4, Footprint_SW2, Footprint_R3, Footprint_C2, Footprint_Q1, Footprint_SW1, Footprint_J2, Footprint_D1, Footprint_R1, Footprint_K1, Footprint_R5, Footprint_C1, Footprint_C3, Footprint_J3, Footprint_U1 } from './footprints';
-export default function Board({ routingDisabled = true }: {
+export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
-    return (<board width={88.64} height={78.81} thickness={1.6} layers={2} outline={[{ "x": -44.32000000000001, "y": 39.40500000000001 }, { "x": 44.31999999999999, "y": 39.40500000000001 }, { "x": 44.31999999999999, "y": -39.405 }, { "x": -44.32000000000001, "y": -39.405 }, { "x": -44.32000000000001, "y": 39.40500000000001 }]} routingDisabled={routingDisabled} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    return (<board width={88.64} height={78.81} thickness={1.6} layers={2} outline={[{ "x": -44.32000000000001, "y": 39.40500000000001 }, { "x": 44.31999999999999, "y": 39.40500000000001 }, { "x": 44.31999999999999, "y": -39.405 }, { "x": -44.32000000000001, "y": -39.405 }, { "x": -44.32000000000001, "y": 39.40500000000001 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
+    <copperpour name="GND_top_0_0" connectsTo="net.GND" layer="top" clearance={0.5} coveredWithSolderMask outline={[{"x":44.22,"y":39.255},{"x":-44,"y":39.015},{"x":-44.17,"y":-39.255},{"x":44.22,"y":-39.275}]} />
+    <copperpour name="GND_bottom_0_0" connectsTo="net.GND" layer="bottom" clearance={0.5} coveredWithSolderMask outline={[{"x":44.22,"y":39.255},{"x":-44,"y":39.015},{"x":-44.17,"y":-39.255},{"x":44.22,"y":-39.275}]} />
     {/* R4: 10k */}
     <resistor name={"R4"} pcbX={-33} pcbY={-31.415} pcbRotation={0} resistance={"10kohm"} footprint={<Footprint_R4 />} schX={-0.3000000000000025} schY={-2.1999999999999993} schRotation={0} schSheetName={"Overview"}/>
 

@@ -4,10 +4,12 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Commit: eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
 import { Footprint_C22, Footprint_C9, Footprint_C3, Footprint_C28, Footprint_R12, Footprint_R8, Footprint_C26, Footprint_C6, Footprint_R6, Footprint_C2, Footprint_R1, Footprint_C16, Footprint_R7, Footprint_USB1, Footprint_C4, Footprint_C13, Footprint_H1, Footprint_C17, Footprint_C25, Footprint_R11, Footprint_C24, Footprint_R5, Footprint_R2, Footprint_U1, Footprint_C7, Footprint_C21, Footprint_CRYSTAL1, Footprint_C8, Footprint_R10, Footprint_R13, Footprint_BLT_CONN1, Footprint_C11, Footprint_C14, Footprint_H3, Footprint_C27, Footprint__3VREG1, Footprint_C12, Footprint_FLASH1, Footprint_C5, Footprint_R3, Footprint_R9, Footprint_C1, Footprint_C23, Footprint_R4, Footprint_LED1, Footprint_SWD1, Footprint_H4, Footprint_C20, Footprint_Boot1, Footprint_RP2040, Footprint_H2, Footprint_LOADCELL1, Footprint_C19, Footprint_C10, Footprint_C15, Footprint_C18 } from './footprints';
-export default function Board({ routingDisabled = true }: {
+export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
-    return (<board width={42} height={42} thickness={1.6} layers={2} outline={[{ "x": -21, "y": 21 }, { "x": 21, "y": 21 }, { "x": 21, "y": -21 }, { "x": -21, "y": -21 }, { "x": -21, "y": 21 }]} routingDisabled={routingDisabled} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    return (<board width={42} height={42} thickness={1.6} layers={2} outline={[{ "x": -21, "y": 21 }, { "x": 21, "y": 21 }, { "x": 21, "y": -21 }, { "x": -21, "y": -21 }, { "x": -21, "y": 21 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
+    <copperpour name="GND_bottom_0_0" connectsTo="net.GND" layer="bottom" clearance={0.5} useThermalReliefs coveredWithSolderMask />
     {/* C22: 10nF */}
     <capacitor name={"C22"} pcbX={-6} pcbY={-13.9625} pcbRotation={-90} capacitance={"10nF"} footprint={<Footprint_C22 />} schX={8.750000000000004} schY={2.8500000000000005} schRotation={-90} schSheetName={"Overview"}/>
 

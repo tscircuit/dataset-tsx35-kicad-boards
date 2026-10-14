@@ -4,10 +4,15 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Commit: 7c69a1482ffd1dddc206294a55602477c55e17d8; license: CERN-OHL-P-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
 import { Footprint_C16, Footprint_C19, Footprint_LS1, Footprint_J5, Footprint_JP3, Footprint_C24, Footprint_C12, Footprint_U3, Footprint_VDD_GNSS1, Footprint_Q1, Footprint_J7, Footprint_VDD_3V3, Footprint_C32, Footprint_mB1, Footprint_R17, Footprint_J9, Footprint_U5, Footprint_C8, Footprint_JP4, Footprint_C11, Footprint_C28, Footprint_C33, Footprint_C2, Footprint_R16, Footprint_C7, Footprint_C34, Footprint_C31, Footprint_S1, Footprint_C27, Footprint_R2, Footprint_U1, Footprint_L2, Footprint_R3, Footprint_R10, Footprint_R14, Footprint_REF__, Footprint_C4, Footprint_REF___, Footprint_R11, Footprint_C17, Footprint_R7, Footprint_C5, Footprint_C6, Footprint_C35, Footprint_C21, Footprint_VDD_1V8, Footprint_L1, Footprint_D3, Footprint_C26, Footprint_REF____, Footprint_R1, Footprint_C20, Footprint_C3, Footprint_L3, Footprint_R5, Footprint_FB1, Footprint_R4, Footprint_J8, Footprint_REF_____, Footprint_R8, Footprint_C1, Footprint_R13, Footprint_R18, Footprint_C13, Footprint_L5, Footprint_C14, Footprint_VDD_5V5, Footprint_mB2, Footprint_R15, Footprint_D1, Footprint_L4, Footprint_C9, Footprint_mB4, Footprint_U4, Footprint_C29, Footprint_R6, Footprint_J3, Footprint_R12, Footprint_mB3, Footprint_C30, Footprint_C10, Footprint_C18, Footprint_J1, Footprint_C15, Footprint_JP1, Footprint_D5, Footprint_C25 } from './footprints';
-export default function Board({ routingDisabled = true }: {
+export default function Board({ routingDisabled = false }: {
     routingDisabled?: boolean;
 } = {}) {
-    return (<board width={84.99999999999999} height={60.05} thickness={1.6} layers={4} outline={[{ "x": -42.499999999999986, "y": 30.02499999999999 }, { "x": 42.5, "y": 30.02499999999999 }, { "x": 42.5, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": 30.02499999999999 }]} routingDisabled={routingDisabled} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    return (<board width={84.99999999999999} height={60.05} thickness={1.6} layers={4} outline={[{ "x": -42.499999999999986, "y": 30.02499999999999 }, { "x": 42.5, "y": 30.02499999999999 }, { "x": 42.5, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": -30.025000000000006 }, { "x": -42.499999999999986, "y": 30.02499999999999 }]} routingDisabled={routingDisabled} routeRemaining={true} schAutoLayoutEnabled={false} schMaxTraceDistance={1} schTraceAutoLabelEnabled={true}>
+    {/* Original KiCad copper zones, clipped to the board, in ascending priority. */}
+    <copperpour name="GND_inner1_0_0" connectsTo="net.GND" layer="inner1" clearance={0.5} useThermalReliefs unbroken coveredWithSolderMask />
+    <copperpour name="GND_top_1_0" connectsTo="net.GND" layer="top" clearance={0.5} coveredWithSolderMask />
+    <copperpour name="GND_inner2_2_0" connectsTo="net.GND" layer="inner2" clearance={0.5} unbroken coveredWithSolderMask />
+    <copperpour name="GND_bottom_3_0" connectsTo="net.GND" layer="bottom" clearance={0.5} coveredWithSolderMask />
     {/* C16: 39pF */}
     <capacitor name={"C16"} pcbX={38.3} pcbY={18.475} pcbRotation={-90} capacitance={"39pF"} footprint={<Footprint_C16 />} schX={1} schY={0.15000000000000036} schRotation={0} schSheetName={"Antenna GNSS"}/>
 
