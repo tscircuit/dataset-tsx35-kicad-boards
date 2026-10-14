@@ -1,0 +1,68 @@
+{
+  "id": "OLIMEX_RP2350-PICO2-BB48",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 85,
+  "actualComponents": 85,
+  "expectedPhysicalPrimitives": 366,
+  "actualPhysicalPrimitives": 366,
+  "netCount": 95,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "U3 overlaps C8: 1 footprint overlap, 1 pad clearance violation. Move the components apart."
+    },
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "U3 overlaps C7: 1 footprint overlap, 1 pad clearance violation. Move the components apart."
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

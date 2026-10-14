@@ -1,0 +1,17 @@
+{
+  "id": "b06-loadcell",
+  "success": true,
+  "terminals_checked": 232,
+  "schematic_nets": 74,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [
+    [
+      "SWD1",
+      "MP"
+    ]
+  ],
+  "mismatches": [],
+  "warnings": ""
+}

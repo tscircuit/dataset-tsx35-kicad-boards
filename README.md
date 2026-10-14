@@ -1,2 +1,74 @@
 # dataset-tsx35-kicad-boards
-Twenty-five KiCad boards reconstructed as native tscircuit TSX with preserved PCB placements and verified net connectivity
+
+25 KiCad boards from the [Zap comparison](https://zap.mutual.solutions/compare#cmp), reconstructed as editable, native tscircuit TSX.
+
+The dataset contains **3,981 PCB components, 4,653 nets, and 16,322 copper pad/hole primitives**. Original PCB placements and sheet grouping are retained. Silkscreen text and drawings are omitted.
+
+## Develop and build HTML
+
+Requires Node.js 24+, pnpm, and Bun (the tscircuit CLI runtime).
+
+```sh
+pnpm install --frozen-lockfile --ignore-scripts
+pnpm dev
+```
+
+Open http://localhost:3021 and choose any `examples/*.circuit.tsx` file. The standard `tsci dev` server watches the original TSX directly. `tscircuit.config.json` excludes upstream KiCad files, validation reports, and generated output.
+
+```sh
+pnpm typecheck
+pnpm check
+pnpm build
+python3 -m http.server 3022 --directory dist
+```
+
+`pnpm build` runs `tsci build --site` for the FTDI preview and generates **`dist/index.html`**, its viewer JavaScript, and circuit assets. Open http://localhost:3022 to view PCB, schematic, and 3D board geometry. CI also builds this preview and uploads the HTML site as an artifact.
+
+`tsconfig.json` has the same compiler options and includes as `tsci init`; it additionally excludes validation scratch directory `work/`. TypeScript checks TSX; the tscircuit CLI generates HTML. Dataset source distribution does not require transpilation.
+
+`pnpm build:all` requests a static site for every example, with a 240-second timeout per worker. Large-board schematic rendering is not guaranteed to complete; see the limitations below. Build commands disable routing and parts lookup and allow the recorded placement/routing DRC findings so preserved source placements can be previewed.
+
+## Dataset layout and package entrypoint
+
+- `boards/<id>/board.tsx`: native components, explicit electrical connections, and original PCB positions.
+- `boards/<id>/footprints.tsx`: editable native footprint primitives.
+- `boards/<id>/schematic.tsx`: native sheets, passive symbols, and generic boxes linked to physical component ports. Explicit native traces support CLI versions that ignore `net.connectsTo`.
+- `examples/*.circuit.tsx`: one preview entrypoint per board.
+- `manifest.json`: board entrypoints and counts; `index.js` exports it as the default export and `boards`, with lightweight `index.d.ts` types. Source paths are relative to the package root.
+- `boards/<id>/metadata.json`: original references, values, pad mappings, net names/runtime selectors, source repository, pinned commit, and original PCB hash.
+- `boards/<id>/schematic-layout.json`, `schematic-netlist.json`, and `schematic-net-check.json`: original sheet/pin data, KiCad-exported netlist, and terminal-set comparison.
+- `boards/<id>/validation.json` and `validation-reference.json`: native compile/check results and checking references. These are not board runtime dependencies.
+- `upstream-schematics/`: 142 original schematic/project/rule files from the pinned source commits; `schematic-source-hashes.json` records source hashes and URLs.
+
+The TSX sources do not load serialized Circuit JSON and do not wrap entire boards in an `ImportedBoard` chip. The static HTML viewer uses Circuit JSON generated from the TSX by the normal CLI build.
+
+Install the dataset from GitHub; it is not published to npm:
+
+```sh
+pnpm add github:tscircuit/dataset-tsx35-kicad-boards
+```
+
+## Connectivity and geometry checks
+
+Original schematics were exported using `kicad-cli 10.0.6`. All 25 boards matched **15,235 shared physical terminals with zero net mismatches**, independently of net names. PCB-only terminals are retained and reported separately. Repeated lands sharing an original pad number represent one electrical terminal. A redundant ECP5 `U10.T7` no-connect entry is ignored in favor of the actual connected net exported for that terminal.
+
+`pnpm check` compiles native TSX and compares component counts, pad/hole centers and layers, exact net count, and terminal membership with the references. It preserves placement/DRC findings in the reports. The source hashes in each validation report identify the checked files.
+
+```sh
+pnpm check:kicad
+CHECK_SCHEMATIC=1 pnpm check
+```
+
+The KiCad check additionally requires `kicad-cli` on PATH. Full schematic checks can take several minutes or longer. Summary reports are `validation-summary.json`, `schematic-net-summary.json`, and `preview-validation-summary.json`.
+
+## Limitations and licensing
+
+These are **unrouted reconstructions**: original tracks, vias, and pours are omitted. Routing is disabled by default; new autorouting has not been validated. The capacity autorouter dependency is pinned to 0.0.900 for a registry-only dependency graph.
+
+130 schematic sheets and 4,004 symbol units retain original grouping, component positions, multi-unit sections, pin functions, and pin sides. Numeric two-terminal R/C/L parts use native symbols. Other symbols use generic boxes; exact original symbol art, wire paths, labels, and drawings are not reproduced. tscircuit generates schematic wires and labels from the verified nets. Four mounting-hole symbols have no electrical schematic pins. ECP5 uses compact `NC_<reference>_<pad>` runtime labels for isolated terminals; original names remain in metadata.
+
+Full native schematic renders completed for 22/25 boards in the earlier renderer check. **ECP5 DC-SCM, HackRF Pro, and Kintex PCIe exceeded 240 seconds**; an ECP5 retry also exceeded five minutes. Physical/net checks pass separately. PCB, schematic, and 3D board geometry were checked in the browser for FTDI and Ember; the generated FTDI HTML was also checked. Original component CAD bodies are not included.
+
+Passing checks does not establish fabrication readiness or full geometry/rule equivalence. Pad shapes, drill offsets, masks, exact board curves/cutouts, net classes, differential pairs, and custom rules require further auditing. Placement/DRC findings remain at the source placements.
+
+There is no blanket corpus license. Retain each `boards/<id>/LICENSE.upstream`; its source metadata identifies the original repository and pinned commit. Multiple-PCB selections use discretesim's `hwtest/hwtest.kicad_pcb`, Tiliqua's motherboard, and Argos's `ARGOS DEMO.kicad_pcb`.

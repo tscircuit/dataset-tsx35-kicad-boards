@@ -1,0 +1,12 @@
+{
+  "id": "CNES_argos-demo-board",
+  "success": true,
+  "terminals_checked": 294,
+  "schematic_nets": 87,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [],
+  "mismatches": [],
+  "warnings": ""
+}

@@ -1,0 +1,280 @@
+[
+  {
+    "id": "256foundation_emberone00-pcb",
+    "success": true,
+    "terminals_checked": 1254,
+    "schematic_nets": 365,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "CNES_argos-demo-board",
+    "success": true,
+    "terminals_checked": 294,
+    "schematic_nets": 87,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "OLIMEX_RP2350-PICO2-BB48",
+    "success": true,
+    "terminals_checked": 338,
+    "schematic_nets": 95,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_cvbs-mipi-bridge",
+    "success": true,
+    "terminals_checked": 306,
+    "schematic_nets": 99,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_dual-ipex-csi-interposer",
+    "success": true,
+    "terminals_checked": 147,
+    "schematic_nets": 55,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_gmsl-serializer",
+    "success": true,
+    "terminals_checked": 349,
+    "schematic_nets": 97,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_pmod-i3c-sensor-board",
+    "success": true,
+    "terminals_checked": 229,
+    "schematic_nets": 48,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [
+      [
+        "BoardFeature_83",
+        "1"
+      ],
+      [
+        "BoardFeature_85",
+        "1"
+      ],
+      [
+        "BoardFeature_87",
+        "1"
+      ],
+      [
+        "BoardFeature_94",
+        "1"
+      ]
+    ],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_signal-integrity-test-board",
+    "success": true,
+    "terminals_checked": 54,
+    "schematic_nets": 13,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "antmicro_stm32h7-hdmi-board-sodimm",
+    "success": true,
+    "terminals_checked": 789,
+    "schematic_nets": 230,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "apfaudio_tiliqua-hardware",
+    "success": true,
+    "terminals_checked": 728,
+    "schematic_nets": 230,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b01-cm4-lvds",
+    "success": true,
+    "terminals_checked": 514,
+    "schematic_nets": 142,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b02-ecp5-dcscm",
+    "success": true,
+    "terminals_checked": 2619,
+    "schematic_nets": 791,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": [
+      {
+        "ref": "U10",
+        "pin": "J1",
+        "net": "unconnected-(U10-PadJ1)"
+      },
+      {
+        "ref": "U10",
+        "pin": "J9",
+        "net": "unconnected-(U10-PadJ9)"
+      },
+      {
+        "ref": "U10",
+        "pin": "L1",
+        "net": "unconnected-(U10-PadL1)"
+      },
+      {
+        "ref": "U10",
+        "pin": "L9",
+        "net": "unconnected-(U10-PadL9)"
+      },
+      {
+        "ref": "U10",
+        "pin": "M7",
+        "net": "unconnected-(U10-PadM7)"
+      },
+      {
+        "ref": "U10",
+        "pin": "T7",
+        "net": "unconnected-(U10-PadT7)"
+      }
+    ]
+  },
+  {
+    "id": "b03-ftdi-jtag",
+    "success": true,
+    "terminals_checked": 354,
+    "schematic_nets": 93,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b04-trellis",
+    "success": true,
+    "terminals_checked": 333,
+    "schematic_nets": 126,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b05-bitaxe",
+    "success": true,
+    "terminals_checked": 378,
+    "schematic_nets": 93,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b06-loadcell",
+    "success": true,
+    "terminals_checked": 232,
+    "schematic_nets": 74,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b07-rp2040",
+    "success": true,
+    "terminals_checked": 192,
+    "schematic_nets": 57,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b08-discretesim",
+    "success": true,
+    "terminals_checked": 743,
+    "schematic_nets": 161,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b09-waterlevel",
+    "success": true,
+    "terminals_checked": 90,
+    "schematic_nets": 42,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "b10-ecp5-bga381",
+    "success": true,
+    "terminals_checked": 237,
+    "schematic_nets": 98,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "buildbotics_bbctrl-pcb-new",
+    "success": true,
+    "terminals_checked": 1086,
+    "schematic_nets": 291,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "greatscottgadgets_hackrf-pro",
+    "success": true,
+    "terminals_checked": 1830,
+    "schematic_nets": 490,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "id8-engineering_seven-hardware",
+    "success": true,
+    "terminals_checked": 365,
+    "schematic_nets": 135,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [
+      [
+        "VDD_5V5",
+        "1"
+      ]
+    ],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "piotr-binkowski_kintex-pcie-board",
+    "success": true,
+    "terminals_checked": 1252,
+    "schematic_nets": 546,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  },
+  {
+    "id": "rapidanalysis_xerxes",
+    "success": true,
+    "terminals_checked": 522,
+    "schematic_nets": 209,
+    "mismatched_terminals": 0,
+    "pcb_only_terminals": [],
+    "redundant_no_connect_entries": []
+  }
+]

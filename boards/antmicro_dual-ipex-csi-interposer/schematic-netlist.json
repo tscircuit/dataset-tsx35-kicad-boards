@@ -1,0 +1,1500 @@
+{
+  "root_file": "dual-ipex-csi-interposer.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "C1",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "WE_68715014522",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "WE_68715014522",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "MSAK24025P30",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "MSAK24025P30",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "MSAK24025P30",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "MSAK24025P30",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP1",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "PCB_Mount_Hole_2.2_4.5",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP2",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "PCB_Mount_Hole_2.2_4.5",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP3",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "PCB_Mount_Hole_2.2_4.5",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP4",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "PCB_Mount_Hole_2.2_4.5",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "N1",
+      "value": "oshw_logo",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "oshw_logo",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "N2",
+      "value": "antmicro_logo",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "antmicro_logo",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "R_0R_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP4",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP5",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP6",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP7",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP8",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP9",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP10",
+      "value": "TP_SMD1MM",
+      "libpart": {
+        "lib": "dual-ipex-csi-interposer",
+        "part": "TP_SMD1MM",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "/CAM_CSI_CAM_EN",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "32",
+          "function": "Pin_32_32",
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CAM_CSI_CAM_XVS",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "34",
+          "function": "Pin_34_34",
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CAM_L_SCL",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "40",
+          "function": "Pin_40_40",
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CAM_L_SDA",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "39",
+          "function": "Pin_39_39",
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CAM_R_SCL",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "42",
+          "function": "Pin_42_42",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CAM_R_SDA",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "41",
+          "function": "Pin_41_41",
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "3V3_FFC",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "47",
+          "function": "Pin_47_47",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "48",
+          "function": "Pin_48_48",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "24",
+          "function": "Pin_24_24",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "25",
+          "function": "Pin_25_25",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "26",
+          "function": "Pin_26_26",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "24",
+          "function": "Pin_24_24",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "25",
+          "function": "Pin_25_25",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "26",
+          "function": "Pin_26_26",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "5V0_SYS",
+      "nodes": [
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "49",
+          "function": "Pin_49_49",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "50",
+          "function": "Pin_50_50",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "27",
+          "function": "Pin_27_27",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "28",
+          "function": "Pin_28_28",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "29",
+          "function": "Pin_29_29",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "30",
+          "function": "Pin_30_30",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "27",
+          "function": "Pin_27_27",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "28",
+          "function": "Pin_28_28",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "29",
+          "function": "Pin_29_29",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "30",
+          "function": "Pin_30_30",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_CLK",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "22",
+          "function": "Pin_22_22",
+          "type": "passive"
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_EN",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "20",
+          "function": "Pin_20_20",
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_XTRIG",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "23",
+          "function": "Pin_23_23",
+          "type": "passive"
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_XVS",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "21",
+          "function": "Pin_21_21",
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CLK_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "28",
+          "function": "Pin_28_28",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "14",
+          "function": "Pin_14_14",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CLK_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "29",
+          "function": "Pin_29_29",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "15",
+          "function": "Pin_15_15",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D0_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "25",
+          "function": "Pin_25_25",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "11",
+          "function": "Pin_11_11",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D0_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "26",
+          "function": "Pin_26_26",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "12",
+          "function": "Pin_12_12",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D1_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "23",
+          "function": "Pin_23_23",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "8",
+          "function": "Pin_8_8",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D1_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "24",
+          "function": "Pin_24_24",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "9",
+          "function": "Pin_9_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D2_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "21",
+          "function": "Pin_21_21",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "5",
+          "function": "Pin_5_5",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D2_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "22",
+          "function": "Pin_22_22",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "6",
+          "function": "Pin_6_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D3_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "19",
+          "function": "Pin_19_19",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "function": "Pin_2_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D3_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "20",
+          "function": "Pin_20_20",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "3",
+          "function": "Pin_3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_SCL",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "18",
+          "function": "Pin_18_18",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM1_SDA",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "17",
+          "function": "Pin_17_17",
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_CLK",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "22",
+          "function": "Pin_22_22",
+          "type": "passive"
+        },
+        {
+          "ref": "TP9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_EN",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "20",
+          "function": "Pin_20_20",
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_XTRIG",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "23",
+          "function": "Pin_23_23",
+          "type": "passive"
+        },
+        {
+          "ref": "TP10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_XVS",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "21",
+          "function": "Pin_21_21",
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CLK_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "10",
+          "function": "Pin_10_10",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "14",
+          "function": "Pin_14_14",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CLK_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "11",
+          "function": "Pin_11_11",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "15",
+          "function": "Pin_15_15",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D0_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "7",
+          "function": "Pin_7_7",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "11",
+          "function": "Pin_11_11",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D0_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "8",
+          "function": "Pin_8_8",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "12",
+          "function": "Pin_12_12",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D1_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "5",
+          "function": "Pin_5_5",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "8",
+          "function": "Pin_8_8",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D1_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "6",
+          "function": "Pin_6_6",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "9",
+          "function": "Pin_9_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D2_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "3",
+          "function": "Pin_3_3",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "function": "Pin_5_5",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D2_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "4",
+          "function": "Pin_4_4",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "6",
+          "function": "Pin_6_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D3_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "1",
+          "function": "Pin_1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "function": "Pin_2_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D3_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "2",
+          "function": "Pin_2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "function": "Pin_3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_SCL",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "18",
+          "function": "Pin_18_18",
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "CAM2_SDA",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "17",
+          "function": "Pin_17_17",
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "12",
+          "function": "Pin_12_12",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "15",
+          "function": "Pin_15_15",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "18",
+          "function": "Pin_18_18",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "27",
+          "function": "Pin_27_27",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "30",
+          "function": "Pin_30_30",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "9",
+          "function": "Pin_9_9",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "function": "Pin_1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "10",
+          "function": "Pin_10_10",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "13",
+          "function": "Pin_13_13",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "16",
+          "function": "Pin_16_16",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "19",
+          "function": "Pin_19_19",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "4",
+          "function": "Pin_4_4",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "7",
+          "function": "Pin_7_7",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "function": "Pin_1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "10",
+          "function": "Pin_10_10",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "13",
+          "function": "Pin_13_13",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "16",
+          "function": "Pin_16_16",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "19",
+          "function": "Pin_19_19",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "function": "Pin_4_4",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "7",
+          "function": "Pin_7_7",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_13-Pad13)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "13",
+          "function": "Pin_13_13",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_14-Pad14)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "14",
+          "function": "Pin_14_14",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_16-Pad16)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "16",
+          "function": "Pin_16_16",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_17-Pad17)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "17",
+          "function": "Pin_17_17",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_31-Pad31)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "31",
+          "function": "Pin_31_31",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_33-Pad33)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "33",
+          "function": "Pin_33_33",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_35-Pad35)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "35",
+          "function": "Pin_35_35",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_36-Pad36)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "36",
+          "function": "Pin_36_36",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_37-Pad37)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "37",
+          "function": "Pin_37_37",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_38-Pad38)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "38",
+          "function": "Pin_38_38",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_43-Pad43)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "43",
+          "function": "Pin_43_43",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_44-Pad44)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "44",
+          "function": "Pin_44_44",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_45-Pad45)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "45",
+          "function": "Pin_45_45",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_46-Pad46)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "46",
+          "function": "Pin_46_46",
+          "type": "passive+no_connect"
+        }
+      ]
+    }
+  ]
+}

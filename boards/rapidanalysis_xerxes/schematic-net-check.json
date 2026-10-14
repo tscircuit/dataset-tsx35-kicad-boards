@@ -1,0 +1,37 @@
+{
+  "id": "rapidanalysis_xerxes",
+  "success": true,
+  "terminals_checked": 522,
+  "schematic_nets": 209,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [
+    [
+      "J6",
+      "MP"
+    ],
+    [
+      "J7",
+      "MP"
+    ],
+    [
+      "J8",
+      "MP"
+    ],
+    [
+      "J9",
+      "7"
+    ],
+    [
+      "J9",
+      "8"
+    ],
+    [
+      "U5",
+      "1"
+    ]
+  ],
+  "mismatches": [],
+  "warnings": ""
+}

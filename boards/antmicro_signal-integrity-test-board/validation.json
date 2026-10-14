@@ -1,0 +1,263 @@
+{
+  "id": "antmicro_signal-integrity-test-board",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "f0337cccf02fb8d0c87313668386d967ad67aafdb461760f9340639cda711cc6",
+    "footprints.tsx": "1a1da57467439ff51c1661637ecbe99938ac97833feeda700afde985672a0201",
+    "schematic.tsx": "ebeaeaf1416af60d2845f4114ac1fd638cecd81dc7920a75e52da894be85a494",
+    "metadata.json": "9b29dece6cb0feaca656c847fdf009663cc2e12c14f56f2c57baa0c3411fc78d"
+  },
+  "expectedComponents": 28,
+  "actualComponents": 28,
+  "expectedPhysicalPrimitives": 120,
+  "actualPhysicalPrimitives": 120,
+  "netCount": 13,
+  "actualNetCount": 13,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J17.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J8.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J20.1 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J14.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J18.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J10.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J13.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J1.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J6.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J4.1 violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad unnamed SMD pad violates copper-to-board-edge clearance (measured 0.179mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J21.1 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J21.2 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J21.pin2_internal_1 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J21.2 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J21.pin2_internal_1 violates copper-to-board-edge clearance (measured 0.079mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J22.1 violates copper-to-board-edge clearance (measured 0.130mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J22.2 violates copper-to-board-edge clearance (measured 0.130mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J22.pin2_internal_1 violates copper-to-board-edge clearance (measured 0.130mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J22.pin2_internal_1 violates copper-to-board-edge clearance (measured 0.130mm, required 0.200mm)"
+    },
+    {
+      "type": "pcb_placement_error",
+      "message": "SMT pad J22.2 violates copper-to-board-edge clearance (measured 0.130mm, required 0.200mm)"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

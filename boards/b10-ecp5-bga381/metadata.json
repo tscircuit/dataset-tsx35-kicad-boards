@@ -1,0 +1,2975 @@
+{
+  "provenance": {
+    "id": "b10-ecp5-bga381",
+    "name": "ECP5 BGA-381 FT2232HQ FIFO board",
+    "author": "gildobjanschi",
+    "licence": "MIT",
+    "source": "https://github.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT",
+    "commit": "81403f7487a9eded36c6500b8c8b6c12a6705f81",
+    "connections": 144,
+    "pcb": {
+      "path": "kicad/ECP5.kicad_pcb",
+      "git_blob_sha": "cbea9125deb1eea171375e96bb42bc69cc3938ba",
+      "size_bytes": 1200569,
+      "download_url": "https://raw.githubusercontent.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/81403f7487a9eded36c6500b8c8b6c12a6705f81/kicad/ECP5.kicad_pcb"
+    },
+    "sha256": "67a74679fb4ac9b20878060c6c5bd6882e2bd30e02abc97ecf8f3e0d2b08f487"
+  },
+  "components": [
+    {
+      "name": "D21",
+      "originalName": "D21",
+      "value": "YELLOW",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -25.800000000000665,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D1",
+      "originalName": "D1",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -27.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "SW1",
+      "originalName": "SW1",
+      "value": "PTS645SK43SMTR92 LFS",
+      "kind": "chip",
+      "footprint": "Button_Switch_SMD:SW_SPST_PTS645",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 18.79999999999933,
+        "y": -11.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D19",
+      "originalName": "D19",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -7.400000000000659,
+        "y": -2.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D4",
+      "originalName": "D4",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -18.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D18",
+      "originalName": "D18",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -11.800000000000665,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "H2",
+      "originalName": "H2",
+      "value": "MountingHole",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 28.399999999999324,
+        "y": 23.499999999999872
+      },
+      "pins": []
+    },
+    {
+      "name": "D2",
+      "originalName": "D2",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -24.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D10",
+      "originalName": "D10",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -19.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "H1",
+      "originalName": "H1",
+      "value": "MountingHole",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -28.400000000000674,
+        "y": 23.499999999999872
+      },
+      "pins": []
+    },
+    {
+      "name": "H4",
+      "originalName": "H4",
+      "value": "MountingHole",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -28.400000000000674,
+        "y": -23.500000000000128
+      },
+      "pins": []
+    },
+    {
+      "name": "D20",
+      "originalName": "D20",
+      "value": "RED",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -0.4000000000006594,
+        "y": -7.500000000000128
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D3",
+      "originalName": "D3",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -21.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP3",
+      "originalName": "TP3",
+      "value": "5190TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.79999999999933,
+        "y": -14.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "D5",
+      "originalName": "D5",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -15.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP9",
+      "originalName": "TP9",
+      "value": "5194TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.79999999999933,
+        "y": 10.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R29",
+      "originalName": "R29",
+      "value": "100",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 5.999999999999318,
+        "y": 14.09999999999988
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "T1",
+      "originalName": "T1",
+      "value": "DA101JC",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:DA101J_MUR",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 18.79999999999933,
+        "y": 8.899999999999878
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        }
+      ]
+    },
+    {
+      "name": "R27",
+      "originalName": "R27",
+      "value": "75",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 9.999999999999318,
+        "y": 6.899999999999878
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP1",
+      "originalName": "TP1",
+      "value": "5197TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 25.79999999999933,
+        "y": -14.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "D23",
+      "originalName": "D23",
+      "value": "YELLOW",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -11.800000000000665,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D25",
+      "originalName": "D25",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -7.400000000000659,
+        "y": -10.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D8",
+      "originalName": "D8",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -6.200000000000671,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D16",
+      "originalName": "D16",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -20.000000000000682,
+        "y": -2.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "G___",
+      "originalName": "G***",
+      "value": "LOGO",
+      "kind": "chip",
+      "footprint": "LOGO",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 0.19999999999933493,
+        "y": 4.299999999999869
+      },
+      "pins": []
+    },
+    {
+      "name": "D9",
+      "originalName": "D9",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -22.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D12",
+      "originalName": "D12",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -13.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP8",
+      "originalName": "TP8",
+      "value": "5191TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -19.300000000000665,
+        "y": -22.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "RCJ-044",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:CUI_RCJ-042",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 18.79999999999933,
+        "y": 27.29999999999987
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R28",
+      "originalName": "R28",
+      "value": "100",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 3.199999999999335,
+        "y": 14.09999999999988
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "originalName": "C3",
+      "value": "0.1µF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 12.59999999999934,
+        "y": 6.899999999999878
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D13",
+      "originalName": "D13",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 11.199999999999335,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D14",
+      "originalName": "D14",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -10.600000000000676,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D15",
+      "originalName": "D15",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -25.800000000000665,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP7",
+      "originalName": "TP7",
+      "value": "5191TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 20.59999999999934,
+        "y": -22.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP2",
+      "originalName": "TP2",
+      "value": "5197TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 25.79999999999933,
+        "y": -9.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "originalName": "C4",
+      "value": "18nF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 12.59999999999934,
+        "y": 13.899999999999878
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "H3",
+      "originalName": "H3",
+      "value": "MountingHole",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 28.399999999999324,
+        "y": -23.500000000000128
+      },
+      "pins": []
+    },
+    {
+      "name": "R26",
+      "originalName": "R26",
+      "value": "150",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 12.59999999999934,
+        "y": -0.5000000000001279
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D6",
+      "originalName": "D6",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -12.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D11",
+      "originalName": "D11",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -16.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J3",
+      "originalName": "J3",
+      "value": "HDMI A",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:AMPHENOL_10029449-001RLF",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -0.20000000000067075,
+        "y": 19.899999999999878
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "SH",
+          "pin": "pin20"
+        }
+      ]
+    },
+    {
+      "name": "TP6",
+      "originalName": "TP6",
+      "value": "5190TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.79999999999933,
+        "y": 1.8999999999998778
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "D7",
+      "originalName": "D7",
+      "value": "BLUE",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -9.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D22",
+      "originalName": "D22",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -20.000000000000682,
+        "y": -10.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D17",
+      "originalName": "D17",
+      "value": "YELLOW",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -15.40000000000066,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP5",
+      "originalName": "TP5",
+      "value": "5190TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.79999999999933,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP4",
+      "originalName": "TP4",
+      "value": "5190TR",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:KEYSTONE_5197TR",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.79999999999933,
+        "y": -9.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "U2",
+      "originalName": "U2",
+      "value": "DSLVDS1047",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:TSSOP-16-1EP_4.4x5mm_P0.65mm",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -1.6000000000006764,
+        "y": 11.499999999999872
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        }
+      ]
+    },
+    {
+      "name": "D24",
+      "originalName": "D24",
+      "value": "GREEN",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -15.40000000000066,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U1",
+      "originalName": "U1",
+      "value": "74HC04",
+      "kind": "chip",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18.79999999999933,
+        "y": -1.5250000000001194
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        }
+      ]
+    },
+    {
+      "name": "R25",
+      "originalName": "R25",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -7.400000000000659,
+        "y": -10.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "originalName": "R1",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -27.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R12",
+      "originalName": "R12",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -13.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R23",
+      "originalName": "R23",
+      "value": "750",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -11.800000000000665,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "originalName": "R6",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -12.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R18",
+      "originalName": "R18",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -11.800000000000665,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R7",
+      "originalName": "R7",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -9.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R21",
+      "originalName": "R21",
+      "value": "750",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -25.800000000000665,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R14",
+      "originalName": "R14",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -10.600000000000676,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R10",
+      "originalName": "R10",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -19.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R20",
+      "originalName": "R20",
+      "value": "750",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -0.4000000000006594,
+        "y": -7.500000000000128
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -18.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R15",
+      "originalName": "R15",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -25.800000000000665,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -21.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R9",
+      "originalName": "R9",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -22.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "originalName": "R22",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -20.000000000000682,
+        "y": -10.100000000000122
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "0.1µF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": 18.79999999999933,
+        "y": -1.5250000000001194
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R24",
+      "originalName": "R24",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -15.40000000000066,
+        "y": -11.90000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R17",
+      "originalName": "R17",
+      "value": "750",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -15.40000000000066,
+        "y": -3.7000000000001307
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J1",
+      "originalName": "J1",
+      "value": "FLE-126-01-G-DV",
+      "kind": "chip",
+      "footprint": "ECP5_BGA381_FT2232HQ_FIFO_EXT:SAMTEC_FLE-126-01-G-DV",
+      "layer": "bottom",
+      "rotation": 0,
+      "center": {
+        "x": 0.7999999999993292,
+        "y": -20.70000000000013
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        },
+        {
+          "original": "33",
+          "pin": "pin33"
+        },
+        {
+          "original": "34",
+          "pin": "pin34"
+        },
+        {
+          "original": "35",
+          "pin": "pin35"
+        },
+        {
+          "original": "36",
+          "pin": "pin36"
+        },
+        {
+          "original": "37",
+          "pin": "pin37"
+        },
+        {
+          "original": "38",
+          "pin": "pin38"
+        },
+        {
+          "original": "39",
+          "pin": "pin39"
+        },
+        {
+          "original": "40",
+          "pin": "pin40"
+        },
+        {
+          "original": "41",
+          "pin": "pin41"
+        },
+        {
+          "original": "42",
+          "pin": "pin42"
+        },
+        {
+          "original": "43",
+          "pin": "pin43"
+        },
+        {
+          "original": "44",
+          "pin": "pin44"
+        },
+        {
+          "original": "45",
+          "pin": "pin45"
+        },
+        {
+          "original": "46",
+          "pin": "pin46"
+        },
+        {
+          "original": "47",
+          "pin": "pin47"
+        },
+        {
+          "original": "48",
+          "pin": "pin48"
+        },
+        {
+          "original": "49",
+          "pin": "pin49"
+        },
+        {
+          "original": "50",
+          "pin": "pin50"
+        },
+        {
+          "original": "51",
+          "pin": "pin51"
+        },
+        {
+          "original": "52",
+          "pin": "pin52"
+        }
+      ]
+    },
+    {
+      "name": "R11",
+      "originalName": "R11",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -16.800000000000665,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "originalName": "R5",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -15.20000000000067,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R13",
+      "originalName": "R13",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": 11.199999999999335,
+        "y": 22.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R19",
+      "originalName": "R19",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -7.400000000000659,
+        "y": -2.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "originalName": "R2",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -24.800000000000665,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "originalName": "R8",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -6.200000000000671,
+        "y": 11.699999999999875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R16",
+      "originalName": "R16",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": -90,
+      "center": {
+        "x": -20.000000000000682,
+        "y": -2.300000000000125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "0.1µF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "layer": "bottom",
+      "rotation": 0,
+      "center": {
+        "x": -1.6000000000006764,
+        "y": 11.499999999999872
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "Net-(D21-K)",
+      "runtimeName": "Net__D21_K_",
+      "targets": [
+        ".D21 > .pin1",
+        ".R21 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_45",
+      "runtimeName": "EXT_45",
+      "targets": [
+        ".D21 > .pin2",
+        ".J1 > .pin3"
+      ]
+    },
+    {
+      "name": "Net-(D1-K)",
+      "runtimeName": "Net__D1_K_",
+      "targets": [
+        ".D1 > .pin1",
+        ".R1 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_40",
+      "runtimeName": "EXT_40",
+      "targets": [
+        ".D1 > .pin2",
+        ".J1 > .pin8"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".SW1 > .pin1",
+        ".T1 > .pin4",
+        ".R27 > .pin2",
+        ".TP8 > .pin1",
+        ".TP7 > .pin1",
+        ".C4 > .pin2",
+        ".J3 > .pin2",
+        ".J3 > .pin5",
+        ".J3 > .pin8",
+        ".J3 > .pin11",
+        ".J3 > .pin17",
+        ".J3 > .pin20",
+        ".U2 > .pin5",
+        ".U2 > .pin8",
+        ".U1 > .pin7",
+        ".U1 > .pin9",
+        ".U1 > .pin11",
+        ".U1 > .pin13",
+        ".R25 > .pin2",
+        ".R1 > .pin2",
+        ".R12 > .pin2",
+        ".R23 > .pin2",
+        ".R6 > .pin2",
+        ".R18 > .pin2",
+        ".R7 > .pin2",
+        ".R21 > .pin2",
+        ".R14 > .pin2",
+        ".R10 > .pin2",
+        ".R20 > .pin2",
+        ".R4 > .pin2",
+        ".R15 > .pin2",
+        ".R3 > .pin2",
+        ".R9 > .pin2",
+        ".R22 > .pin2",
+        ".C2 > .pin2",
+        ".R24 > .pin2",
+        ".R17 > .pin2",
+        ".J1 > .pin1",
+        ".J1 > .pin2",
+        ".J1 > .pin51",
+        ".J1 > .pin52",
+        ".R11 > .pin2",
+        ".R5 > .pin2",
+        ".R13 > .pin2",
+        ".R19 > .pin2",
+        ".R2 > .pin2",
+        ".R8 > .pin2",
+        ".R16 > .pin2",
+        ".C1 > .pin2"
+      ]
+    },
+    {
+      "name": "EXT_0",
+      "runtimeName": "EXT_0",
+      "targets": [
+        ".SW1 > .pin2",
+        ".J1 > .pin48"
+      ]
+    },
+    {
+      "name": "Net-(D19-K)",
+      "runtimeName": "Net__D19_K_",
+      "targets": [
+        ".D19 > .pin1",
+        ".R19 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_31",
+      "runtimeName": "EXT_31",
+      "targets": [
+        ".D19 > .pin2",
+        ".J1 > .pin17"
+      ]
+    },
+    {
+      "name": "Net-(D4-K)",
+      "runtimeName": "Net__D4_K_",
+      "targets": [
+        ".D4 > .pin1",
+        ".R4 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_34",
+      "runtimeName": "EXT_34",
+      "targets": [
+        ".D4 > .pin2",
+        ".J1 > .pin14"
+      ]
+    },
+    {
+      "name": "Net-(D18-K)",
+      "runtimeName": "Net__D18_K_",
+      "targets": [
+        ".D18 > .pin1",
+        ".R18 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_35",
+      "runtimeName": "EXT_35",
+      "targets": [
+        ".D18 > .pin2",
+        ".J1 > .pin13"
+      ]
+    },
+    {
+      "name": "Net-(D2-K)",
+      "runtimeName": "Net__D2_K_",
+      "targets": [
+        ".D2 > .pin1",
+        ".R2 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_38",
+      "runtimeName": "EXT_38",
+      "targets": [
+        ".D2 > .pin2",
+        ".J1 > .pin10"
+      ]
+    },
+    {
+      "name": "Net-(D10-K)",
+      "runtimeName": "Net__D10_K_",
+      "targets": [
+        ".D10 > .pin1",
+        ".R10 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_22",
+      "runtimeName": "EXT_22",
+      "targets": [
+        ".D10 > .pin2",
+        ".J1 > .pin26"
+      ]
+    },
+    {
+      "name": "Net-(D20-K)",
+      "runtimeName": "Net__D20_K_",
+      "targets": [
+        ".D20 > .pin1",
+        ".R20 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_29",
+      "runtimeName": "EXT_29",
+      "targets": [
+        ".D20 > .pin2",
+        ".J1 > .pin19"
+      ]
+    },
+    {
+      "name": "Net-(D3-K)",
+      "runtimeName": "Net__D3_K_",
+      "targets": [
+        ".D3 > .pin1",
+        ".R3 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_36",
+      "runtimeName": "EXT_36",
+      "targets": [
+        ".D3 > .pin2",
+        ".J1 > .pin12"
+      ]
+    },
+    {
+      "name": "EXT_12",
+      "runtimeName": "EXT_12",
+      "targets": [
+        ".TP3 > .pin1",
+        ".U2 > .pin2",
+        ".J1 > .pin36"
+      ]
+    },
+    {
+      "name": "Net-(D5-K)",
+      "runtimeName": "Net__D5_K_",
+      "targets": [
+        ".D5 > .pin1",
+        ".R5 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_32",
+      "runtimeName": "EXT_32",
+      "targets": [
+        ".D5 > .pin2",
+        ".J1 > .pin16"
+      ]
+    },
+    {
+      "name": "Net-(C3-Pad2)",
+      "runtimeName": "Net__C3_Pad2_",
+      "targets": [
+        ".TP9 > .pin1",
+        ".R27 > .pin1",
+        ".C3 > .pin2",
+        ".R26 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J3-SDA)",
+      "runtimeName": "Net__J3_SDA_",
+      "targets": [
+        ".R29 > .pin1",
+        ".J3 > .pin16"
+      ]
+    },
+    {
+      "name": "EXT_9",
+      "runtimeName": "EXT_9",
+      "targets": [
+        ".R29 > .pin2",
+        ".J1 > .pin39"
+      ]
+    },
+    {
+      "name": "Net-(J2-In)",
+      "runtimeName": "Net__J2_In_",
+      "targets": [
+        ".T1 > .pin1",
+        ".J2 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(T1-NC-Pad2)",
+      "runtimeName": "unconnected__T1_NC_Pad2_",
+      "targets": [
+        ".T1 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(J2-Ext)",
+      "runtimeName": "Net__J2_Ext_",
+      "targets": [
+        ".T1 > .pin3",
+        ".J2 > .pin1",
+        ".C4 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(T1-NC-Pad5)",
+      "runtimeName": "unconnected__T1_NC_Pad5_",
+      "targets": [
+        ".T1 > .pin5"
+      ]
+    },
+    {
+      "name": "Net-(T1-SB)",
+      "runtimeName": "Net__T1_SB_",
+      "targets": [
+        ".T1 > .pin6",
+        ".C3 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_1",
+      "runtimeName": "EXT_1",
+      "targets": [
+        ".TP1 > .pin1",
+        ".J1 > .pin47"
+      ]
+    },
+    {
+      "name": "Net-(D23-K)",
+      "runtimeName": "Net__D23_K_",
+      "targets": [
+        ".D23 > .pin1",
+        ".R23 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_37",
+      "runtimeName": "EXT_37",
+      "targets": [
+        ".D23 > .pin2",
+        ".J1 > .pin11"
+      ]
+    },
+    {
+      "name": "Net-(D25-K)",
+      "runtimeName": "Net__D25_K_",
+      "targets": [
+        ".D25 > .pin1",
+        ".R25 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_33",
+      "runtimeName": "EXT_33",
+      "targets": [
+        ".D25 > .pin2",
+        ".J1 > .pin15"
+      ]
+    },
+    {
+      "name": "Net-(D8-K)",
+      "runtimeName": "Net__D8_K_",
+      "targets": [
+        ".D8 > .pin1",
+        ".R8 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_26",
+      "runtimeName": "EXT_26",
+      "targets": [
+        ".D8 > .pin2",
+        ".J1 > .pin22"
+      ]
+    },
+    {
+      "name": "Net-(D16-K)",
+      "runtimeName": "Net__D16_K_",
+      "targets": [
+        ".D16 > .pin1",
+        ".R16 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_42",
+      "runtimeName": "EXT_42",
+      "targets": [
+        ".D16 > .pin2",
+        ".J1 > .pin6"
+      ]
+    },
+    {
+      "name": "Net-(D9-K)",
+      "runtimeName": "Net__D9_K_",
+      "targets": [
+        ".D9 > .pin1",
+        ".R9 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_24",
+      "runtimeName": "EXT_24",
+      "targets": [
+        ".D9 > .pin2",
+        ".J1 > .pin24"
+      ]
+    },
+    {
+      "name": "Net-(D12-K)",
+      "runtimeName": "Net__D12_K_",
+      "targets": [
+        ".D12 > .pin1",
+        ".R12 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_18",
+      "runtimeName": "EXT_18",
+      "targets": [
+        ".D12 > .pin2",
+        ".J1 > .pin30"
+      ]
+    },
+    {
+      "name": "Net-(J3-SCL)",
+      "runtimeName": "Net__J3_SCL_",
+      "targets": [
+        ".R28 > .pin1",
+        ".J3 > .pin15"
+      ]
+    },
+    {
+      "name": "EXT_11",
+      "runtimeName": "EXT_11",
+      "targets": [
+        ".R28 > .pin2",
+        ".J1 > .pin37"
+      ]
+    },
+    {
+      "name": "Net-(D13-K)",
+      "runtimeName": "Net__D13_K_",
+      "targets": [
+        ".D13 > .pin1",
+        ".R13 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_14",
+      "runtimeName": "EXT_14",
+      "targets": [
+        ".D13 > .pin2",
+        ".J1 > .pin34"
+      ]
+    },
+    {
+      "name": "Net-(D14-K)",
+      "runtimeName": "Net__D14_K_",
+      "targets": [
+        ".D14 > .pin1",
+        ".R14 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_16",
+      "runtimeName": "EXT_16",
+      "targets": [
+        ".D14 > .pin2",
+        ".J1 > .pin32"
+      ]
+    },
+    {
+      "name": "Net-(D15-K)",
+      "runtimeName": "Net__D15_K_",
+      "targets": [
+        ".D15 > .pin1",
+        ".R15 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_44",
+      "runtimeName": "EXT_44",
+      "targets": [
+        ".D15 > .pin2",
+        ".J1 > .pin4"
+      ]
+    },
+    {
+      "name": "EXT_2",
+      "runtimeName": "EXT_2",
+      "targets": [
+        ".TP2 > .pin1",
+        ".J1 > .pin46"
+      ]
+    },
+    {
+      "name": "Net-(R26-Pad2)",
+      "runtimeName": "Net__R26_Pad2_",
+      "targets": [
+        ".R26 > .pin2",
+        ".U1 > .pin4",
+        ".U1 > .pin6"
+      ]
+    },
+    {
+      "name": "Net-(D6-K)",
+      "runtimeName": "Net__D6_K_",
+      "targets": [
+        ".D6 > .pin1",
+        ".R6 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_30",
+      "runtimeName": "EXT_30",
+      "targets": [
+        ".D6 > .pin2",
+        ".J1 > .pin18"
+      ]
+    },
+    {
+      "name": "Net-(D11-K)",
+      "runtimeName": "Net__D11_K_",
+      "targets": [
+        ".D11 > .pin1",
+        ".R11 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_20",
+      "runtimeName": "EXT_20",
+      "targets": [
+        ".D11 > .pin2",
+        ".J1 > .pin28"
+      ]
+    },
+    {
+      "name": "DIFF_SDATA+",
+      "runtimeName": "DIFF_SDATA_",
+      "targets": [
+        ".J3 > .pin1",
+        ".U2 > .pin15"
+      ]
+    },
+    {
+      "name": "DIFF_SDATA-",
+      "runtimeName": "DIFF_SDATA__",
+      "targets": [
+        ".J3 > .pin3",
+        ".U2 > .pin16"
+      ]
+    },
+    {
+      "name": "DIFF_BCLK+",
+      "runtimeName": "DIFF_BCLK_",
+      "targets": [
+        ".J3 > .pin4",
+        ".U2 > .pin14"
+      ]
+    },
+    {
+      "name": "DIFF_BCLK-",
+      "runtimeName": "DIFF_BCLK__",
+      "targets": [
+        ".J3 > .pin6",
+        ".U2 > .pin13"
+      ]
+    },
+    {
+      "name": "DIFF_LRCK+",
+      "runtimeName": "DIFF_LRCK_",
+      "targets": [
+        ".J3 > .pin7",
+        ".U2 > .pin11"
+      ]
+    },
+    {
+      "name": "DIFF_LRCK-",
+      "runtimeName": "DIFF_LRCK__",
+      "targets": [
+        ".J3 > .pin9",
+        ".U2 > .pin12"
+      ]
+    },
+    {
+      "name": "DIFF_MCLK+",
+      "runtimeName": "DIFF_MCLK_",
+      "targets": [
+        ".J3 > .pin10",
+        ".U2 > .pin10"
+      ]
+    },
+    {
+      "name": "DIFF_MCLK-",
+      "runtimeName": "DIFF_MCLK__",
+      "targets": [
+        ".J3 > .pin12",
+        ".U2 > .pin9"
+      ]
+    },
+    {
+      "name": "unconnected-(J3-CEC-Pad13)",
+      "runtimeName": "unconnected__J3_CEC_Pad13_",
+      "targets": [
+        ".J3 > .pin13"
+      ]
+    },
+    {
+      "name": "unconnected-(J3-UTILITY-Pad14)",
+      "runtimeName": "unconnected__J3_UTILITY_Pad14_",
+      "targets": [
+        ".J3 > .pin14"
+      ]
+    },
+    {
+      "name": "unconnected-(J3-+5V-Pad18)",
+      "runtimeName": "unconnected__J3__5V_Pad18_",
+      "targets": [
+        ".J3 > .pin18"
+      ]
+    },
+    {
+      "name": "unconnected-(J3-HPD-Pad19)",
+      "runtimeName": "unconnected__J3_HPD_Pad19_",
+      "targets": [
+        ".J3 > .pin19"
+      ]
+    },
+    {
+      "name": "EXT_6",
+      "runtimeName": "EXT_6",
+      "targets": [
+        ".TP6 > .pin1",
+        ".U2 > .pin7",
+        ".J1 > .pin42"
+      ]
+    },
+    {
+      "name": "Net-(D7-K)",
+      "runtimeName": "Net__D7_K_",
+      "targets": [
+        ".D7 > .pin1",
+        ".R7 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_28",
+      "runtimeName": "EXT_28",
+      "targets": [
+        ".D7 > .pin2",
+        ".J1 > .pin20"
+      ]
+    },
+    {
+      "name": "Net-(D22-K)",
+      "runtimeName": "Net__D22_K_",
+      "targets": [
+        ".D22 > .pin1",
+        ".R22 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_43",
+      "runtimeName": "EXT_43",
+      "targets": [
+        ".D22 > .pin2",
+        ".J1 > .pin5"
+      ]
+    },
+    {
+      "name": "Net-(D17-K)",
+      "runtimeName": "Net__D17_K_",
+      "targets": [
+        ".D17 > .pin1",
+        ".R17 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_39",
+      "runtimeName": "EXT_39",
+      "targets": [
+        ".D17 > .pin2",
+        ".J1 > .pin9"
+      ]
+    },
+    {
+      "name": "EXT_8",
+      "runtimeName": "EXT_8",
+      "targets": [
+        ".TP5 > .pin1",
+        ".U2 > .pin6",
+        ".J1 > .pin40"
+      ]
+    },
+    {
+      "name": "EXT_10",
+      "runtimeName": "EXT_10",
+      "targets": [
+        ".TP4 > .pin1",
+        ".U2 > .pin3",
+        ".J1 > .pin38"
+      ]
+    },
+    {
+      "name": "+3V3",
+      "runtimeName": "_3V3",
+      "targets": [
+        ".U2 > .pin1",
+        ".U2 > .pin4",
+        ".U1 > .pin14",
+        ".C2 > .pin1",
+        ".J1 > .pin49",
+        ".J1 > .pin50",
+        ".C1 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(D24-K)",
+      "runtimeName": "Net__D24_K_",
+      "targets": [
+        ".D24 > .pin1",
+        ".R24 > .pin1"
+      ]
+    },
+    {
+      "name": "EXT_41",
+      "runtimeName": "EXT_41",
+      "targets": [
+        ".D24 > .pin2",
+        ".J1 > .pin7"
+      ]
+    },
+    {
+      "name": "EXT_4",
+      "runtimeName": "EXT_4",
+      "targets": [
+        ".U1 > .pin1",
+        ".J1 > .pin44"
+      ]
+    },
+    {
+      "name": "Net-(U1-Pad2)",
+      "runtimeName": "Net__U1_Pad2_",
+      "targets": [
+        ".U1 > .pin2",
+        ".U1 > .pin3",
+        ".U1 > .pin5"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad8)",
+      "runtimeName": "unconnected__U1_Pad8_",
+      "targets": [
+        ".U1 > .pin8"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad10)",
+      "runtimeName": "unconnected__U1_Pad10_",
+      "targets": [
+        ".U1 > .pin10"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad12)",
+      "runtimeName": "unconnected__U1_Pad12_",
+      "targets": [
+        ".U1 > .pin12"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_21-Pad21)",
+      "runtimeName": "unconnected__J1_Pin_21_Pad21_",
+      "targets": [
+        ".J1 > .pin21"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_23-Pad23)",
+      "runtimeName": "unconnected__J1_Pin_23_Pad23_",
+      "targets": [
+        ".J1 > .pin23"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_25-Pad25)",
+      "runtimeName": "unconnected__J1_Pin_25_Pad25_",
+      "targets": [
+        ".J1 > .pin25"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_27-Pad27)",
+      "runtimeName": "unconnected__J1_Pin_27_Pad27_",
+      "targets": [
+        ".J1 > .pin27"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_29-Pad29)",
+      "runtimeName": "unconnected__J1_Pin_29_Pad29_",
+      "targets": [
+        ".J1 > .pin29"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_31-Pad31)",
+      "runtimeName": "unconnected__J1_Pin_31_Pad31_",
+      "targets": [
+        ".J1 > .pin31"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_33-Pad33)",
+      "runtimeName": "unconnected__J1_Pin_33_Pad33_",
+      "targets": [
+        ".J1 > .pin33"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_35-Pad35)",
+      "runtimeName": "unconnected__J1_Pin_35_Pad35_",
+      "targets": [
+        ".J1 > .pin35"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_41-Pad41)",
+      "runtimeName": "unconnected__J1_Pin_41_Pad41_",
+      "targets": [
+        ".J1 > .pin41"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_43-Pad43)",
+      "runtimeName": "unconnected__J1_Pin_43_Pad43_",
+      "targets": [
+        ".J1 > .pin43"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_45-Pad45)",
+      "runtimeName": "unconnected__J1_Pin_45_Pad45_",
+      "targets": [
+        ".J1 > .pin45"
+      ]
+    }
+  ]
+}

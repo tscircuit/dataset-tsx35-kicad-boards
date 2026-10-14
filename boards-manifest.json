@@ -1,0 +1,1493 @@
+{
+  "schema_version": 1,
+  "source_url": "https://zap.mutual.solutions/compare.json",
+  "source_data_written": "2026-10-14T10:51:50Z",
+  "board_count": 25,
+  "note": "Source file candidates at the commits cited by Zap. Repositories with multiple PCB revisions require manual selection of the exact benchmark board. These are original upstream files, not Zap routing outputs or stripped benchmark inputs.",
+  "boards": [
+    {
+      "id": "b01-cm4-lvds",
+      "name": "Antmicro CM4 baseboard LVDS adapter",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/cm4-baseboard-lvds-adapter",
+      "commit": "4af945ed558e58e4b8aea6fe909fc33d78b63f6f",
+      "licence_url": "https://github.com/antmicro/cm4-baseboard-lvds-adapter/blob/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/LICENSE",
+      "connections": 377,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "cm4-lvds-adapter.kicad_pcb",
+          "git_blob_sha": "e8bb05a3b4d139f24841d194ce307980b70975dc",
+          "size_bytes": 8887506,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/cm4-lvds-adapter.kicad_pcb"
+        },
+        {
+          "path": "cm4-lvds-adapter.kicad_pro",
+          "git_blob_sha": "6369dfb8d7c95c5d91f34c74c89a3fbc1175685e",
+          "size_bytes": 20975,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/cm4-lvds-adapter.kicad_pro"
+        },
+        {
+          "path": "cm4-lvds-adapter.kicad_sch",
+          "git_blob_sha": "d78f582ae296e481be6efcefd56bb676eade5187",
+          "size_bytes": 173531,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/cm4-lvds-adapter.kicad_sch"
+        },
+        {
+          "path": "dsi-connector.kicad_sch",
+          "git_blob_sha": "00b37ccffacee1132e69610aa94e7cb6c731c70f",
+          "size_bytes": 121046,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/dsi-connector.kicad_sch"
+        },
+        {
+          "path": "dsi-to-lvds.kicad_sch",
+          "git_blob_sha": "0d06c3efd83d85a741c2b1adbcb4ecb66dc22949",
+          "size_bytes": 205003,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/dsi-to-lvds.kicad_sch"
+        },
+        {
+          "path": "lvds-connector.kicad_sch",
+          "git_blob_sha": "51d5011e31c73c1b34a8467e5a9124ad136c4a5a",
+          "size_bytes": 221823,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/lvds-connector.kicad_sch"
+        },
+        {
+          "path": "power.kicad_sch",
+          "git_blob_sha": "378e45bacca8311136961b822543a270c14e9ad4",
+          "size_bytes": 734960,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/power.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b02-ecp5-dcscm",
+      "name": "Antmicro ECP5 DC-SCM",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/ecp5-dc-scm",
+      "commit": "0019313fd2e214f618788e5e61636a4a023ee361",
+      "licence_url": "https://github.com/antmicro/ecp5-dc-scm/blob/0019313fd2e214f618788e5e61636a4a023ee361/LICENSE",
+      "connections": 1843,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "ddr3.kicad_sch",
+          "git_blob_sha": "419f59942de26ecd531d5f972d6563c3190f0eec",
+          "size_bytes": 226251,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/ddr3.kicad_sch"
+        },
+        {
+          "path": "ecp5-dc-scm.kicad_pcb",
+          "git_blob_sha": "18c001f5561902db72471a63d270dcfcfda9d78f",
+          "size_bytes": 43498871,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/ecp5-dc-scm.kicad_pcb"
+        },
+        {
+          "path": "ecp5-dc-scm.kicad_pro",
+          "git_blob_sha": "83dc7ec7a2b6dc0afcb591f945cbeb7e00eef2f4",
+          "size_bytes": 21403,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/ecp5-dc-scm.kicad_pro"
+        },
+        {
+          "path": "ecp5-dc-scm.kicad_sch",
+          "git_blob_sha": "f3b5002a6fa8d55934f7f7e032979bb7736e0d7c",
+          "size_bytes": 71115,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/ecp5-dc-scm.kicad_sch"
+        },
+        {
+          "path": "edge-connector.kicad_sch",
+          "git_blob_sha": "a5e675887ae7d8ac7583317284811d96c30a2a38",
+          "size_bytes": 129842,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/edge-connector.kicad_sch"
+        },
+        {
+          "path": "ethernet.kicad_sch",
+          "git_blob_sha": "b7a971b1d1cd096bcf07e5ada6687cbfd79697f6",
+          "size_bytes": 238434,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/ethernet.kicad_sch"
+        },
+        {
+          "path": "fpga-banks.kicad_sch",
+          "git_blob_sha": "35ca12590f320d6a640b1155e0647108e08d52ca",
+          "size_bytes": 1013307,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/fpga-banks.kicad_sch"
+        },
+        {
+          "path": "fpga-power-supply.kicad_sch",
+          "git_blob_sha": "4971a30c9e288cf266ba0d80428bf9f186b27ea6",
+          "size_bytes": 434272,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/fpga-power-supply.kicad_sch"
+        },
+        {
+          "path": "interfaces.kicad_sch",
+          "git_blob_sha": "fe276eac69f1e132e15bb58d3c5e9c9c9189f36b",
+          "size_bytes": 547773,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/interfaces.kicad_sch"
+        },
+        {
+          "path": "pcie-conn.kicad_sch",
+          "git_blob_sha": "548b60aaa7699da3f887aefb6c318c02aee62602",
+          "size_bytes": 104648,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/pcie-conn.kicad_sch"
+        },
+        {
+          "path": "power-supply.kicad_sch",
+          "git_blob_sha": "c32a759ab78eb7d6c60f511d1338a1b915d73bb6",
+          "size_bytes": 536677,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/power-supply.kicad_sch"
+        },
+        {
+          "path": "rot.kicad_sch",
+          "git_blob_sha": "6d43ece686d56b2ab60084759d4f3c22b473820f",
+          "size_bytes": 184335,
+          "download_url": "https://raw.githubusercontent.com/antmicro/ecp5-dc-scm/0019313fd2e214f618788e5e61636a4a023ee361/rot.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b03-ftdi-jtag",
+      "name": "FTDI JTAG programmer",
+      "author": "Anthony Bernaert",
+      "licence": "CERN-OHL-P-2.0",
+      "source": "https://github.com/anthony-bernaert/ftdi-jtag-programmer",
+      "commit": "c33005ef528526c137ba8fd1e9cf4e8ceab63a1f",
+      "licence_url": "https://github.com/anthony-bernaert/ftdi-jtag-programmer/blob/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/LICENSE.md",
+      "connections": 264,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "JTAGProgrammer/FTDI.kicad_sch",
+          "git_blob_sha": "eccd7baa31d237b57cc208ccde37fd02e2384fb0",
+          "size_bytes": 113581,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/FTDI.kicad_sch"
+        },
+        {
+          "path": "JTAGProgrammer/JTAG.kicad_sch",
+          "git_blob_sha": "4b0c64c1cd7bf9d0f6e7d042dd2d6b617e5d94d9",
+          "size_bytes": 133335,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/JTAG.kicad_sch"
+        },
+        {
+          "path": "JTAGProgrammer/JTAGProgrammer.kicad_pcb",
+          "git_blob_sha": "6b48e13e3342de5e9d6eea11a8be39b036eb98d7",
+          "size_bytes": 880492,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/JTAGProgrammer.kicad_pcb"
+        },
+        {
+          "path": "JTAGProgrammer/JTAGProgrammer.kicad_pro",
+          "git_blob_sha": "383f38ee87b3ef1ad1ff3c9558d38aa3200afb7d",
+          "size_bytes": 14536,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/JTAGProgrammer.kicad_pro"
+        },
+        {
+          "path": "JTAGProgrammer/JTAGProgrammer.kicad_sch",
+          "git_blob_sha": "340140f509c447460b2cfed9501138edf3d7b0d3",
+          "size_bytes": 61112,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/JTAGProgrammer.kicad_sch"
+        },
+        {
+          "path": "JTAGProgrammer/Power.kicad_sch",
+          "git_blob_sha": "26a0bb9b363cfa381f712aac2cd4947f6044147f",
+          "size_bytes": 69910,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/Power.kicad_sch"
+        },
+        {
+          "path": "JTAGProgrammer/UART.kicad_sch",
+          "git_blob_sha": "ae543fd30ddd1dd49a2c14938abec9d6dce404fc",
+          "size_bytes": 104666,
+          "download_url": "https://raw.githubusercontent.com/anthony-bernaert/ftdi-jtag-programmer/c33005ef528526c137ba8fd1e9cf4e8ceab63a1f/JTAGProgrammer/UART.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b04-trellis",
+      "name": "Trellis Core",
+      "author": "Protolux Electronics SARL-S",
+      "licence": "CERN-OHL-P-2.0",
+      "source": "https://github.com/protolux-electronics/trellis_core",
+      "commit": "db4fe71623c14bcea47d7457d0db4c99d3899124",
+      "licence_url": "https://github.com/protolux-electronics/trellis_core/blob/db4fe71623c14bcea47d7457d0db4c99d3899124/LICENSE",
+      "connections": 208,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "src/architecture.kicad_sch",
+          "git_blob_sha": "01a01c8fa14cb12306678a3d93e3e308aec9bf2d",
+          "size_bytes": 7512,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/architecture.kicad_sch"
+        },
+        {
+          "path": "src/block_diagram.kicad_sch",
+          "git_blob_sha": "d5f518e1b1af2856f5c89b6c7adcfc6d8c3a413a",
+          "size_bytes": 676,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/block_diagram.kicad_sch"
+        },
+        {
+          "path": "src/cpu_core.kicad_sch",
+          "git_blob_sha": "aa5ebd1b0254b492752d3f4d4cce589a3fdb9dcf",
+          "size_bytes": 231331,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/cpu_core.kicad_sch"
+        },
+        {
+          "path": "src/cpu_io.kicad_sch",
+          "git_blob_sha": "8f4fd82ad27d827bf84b76d74308c4d1646d3f7d",
+          "size_bytes": 79794,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/cpu_io.kicad_sch"
+        },
+        {
+          "path": "src/power.kicad_sch",
+          "git_blob_sha": "d70c279b6470b83ed7e7b306bfd3d6a2a6d14dea",
+          "size_bytes": 84157,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/power.kicad_sch"
+        },
+        {
+          "path": "src/storage.kicad_sch",
+          "git_blob_sha": "b789d4ae74cafdfeb3b291e5bcf9c44e64960c92",
+          "size_bytes": 65335,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/storage.kicad_sch"
+        },
+        {
+          "path": "src/trellis_core.kicad_pcb",
+          "git_blob_sha": "d63b0c9f78b7cd6eebaddb4488c83136baea8de8",
+          "size_bytes": 1240950,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/trellis_core.kicad_pcb"
+        },
+        {
+          "path": "src/trellis_core.kicad_pro",
+          "git_blob_sha": "bdf8ec4052d7d8d9fbff7a835dd5c25701bf1010",
+          "size_bytes": 17134,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/trellis_core.kicad_pro"
+        },
+        {
+          "path": "src/trellis_core.kicad_sch",
+          "git_blob_sha": "b9ad0cfc12388f6fbd2ded31c3b9cf5aed392d18",
+          "size_bytes": 6975,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/trellis_core.kicad_sch"
+        },
+        {
+          "path": "src/usb.kicad_sch",
+          "git_blob_sha": "a9a4114e6f2ae4460d7781a783541cd197b2524b",
+          "size_bytes": 96657,
+          "download_url": "https://raw.githubusercontent.com/protolux-electronics/trellis_core/db4fe71623c14bcea47d7457d0db4c99d3899124/src/usb.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b05-bitaxe",
+      "name": "Bitaxe Ultra (fork)",
+      "author": "BastelPichi, fork of skot/bitaxe",
+      "licence": "CERN-OHL-S-2.0",
+      "source": "https://github.com/BastelPichi/bitaxe",
+      "commit": "0c3e71fd54fc0edef4c19c06d2320ef5468adc6a",
+      "licence_url": "https://github.com/BastelPichi/bitaxe/blob/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/LICENSE",
+      "connections": 333,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "bitaxeUltra.kicad_pcb",
+          "git_blob_sha": "b2ad0fa4d55f04237b680595c5b4f5c35ec7d69e",
+          "size_bytes": 1247002,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/bitaxeUltra.kicad_pcb"
+        },
+        {
+          "path": "bitaxeUltra.kicad_pro",
+          "git_blob_sha": "8bf52b70c4bac56fcccb6d1b0677cb36f879b3e6",
+          "size_bytes": 13536,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/bitaxeUltra.kicad_pro"
+        },
+        {
+          "path": "bitaxeUltra.kicad_sch",
+          "git_blob_sha": "2cfbbaae0b313d1d309179d1689b22de83089b95",
+          "size_bytes": 98812,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/bitaxeUltra.kicad_sch"
+        },
+        {
+          "path": "bm1366.kicad_sch",
+          "git_blob_sha": "d6b08ffd4eff059c06af1f82fb0dfc48d21242f6",
+          "size_bytes": 134417,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/bm1366.kicad_sch"
+        },
+        {
+          "path": "esp32.kicad_sch",
+          "git_blob_sha": "e210b8ce53dcdbbe9566e3071152be42f9aebbcc",
+          "size_bytes": 95636,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/esp32.kicad_sch"
+        },
+        {
+          "path": "fan.kicad_sch",
+          "git_blob_sha": "4059b3cf10214461e494f45284353d282b68e735",
+          "size_bytes": 35469,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/fan.kicad_sch"
+        },
+        {
+          "path": "power.kicad_sch",
+          "git_blob_sha": "6a11fae9e377d7d923b3d2fce88e6dad493964d3",
+          "size_bytes": 95502,
+          "download_url": "https://raw.githubusercontent.com/BastelPichi/bitaxe/0c3e71fd54fc0edef4c19c06d2320ef5468adc6a/power.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b06-loadcell",
+      "name": "Ender-3 load-cell bed-levelling sensor",
+      "author": "Lakshminarayanan",
+      "licence": "MIT",
+      "source": "https://github.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor",
+      "commit": "eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b",
+      "licence_url": "https://github.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor/blob/eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b/LICENSE",
+      "connections": 157,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "PCB/LoadcellSensor.kicad_pcb",
+          "git_blob_sha": "460e95c9b7dd97b88463d99f2047f325375a836d",
+          "size_bytes": 395117,
+          "download_url": "https://raw.githubusercontent.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor/eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b/PCB/LoadcellSensor.kicad_pcb"
+        },
+        {
+          "path": "PCB/LoadcellSensor.kicad_pro",
+          "git_blob_sha": "bf99b0ee11b064679d5ba5a213cc5a3932b4ffcc",
+          "size_bytes": 12412,
+          "download_url": "https://raw.githubusercontent.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor/eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b/PCB/LoadcellSensor.kicad_pro"
+        },
+        {
+          "path": "PCB/LoadcellSensor.kicad_sch",
+          "git_blob_sha": "7a65f22230f9647337d45ed78af4ec2b2b530cff",
+          "size_bytes": 234968,
+          "download_url": "https://raw.githubusercontent.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor/eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b/PCB/LoadcellSensor.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b07-rp2040",
+      "name": "RP2040 development board",
+      "author": "acon",
+      "licence": "MIT",
+      "source": "https://github.com/acornitum/fucked-up-rp2040-devboard",
+      "commit": "d94328619f4fcaef2f2d62aa42c62c789a463d56",
+      "licence_url": "https://github.com/acornitum/fucked-up-rp2040-devboard/blob/d94328619f4fcaef2f2d62aa42c62c789a463d56/LICENSE",
+      "connections": 139,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "catkeeb_devboard.kicad_pcb",
+          "git_blob_sha": "6dd0cf884f07d162e2add7ef842fe15497e6bc8f",
+          "size_bytes": 6053458,
+          "download_url": "https://raw.githubusercontent.com/acornitum/fucked-up-rp2040-devboard/d94328619f4fcaef2f2d62aa42c62c789a463d56/catkeeb_devboard.kicad_pcb"
+        },
+        {
+          "path": "catkeeb_devboard.kicad_pro",
+          "git_blob_sha": "d0bd10616ca888eee02f13939044f09db90198eb",
+          "size_bytes": 13773,
+          "download_url": "https://raw.githubusercontent.com/acornitum/fucked-up-rp2040-devboard/d94328619f4fcaef2f2d62aa42c62c789a463d56/catkeeb_devboard.kicad_pro"
+        },
+        {
+          "path": "catkeeb_devboard.kicad_sch",
+          "git_blob_sha": "19f7300c4ae584737f6d5d9bc4e4f142347248c0",
+          "size_bytes": 217386,
+          "download_url": "https://raw.githubusercontent.com/acornitum/fucked-up-rp2040-devboard/d94328619f4fcaef2f2d62aa42c62c789a463d56/catkeeb_devboard.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b08-discretesim",
+      "name": "discretesim test board",
+      "author": "cnlohr",
+      "licence": "MIT",
+      "source": "https://github.com/cnlohr/discretesim",
+      "commit": "f7a169ee07b18b6c857d23582474b8ba20185436",
+      "licence_url": "https://github.com/cnlohr/discretesim/blob/f7a169ee07b18b6c857d23582474b8ba20185436/LICENSE",
+      "connections": 582,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "attic/schtest/schtest/schtest.kicad_pcb",
+          "git_blob_sha": "3d4c014c2465d90024efe5ec448e8443ca4858ed",
+          "size_bytes": 71392,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest/schtest.kicad_pcb"
+        },
+        {
+          "path": "attic/schtest/schtest/schtest.kicad_pro",
+          "git_blob_sha": "5eefcf0fd6e353914e80cc73f8c275a8cfc11173",
+          "size_bytes": 15050,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest/schtest.kicad_pro"
+        },
+        {
+          "path": "attic/schtest/schtest/schtest.kicad_sch",
+          "git_blob_sha": "ff646d51d3ce4d3aa5e436490da6c24e0636c4b2",
+          "size_bytes": 43966,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest/schtest.kicad_sch"
+        },
+        {
+          "path": "attic/schtest/schtest2/schtest2.kicad_pcb",
+          "git_blob_sha": "ef218baec2e991c0f42a8f740824577e9ffb2e8d",
+          "size_bytes": 78,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest2/schtest2.kicad_pcb"
+        },
+        {
+          "path": "attic/schtest/schtest2/schtest2.kicad_pro",
+          "git_blob_sha": "3115f7410886ba806976fd5d54a9d5f888746b02",
+          "size_bytes": 7626,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest2/schtest2.kicad_pro"
+        },
+        {
+          "path": "attic/schtest/schtest2/schtest2.kicad_sch",
+          "git_blob_sha": "45e8f684691cd9d68f19b9a4eb9cc4f788ca8791",
+          "size_bytes": 40963,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/attic/schtest/schtest2/schtest2.kicad_sch"
+        },
+        {
+          "path": "hwtest/hwtest.kicad_pcb",
+          "git_blob_sha": "5609025048916f5df25c210f6560c973ad5e11cc",
+          "size_bytes": 2824941,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/hwtest/hwtest.kicad_pcb"
+        },
+        {
+          "path": "hwtest/hwtest.kicad_pro",
+          "git_blob_sha": "f51bd16ab84f8f97fa18fb1f725f6da12e67fa58",
+          "size_bytes": 16000,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/hwtest/hwtest.kicad_pro"
+        },
+        {
+          "path": "hwtest/hwtest.kicad_sch",
+          "git_blob_sha": "f82026af790627a28d5ca18c636da31ef43bad31",
+          "size_bytes": 838280,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/hwtest/hwtest.kicad_sch"
+        },
+        {
+          "path": "testcircuit/boost_supply/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/boost_supply/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/boost_supply/testcircuit.kicad_sch",
+          "git_blob_sha": "0d6e3575649f10f07defcccbeac1df472a617dc3",
+          "size_bytes": 262585,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/boost_supply/testcircuit.kicad_sch"
+        },
+        {
+          "path": "testcircuit/divider/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/divider/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/divider/testcircuit.kicad_sch",
+          "git_blob_sha": "6eeab16855b68c6d0017198359a8cef352e05102",
+          "size_bytes": 218416,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/divider/testcircuit.kicad_sch"
+        },
+        {
+          "path": "testcircuit/random/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/random/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/random/testcircuit.kicad_sch",
+          "git_blob_sha": "90a08ed3aa749c494df8bdbae1a82b9ac6c46354",
+          "size_bytes": 273995,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/random/testcircuit.kicad_sch"
+        },
+        {
+          "path": "testcircuit/rc_time_constant_check/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/rc_time_constant_check/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/rc_time_constant_check/testcircuit.kicad_sch",
+          "git_blob_sha": "439482e8d39aabb1c8a3112b25bd3641c1125be4",
+          "size_bytes": 17418,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/rc_time_constant_check/testcircuit.kicad_sch"
+        },
+        {
+          "path": "testcircuit/transmission_gate/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/transmission_gate/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/transmission_gate/testcircuit.kicad_sch",
+          "git_blob_sha": "f035516de56cac39b2db9e3f06e7ec6568b6884f",
+          "size_bytes": 205742,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/transmission_gate/testcircuit.kicad_sch"
+        },
+        {
+          "path": "testcircuit/xortest/testcircuit.kicad_pro",
+          "git_blob_sha": "f97380706f95af95ebe1099aec3f705069f902b9",
+          "size_bytes": 9415,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/xortest/testcircuit.kicad_pro"
+        },
+        {
+          "path": "testcircuit/xortest/testcircuit.kicad_sch",
+          "git_blob_sha": "741cede1ebe1bb2f6a598bb8f7a61b93ee8c1fc6",
+          "size_bytes": 224901,
+          "download_url": "https://raw.githubusercontent.com/cnlohr/discretesim/f7a169ee07b18b6c857d23582474b8ba20185436/testcircuit/xortest/testcircuit.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b09-waterlevel",
+      "name": "Arduino water-level monitor",
+      "author": "Srushti D",
+      "licence": "MIT",
+      "source": "https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor",
+      "commit": "7b47f46949e99d8075590de0c5a08a550d646d84",
+      "licence_url": "https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor/blob/7b47f46949e99d8075590de0c5a08a550d646d84/LICENSE",
+      "connections": 52,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "hardware/water_level.kicad_pcb",
+          "git_blob_sha": "8e54e1c8a51efd8823ed474afbd033a513e02da3",
+          "size_bytes": 372822,
+          "download_url": "https://raw.githubusercontent.com/Srushti-D-Hebbar/arduino-water-level-monitor/7b47f46949e99d8075590de0c5a08a550d646d84/hardware/water_level.kicad_pcb"
+        },
+        {
+          "path": "hardware/water_level.kicad_pro",
+          "git_blob_sha": "5fe259676cf918e7e722e6764ef3e782614800ae",
+          "size_bytes": 17009,
+          "download_url": "https://raw.githubusercontent.com/Srushti-D-Hebbar/arduino-water-level-monitor/7b47f46949e99d8075590de0c5a08a550d646d84/hardware/water_level.kicad_pro"
+        },
+        {
+          "path": "hardware/water_level.kicad_sch",
+          "git_blob_sha": "0be747027d7c07adf4a21d7fc6023821b9e401f8",
+          "size_bytes": 154246,
+          "download_url": "https://raw.githubusercontent.com/Srushti-D-Hebbar/arduino-water-level-monitor/7b47f46949e99d8075590de0c5a08a550d646d84/hardware/water_level.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "b10-ecp5-bga381",
+      "name": "ECP5 BGA-381 FT2232HQ FIFO board",
+      "author": "gildobjanschi",
+      "licence": "MIT",
+      "source": "https://github.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT",
+      "commit": "81403f7487a9eded36c6500b8c8b6c12a6705f81",
+      "licence_url": "https://github.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/blob/81403f7487a9eded36c6500b8c8b6c12a6705f81/LICENSE",
+      "connections": 144,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "kicad/ECP5.kicad_pcb",
+          "git_blob_sha": "cbea9125deb1eea171375e96bb42bc69cc3938ba",
+          "size_bytes": 1200569,
+          "download_url": "https://raw.githubusercontent.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/81403f7487a9eded36c6500b8c8b6c12a6705f81/kicad/ECP5.kicad_pcb"
+        },
+        {
+          "path": "kicad/ECP5.kicad_pro",
+          "git_blob_sha": "17da5f620d2dbfab4501d003df0371d76b427746",
+          "size_bytes": 20879,
+          "download_url": "https://raw.githubusercontent.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/81403f7487a9eded36c6500b8c8b6c12a6705f81/kicad/ECP5.kicad_pro"
+        },
+        {
+          "path": "kicad/ECP5.kicad_sch",
+          "git_blob_sha": "9a7a1149d8f303cab7cd8525211f232513e2f721",
+          "size_bytes": 8696,
+          "download_url": "https://raw.githubusercontent.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/81403f7487a9eded36c6500b8c8b6c12a6705f81/kicad/ECP5.kicad_sch"
+        },
+        {
+          "path": "kicad/Extension.kicad_sch",
+          "git_blob_sha": "47cf1acbaecb195c503094bc00a447431e636c5b",
+          "size_bytes": 331969,
+          "download_url": "https://raw.githubusercontent.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT/81403f7487a9eded36c6500b8c8b6c12a6705f81/kicad/Extension.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "256foundation_emberone00-pcb",
+      "name": "EmberOne",
+      "author": "256 Foundation",
+      "licence": "CERN-OHL-S-2.0",
+      "source": "https://github.com/256foundation/emberone00-pcb",
+      "commit": "b21b32ca49710b99cb75f86406b0df5190c9beb4",
+      "licence_url": "https://github.com/256foundation/emberone00-pcb/blob/b21b32ca49710b99cb75f86406b0df5190c9beb4/LICENSE",
+      "connections": 1125,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "asic-3up-0.kicad_sch",
+          "git_blob_sha": "5c4e6542cfc0325f2193f86eb017ce7fe8b1b353",
+          "size_bytes": 189745,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/asic-3up-0.kicad_sch"
+        },
+        {
+          "path": "asic-3up-1.kicad_sch",
+          "git_blob_sha": "4a135d39566be37f8e26bc31c69bccc4bdd0179d",
+          "size_bytes": 194953,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/asic-3up-1.kicad_sch"
+        },
+        {
+          "path": "asic-3up-2.kicad_sch",
+          "git_blob_sha": "2a4ccecaff5a864c817658959582ff92c9b3d624",
+          "size_bytes": 195633,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/asic-3up-2.kicad_sch"
+        },
+        {
+          "path": "asic-3up-3.kicad_sch",
+          "git_blob_sha": "3d7d4a8bfa83af6fcabf2970ddb45707bd3d8e43",
+          "size_bytes": 236232,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/asic-3up-3.kicad_sch"
+        },
+        {
+          "path": "asics.kicad_sch",
+          "git_blob_sha": "694cb1999036fc648bf3247ad5fc11c8eedb3465",
+          "size_bytes": 22868,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/asics.kicad_sch"
+        },
+        {
+          "path": "data.kicad_sch",
+          "git_blob_sha": "ab1b457d76f30a399dde9cd2bb8099bda7d48e5b",
+          "size_bytes": 169786,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/data.kicad_sch"
+        },
+        {
+          "path": "emberone.kicad_pcb",
+          "git_blob_sha": "feee9b99ab84a9250e3c88cd70dcbe33a3ece27a",
+          "size_bytes": 3822344,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/emberone.kicad_pcb"
+        },
+        {
+          "path": "emberone.kicad_pro",
+          "git_blob_sha": "d4f961782ef937669e5637d4bc0bd88a9e67bd18",
+          "size_bytes": 17519,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/emberone.kicad_pro"
+        },
+        {
+          "path": "emberone.kicad_sch",
+          "git_blob_sha": "1e80332e2a87338f99306e5eed1727f6c1949c61",
+          "size_bytes": 59083,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/emberone.kicad_sch"
+        },
+        {
+          "path": "power.kicad_sch",
+          "git_blob_sha": "6871f03234a4eb81231fac322b42e03e1e7d33f0",
+          "size_bytes": 203270,
+          "download_url": "https://raw.githubusercontent.com/256foundation/emberone00-pcb/b21b32ca49710b99cb75f86406b0df5190c9beb4/power.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "CNES_argos-demo-board",
+      "name": "Argos demo board",
+      "author": "CNES",
+      "licence": "CERN-OHL-S-2.0",
+      "source": "https://github.com/CNES/argos-demo-board",
+      "commit": "1eccb3f20cb9004c046dba82b72bf85c500efcaa",
+      "licence_url": "https://github.com/CNES/argos-demo-board/blob/1eccb3f20cb9004c046dba82b72bf85c500efcaa/LICENSE",
+      "connections": 234,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "ARGOS DEMO.kicad_pcb",
+          "git_blob_sha": "e1ebb1455e9182d7cc54ce94a4e4e2e729e855d8",
+          "size_bytes": 1960556,
+          "download_url": "https://raw.githubusercontent.com/CNES/argos-demo-board/1eccb3f20cb9004c046dba82b72bf85c500efcaa/ARGOS%20DEMO.kicad_pcb"
+        },
+        {
+          "path": "ARGOS DEMO.kicad_pro",
+          "git_blob_sha": "e128ec07bfbd6e632b09f01bf84358891855d1f2",
+          "size_bytes": 24852,
+          "download_url": "https://raw.githubusercontent.com/CNES/argos-demo-board/1eccb3f20cb9004c046dba82b72bf85c500efcaa/ARGOS%20DEMO.kicad_pro"
+        },
+        {
+          "path": "ARGOS DEMO.kicad_sch",
+          "git_blob_sha": "2c46d32193a3cea24ba5bf6696846cc3e2756f41",
+          "size_bytes": 477722,
+          "download_url": "https://raw.githubusercontent.com/CNES/argos-demo-board/1eccb3f20cb9004c046dba82b72bf85c500efcaa/ARGOS%20DEMO.kicad_sch"
+        },
+        {
+          "path": "Stackups/jlcpcb_4L_1.6mm_outer1oz_inner0.5oz_JLC04161H-7628.kicad_pcb",
+          "git_blob_sha": "233382fe48b33eb74e0b802c95e38f32ceac1332",
+          "size_bytes": 3439,
+          "download_url": "https://raw.githubusercontent.com/CNES/argos-demo-board/1eccb3f20cb9004c046dba82b72bf85c500efcaa/Stackups/jlcpcb_4L_1.6mm_outer1oz_inner0.5oz_JLC04161H-7628.kicad_pcb"
+        },
+        {
+          "path": "USBtoSerial.kicad_sch",
+          "git_blob_sha": "784777b0aba26d7f2dbf4f134d3de205fbeec6e7",
+          "size_bytes": 160234,
+          "download_url": "https://raw.githubusercontent.com/CNES/argos-demo-board/1eccb3f20cb9004c046dba82b72bf85c500efcaa/USBtoSerial.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "OLIMEX_RP2350-PICO2-BB48",
+      "name": "RP2350-PICO2-BB48",
+      "author": "Olimex Ltd",
+      "licence": "MIT",
+      "source": "https://github.com/OLIMEX/RP2350-PICO2-BB48",
+      "commit": "74b030363ca03eea5bfa6dac59cbcd9e4277e910",
+      "licence_url": "https://github.com/OLIMEX/RP2350-PICO2-BB48/blob/74b030363ca03eea5bfa6dac59cbcd9e4277e910/LICENSE",
+      "connections": 269,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_pcb",
+          "git_blob_sha": "7ffd1c1eb2d561c6265223b8f313591d6264b572",
+          "size_bytes": 2187883,
+          "download_url": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-BB48/74b030363ca03eea5bfa6dac59cbcd9e4277e910/HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_pcb"
+        },
+        {
+          "path": "HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_pro",
+          "git_blob_sha": "1307f2267ad8c014c5fee77e98facd1c09ea1e77",
+          "size_bytes": 16143,
+          "download_url": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-BB48/74b030363ca03eea5bfa6dac59cbcd9e4277e910/HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_pro"
+        },
+        {
+          "path": "HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_sch",
+          "git_blob_sha": "65ea9abbe5aade6144dbb6605548af7f741c4e5a",
+          "size_bytes": 565371,
+          "download_url": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-BB48/74b030363ca03eea5bfa6dac59cbcd9e4277e910/HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_cvbs-mipi-bridge",
+      "name": "Antmicro CVBS-to-MIPI bridge",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/cvbs-mipi-bridge",
+      "commit": "7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02",
+      "licence_url": "https://github.com/antmicro/cvbs-mipi-bridge/blob/7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02/LICENSE",
+      "connections": 211,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "cvbs-mipi-bridge.kicad_pcb",
+          "git_blob_sha": "4c700d9765b2ac4273b08db9715dcca34d6cf44c",
+          "size_bytes": 6891002,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cvbs-mipi-bridge/7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02/cvbs-mipi-bridge.kicad_pcb"
+        },
+        {
+          "path": "cvbs-mipi-bridge.kicad_pro",
+          "git_blob_sha": "c1e9114a7e337cbd0526812c532c35bf54666615",
+          "size_bytes": 14676,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cvbs-mipi-bridge/7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02/cvbs-mipi-bridge.kicad_pro"
+        },
+        {
+          "path": "cvbs-mipi-bridge.kicad_sch",
+          "git_blob_sha": "c3dfa6c71e3d233d8af26eb27fc829fd5a79fd40",
+          "size_bytes": 683028,
+          "download_url": "https://raw.githubusercontent.com/antmicro/cvbs-mipi-bridge/7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02/cvbs-mipi-bridge.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_dual-ipex-csi-interposer",
+      "name": "Antmicro dual IPEX CSI interposer",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/dual-ipex-csi-interposer",
+      "commit": "6b6bd0af5aafe13c02377d534a23a6373922f350",
+      "licence_url": "https://github.com/antmicro/dual-ipex-csi-interposer/blob/6b6bd0af5aafe13c02377d534a23a6373922f350/LICENSE",
+      "connections": 85,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "dual-ipex-csi-interposer.kicad_pcb",
+          "git_blob_sha": "da7050ccd413e9aaff2a46699ff8e9b99ed42880",
+          "size_bytes": 633689,
+          "download_url": "https://raw.githubusercontent.com/antmicro/dual-ipex-csi-interposer/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb"
+        },
+        {
+          "path": "dual-ipex-csi-interposer.kicad_pro",
+          "git_blob_sha": "0c350235c7676dbfd19c64b159e969e0e712ae0f",
+          "size_bytes": 10568,
+          "download_url": "https://raw.githubusercontent.com/antmicro/dual-ipex-csi-interposer/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pro"
+        },
+        {
+          "path": "dual-ipex-csi-interposer.kicad_sch",
+          "git_blob_sha": "4ac25db0589512284eeec518099930c0864d1ee3",
+          "size_bytes": 314414,
+          "download_url": "https://raw.githubusercontent.com/antmicro/dual-ipex-csi-interposer/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_gmsl-serializer",
+      "name": "Antmicro GMSL serializer",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/gmsl-serializer",
+      "commit": "58641df7b331050bbb4456cb4cb73e3975ae9de9",
+      "licence_url": "https://github.com/antmicro/gmsl-serializer/blob/58641df7b331050bbb4456cb4cb73e3975ae9de9/LICENSE",
+      "connections": 256,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "CSI.kicad_sch",
+          "git_blob_sha": "b38dc53156d24d25d6e6d50b79eb0dfc9acb0c9d",
+          "size_bytes": 294092,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/CSI.kicad_sch"
+        },
+        {
+          "path": "GMSL.kicad_sch",
+          "git_blob_sha": "398882fd90b50b55b38a266efcc1c36a2f9c03f4",
+          "size_bytes": 245500,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/GMSL.kicad_sch"
+        },
+        {
+          "path": "gmsl-serializer.kicad_pcb",
+          "git_blob_sha": "8cff31b76b0a23524671be6069c3931927e9bc12",
+          "size_bytes": 6613276,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/gmsl-serializer.kicad_pcb"
+        },
+        {
+          "path": "gmsl-serializer.kicad_pro",
+          "git_blob_sha": "b0a22ac3c9082dacc2d9be8b3f844ae366e0249a",
+          "size_bytes": 18258,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/gmsl-serializer.kicad_pro"
+        },
+        {
+          "path": "gmsl-serializer.kicad_sch",
+          "git_blob_sha": "ca55697b8a327cc66360bf8bb01bd552cb49de01",
+          "size_bytes": 214770,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/gmsl-serializer.kicad_sch"
+        },
+        {
+          "path": "serializer.kicad_sch",
+          "git_blob_sha": "c3f800f12ee962e4ba1f2580c8fed5447a16e354",
+          "size_bytes": 369973,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/serializer.kicad_sch"
+        },
+        {
+          "path": "supply.kicad_sch",
+          "git_blob_sha": "77e4ff531bcd0cfdfcf8b18a15a7169e89d3850b",
+          "size_bytes": 507324,
+          "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/supply.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_pmod-i3c-sensor-board",
+      "name": "Antmicro PMOD I3C sensor board",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/pmod-i3c-sensor-board",
+      "commit": "5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7",
+      "licence_url": "https://github.com/antmicro/pmod-i3c-sensor-board/blob/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/LICENSE",
+      "connections": 185,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "pmod-i3c-sensor-board.kicad_pcb",
+          "git_blob_sha": "9a26ab76bcd6e8ea52ad93384646c364c5296e7e",
+          "size_bytes": 3092547,
+          "download_url": "https://raw.githubusercontent.com/antmicro/pmod-i3c-sensor-board/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/pmod-i3c-sensor-board.kicad_pcb"
+        },
+        {
+          "path": "pmod-i3c-sensor-board.kicad_pro",
+          "git_blob_sha": "43795ba6456108c40312630163585bc8c74f3c91",
+          "size_bytes": 20615,
+          "download_url": "https://raw.githubusercontent.com/antmicro/pmod-i3c-sensor-board/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/pmod-i3c-sensor-board.kicad_pro"
+        },
+        {
+          "path": "pmod-i3c-sensor-board.kicad_sch",
+          "git_blob_sha": "e4ad38a7b18c8aa61e3e9173f94c9b5b3acd6360",
+          "size_bytes": 666216,
+          "download_url": "https://raw.githubusercontent.com/antmicro/pmod-i3c-sensor-board/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/pmod-i3c-sensor-board.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_signal-integrity-test-board",
+      "name": "Antmicro signal-integrity test board",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/signal-integrity-test-board",
+      "commit": "de0b5922c372481bb146cbd1d0a9f3b7e97c124a",
+      "licence_url": "https://github.com/antmicro/signal-integrity-test-board/blob/de0b5922c372481bb146cbd1d0a9f3b7e97c124a/LICENSE",
+      "connections": 107,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "si-simulation-test-board.kicad_pcb",
+          "git_blob_sha": "7d262c1ed038750e1b2e97889721fe789b585f91",
+          "size_bytes": 6810488,
+          "download_url": "https://raw.githubusercontent.com/antmicro/signal-integrity-test-board/de0b5922c372481bb146cbd1d0a9f3b7e97c124a/si-simulation-test-board.kicad_pcb"
+        },
+        {
+          "path": "si-simulation-test-board.kicad_pro",
+          "git_blob_sha": "707c74d395ec9f40f83a3fb23de246cac9c042b6",
+          "size_bytes": 10679,
+          "download_url": "https://raw.githubusercontent.com/antmicro/signal-integrity-test-board/de0b5922c372481bb146cbd1d0a9f3b7e97c124a/si-simulation-test-board.kicad_pro"
+        },
+        {
+          "path": "si-simulation-test-board.kicad_sch",
+          "git_blob_sha": "4fbf95f11977ff35bd4ad1dc9a39ea5029218eaf",
+          "size_bytes": 210400,
+          "download_url": "https://raw.githubusercontent.com/antmicro/signal-integrity-test-board/de0b5922c372481bb146cbd1d0a9f3b7e97c124a/si-simulation-test-board.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "antmicro_stm32h7-hdmi-board-sodimm",
+      "name": "Antmicro STM32H7 HDMI SO-DIMM board",
+      "author": "Antmicro",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/antmicro/stm32h7-hdmi-board-sodimm",
+      "commit": "27e3ac9968983f236155c288ded30beb1a2d24a1",
+      "licence_url": "https://github.com/antmicro/stm32h7-hdmi-board-sodimm/blob/27e3ac9968983f236155c288ded30beb1a2d24a1/LICENSE",
+      "connections": 567,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "eeprom.kicad_sch",
+          "git_blob_sha": "dfe328f18cef885336ab267d00597685a971d113",
+          "size_bytes": 54329,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/eeprom.kicad_sch"
+        },
+        {
+          "path": "sdr.kicad_sch",
+          "git_blob_sha": "b8b2444c859126eff4baefaa13f6c5dbdc8805fa",
+          "size_bytes": 102367,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/sdr.kicad_sch"
+        },
+        {
+          "path": "sodimm.kicad_sch",
+          "git_blob_sha": "bb00e18a638857066b0cedcce1b2567cc752d104",
+          "size_bytes": 329442,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/sodimm.kicad_sch"
+        },
+        {
+          "path": "stm32h7-hdmi-board-sodimm-module.kicad_dru",
+          "git_blob_sha": "92a47c0272f730b6a4d9d18871e9f3502fdf400e",
+          "size_bytes": 1299,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/stm32h7-hdmi-board-sodimm-module.kicad_dru"
+        },
+        {
+          "path": "stm32h7-hdmi-board-sodimm-module.kicad_pcb",
+          "git_blob_sha": "5f7c5c423148c21e33ed7492f7704187e14532e1",
+          "size_bytes": 10455231,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/stm32h7-hdmi-board-sodimm-module.kicad_pcb"
+        },
+        {
+          "path": "stm32h7-hdmi-board-sodimm-module.kicad_pro",
+          "git_blob_sha": "3235ea1b6b4ca96fccc302ce5e0218246608f8f5",
+          "size_bytes": 35071,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/stm32h7-hdmi-board-sodimm-module.kicad_pro"
+        },
+        {
+          "path": "stm32h7-hdmi-board-sodimm-module.kicad_sch",
+          "git_blob_sha": "4d66f7d0659c46fea92406d3cf34c273d0b5ce95",
+          "size_bytes": 110653,
+          "download_url": "https://raw.githubusercontent.com/antmicro/stm32h7-hdmi-board-sodimm/27e3ac9968983f236155c288ded30beb1a2d24a1/stm32h7-hdmi-board-sodimm-module.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "apfaudio_tiliqua-hardware",
+      "name": "Tiliqua (apfaudio)",
+      "author": "Sebastian Holzapfel",
+      "licence": "CERN-OHL-S-2.0",
+      "source": "https://github.com/apfaudio/tiliqua-hardware",
+      "commit": "4ee5878ae821a6b7096f6aed6795dc1349475cb5",
+      "licence_url": "https://github.com/apfaudio/tiliqua-hardware/blob/4ee5878ae821a6b7096f6aed6795dc1349475cb5/LICENSE",
+      "connections": 531,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "hardware/tiliqua-motherboard/encoder.kicad_sch",
+          "git_blob_sha": "fd1d62109e2730db6d25aeacd4a2c72ba9bfe9a8",
+          "size_bytes": 40744,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/encoder.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/gpdi.kicad_sch",
+          "git_blob_sha": "9f6f3bb3a788e7aa436b2975ca16942e10217902",
+          "size_bytes": 123863,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/gpdi.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/led_driver.kicad_sch",
+          "git_blob_sha": "1dde77ef279c56aa77419985862dba6c534dccdf",
+          "size_bytes": 121729,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/led_driver.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/midi.kicad_sch",
+          "git_blob_sha": "35741d5296c46ff5a2af2ef32da76acd8687d88d",
+          "size_bytes": 34429,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/midi.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/pmod_audio.kicad_sch",
+          "git_blob_sha": "106e74e25f10a9e6a93dce22db4dc3b4f95e9455",
+          "size_bytes": 18346,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/pmod_audio.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/power.kicad_sch",
+          "git_blob_sha": "4dd918eebeb78247153b8d614431f2ddfdc1f8f5",
+          "size_bytes": 144002,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/power.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/rp2040_jtag.kicad_sch",
+          "git_blob_sha": "66f14b112ca21df9c13ffad57dfe5c529db89022",
+          "size_bytes": 156534,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/rp2040_jtag.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_pcb",
+          "git_blob_sha": "2c0b47fee33fcc3a9c3a95b2e1c181d56a1c7e0c",
+          "size_bytes": 3505977,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_pcb"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_pro",
+          "git_blob_sha": "e8491a2696cdb1e739215811216148e30790cdf8",
+          "size_bytes": 17808,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_pro"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_sch",
+          "git_blob_sha": "4836b45a27068d4513ba91155a99fdaf12b5c09d",
+          "size_bytes": 262743,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/usb.kicad_sch",
+          "git_blob_sha": "37f9ce4bda9c104126d970cedaf0bfa052d158c6",
+          "size_bytes": 54185,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/usb.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-motherboard/usbc.kicad_sch",
+          "git_blob_sha": "9988510920902f2f67c37beb64fdba7e5e73c61f",
+          "size_bytes": 80220,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-motherboard/usbc.kicad_sch"
+        },
+        {
+          "path": "hardware/tiliqua-panel/tiliqua-panel.kicad_pcb",
+          "git_blob_sha": "9575436944e4a0a69c6736632e2a0e316a60521d",
+          "size_bytes": 468144,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-panel/tiliqua-panel.kicad_pcb"
+        },
+        {
+          "path": "hardware/tiliqua-panel/tiliqua-panel.kicad_pro",
+          "git_blob_sha": "74359d0073bc3e74ac451f6f7265d242bba457e3",
+          "size_bytes": 14653,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-panel/tiliqua-panel.kicad_pro"
+        },
+        {
+          "path": "hardware/tiliqua-panel/tiliqua-panel.kicad_sch",
+          "git_blob_sha": "1328684912f82162eaa14efa1fc4c6f6d8e1512e",
+          "size_bytes": 16053,
+          "download_url": "https://raw.githubusercontent.com/apfaudio/tiliqua-hardware/4ee5878ae821a6b7096f6aed6795dc1349475cb5/hardware/tiliqua-panel/tiliqua-panel.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "buildbotics_bbctrl-pcb-new",
+      "name": "Buildbotics controller",
+      "author": "Buildbotics LLC",
+      "licence": "CERN-OHL-S-2.0",
+      "source": "https://github.com/buildbotics/bbctrl-pcb-new",
+      "commit": "1a2f36ddc4797ac05e45405fb5664ff1f7ca7974",
+      "licence_url": "https://github.com/buildbotics/bbctrl-pcb-new/blob/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/LICENSE",
+      "connections": 890,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "BuildboticsController.kicad_pcb",
+          "git_blob_sha": "71d8b905fae1380ace9a2b3417df9e96526c2a0e",
+          "size_bytes": 6749065,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/BuildboticsController.kicad_pcb"
+        },
+        {
+          "path": "BuildboticsController.kicad_pro",
+          "git_blob_sha": "cb134a3bb3f428a7b83644c5cffa0556c97e4ee8",
+          "size_bytes": 13791,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/BuildboticsController.kicad_pro"
+        },
+        {
+          "path": "BuildboticsController.kicad_sch",
+          "git_blob_sha": "c2e4a501b7d4cc5b9f9a90e1c480360bbf170d85",
+          "size_bytes": 47846,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/BuildboticsController.kicad_sch"
+        },
+        {
+          "path": "MotorDriver.kicad_sch",
+          "git_blob_sha": "a7608f37d8ab3b7e63d60a0955f6278aa95ebb51",
+          "size_bytes": 137088,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/MotorDriver.kicad_sch"
+        },
+        {
+          "path": "PowerSupply.kicad_sch",
+          "git_blob_sha": "b6bea69c737bc4bb63471e0b5ed09f9d254d50e1",
+          "size_bytes": 332424,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/PowerSupply.kicad_sch"
+        },
+        {
+          "path": "level_shifter.kicad_sch",
+          "git_blob_sha": "3c1061da509e5dd379661b14879df61a63a64c62",
+          "size_bytes": 22732,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/level_shifter.kicad_sch"
+        },
+        {
+          "path": "microprocessor.kicad_sch",
+          "git_blob_sha": "ff8907ff715685ab8def6d6246d34bf5f3675253",
+          "size_bytes": 152821,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/microprocessor.kicad_sch"
+        },
+        {
+          "path": "peripherals.kicad_sch",
+          "git_blob_sha": "3a6564fa7b3a886788133fd805691ce40b6239b1",
+          "size_bytes": 158401,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/peripherals.kicad_sch"
+        },
+        {
+          "path": "rpi.kicad_sch",
+          "git_blob_sha": "6b75b4a541172765a74a5203973ff48fc0d76752",
+          "size_bytes": 74108,
+          "download_url": "https://raw.githubusercontent.com/buildbotics/bbctrl-pcb-new/1a2f36ddc4797ac05e45405fb5664ff1f7ca7974/rpi.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "greatscottgadgets_hackrf-pro",
+      "name": "HackRF Pro",
+      "author": "Great Scott Gadgets",
+      "licence": "CERN-OHL-P-2.0",
+      "source": "https://github.com/greatscottgadgets/hackrf-pro",
+      "commit": "359b98f2451395408bc25dae64efa9fc518e93d0",
+      "licence_url": "https://github.com/greatscottgadgets/hackrf-pro/blob/359b98f2451395408bc25dae64efa9fc518e93d0/LICENSE",
+      "connections": 1677,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "adc-dac.kicad_sch",
+          "git_blob_sha": "94971a93a99e881199f8706579b734dca474ccc4",
+          "size_bytes": 224206,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/adc-dac.kicad_sch"
+        },
+        {
+          "path": "baseband.kicad_sch",
+          "git_blob_sha": "4bd92f1dcd0905e0cc82e28e50154e6ee92dd247",
+          "size_bytes": 175003,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/baseband.kicad_sch"
+        },
+        {
+          "path": "clock.kicad_sch",
+          "git_blob_sha": "47f620ec8cda25487d5d4e18040f3c8d85552574",
+          "size_bytes": 184695,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/clock.kicad_sch"
+        },
+        {
+          "path": "fpga.kicad_sch",
+          "git_blob_sha": "68e95e5c42ae9579c2ab78b7ba1d29c3c047e7e9",
+          "size_bytes": 196291,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/fpga.kicad_sch"
+        },
+        {
+          "path": "frontend.kicad_sch",
+          "git_blob_sha": "46b6cf189795e52e911a701e9771c7e4891972ac",
+          "size_bytes": 246778,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/frontend.kicad_sch"
+        },
+        {
+          "path": "image_reject.kicad_sch",
+          "git_blob_sha": "e95b9908e9bc2ec49445d4724a9eed6ae5dde4b1",
+          "size_bytes": 81419,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/image_reject.kicad_sch"
+        },
+        {
+          "path": "mcu.kicad_sch",
+          "git_blob_sha": "ff6f6a8c5e1dc5493736f25aa942e5a01317a01c",
+          "size_bytes": 467189,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/mcu.kicad_sch"
+        },
+        {
+          "path": "mixer.kicad_sch",
+          "git_blob_sha": "0f63df5c8526191e46723793a7862c4367178e33",
+          "size_bytes": 245258,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/mixer.kicad_sch"
+        },
+        {
+          "path": "power.kicad_sch",
+          "git_blob_sha": "dd892191aab734681053a3654056ccb10e222758",
+          "size_bytes": 351648,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/power.kicad_sch"
+        },
+        {
+          "path": "praline.kicad_pcb",
+          "git_blob_sha": "2ef7a71702117711417efc673ba0b8f1e1dbfae7",
+          "size_bytes": 8031948,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/praline.kicad_pcb"
+        },
+        {
+          "path": "praline.kicad_pro",
+          "git_blob_sha": "cb732878297088e1c76caaf64d2ff152347dd850",
+          "size_bytes": 22197,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/praline.kicad_pro"
+        },
+        {
+          "path": "praline.kicad_sch",
+          "git_blob_sha": "aa3dac446ccd5eeb246b094526568314428390c6",
+          "size_bytes": 80490,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/praline.kicad_sch"
+        },
+        {
+          "path": "switch_control.kicad_sch",
+          "git_blob_sha": "02262b1090b3055e7880939ed7476d10b191f0ef",
+          "size_bytes": 131693,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/switch_control.kicad_sch"
+        },
+        {
+          "path": "usb.kicad_sch",
+          "git_blob_sha": "2c442933ee565bf4c8ae8e3e5bcd4d25ac024f4b",
+          "size_bytes": 71865,
+          "download_url": "https://raw.githubusercontent.com/greatscottgadgets/hackrf-pro/359b98f2451395408bc25dae64efa9fc518e93d0/usb.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "id8-engineering_seven-hardware",
+      "name": "Seven",
+      "author": "ID8 Engineering AB",
+      "licence": "CERN-OHL-P-2.0",
+      "source": "https://github.com/id8-engineering/seven-hardware",
+      "commit": "7c69a1482ffd1dddc206294a55602477c55e17d8",
+      "licence_url": "https://github.com/id8-engineering/seven-hardware/blob/7c69a1482ffd1dddc206294a55602477c55e17d8/LICENSE",
+      "connections": 240,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "kicad/JST-SH.kicad_sch",
+          "git_blob_sha": "278fffbd44da86e07c0ccb868576e7f91734dd7f",
+          "size_bytes": 9814,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/JST-SH.kicad_sch"
+        },
+        {
+          "path": "kicad/JTAG.kicad_sch",
+          "git_blob_sha": "8be3a0088b799c95272b99f0f08fbeaa2f492c5a",
+          "size_bytes": 9836,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/JTAG.kicad_sch"
+        },
+        {
+          "path": "kicad/PMIC.kicad_sch",
+          "git_blob_sha": "555244be0142385619bca06529007540528a1c63",
+          "size_bytes": 113229,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/PMIC.kicad_sch"
+        },
+        {
+          "path": "kicad/SIM_card.kicad_sch",
+          "git_blob_sha": "508651aa049aac5aa29aa8713f89785e05be0bf4",
+          "size_bytes": 39389,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/SIM_card.kicad_sch"
+        },
+        {
+          "path": "kicad/antenna.kicad_sch",
+          "git_blob_sha": "e3971f12994639bde92e87829c7f4caf65ec1896",
+          "size_bytes": 15799,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/antenna.kicad_sch"
+        },
+        {
+          "path": "kicad/antenna_GNSS.kicad_sch",
+          "git_blob_sha": "7d4e20dfe838924bf60f5ebfd3cab4e8fbe64693",
+          "size_bytes": 32726,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/antenna_GNSS.kicad_sch"
+        },
+        {
+          "path": "kicad/antenna_LTE.kicad_sch",
+          "git_blob_sha": "800386c29d1b49f0e4da0ea0a85858bbe5347063",
+          "size_bytes": 14012,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/antenna_LTE.kicad_sch"
+        },
+        {
+          "path": "kicad/buck_converter.kicad_sch",
+          "git_blob_sha": "2e1e2f913d3adbd184587d46c394870b6d261d96",
+          "size_bytes": 39026,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/buck_converter.kicad_sch"
+        },
+        {
+          "path": "kicad/buzzer.kicad_sch",
+          "git_blob_sha": "41b866bee228e14ce296de497619a779e4df62ca",
+          "size_bytes": 45799,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/buzzer.kicad_sch"
+        },
+        {
+          "path": "kicad/jumper.kicad_sch",
+          "git_blob_sha": "076777ea66b37a208f40d4cee2a0cbaa4205de36",
+          "size_bytes": 9961,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/jumper.kicad_sch"
+        },
+        {
+          "path": "kicad/mcu.kicad_sch",
+          "git_blob_sha": "0c4f66d38834fcdd3c333c507d3baf95fb9c3207",
+          "size_bytes": 119536,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/mcu.kicad_sch"
+        },
+        {
+          "path": "kicad/mikroBUS.kicad_sch",
+          "git_blob_sha": "256e6543a99b6d949eac117053e01871c13efb0f",
+          "size_bytes": 60477,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/mikroBUS.kicad_sch"
+        },
+        {
+          "path": "kicad/mikroBUS_1.kicad_sch",
+          "git_blob_sha": "713f748f36828099518474068551397bf3ae5d13",
+          "size_bytes": 24815,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/mikroBUS_1.kicad_sch"
+        },
+        {
+          "path": "kicad/mikroBUS_2.kicad_sch",
+          "git_blob_sha": "de1f858a706fa0b52cd176304e79820cecd18846",
+          "size_bytes": 24752,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/mikroBUS_2.kicad_sch"
+        },
+        {
+          "path": "kicad/power_LED.kicad_sch",
+          "git_blob_sha": "0205748a59fe83127111bd5dec8fd4d43641549a",
+          "size_bytes": 15411,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/power_LED.kicad_sch"
+        },
+        {
+          "path": "kicad/power_supply.kicad_sch",
+          "git_blob_sha": "d2fdf3ac1b6ae8856a753c408663836996c3d565",
+          "size_bytes": 69162,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/power_supply.kicad_sch"
+        },
+        {
+          "path": "kicad/reset_button.kicad_sch",
+          "git_blob_sha": "2e043b0780dd430ab99f11f8b1ae331c5aa6e52d",
+          "size_bytes": 21289,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/reset_button.kicad_sch"
+        },
+        {
+          "path": "kicad/seven.kicad_dru",
+          "git_blob_sha": "fdf8cc1f65754cd042d53d1f17a0bd44d9f25cf5",
+          "size_bytes": 294,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/seven.kicad_dru"
+        },
+        {
+          "path": "kicad/seven.kicad_pcb",
+          "git_blob_sha": "cb56d4d50291d8fdb17bf1342f27994bc68c3f21",
+          "size_bytes": 2056864,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/seven.kicad_pcb"
+        },
+        {
+          "path": "kicad/seven.kicad_pro",
+          "git_blob_sha": "209b18f44ff7ceddbc639b211d7f9e4a5bfd7ed0",
+          "size_bytes": 22897,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/seven.kicad_pro"
+        },
+        {
+          "path": "kicad/seven.kicad_sch",
+          "git_blob_sha": "a519c63d5b11883ea998c24571d7467ccfc7fe7f",
+          "size_bytes": 37020,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/seven.kicad_sch"
+        },
+        {
+          "path": "kicad/system_LED.kicad_sch",
+          "git_blob_sha": "3434813bab91c7af1527b1cad2d5da8411fee1e8",
+          "size_bytes": 28270,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/system_LED.kicad_sch"
+        },
+        {
+          "path": "kicad/uart_debugger.kicad_sch",
+          "git_blob_sha": "76bd55cc9a621938d7028a62cd57285406e233cc",
+          "size_bytes": 11536,
+          "download_url": "https://raw.githubusercontent.com/id8-engineering/seven-hardware/7c69a1482ffd1dddc206294a55602477c55e17d8/kicad/uart_debugger.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "piotr-binkowski_kintex-pcie-board",
+      "name": "Kintex PCIe board",
+      "author": "Piotr Binkowski",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/piotr-binkowski/kintex-pcie-board",
+      "commit": "056792c009a8920d4ef11e76ba3284ee58376078",
+      "licence_url": "https://github.com/piotr-binkowski/kintex-pcie-board/blob/056792c009a8920d4ef11e76ba3284ee58376078/LICENSE",
+      "connections": 706,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "kintex-pcie.kicad_pcb",
+          "git_blob_sha": "5e32d297881127c703db908f4da3a416fa692a6d",
+          "size_bytes": 6224527,
+          "download_url": "https://raw.githubusercontent.com/piotr-binkowski/kintex-pcie-board/056792c009a8920d4ef11e76ba3284ee58376078/kintex-pcie.kicad_pcb"
+        },
+        {
+          "path": "kintex-pcie.kicad_pro",
+          "git_blob_sha": "751f43ea66eb812101ea7e389a70281cd1cfd9c3",
+          "size_bytes": 12735,
+          "download_url": "https://raw.githubusercontent.com/piotr-binkowski/kintex-pcie-board/056792c009a8920d4ef11e76ba3284ee58376078/kintex-pcie.kicad_pro"
+        },
+        {
+          "path": "kintex-pcie.kicad_sch",
+          "git_blob_sha": "df79e7f59b0b1e2054fcfa3ab60e6224446f1e5a",
+          "size_bytes": 1141567,
+          "download_url": "https://raw.githubusercontent.com/piotr-binkowski/kintex-pcie-board/056792c009a8920d4ef11e76ba3284ee58376078/kintex-pcie.kicad_sch"
+        },
+        {
+          "path": "xc7k160t.kicad_sch",
+          "git_blob_sha": "54f9969ad1207c30087458254f2e8de4a518ad37",
+          "size_bytes": 47921,
+          "download_url": "https://raw.githubusercontent.com/piotr-binkowski/kintex-pcie-board/056792c009a8920d4ef11e76ba3284ee58376078/xc7k160t.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    },
+    {
+      "id": "rapidanalysis_xerxes",
+      "name": "Xerxes",
+      "author": "Rapid Analysis",
+      "licence": "Apache-2.0",
+      "source": "https://github.com/rapidanalysis/xerxes",
+      "commit": "43abf5730d092358bc6d10e9faa7233818b5412e",
+      "licence_url": "https://github.com/rapidanalysis/xerxes/blob/43abf5730d092358bc6d10e9faa7233818b5412e/LICENSE",
+      "connections": 314,
+      "tree_truncated": false,
+      "files": [
+        {
+          "path": "Xerxes/Xerxes.kicad_pcb",
+          "git_blob_sha": "631041f285da4a5d3b63623c12242cfe67906046",
+          "size_bytes": 3339147,
+          "download_url": "https://raw.githubusercontent.com/rapidanalysis/xerxes/43abf5730d092358bc6d10e9faa7233818b5412e/Xerxes/Xerxes.kicad_pcb"
+        },
+        {
+          "path": "Xerxes/Xerxes.kicad_pro",
+          "git_blob_sha": "377ee38bef1dacca9b78529f993306d79965fbde",
+          "size_bytes": 16085,
+          "download_url": "https://raw.githubusercontent.com/rapidanalysis/xerxes/43abf5730d092358bc6d10e9faa7233818b5412e/Xerxes/Xerxes.kicad_pro"
+        },
+        {
+          "path": "Xerxes/Xerxes.kicad_sch",
+          "git_blob_sha": "6218b0a816265b7bbd46aff7e8175cae75475430",
+          "size_bytes": 953463,
+          "download_url": "https://raw.githubusercontent.com/rapidanalysis/xerxes/43abf5730d092358bc6d10e9faa7233818b5412e/Xerxes/Xerxes.kicad_sch"
+        }
+      ],
+      "source_lookup": "ok"
+    }
+  ]
+}

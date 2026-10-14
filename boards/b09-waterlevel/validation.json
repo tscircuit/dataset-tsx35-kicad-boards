@@ -1,0 +1,22 @@
+{
+  "id": "b09-waterlevel",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "911c1cb645dc31fee052df7fd4bc1a593f765bc7cf274bf796c0a7551adc84a4",
+    "footprints.tsx": "dab9e8df700a30c5e6d896f3579523be6c0e73b8308f0dfa57e6245ef070ed6e",
+    "schematic.tsx": "73e1d2d37dfa1f7ea87c867e0a21e10a17fd05edab8d95559c39a112c7416b16",
+    "metadata.json": "35dc415c95d02d3bde8480ddaceceee4f080b5b25402db374e06ef1d237db005"
+  },
+  "expectedComponents": 19,
+  "actualComponents": 19,
+  "expectedPhysicalPrimitives": 94,
+  "actualPhysicalPrimitives": 94,
+  "netCount": 42,
+  "actualNetCount": 42,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

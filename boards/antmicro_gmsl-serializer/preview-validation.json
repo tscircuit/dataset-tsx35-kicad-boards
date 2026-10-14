@@ -1,0 +1,48 @@
+{
+  "id": "antmicro_gmsl-serializer",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 118,
+  "actualComponents": 118,
+  "expectedPhysicalPrimitives": 357,
+  "actualPhysicalPrimitives": 357,
+  "netCount": 97,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "pcb_smtpad D4.6 overlaps with pcb_plated_hole MP3.1"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and L3.pin1_internal_1 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and L3.pin1_internal_1 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and L3.pin2_internal_1 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and L3.pin2_internal_1 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of J1 overlaps with courtyard of N1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C18 overlaps with courtyard of C22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of N1 overlaps with courtyard of R13"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

@@ -1,0 +1,789 @@
+{
+  "provenance": {
+    "id": "antmicro_signal-integrity-test-board",
+    "name": "Antmicro signal-integrity test board",
+    "author": "Antmicro",
+    "licence": "Apache-2.0",
+    "source": "https://github.com/antmicro/signal-integrity-test-board",
+    "commit": "de0b5922c372481bb146cbd1d0a9f3b7e97c124a",
+    "connections": 107,
+    "pcb": {
+      "path": "si-simulation-test-board.kicad_pcb",
+      "git_blob_sha": "7d262c1ed038750e1b2e97889721fe789b585f91",
+      "size_bytes": 6810488,
+      "download_url": "https://raw.githubusercontent.com/antmicro/signal-integrity-test-board/de0b5922c372481bb146cbd1d0a9f3b7e97c124a/si-simulation-test-board.kicad_pcb"
+    },
+    "sha256": "ad22910fb65d87b9506a860a2fc9a6ad8ddb0af7743be3a9df40e4edd2c2a318"
+  },
+  "components": [
+    {
+      "name": "J17",
+      "originalName": "J17",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": -35.6155
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J8",
+      "originalName": "J8",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": 15.999499999999998
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J20",
+      "originalName": "J20",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.78,
+        "y": -25.615499999999997
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J14",
+      "originalName": "J14",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": -15.3005
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J9",
+      "originalName": "J9",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": 6.000501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J3",
+      "originalName": "J3",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.629999999999995,
+        "y": 35.9995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J18",
+      "originalName": "J18",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": -45.6155
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -6.609999999999999,
+        "y": -44.41499999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "originalName": "R2",
+      "value": "R_50R_0402",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -17.549999999999997,
+        "y": 45.992501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 7.6200000000000045,
+        "y": -44.345
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J10",
+      "originalName": "J10",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": 5.999499999999998
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J11",
+      "originalName": "J11",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": -3.999499
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J13",
+      "originalName": "J13",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.680000000000007,
+        "y": -4.000500000000002
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J15",
+      "originalName": "J15",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": -35.614498999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "R_0R_0201",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:R_0201",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -2.8559999999999945,
+        "y": 2.899998999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J1",
+      "originalName": "J1",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.680000000000007,
+        "y": 26.000501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.629999999999995,
+        "y": 25.999499999999998
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J12",
+      "originalName": "J12",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": -15.299498999999997
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J19",
+      "originalName": "J19",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": -25.614498999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J5",
+      "originalName": "J5",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 27.629999999999995,
+        "y": 45.9995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J6",
+      "originalName": "J6",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.680000000000007,
+        "y": 46.000501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J16",
+      "originalName": "J16",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": -45.614498999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J4",
+      "originalName": "J4",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.680000000000007,
+        "y": 36.000501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J21",
+      "originalName": "J21",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -4.999499999999998,
+        "y": 52.78
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J22",
+      "originalName": "J22",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 5.0504999999999995,
+        "y": 52.73
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "G___",
+      "originalName": "G***",
+      "value": "LOGO",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:antmicro-logo_scaled_12mm_mask",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 7.399000000000001,
+        "y": 0.018000000000000682
+      },
+      "pins": []
+    },
+    {
+      "name": "J7",
+      "originalName": "J7",
+      "value": "Conn_SMA_RF2-143-T-17-50-G",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -27.629999999999995,
+        "y": 16.000501
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "R_0R_0201",
+      "kind": "chip",
+      "footprint": "si-simulation-test-board-footprints:R_0201",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 9.744000999999997,
+        "y": 13.007498999999996
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "Net-(J15-Pad1)",
+      "runtimeName": "Net__J15_Pad1_",
+      "targets": [
+        ".J17 > .pin1",
+        ".J15 > .pin1"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".J17 > .pin2",
+        ".J8 > .pin2",
+        ".J20 > .pin1",
+        ".J20 > .pin2",
+        ".J14 > .pin2",
+        ".J9 > .pin2",
+        ".J3 > .pin2",
+        ".J18 > .pin2",
+        ".C2 > .pin1",
+        ".C2 > .pin2",
+        ".R2 > .pin2",
+        ".C1 > .pin1",
+        ".C1 > .pin2",
+        ".J10 > .pin2",
+        ".J11 > .pin2",
+        ".J13 > .pin2",
+        ".J15 > .pin2",
+        ".R4 > .pin1",
+        ".J1 > .pin2",
+        ".J2 > .pin2",
+        ".J12 > .pin2",
+        ".J19 > .pin1",
+        ".J19 > .pin2",
+        ".J5 > .pin2",
+        ".J6 > .pin2",
+        ".J16 > .pin2",
+        ".J4 > .pin1",
+        ".J4 > .pin2",
+        ".J21 > .pin2",
+        ".J22 > .pin2",
+        ".J7 > .pin2",
+        ".R3 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J7-Pad1)",
+      "runtimeName": "Net__J7_Pad1_",
+      "targets": [
+        ".J8 > .pin1",
+        ".J7 > .pin1",
+        ".R3 > .pin2"
+      ]
+    },
+    {
+      "name": "/DIFF_N",
+      "runtimeName": "_DIFF_N",
+      "targets": [
+        ".J14 > .pin1",
+        ".J12 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J10-Pad1)",
+      "runtimeName": "Net__J10_Pad1_",
+      "targets": [
+        ".J9 > .pin1",
+        ".J10 > .pin1",
+        ".R4 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J3-Pad1)",
+      "runtimeName": "unconnected__J3_Pad1_",
+      "targets": [
+        ".J3 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J16-Pad1)",
+      "runtimeName": "Net__J16_Pad1_",
+      "targets": [
+        ".J18 > .pin1",
+        ".J16 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J6-Pad1)",
+      "runtimeName": "Net__J6_Pad1_",
+      "targets": [
+        ".R2 > .pin1",
+        ".J6 > .pin1"
+      ]
+    },
+    {
+      "name": "/DIFF_P",
+      "runtimeName": "_DIFF_P",
+      "targets": [
+        ".J11 > .pin1",
+        ".J13 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(J1-Pad1)",
+      "runtimeName": "Net__J1_Pad1_",
+      "targets": [
+        ".J1 > .pin1",
+        ".J2 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(AE1-Pad1)",
+      "runtimeName": "Net__AE1_Pad1_",
+      "targets": [
+        ".J5 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(J21-Pad1)",
+      "runtimeName": "unconnected__J21_Pad1_",
+      "targets": [
+        ".J21 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(J22-Pad1)",
+      "runtimeName": "unconnected__J22_Pad1_",
+      "targets": [
+        ".J22 > .pin1"
+      ]
+    }
+  ]
+}

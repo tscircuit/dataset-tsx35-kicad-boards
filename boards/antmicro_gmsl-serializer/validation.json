@@ -1,0 +1,55 @@
+{
+  "id": "antmicro_gmsl-serializer",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "878be10e628476ffc953148dbe7a124a0edd853efa98c3109eb22f4a96f44c7f",
+    "footprints.tsx": "be0f8238b3e8b9951812a7e8e4bd452d32691f229066897738f2cacc1d62a567",
+    "schematic.tsx": "c45acc9899f3e33dca90a12b8d2cf58c1750b8325df62290a2b6d67430c1d8b5",
+    "metadata.json": "92cd576dcd6e49411188b071744336a140f80f242e65f88e6e654bdb3baf4336"
+  },
+  "expectedComponents": 118,
+  "actualComponents": 118,
+  "expectedPhysicalPrimitives": 357,
+  "actualPhysicalPrimitives": 357,
+  "netCount": 97,
+  "actualNetCount": 97,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "pcb_smtpad D4.6 overlaps with pcb_plated_hole MP3.1"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of J1 overlaps with courtyard of N1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C18 overlaps with courtyard of C22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of N1 overlaps with courtyard of R13"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

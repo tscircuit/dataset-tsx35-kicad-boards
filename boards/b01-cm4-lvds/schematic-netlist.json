@@ -1,0 +1,5791 @@
+{
+  "root_file": "cm4-lvds-adapter.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "C2",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "C_10u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10 \u00b5F, 6.3 V, 0402 [1005 Metric], \u00b1 20%, X5R, CC Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "C_330n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_330n_0402",
+        "description": "330n capacitor in 0402 package with 63VDC  max voltage and X5R dielectric"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "C_220n_16V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_220n_16V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.22 \u00b5F, 16 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "C_2n2_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_2n2_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 2200 pF, 50 V, 0402 [1005 Metric], \u00b1 5%, X7R, C Series KEMET"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C21",
+      "value": "C_1n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1000 pF, 50 V, 0402 [1005 Metric], \u00b1 5%, C0G / NP0, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C22",
+      "value": "C_330n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_330n_0402",
+        "description": "330n capacitor in 0402 package with 63VDC  max voltage and X5R dielectric"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C23",
+      "value": "C_22u_25V_0805",
+      "libpart": {
+        "lib": "antmicroCapacitorsmisc",
+        "part": "C_22u_25V_0805",
+        "description": "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C24",
+      "value": "C_22p_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_22p_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], \u00b1 5%, C0G / NP0, CC Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C25",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C26",
+      "value": "C_1u_25V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_25V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 25 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C27",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C28",
+      "value": "C_1u_25V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_25V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 25 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C29",
+      "value": "C_22u_25V_0805",
+      "libpart": {
+        "lib": "antmicroCapacitorsmisc",
+        "part": "C_22u_25V_0805",
+        "description": "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C30",
+      "value": "C_22u_25V_0805",
+      "libpart": {
+        "lib": "antmicroCapacitorsmisc",
+        "part": "C_22u_25V_0805",
+        "description": "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C31",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C32",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C33",
+      "value": "C_22p_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_22p_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], \u00b1 5%, C0G / NP0, CC Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C34",
+      "value": "C_330n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_330n_0402",
+        "description": "330n capacitor in 0402 package with 63VDC  max voltage and X5R dielectric"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C35",
+      "value": "C_330n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_330n_0402",
+        "description": "330n capacitor in 0402 package with 63VDC  max voltage and X5R dielectric"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C36",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C37",
+      "value": "C_220n_16V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_220n_16V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.22 \u00b5F, 16 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C38",
+      "value": "C_22u_25V_0805",
+      "libpart": {
+        "lib": "antmicroCapacitorsmisc",
+        "part": "C_22u_25V_0805",
+        "description": "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C39",
+      "value": "C_1u_25V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_25V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 25 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C40",
+      "value": "C_1u_25V_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_25V_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 25 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C41",
+      "value": "C_22u_25V_0805",
+      "libpart": {
+        "lib": "antmicroCapacitorsmisc",
+        "part": "C_22u_25V_0805",
+        "description": "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D5",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "antmicroLEDIndicationDiscrete",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D6",
+      "value": "BAT54S-E3-08",
+      "libpart": {
+        "lib": "antmicroDiodesRectifiersSingle",
+        "part": "BAT54S-E3-08",
+        "description": "Small Signal Schottky Diode, Dual Serial, 30 V, 200 mA, 400 mV, 600 mA, 125 \u00b0C"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D7",
+      "value": "RB521S30T1G",
+      "libpart": {
+        "lib": "antmicroDiodesRectifiersSingle",
+        "part": "RB521S30T1G",
+        "description": "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 \u00b0C"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D8",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "antmicroLEDIndicationDiscrete",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D9",
+      "value": "PMEG3010CEJ,115",
+      "libpart": {
+        "lib": "antmicroDiodesRectifiersSingle",
+        "part": "PMEG3010CEJ,115",
+        "description": "Schottky Rectifier, 30 V, 1 A, Single, SOD-323F, 2 Pins, 520 mV"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D10",
+      "value": "BAT54S-E3-08",
+      "libpart": {
+        "lib": "antmicroDiodesRectifiersSingle",
+        "part": "BAT54S-E3-08",
+        "description": "Small Signal Schottky Diode, Dual Serial, 30 V, 200 mA, 400 mV, 600 mA, 125 \u00b0C"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "D11",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "antmicroLEDIndicationDiscrete",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "L1",
+      "value": "L_3u3_2.5A_1008",
+      "libpart": {
+        "lib": "antmicroFixedInductors",
+        "part": "L_3u3_2.5A_1008",
+        "description": "3.3 \u00b5H Shielded Thin Film Inductor 2 A 140mOhm Max 1008 (2520 Metric)"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "L2",
+      "value": "L_10u_0.5A_Murata-8200",
+      "libpart": {
+        "lib": "antmicroFixedInductors",
+        "part": "L_10u_0.5A_Murata-8200",
+        "description": "Power Inductor (SMT), 10 \u00b5H, 500 mA, Unshielded, 8200"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q1",
+      "value": "PJE138K",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "PJE138K",
+        "description": "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q2",
+      "value": "PJE138K",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "PJE138K",
+        "description": "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q3",
+      "value": "SSM3J332R",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "SSM3J332R",
+        "description": "Power MOSFET, P Channel, 30 V, 6 A, 0.036 ohm, SOT-23F, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q4",
+      "value": "PJE138K",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "PJE138K",
+        "description": "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q5",
+      "value": "SSM3J332R",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "SSM3J332R",
+        "description": "Power MOSFET, P Channel, 30 V, 6 A, 0.036 ohm, SOT-23F, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q6",
+      "value": "PJE138K",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "PJE138K",
+        "description": "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "Q7",
+      "value": "SSM3J332R",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "SSM3J332R",
+        "description": "Power MOSFET, P Channel, 30 V, 6 A, 0.036 ohm, SOT-23F, Surface Mount"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "R_1k5_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1k5_0402",
+        "description": "SMD Chip Resistor, 1.5 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "R_1k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1k_0402",
+        "description": "SMD Chip Resistor, 1 kohm, \u00b1 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "R_590k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_590k_0402",
+        "description": "SMD Chip Resistor, 590 kohm, \u00b1 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "R_120k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_120k_0402",
+        "description": "SMD Chip Resistor, 120 kohm, \u00b1 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "R_330k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_330k_0402",
+        "description": "SMD Chip Resistor"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "R_49k9_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_49k9_0402",
+        "description": "SMD Chip Resistor, 49.9 kohm, \u00b1 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "R_1M_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1M_0402",
+        "description": "SMD Chip Resistor, 1 Mohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "R_590k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_590k_0402",
+        "description": "SMD Chip Resistor, 590 kohm, \u00b1 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R21",
+      "value": "R_1k5_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1k5_0402",
+        "description": "SMD Chip Resistor, 1.5 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R22",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R23",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R24",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R25",
+      "value": "R_820k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_820k_0402",
+        "description": "SMD Chip Resistor, 820 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R26",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R27",
+      "value": "R_110k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_110k_0402",
+        "description": "SMD Chip Resistor, 110 kohm, \u00b1 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R28",
+      "value": "R_1M5_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1M5_0402",
+        "description": "SMD Chip Resistor"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R29",
+      "value": "R_20R_0603",
+      "libpart": {
+        "lib": "antmicroResistors0603",
+        "part": "R_20R_0603",
+        "description": "SMD Chip Resistor, 20 ohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R30",
+      "value": "R_330k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_330k_0402",
+        "description": "SMD Chip Resistor"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R31",
+      "value": "R_1R2_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_1R2_0402",
+        "description": "SMD Chip Resistor, 1.2 ohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R32",
+      "value": "R_510k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_510k_0402",
+        "description": "SMD Chip Resistor, 510 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R33",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R34",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R35",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R36",
+      "value": "R_110k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_110k_0402",
+        "description": "SMD Chip Resistor, 110 kohm, \u00b1 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R37",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R38",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_470R_0402",
+        "description": "SMD Chip Resistor, 470 ohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "R49",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP10",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP11",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP16",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP18",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP20",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP21",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP22",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "TP23",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "TLV70018_SC70",
+      "libpart": {
+        "lib": "antmicroPMICVoltageRegulatorsLinear",
+        "part": "TLV70018_SC70",
+        "description": "Fixed LDO Voltage Regulator, 2V to 5.5V, 175mV drop, 1.8V/200mA out, SC-70-5"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "U4",
+      "value": "TPS65150_HTSSOP",
+      "libpart": {
+        "lib": "antmicroPMICVoltageRegulatorsDCDCSwitchingRegulators",
+        "part": "TPS65150_HTSSOP",
+        "description": "Universal LCD bias Power Supply with integrated VCOM Buffer"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "U5",
+      "value": "MPQ7235GQBE",
+      "libpart": {
+        "lib": "antmicroPMICLEDDrivers",
+        "part": "MPQ7235GQBE",
+        "description": "LED Driver, DC/DC, Synchronous Buck, 1.5 A, 1 Output, 2.2 MHz, AEC-Q100, QFN-13"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "U6",
+      "value": "TLV76701_WSON",
+      "libpart": {
+        "lib": "antmicroPMICVoltageRegulatorsLinear",
+        "part": "TLV76701_WSON",
+        "description": "LDO voltage regulator 1A, Vin: 2.5V-16V, Vout: 0.8V-14.6V; Iq: 50uA; Vdrop@200mA: 200mV; Vdrop@1A: 900mV;"
+      },
+      "sheet": {
+        "names": "/Power/",
+        "tstamps": "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/"
+      }
+    },
+    {
+      "ref": "C43",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "antmicroLEDIndicationDiscrete",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "D2",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "antmicroLEDIndicationDiscrete",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "Plug_Molex_SlimStack_2x20_556500488",
+      "libpart": {
+        "lib": "antmicroB2BConnectors",
+        "part": "Plug_Molex_SlimStack_2x20_556500488",
+        "description": "Mezzanine Connector, Header, 0.5 mm, 2 Rows, 40 Contacts, Surface Mount Straight, Brass"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "MP1",
+      "value": "MP_Pad6mm_Drill3mm",
+      "libpart": {
+        "lib": "antmicroMechanicalParts",
+        "part": "MP_Pad6mm_Drill3mm",
+        "description": "Mechanical part"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_470R_0402",
+        "description": "SMD Chip Resistor, 470 ohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "R_100R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100R_0402",
+        "description": "SMD Chip Resistor, 100 ohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "R39",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "TP13",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "TP17",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "TP19",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/Antmicro CM4 Baseboard DSI Connector/",
+        "tstamps": "/22d16469-9258-4636-9009-0bef153eb515/"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "C_10u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10 \u00b5F, 6.3 V, 0402 [1005 Metric], \u00b1 20%, X5R, CC Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], \u00b1 10%, X7R, GRM Series"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "FB1",
+      "value": "FB_220Z_2.2A_TDK-MPZ_0603",
+      "libpart": {
+        "lib": "antmicroFerriteBeadsandChips",
+        "part": "FB_220Z_2.2A_TDK-MPZ_0603",
+        "description": "Ferrite Bead, 0603 [1608 Metric], 220 ohm, 2.2 A, MPZ, 0.05 ohm, \u00b1 25%, DC power line"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "Q8",
+      "value": "PJE138K",
+      "libpart": {
+        "lib": "antmicroTransistorsFETsMOSFETsSingle",
+        "part": "PJE138K",
+        "description": "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R47",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R48",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "R50",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "U2",
+      "value": "NTS0104_DHVQFN",
+      "libpart": {
+        "lib": "antmicroLogicTranslatorsLevelShifters",
+        "part": "NTS0104_DHVQFN",
+        "description": "Voltage Level Translator Bidirectional 1 Circuit 4 Channel 50Mbps 14-DHVQFN (2.5x3)"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "U3",
+      "value": "SN65DSI84",
+      "libpart": {
+        "lib": "antmicroInterfaceControllers",
+        "part": "SN65DSI84",
+        "description": "Automotive Single-Channel MIPI\u00ae DSI to Dual-Link LVDS Bridge"
+      },
+      "sheet": {
+        "names": "/DSI to LVDS/",
+        "tstamps": "/b73e1eb9-7c7b-4237-82d1-61e6b447a2c8/"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "C_10u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10 \u00b5F, 6.3 V, 0402 [1005 Metric], \u00b1 20%, X5R, CC Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C42",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C44",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C45",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C46",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C47",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "C49",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "D3",
+      "value": "PUSB3F96X_PASS",
+      "libpart": {
+        "lib": "antmicroTVSDiodes",
+        "part": "PUSB3F96X_PASS",
+        "description": "TVS diode array, 10 kV, DFN-2510, 5.5 V, 0.5 pF"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "D4",
+      "value": "PUSB3F96X_PASS",
+      "libpart": {
+        "lib": "antmicroTVSDiodes",
+        "part": "PUSB3F96X_PASS",
+        "description": "TVS diode array, 10 kV, DFN-2510, 5.5 V, 0.5 pF"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "JST_SUR_1x10_SM10B-SURS-TF-LF-SN",
+      "libpart": {
+        "lib": "antmicroWire2BoardConnectors",
+        "part": "JST_SUR_1x10_SM10B-SURS-TF-LF-SN",
+        "description": "Connector Header Surface Mount, Right Angle 9 position 0.039\" (1.00mm)"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "FFC_Amphenol_1x40_62684-401100AHLF",
+      "libpart": {
+        "lib": "antmicroFCCConnectors",
+        "part": "FFC_Amphenol_1x40_62684-401100AHLF",
+        "description": "FFC & FPC Connectors, 40 pin, 0.5mm, SMD/SMT, Right Angle, Bottom Concact"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R40",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R41",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R42",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R43",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R44",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_100k_0402",
+        "description": "SMD Chip Resistor, 100 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R45",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R46",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R51",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "R52",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_0R_0402",
+        "description": "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP4",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP6",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP7",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP8",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP9",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP12",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP14",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    },
+    {
+      "ref": "TP15",
+      "value": "TP_0.75mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_0.75mm_SMD",
+        "description": "SMT test point"
+      },
+      "sheet": {
+        "names": "/LVDS and Touchscreen Connectors/",
+        "tstamps": "/40370491-50e7-47c8-9afe-55574f0cd0f6/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "+1V8",
+      "nodes": [
+        {
+          "ref": "C3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q1",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R48",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R49",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R50",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP16",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "function": "VOUT_5",
+          "type": "power_out"
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "function": "VCC_A_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "function": "OE_8",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "+3V3",
+      "nodes": [
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C47",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "12",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R39",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R40",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R42",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R44",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R45",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R47",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "function": "VIN_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "14",
+          "function": "VCC_B_14",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "+3V9",
+      "nodes": [
+        {
+          "ref": "C45",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP23",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "+5V",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "1",
+          "function": "CH1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "10",
+          "function": "CH1_10",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "10",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "6",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "8",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "10",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q3",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R38",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "+9V6",
+      "nodes": [
+        {
+          "ref": "C41",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C44",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "29",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R36",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "1",
+          "function": "OUT_1",
+          "type": "power_out"
+        }
+      ]
+    },
+    {
+      "name": "+10V5",
+      "nodes": [
+        {
+          "ref": "C39",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q5",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R35",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP11",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "4",
+          "function": "EN_4",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "6",
+          "function": "IN_6",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "+18V",
+      "nodes": [
+        {
+          "ref": "C42",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "38",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP22",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "+VLED",
+      "nodes": [
+        {
+          "ref": "C46",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "39",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "40",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R34",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "-6V",
+      "nodes": [
+        {
+          "ref": "C49",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "35",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP21",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "-VLED",
+      "nodes": [
+        {
+          "ref": "C46",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "31",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "32",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R30",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R31",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.CLK_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "27",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "25",
+          "function": "DACN_25",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.CLK_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "29",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "24",
+          "function": "DACP_24",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D0_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "21",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "20",
+          "function": "DA0N_20",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D0_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "23",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "19",
+          "function": "DA0P_19",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D1_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "15",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "22",
+          "function": "DA1N_22",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D1_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "17",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "21",
+          "function": "DA1P_21",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D2_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "9",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "28",
+          "function": "DA2N_28",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D2_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "11",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "27",
+          "function": "DA2P_27",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D3_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "3",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "30",
+          "function": "DA3N_30",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSI.D3_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "5",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "29",
+          "function": "DA3P_29",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.DIM",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "28",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q6",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.EN",
+      "nodes": [
+        {
+          "ref": "D7",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "24",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "6",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R44",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "function": "EN_3",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "11",
+          "function": "B3_11",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.GPIO",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "2",
+          "function": "CH2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "9",
+          "function": "CH2_9",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "30",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "4",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.SCL",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "2",
+          "function": "CH2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "9",
+          "function": "CH2_9",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "18",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "9",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "12",
+          "function": "B2_12",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.SDA",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "4",
+          "function": "CH3_4",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "7",
+          "function": "CH3_7",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "16",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "8",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "13",
+          "function": "B1_13",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.~{IRQ1}",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "20",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q8",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R47",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.~{IRQ2}",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "5",
+          "function": "CH4_5",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "6",
+          "function": "CH4_6",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "22",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "7",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Antmicro CM4 Baseboard DSI Connector/DSICtrl.~{RST}",
+      "nodes": [
+        {
+          "ref": "C43",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "26",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R39",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R51",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R52",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP13",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/DSICtrl_1V8.EN",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "4",
+          "function": "A3_4",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "2",
+          "function": "EN_2",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/DSICtrl_1V8.SCL",
+      "nodes": [
+        {
+          "ref": "R50",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "function": "A2_3",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "15",
+          "function": "SCL_15",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/DSICtrl_1V8.SDA",
+      "nodes": [
+        {
+          "ref": "R48",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "function": "A1_2",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "16",
+          "function": "SDA_16",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.CLK_N",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "17",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "39",
+          "function": "A_CLKN_39",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.CLK_P",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "18",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "38",
+          "function": "A_CLKP_38",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D0_N",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "8",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "47",
+          "function": "A_Y0N_47",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D0_P",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "9",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "46",
+          "function": "A_Y0P_46",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D1_N",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "11",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "45",
+          "function": "A_Y1N_45",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D1_P",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "12",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "44",
+          "function": "A_Y1P_44",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D2_N",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "14",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "42",
+          "function": "A_Y2N_42",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D2_P",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "15",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "41",
+          "function": "A_Y2P_41",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D3_N",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "20",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "37",
+          "function": "A_Y3N_37",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/DSI to LVDS/LVDS.D3_P",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "21",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U3",
+          "pin": "36",
+          "function": "A_Y3P_36",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/LVDS and Touchscreen Connectors/RST_TS",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "1",
+          "function": "CH1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "10",
+          "function": "CH1_10",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "5",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R51",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/LVDS and Touchscreen Connectors/SELB",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "28",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R40",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R41",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/LVDS and Touchscreen Connectors/SHLR",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "33",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R42",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R43",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/LVDS and Touchscreen Connectors/TP10_TS",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "4",
+          "function": "CH3_4",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "7",
+          "function": "CH3_7",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R52",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/LVDS and Touchscreen Connectors/UPDN",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "34",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R45",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R46",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/ADJ",
+      "nodes": [
+        {
+          "ref": "C24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "14",
+          "function": "ADJ_14",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/COMP",
+      "nodes": [
+        {
+          "ref": "C20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "22",
+          "function": "COMP_22",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/DLY1",
+      "nodes": [
+        {
+          "ref": "C25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "2",
+          "function": "DLY1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/DLY2",
+      "nodes": [
+        {
+          "ref": "C27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "3",
+          "function": "DLY2_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/FDLY",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "24",
+          "function": "FDLY_24",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/FLK",
+      "nodes": [
+        {
+          "ref": "R20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "13",
+          "function": "CTRL_13",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/Power/Vi_{BOOST}",
+      "nodes": [
+        {
+          "ref": "C23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "L1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q3",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP20",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "4",
+          "function": "VIN_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C32",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C35",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C38",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C39",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C40",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C41",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C42",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C43",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C44",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C45",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C47",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C49",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D1",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D11",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D2",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "3",
+          "function": "GND_3",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "8",
+          "function": "GND_8",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "3",
+          "function": "GND_3",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "5",
+          "function": "CH4_5",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "6",
+          "function": "CH4_6",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "8",
+          "function": "GND_8",
+          "type": "passive"
+        },
+        {
+          "ref": "D5",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D6",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "13",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "14",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "19",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "25",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "31",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "32",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "7",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "MP",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "6",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "MP",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "10",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "13",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "16",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "19",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "22",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "25",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "30",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "7",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "J3",
+          "pin": "SH",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "MP1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q1",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q4",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q6",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q8",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R31",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R37",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R41",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R43",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R46",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R49",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP17",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "TP19",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "function": "GND_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "15",
+          "function": "GNDPAD_15",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "function": "GND_7",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "23",
+          "function": "GND_23",
+          "type": "power_out"
+        },
+        {
+          "ref": "U3",
+          "pin": "26",
+          "function": "GND_26",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "52",
+          "function": "GND_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "65",
+          "function": "PAD_65",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "19",
+          "function": "AGND_19",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "25",
+          "function": "EP_25",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "7",
+          "function": "PGND_7",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "8",
+          "function": "PGND_8",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "function": "GND_11",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "12",
+          "function": "GND_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "13",
+          "function": "GND_13",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "function": "GND_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "3",
+          "function": "GND_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "5",
+          "function": "GND_5",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "7",
+          "function": "PAD_7",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C10-Pad2)",
+      "nodes": [
+        {
+          "ref": "C10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "14",
+          "function": "VCC_14",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "18",
+          "function": "VCC_18",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "3",
+          "function": "VCC_3",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "32",
+          "function": "VCC_32",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "35",
+          "function": "VCC_35",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "40",
+          "function": "VCC_40",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "43",
+          "function": "VCC_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "48",
+          "function": "VCC_48",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "49",
+          "function": "VCC_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "55",
+          "function": "VCC_55",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "58",
+          "function": "VCC_58",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "63",
+          "function": "VCC_63",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C16-Pad2)",
+      "nodes": [
+        {
+          "ref": "C16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D6",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C22-Pad2)",
+      "nodes": [
+        {
+          "ref": "C22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D6",
+          "pin": "3",
+          "function": "3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C34-Pad1)",
+      "nodes": [
+        {
+          "ref": "C34",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D10",
+          "pin": "3",
+          "function": "3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C36-Pad2)",
+      "nodes": [
+        {
+          "ref": "C36",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C38-Pad1)",
+      "nodes": [
+        {
+          "ref": "C38",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "L2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R34",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D1-A)",
+      "nodes": [
+        {
+          "ref": "D1",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D2-A)",
+      "nodes": [
+        {
+          "ref": "D2",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D5-A)",
+      "nodes": [
+        {
+          "ref": "D5",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D7-A)",
+      "nodes": [
+        {
+          "ref": "C18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D7",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q4",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D8-A)",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R38",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D8-C)",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "Q1",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D9-A)",
+      "nodes": [
+        {
+          "ref": "D9",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "L1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "5",
+          "function": "SW_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "6",
+          "function": "SW_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D9-C)",
+      "nodes": [
+        {
+          "ref": "C28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C33",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C37",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D10",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D9",
+          "pin": "1",
+          "function": "C_1",
+          "type": "passive"
+        },
+        {
+          "ref": "Q7",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R32",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "9",
+          "function": "SUP_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D11-A)",
+      "nodes": [
+        {
+          "ref": "D11",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J2-Pad2)",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP7",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J2-Pad3)",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "3",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP6",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad4)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "4",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad23)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "23",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP4",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad24)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "24",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP8",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad26)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "26",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP9",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad27)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "27",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP12",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad36)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "36",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP14",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-Pad37)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "37",
+          "function": null,
+          "type": "bidirectional"
+        },
+        {
+          "ref": "TP15",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q2-D)",
+      "nodes": [
+        {
+          "ref": "Q2",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "Q3",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q2-G)",
+      "nodes": [
+        {
+          "ref": "C15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q4-D)",
+      "nodes": [
+        {
+          "ref": "Q4",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "Q5",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q5-D)",
+      "nodes": [
+        {
+          "ref": "C29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q5",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP18",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "1",
+          "function": "IN_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "function": "IN_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q6-D)",
+      "nodes": [
+        {
+          "ref": "Q6",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "function": "DIM_5",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q7-D)",
+      "nodes": [
+        {
+          "ref": "C40",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q7",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R35",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q7-G)",
+      "nodes": [
+        {
+          "ref": "C37",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q7",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R32",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R33",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q8-G)",
+      "nodes": [
+        {
+          "ref": "Q8",
+          "pin": "1",
+          "function": "G_1",
+          "type": "input"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "33",
+          "function": "IRQ_33",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U3-ADDR)",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "64",
+          "function": "ADDR_64",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U3-REFCLK)",
+      "nodes": [
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "17",
+          "function": "REFCLK_17",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U3-VCORE)",
+      "nodes": [
+        {
+          "ref": "C14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "31",
+          "function": "VCORE_31",
+          "type": "power_out"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-CPI)",
+      "nodes": [
+        {
+          "ref": "C35",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D10",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "16",
+          "function": "CPI_16",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-DRVN)",
+      "nodes": [
+        {
+          "ref": "C22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "18",
+          "function": "DRVN_18",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-DRVP)",
+      "nodes": [
+        {
+          "ref": "C34",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "17",
+          "function": "DRVP_17",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-FB)",
+      "nodes": [
+        {
+          "ref": "C33",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "1",
+          "function": "FB_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-FBN)",
+      "nodes": [
+        {
+          "ref": "R13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "21",
+          "function": "FBN_21",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-FBP)",
+      "nodes": [
+        {
+          "ref": "R27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "12",
+          "function": "FBP_12",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-GD)",
+      "nodes": [
+        {
+          "ref": "R33",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "23",
+          "function": "GD_23",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-IN)",
+      "nodes": [
+        {
+          "ref": "C21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "11",
+          "function": "IN_11",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-REF)",
+      "nodes": [
+        {
+          "ref": "C17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "20",
+          "function": "REF_20",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-VCOM)",
+      "nodes": [
+        {
+          "ref": "C26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "10",
+          "function": "VCOM_10",
+          "type": "power_out"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U4-VGH)",
+      "nodes": [
+        {
+          "ref": "R22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "15",
+          "function": "VGH_15",
+          "type": "power_out"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-BST)",
+      "nodes": [
+        {
+          "ref": "R29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "10",
+          "function": "BST_10",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-FB)",
+      "nodes": [
+        {
+          "ref": "R30",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "function": "FB_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-SW)",
+      "nodes": [
+        {
+          "ref": "C36",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "L2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "function": "SW_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-V_{CC})",
+      "nodes": [
+        {
+          "ref": "C32",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "7",
+          "function": "V_{CC}_7",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-~{FAULT})",
+      "nodes": [
+        {
+          "ref": "TP10",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "function": "~{FAULT}_4",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U6-FB)",
+      "nodes": [
+        {
+          "ref": "R36",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R37",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "2",
+          "function": "FB_2",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad33)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "33",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad34)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "34",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad35)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "35",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad36)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "36",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad37)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "37",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad38)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "38",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad39)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "39",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad40)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "40",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad4)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "4",
+          "function": null,
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-A4-Pad5)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "5",
+          "function": "A4_5",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-B4-Pad10)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "10",
+          "function": "B4_10",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad6)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "6",
+          "function": "NC_6",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad9)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "9",
+          "function": "NC_9",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_CLKN-Pad54)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "54",
+          "function": "B_CLKN_54",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_CLKP-Pad53)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "53",
+          "function": "B_CLKP_53",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y0N-Pad62)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "62",
+          "function": "B_Y0N_62",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y0P-Pad61)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "61",
+          "function": "B_Y0P_61",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y1N-Pad60)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "60",
+          "function": "B_Y1N_60",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y1P-Pad59)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "59",
+          "function": "B_Y1P_59",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y2N-Pad57)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "57",
+          "function": "B_Y2N_57",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y2P-Pad56)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "56",
+          "function": "B_Y2P_56",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y3N-Pad51)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "51",
+          "function": "B_Y3N_51",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-B_Y3P-Pad50)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "50",
+          "function": "B_Y3P_50",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad5)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "5",
+          "function": "NC_5",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad6)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "6",
+          "function": "NC_6",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad8)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "8",
+          "function": "NC_8",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad9)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "9",
+          "function": "NC_9",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad11)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "11",
+          "function": "NC_11",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad12)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "12",
+          "function": "NC_12",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-RSVD1-Pad34)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "34",
+          "function": "RSVD1_34",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-RSVD2-Pad1)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "1",
+          "function": "RSVD2_1",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad3)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "3",
+          "function": "NC_3",
+          "type": "no_connect"
+        }
+      ]
+    }
+  ]
+}

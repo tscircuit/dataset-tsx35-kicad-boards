@@ -1,0 +1,5248 @@
+{
+  "scale_mm_to_schematic": 0.07874015748031496,
+  "sheets": [
+    {
+      "name": "Overview",
+      "file": "src/trellis_core.kicad_sch",
+      "paper": "A4",
+      "symbols": [],
+      "children": [
+        {
+          "name": "Block Diagram",
+          "x": -1.8999999999999986,
+          "y": 0.0,
+          "width": 2.4,
+          "height": 0.8
+        },
+        {
+          "name": "Architecture",
+          "x": 1.9000000000000021,
+          "y": 0.0,
+          "width": 2.4,
+          "height": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Block Diagram",
+      "file": "src/block_diagram.kicad_sch",
+      "paper": "A4",
+      "symbols": [],
+      "children": []
+    },
+    {
+      "name": "Architecture",
+      "file": "src/architecture.kicad_sch",
+      "paper": "A4",
+      "symbols": [],
+      "children": [
+        {
+          "name": "USB",
+          "x": -4.949999999999999,
+          "y": -0.04999999999999982,
+          "width": 2.4,
+          "height": 0.8
+        },
+        {
+          "name": "CPU IO",
+          "x": 0.6500000000000004,
+          "y": -1.2000000000000002,
+          "width": 3.5999999999999996,
+          "height": 6.8999999999999995
+        },
+        {
+          "name": "Power",
+          "x": -4.949999999999999,
+          "y": 1.65,
+          "width": 2.4,
+          "height": 0.9999999999999999
+        },
+        {
+          "name": "CPU Core",
+          "x": -4.949999999999999,
+          "y": -1.6500000000000004,
+          "width": 2.4,
+          "height": 0.8
+        },
+        {
+          "name": "Storage",
+          "x": 4.949999999999999,
+          "y": 1.4499999999999997,
+          "width": 2.2,
+          "height": 1.6
+        }
+      ]
+    },
+    {
+      "name": "Architecture/USB",
+      "file": "src/usb.kicad_sch",
+      "paper": "A4",
+      "symbols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "children": []
+    },
+    {
+      "name": "Architecture/CPU IO",
+      "file": "src/cpu_io.kicad_sch",
+      "paper": "A4",
+      "symbols": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "children": []
+    },
+    {
+      "name": "Architecture/Power",
+      "file": "src/power.kicad_sch",
+      "paper": "A4",
+      "symbols": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "children": []
+    },
+    {
+      "name": "Architecture/CPU Core",
+      "file": "src/cpu_core.kicad_sch",
+      "paper": "A4",
+      "symbols": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "children": []
+    },
+    {
+      "name": "Architecture/Storage",
+      "file": "src/storage.kicad_sch",
+      "paper": "A4",
+      "symbols": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "children": []
+    }
+  ],
+  "symbols": [
+    {
+      "ref": "R15",
+      "originalRef": "R15",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/USB",
+      "x": -1.4000000000000004,
+      "y": 0.09999999999999964,
+      "boxX": -1.4000000000000004,
+      "boxY": 0.09999999999999964,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.200000000000001,
+          "y": 0.09999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.5999999999999996,
+          "y": 0.09999999999999964,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "rightSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R16",
+      "originalRef": "R16",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/USB",
+      "x": -1.4000000000000004,
+      "y": -0.10000000000000053,
+      "boxX": -1.4000000000000004,
+      "boxY": -0.10000000000000053,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.5999999999999996,
+          "y": -0.10000000000000053,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.200000000000001,
+          "y": -0.10000000000000053,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "F1",
+      "originalRef": "F1",
+      "value": "1A",
+      "lib": "Device:Polyfuse_Small",
+      "unit": 1,
+      "sheet": "Architecture/USB",
+      "x": 1.4000000000000004,
+      "y": 1.1000000000000005,
+      "boxX": 1.4000000000000004,
+      "boxY": 1.1000000000000005,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.200000000000001,
+          "y": 1.1000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.5999999999999996,
+          "y": 1.1000000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U4",
+      "originalRef": "U4",
+      "value": "USBLC6-2SC6",
+      "lib": "Power_Protection:USBLC6-2SC6",
+      "unit": 1,
+      "sheet": "Architecture/USB",
+      "x": 0.5999999999999996,
+      "y": -0.7000000000000002,
+      "boxX": 0.5999999999999996,
+      "boxY": -0.8000000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "I/O1",
+          "x": 0.1999999999999993,
+          "y": -0.7000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "I/O2",
+          "x": 0.1999999999999993,
+          "y": -0.9000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "VBUS",
+          "x": 0.5999999999999996,
+          "y": -0.2999999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": 0.5999999999999996,
+          "y": -1.2999999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "I/O1",
+          "x": 1.0,
+          "y": -0.7000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "I/O2",
+          "x": 1.0,
+          "y": -0.9000000000000004,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin3"
+        ],
+        "rightSide": [
+          "pin6",
+          "pin4"
+        ],
+        "topSide": [
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "symbols:T113-S4",
+      "unit": 3,
+      "sheet": "Architecture/USB",
+      "x": 4.0,
+      "y": -1.1000000000000005,
+      "boxX": 4.0,
+      "boxY": -1.1000000000000014,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin114",
+          "number": "114",
+          "label": "USB0_DM",
+          "x": 3.3000000000000007,
+          "y": -0.7000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin115",
+          "number": "115",
+          "label": "USB0_DP",
+          "x": 3.3000000000000007,
+          "y": -0.9000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin113",
+          "number": "113",
+          "label": "USB1_DM",
+          "x": 3.3000000000000007,
+          "y": -1.3000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin112",
+          "number": "112",
+          "label": "USB1_DP",
+          "x": 3.3000000000000007,
+          "y": -1.5,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin114",
+          "pin115",
+          "pin113",
+          "pin112"
+        ]
+      },
+      "width": 1.0,
+      "height": 1.2000000000000002
+    },
+    {
+      "ref": "J1",
+      "originalRef": "J1",
+      "value": "USB_C_Receptacle_USB2.0_14P",
+      "lib": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "unit": 1,
+      "sheet": "Architecture/USB",
+      "x": -4.0,
+      "y": -0.7000000000000002,
+      "boxX": -4.0,
+      "boxY": -0.6999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin17",
+          "number": "S1",
+          "label": "SHIELD",
+          "x": -4.6,
+          "y": -2.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "A1",
+          "label": "GND",
+          "x": -4.0,
+          "y": -2.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "A12",
+          "label": "GND",
+          "x": -4.0,
+          "y": -2.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin9",
+          "number": "B1",
+          "label": "GND",
+          "x": -4.0,
+          "y": -2.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin16",
+          "number": "B12",
+          "label": "GND",
+          "x": -4.0,
+          "y": -2.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin2",
+          "number": "A4",
+          "label": "VBUS",
+          "x": -2.8000000000000007,
+          "y": 0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "A9",
+          "label": "VBUS",
+          "x": -2.8000000000000007,
+          "y": 0.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin10",
+          "number": "B4",
+          "label": "VBUS",
+          "x": -2.8000000000000007,
+          "y": 0.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin15",
+          "number": "B9",
+          "label": "VBUS",
+          "x": -2.8000000000000007,
+          "y": 0.5,
+          "hidden": true
+        },
+        {
+          "pin": "pin3",
+          "number": "A5",
+          "label": "CC1",
+          "x": -2.8000000000000007,
+          "y": 0.09999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "B5",
+          "label": "CC2",
+          "x": -2.8000000000000007,
+          "y": -0.10000000000000053,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "A7",
+          "label": "D-",
+          "x": -2.8000000000000007,
+          "y": -0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "B7",
+          "label": "D-",
+          "x": -2.8000000000000007,
+          "y": -0.7000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "A6",
+          "label": "D+",
+          "x": -2.8000000000000007,
+          "y": -0.9000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "B6",
+          "label": "D+",
+          "x": -2.8000000000000007,
+          "y": -1.1000000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin2",
+          "pin7",
+          "pin10",
+          "pin15",
+          "pin3",
+          "pin11",
+          "pin5",
+          "pin13",
+          "pin4",
+          "pin12"
+        ],
+        "bottomSide": [
+          "pin17",
+          "pin1",
+          "pin8",
+          "pin9",
+          "pin16"
+        ]
+      },
+      "width": 1.6000000000000005,
+      "height": 2.8
+    },
+    {
+      "ref": "R12",
+      "originalRef": "R12",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU IO",
+      "x": -2.4000000000000012,
+      "y": 4.550000000000001,
+      "boxX": -2.4000000000000012,
+      "boxY": 4.550000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -2.4000000000000012,
+          "y": 4.750000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -2.4000000000000012,
+          "y": 4.3500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R24",
+      "originalRef": "R24",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU IO",
+      "x": 1.6999999999999993,
+      "y": -4.549999999999999,
+      "boxX": 1.6999999999999993,
+      "boxY": -4.549999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.6999999999999993,
+          "y": -4.35,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.6999999999999993,
+          "y": -4.749999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R14",
+      "originalRef": "R14",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU IO",
+      "x": 0.8999999999999986,
+      "y": -4.549999999999999,
+      "boxX": 0.8999999999999986,
+      "boxY": -4.549999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 0.8999999999999986,
+          "y": -4.35,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 0.8999999999999986,
+          "y": -4.749999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R13",
+      "originalRef": "R13",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU IO",
+      "x": -2.0000000000000018,
+      "y": 4.550000000000001,
+      "boxX": -2.0000000000000018,
+      "boxY": 4.550000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -2.0000000000000018,
+          "y": 4.750000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -2.0000000000000018,
+          "y": 4.3500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R25",
+      "originalRef": "R25",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU IO",
+      "x": 2.4000000000000004,
+      "y": -4.549999999999999,
+      "boxX": 2.4000000000000004,
+      "boxY": -4.549999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 2.4000000000000004,
+          "y": -4.35,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 2.4000000000000004,
+          "y": -4.749999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "gworkman_mpu:T113-S3",
+      "unit": 5,
+      "sheet": "Architecture/CPU IO",
+      "x": 1.6999999999999993,
+      "y": 1.950000000000001,
+      "boxX": 1.6999999999999993,
+      "boxY": 1.950000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin86",
+          "number": "86",
+          "label": "PB2",
+          "x": 0.5,
+          "y": 5.650000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin85",
+          "number": "85",
+          "label": "PB3",
+          "x": 0.5,
+          "y": 5.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin84",
+          "number": "84",
+          "label": "PB4",
+          "x": 0.5,
+          "y": 5.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin82",
+          "number": "82",
+          "label": "PB5",
+          "x": 0.5,
+          "y": 5.050000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin80",
+          "number": "80",
+          "label": "PB6",
+          "x": 0.5,
+          "y": 4.850000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin79",
+          "number": "79",
+          "label": "PB7",
+          "x": 0.5,
+          "y": 4.65,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "PC2",
+          "x": 0.5,
+          "y": 4.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "PC3",
+          "x": 0.5,
+          "y": 4.050000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "PC4",
+          "x": 0.5,
+          "y": 3.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "PC5",
+          "x": 0.5,
+          "y": 3.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "PC6",
+          "x": 0.5,
+          "y": 3.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "PC7",
+          "x": 0.5,
+          "y": 3.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin120",
+          "number": "120",
+          "label": "PG0",
+          "x": 0.5,
+          "y": 2.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin118",
+          "number": "118",
+          "label": "PG1",
+          "x": 0.5,
+          "y": 2.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin119",
+          "number": "119",
+          "label": "PG2",
+          "x": 0.5,
+          "y": 2.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin121",
+          "number": "121",
+          "label": "PG3",
+          "x": 0.5,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin123",
+          "number": "123",
+          "label": "PG4",
+          "x": 0.5,
+          "y": 2.0500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin122",
+          "number": "122",
+          "label": "PG5",
+          "x": 0.5,
+          "y": 1.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "PG6",
+          "x": 0.5,
+          "y": 1.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "PG7",
+          "x": 0.5,
+          "y": 1.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "PG8",
+          "x": 0.5,
+          "y": 1.2500000000000009,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "PG9",
+          "x": 0.5,
+          "y": 1.0500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "PG10",
+          "x": 0.5,
+          "y": 0.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "PG11",
+          "x": 0.5,
+          "y": 0.6500000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin124",
+          "number": "124",
+          "label": "PG12",
+          "x": 0.5,
+          "y": 0.45000000000000107,
+          "hidden": false
+        },
+        {
+          "pin": "pin125",
+          "number": "125",
+          "label": "PG13",
+          "x": 0.5,
+          "y": 0.2500000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin126",
+          "number": "126",
+          "label": "PG14",
+          "x": 0.5,
+          "y": 0.05000000000000071,
+          "hidden": false
+        },
+        {
+          "pin": "pin127",
+          "number": "127",
+          "label": "PG15",
+          "x": 0.5,
+          "y": -0.14999999999999858,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "PF0",
+          "x": 0.5,
+          "y": -0.5499999999999989,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "PF1",
+          "x": 0.5,
+          "y": -0.7499999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "PF2",
+          "x": 0.5,
+          "y": -0.9499999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "PF3",
+          "x": 0.5,
+          "y": -1.1499999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "PF4",
+          "x": 0.5,
+          "y": -1.3499999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "PF5",
+          "x": 0.5,
+          "y": -1.549999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "PF6",
+          "x": 0.5,
+          "y": -1.75,
+          "hidden": false
+        },
+        {
+          "pin": "pin55",
+          "number": "55",
+          "label": "PD0",
+          "x": 2.8999999999999986,
+          "y": 5.650000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin56",
+          "number": "56",
+          "label": "PD1",
+          "x": 2.8999999999999986,
+          "y": 5.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin57",
+          "number": "57",
+          "label": "PD2",
+          "x": 2.8999999999999986,
+          "y": 5.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin58",
+          "number": "58",
+          "label": "PD3",
+          "x": 2.8999999999999986,
+          "y": 5.050000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin59",
+          "number": "59",
+          "label": "PD4",
+          "x": 2.8999999999999986,
+          "y": 4.850000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin60",
+          "number": "60",
+          "label": "PD5",
+          "x": 2.8999999999999986,
+          "y": 4.65,
+          "hidden": false
+        },
+        {
+          "pin": "pin61",
+          "number": "61",
+          "label": "PD6",
+          "x": 2.8999999999999986,
+          "y": 4.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin62",
+          "number": "62",
+          "label": "PD7",
+          "x": 2.8999999999999986,
+          "y": 4.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin63",
+          "number": "63",
+          "label": "PD8",
+          "x": 2.8999999999999986,
+          "y": 4.050000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin64",
+          "number": "64",
+          "label": "PD9",
+          "x": 2.8999999999999986,
+          "y": 3.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin67",
+          "number": "67",
+          "label": "PD10",
+          "x": 2.8999999999999986,
+          "y": 3.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin68",
+          "number": "68",
+          "label": "PD11",
+          "x": 2.8999999999999986,
+          "y": 3.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin70",
+          "number": "70",
+          "label": "PD12",
+          "x": 2.8999999999999986,
+          "y": 3.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin69",
+          "number": "69",
+          "label": "PD13",
+          "x": 2.8999999999999986,
+          "y": 3.0500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin71",
+          "number": "71",
+          "label": "PD14",
+          "x": 2.8999999999999986,
+          "y": 2.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin72",
+          "number": "72",
+          "label": "PD15",
+          "x": 2.8999999999999986,
+          "y": 2.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin73",
+          "number": "73",
+          "label": "PD16",
+          "x": 2.8999999999999986,
+          "y": 2.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin74",
+          "number": "74",
+          "label": "PD17",
+          "x": 2.8999999999999986,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin75",
+          "number": "75",
+          "label": "PD18",
+          "x": 2.8999999999999986,
+          "y": 2.0500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin76",
+          "number": "76",
+          "label": "PD19",
+          "x": 2.8999999999999986,
+          "y": 1.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin54",
+          "number": "54",
+          "label": "PD20",
+          "x": 2.8999999999999986,
+          "y": 1.6500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin53",
+          "number": "53",
+          "label": "PD21",
+          "x": 2.8999999999999986,
+          "y": 1.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin52",
+          "number": "52",
+          "label": "PD22",
+          "x": 2.8999999999999986,
+          "y": 1.2500000000000009,
+          "hidden": false
+        },
+        {
+          "pin": "pin44",
+          "number": "44",
+          "label": "PE0",
+          "x": 2.8999999999999986,
+          "y": 0.8500000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin45",
+          "number": "45",
+          "label": "PE1",
+          "x": 2.8999999999999986,
+          "y": 0.6500000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin35",
+          "number": "35",
+          "label": "PE2",
+          "x": 2.8999999999999986,
+          "y": 0.45000000000000107,
+          "hidden": false
+        },
+        {
+          "pin": "pin33",
+          "number": "33",
+          "label": "PE3",
+          "x": 2.8999999999999986,
+          "y": 0.2500000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin43",
+          "number": "43",
+          "label": "PE4",
+          "x": 2.8999999999999986,
+          "y": 0.05000000000000071,
+          "hidden": false
+        },
+        {
+          "pin": "pin42",
+          "number": "42",
+          "label": "PE5",
+          "x": 2.8999999999999986,
+          "y": -0.14999999999999858,
+          "hidden": false
+        },
+        {
+          "pin": "pin41",
+          "number": "41",
+          "label": "PE6",
+          "x": 2.8999999999999986,
+          "y": -0.34999999999999787,
+          "hidden": false
+        },
+        {
+          "pin": "pin40",
+          "number": "40",
+          "label": "PE7",
+          "x": 2.8999999999999986,
+          "y": -0.5499999999999989,
+          "hidden": false
+        },
+        {
+          "pin": "pin39",
+          "number": "39",
+          "label": "PE8",
+          "x": 2.8999999999999986,
+          "y": -0.7499999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin38",
+          "number": "38",
+          "label": "PE9",
+          "x": 2.8999999999999986,
+          "y": -0.9499999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin37",
+          "number": "37",
+          "label": "PE10",
+          "x": 2.8999999999999986,
+          "y": -1.1499999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin36",
+          "number": "36",
+          "label": "PE11",
+          "x": 2.8999999999999986,
+          "y": -1.3499999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "PE12",
+          "x": 2.8999999999999986,
+          "y": -1.549999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "PE13",
+          "x": 2.8999999999999986,
+          "y": -1.75,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin86",
+          "pin85",
+          "pin84",
+          "pin82",
+          "pin80",
+          "pin79",
+          "pin19",
+          "pin18",
+          "pin17",
+          "pin16",
+          "pin15",
+          "pin14",
+          "pin120",
+          "pin118",
+          "pin119",
+          "pin121",
+          "pin123",
+          "pin122",
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4",
+          "pin5",
+          "pin6",
+          "pin124",
+          "pin125",
+          "pin126",
+          "pin127",
+          "pin7",
+          "pin8",
+          "pin9",
+          "pin10",
+          "pin11",
+          "pin12",
+          "pin13"
+        ],
+        "rightSide": [
+          "pin55",
+          "pin56",
+          "pin57",
+          "pin58",
+          "pin59",
+          "pin60",
+          "pin61",
+          "pin62",
+          "pin63",
+          "pin64",
+          "pin67",
+          "pin68",
+          "pin70",
+          "pin69",
+          "pin71",
+          "pin72",
+          "pin73",
+          "pin74",
+          "pin75",
+          "pin76",
+          "pin54",
+          "pin53",
+          "pin52",
+          "pin44",
+          "pin45",
+          "pin35",
+          "pin33",
+          "pin43",
+          "pin42",
+          "pin41",
+          "pin40",
+          "pin39",
+          "pin38",
+          "pin37",
+          "pin36",
+          "pin32",
+          "pin31"
+        ]
+      },
+      "width": 2.0,
+      "height": 7.800000000000001
+    },
+    {
+      "ref": "C7",
+      "originalRef": "C7",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -5.35,
+      "y": -2.049999999999999,
+      "boxX": -5.35,
+      "boxY": -2.049999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.35,
+          "y": -1.8499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.35,
+          "y": -2.2499999999999982,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "L1",
+      "originalRef": "L1",
+      "value": "2u2",
+      "lib": "Device:L_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -2.1500000000000004,
+      "y": 2.3500000000000005,
+      "boxX": -2.1500000000000004,
+      "boxY": 2.3500000000000005,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -2.3499999999999996,
+          "y": 2.3500000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.950000000000001,
+          "y": 2.3500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C3",
+      "originalRef": "C3",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 0.25,
+      "y": 1.7500000000000009,
+      "boxX": 0.25,
+      "boxY": 1.7500000000000009,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 0.25,
+          "y": 1.950000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 0.25,
+          "y": 1.5500000000000007,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C2",
+      "originalRef": "C2",
+      "value": "10p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -0.75,
+      "y": 2.0500000000000007,
+      "boxX": -0.75,
+      "boxY": 2.0500000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -0.75,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -0.75,
+          "y": 1.8500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R1",
+      "originalRef": "R1",
+      "value": "100k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -5.1499999999999995,
+      "y": 2.0500000000000007,
+      "boxX": -5.1499999999999995,
+      "boxY": 2.0500000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.1499999999999995,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.1499999999999995,
+          "y": 1.8500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R2",
+      "originalRef": "R2",
+      "value": "453k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -1.549999999999999,
+      "y": 2.0500000000000007,
+      "boxX": -1.549999999999999,
+      "boxY": 2.0500000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": 1.8500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C5",
+      "originalRef": "C5",
+      "value": "22u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 0.25,
+      "y": -1.9499999999999993,
+      "boxX": 0.25,
+      "boxY": -1.9499999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 0.25,
+          "y": -1.75,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 0.25,
+          "y": -2.1499999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R7",
+      "originalRef": "R7",
+      "value": "100k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -1.549999999999999,
+      "y": -2.25,
+      "boxX": -1.549999999999999,
+      "boxY": -2.25,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": -2.0500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": -2.4499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R4",
+      "originalRef": "R4",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 1.25,
+      "y": 1.4500000000000002,
+      "boxX": 1.25,
+      "boxY": 1.4500000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.25,
+          "y": 1.6500000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.25,
+          "y": 1.25,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C4",
+      "originalRef": "C4",
+      "value": "10p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -0.75,
+      "y": -1.6500000000000004,
+      "boxX": -0.75,
+      "boxY": -1.6500000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -0.75,
+          "y": -1.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -0.75,
+          "y": -1.8499999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C1",
+      "originalRef": "C1",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -5.85,
+      "y": 2.0500000000000007,
+      "boxX": -5.85,
+      "boxY": 2.0500000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.85,
+          "y": 2.250000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.85,
+          "y": 1.8500000000000005,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U2",
+      "originalRef": "U2",
+      "value": "TLV62569PDDCR",
+      "lib": "Regulator_Switching:TLV62569DDC",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -3.3499999999999996,
+      "y": -1.9499999999999993,
+      "boxX": -3.3499999999999996,
+      "boxY": -1.9499999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "VIN",
+          "x": -3.9499999999999993,
+          "y": -1.75,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "EN",
+          "x": -3.9499999999999993,
+          "y": -1.9499999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": -3.3499999999999996,
+          "y": -2.549999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "SW",
+          "x": -2.75,
+          "y": -1.75,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "FB",
+          "x": -2.75,
+          "y": -1.9499999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "PG",
+          "x": -2.75,
+          "y": -2.1499999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin4",
+          "pin1"
+        ],
+        "rightSide": [
+          "pin3",
+          "pin6",
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8000000000000007,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "D1",
+      "originalRef": "D1",
+      "value": "RED",
+      "lib": "Device:LED_Small_Filled",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 1.25,
+      "y": 2.0500000000000007,
+      "boxX": 1.25,
+      "boxY": 2.0500000000000007,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "K",
+          "x": 1.25,
+          "y": 1.8500000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A",
+          "x": 1.25,
+          "y": 2.250000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C8",
+      "originalRef": "C8",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 5.850000000000001,
+      "y": -2.3499999999999996,
+      "boxX": 5.850000000000001,
+      "boxY": -2.3499999999999996,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 5.850000000000001,
+          "y": -2.1500000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 5.850000000000001,
+          "y": -2.549999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R3",
+      "originalRef": "R3",
+      "value": "100k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -1.549999999999999,
+      "y": 1.4500000000000002,
+      "boxX": -1.549999999999999,
+      "boxY": 1.4500000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": 1.6500000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": 1.25,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R5",
+      "originalRef": "R5",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -1.549999999999999,
+      "y": -1.6500000000000004,
+      "boxX": -1.549999999999999,
+      "boxY": -1.6500000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": -1.450000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.549999999999999,
+          "y": -1.8499999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U1",
+      "originalRef": "U1",
+      "value": "TLV62569PDDCR",
+      "lib": "Regulator_Switching:TLV62569DDC",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -3.3499999999999996,
+      "y": 1.7500000000000009,
+      "boxX": -3.3499999999999996,
+      "boxY": 1.7500000000000009,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "VIN",
+          "x": -3.9499999999999993,
+          "y": 1.950000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "EN",
+          "x": -3.9499999999999993,
+          "y": 1.7500000000000009,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": -3.3499999999999996,
+          "y": 1.1500000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "SW",
+          "x": -2.75,
+          "y": 1.950000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "FB",
+          "x": -2.75,
+          "y": 1.7500000000000009,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "PG",
+          "x": -2.75,
+          "y": 1.5500000000000007,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin4",
+          "pin1"
+        ],
+        "rightSide": [
+          "pin3",
+          "pin6",
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8000000000000007,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "R6",
+      "originalRef": "R6",
+      "value": "100k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 5.850000000000001,
+      "y": -1.75,
+      "boxX": 5.850000000000001,
+      "boxY": -1.75,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 5.850000000000001,
+          "y": -1.5500000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 5.850000000000001,
+          "y": -1.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C6",
+      "originalRef": "C6",
+      "value": "22u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": 1.25,
+      "y": -1.9499999999999993,
+      "boxX": 1.25,
+      "boxY": -1.9499999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.25,
+          "y": -1.75,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.25,
+          "y": -2.1499999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "L2",
+      "originalRef": "L2",
+      "value": "2u2",
+      "lib": "Device:L_Small",
+      "unit": 1,
+      "sheet": "Architecture/Power",
+      "x": -2.1500000000000004,
+      "y": -1.3499999999999996,
+      "boxX": -2.1500000000000004,
+      "boxY": -1.3499999999999996,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -2.3499999999999996,
+          "y": -1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.950000000000001,
+          "y": -1.3499999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C34",
+      "originalRef": "C34",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -1.3000000000000007,
+      "y": -0.1999999999999993,
+      "boxX": -1.3000000000000007,
+      "boxY": -0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -1.3000000000000007,
+          "y": 0.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.3000000000000007,
+          "y": -0.3999999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C27",
+      "originalRef": "C27",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -4.3,
+      "y": 3.4000000000000004,
+      "boxX": -4.3,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -4.3,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -4.3,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "Y2",
+      "originalRef": "Y2",
+      "value": "32.768kHz",
+      "lib": "Device:Crystal_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -7.3999999999999995,
+      "y": -2.0999999999999996,
+      "boxX": -7.3999999999999995,
+      "boxY": -2.0999999999999996,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -7.6,
+          "y": -2.0999999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -7.199999999999999,
+          "y": -2.0999999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C10",
+      "originalRef": "C10",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -8.3,
+      "y": 5.2,
+      "boxX": -8.3,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -8.3,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.3,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R10",
+      "originalRef": "R10",
+      "value": "240R",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -5.3,
+      "y": -1.5999999999999996,
+      "boxX": -5.3,
+      "boxY": -1.5999999999999996,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.3,
+          "y": -1.4000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.3,
+          "y": -1.799999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C11",
+      "originalRef": "C11",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -7.5,
+      "y": 5.2,
+      "boxX": -7.5,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -7.5,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -7.5,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C9",
+      "originalRef": "C9",
+      "value": "2u2",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -9.1,
+      "y": 5.2,
+      "boxX": -9.1,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -9.1,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -9.1,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C16",
+      "originalRef": "C16",
+      "value": "2u2",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 3.6999999999999993,
+      "y": 5.2,
+      "boxX": 3.6999999999999993,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 3.6999999999999993,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 3.6999999999999993,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C24",
+      "originalRef": "C24",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -6.7,
+      "y": 3.4000000000000004,
+      "boxX": -6.7,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.7,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.7,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "gworkman_mpu:T113-S3",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -0.29999999999999893,
+      "y": 4.4,
+      "boxX": -0.29999999999999893,
+      "boxY": 4.300000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "LDO_IN",
+          "x": -1.4999999999999982,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin83",
+          "number": "83",
+          "label": "VCC_IO",
+          "x": -1.4999999999999982,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin34",
+          "number": "34",
+          "label": "VCC_PE",
+          "x": -1.4999999999999982,
+          "y": 5.000000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin128",
+          "number": "128",
+          "label": "VCC_PG",
+          "x": -1.4999999999999982,
+          "y": 4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin66",
+          "number": "66",
+          "label": "VCC_PD",
+          "x": -1.4999999999999982,
+          "y": 4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin77",
+          "number": "77",
+          "label": "VCC_TVOUT",
+          "x": -1.4999999999999982,
+          "y": 4.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin46",
+          "number": "46",
+          "label": "VDD_SYS0",
+          "x": -1.4999999999999982,
+          "y": 4.000000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin51",
+          "number": "51",
+          "label": "VDD_SYS1",
+          "x": -1.4999999999999982,
+          "y": 3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin81",
+          "number": "81",
+          "label": "VDD_SYS2",
+          "x": -1.4999999999999982,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin116",
+          "number": "116",
+          "label": "VDD_CORE0",
+          "x": -1.4999999999999982,
+          "y": 3.4000000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin117",
+          "number": "117",
+          "label": "VDD_CORE1",
+          "x": -1.4999999999999982,
+          "y": 3.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "LDOA_OUT",
+          "x": 0.9000000000000004,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "VCC_RTC",
+          "x": 0.9000000000000004,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "VCC_PLL",
+          "x": 0.9000000000000004,
+          "y": 5.000000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin107",
+          "number": "107",
+          "label": "VCC_TVIN",
+          "x": 0.9000000000000004,
+          "y": 4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin65",
+          "number": "65",
+          "label": "VCC_LVDS",
+          "x": 0.9000000000000004,
+          "y": 4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin50",
+          "number": "50",
+          "label": "VDD18_DRAM",
+          "x": 0.9000000000000004,
+          "y": 4.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "LDOB_OUT",
+          "x": 0.9000000000000004,
+          "y": 4.000000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin49",
+          "number": "49",
+          "label": "VCC_DRAM1",
+          "x": 0.9000000000000004,
+          "y": 3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin48",
+          "number": "48",
+          "label": "VCC_DRAM0",
+          "x": 0.9000000000000004,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "RESET",
+          "x": 0.9000000000000004,
+          "y": 3.200000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin29",
+          "pin83",
+          "pin34",
+          "pin128",
+          "pin66",
+          "pin77",
+          "pin46",
+          "pin51",
+          "pin81",
+          "pin116",
+          "pin117"
+        ],
+        "rightSide": [
+          "pin28",
+          "pin26",
+          "pin20",
+          "pin107",
+          "pin65",
+          "pin50",
+          "pin30",
+          "pin49",
+          "pin48",
+          "pin27"
+        ]
+      },
+      "width": 2.0,
+      "height": 2.5999999999999996
+    },
+    {
+      "ref": "C33",
+      "originalRef": "C33",
+      "value": "10p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -6.7,
+      "y": -0.29999999999999893,
+      "boxX": -6.7,
+      "boxY": -0.29999999999999893,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.7,
+          "y": -0.09999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.7,
+          "y": -0.4999999999999982,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R8",
+      "originalRef": "R8",
+      "value": "${ERC_ERROR TODO}TODO",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 4.499999999999998,
+      "y": -0.40000000000000036,
+      "boxX": 4.499999999999998,
+      "boxY": -0.40000000000000036,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.299999999999999,
+          "y": -0.40000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.6999999999999975,
+          "y": -0.40000000000000036,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C36",
+      "originalRef": "C36",
+      "value": "18p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -8.1,
+      "y": -2.5,
+      "boxX": -8.1,
+      "boxY": -2.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -8.1,
+          "y": -2.3000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.1,
+          "y": -2.6999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C12",
+      "originalRef": "C12",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -6.7,
+      "y": 5.2,
+      "boxX": -6.7,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.7,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.7,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C30",
+      "originalRef": "C30",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 5.299999999999999,
+      "y": 3.4000000000000004,
+      "boxX": 5.299999999999999,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 5.299999999999999,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 5.299999999999999,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C22",
+      "originalRef": "C22",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -8.3,
+      "y": 3.4000000000000004,
+      "boxX": -8.3,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -8.3,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.3,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C38",
+      "originalRef": "C38",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 8.299999999999999,
+      "y": -2.599999999999998,
+      "boxX": 8.299999999999999,
+      "boxY": -2.599999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 8.299999999999999,
+          "y": -2.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 8.299999999999999,
+          "y": -2.799999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "gworkman_mpu:T113-S3",
+      "unit": 2,
+      "sheet": "Architecture/CPU Core",
+      "x": -3.5999999999999996,
+      "y": -0.40000000000000036,
+      "boxX": -3.5999999999999996,
+      "boxY": -0.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "REFCLK_OUT",
+          "x": -4.699999999999999,
+          "y": 0.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "DXOUT",
+          "x": -4.699999999999999,
+          "y": 0.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "DXIN",
+          "x": -4.699999999999999,
+          "y": -0.20000000000000107,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "X32KOUT",
+          "x": -4.699999999999999,
+          "y": -0.5999999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "X32KIN",
+          "x": -4.699999999999999,
+          "y": -0.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin47",
+          "number": "47",
+          "label": "DZQ",
+          "x": -4.699999999999999,
+          "y": -1.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin89",
+          "number": "89",
+          "label": "AVCC",
+          "x": -2.5,
+          "y": 0.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin97",
+          "number": "97",
+          "label": "HPVCC",
+          "x": -2.5,
+          "y": 0.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin91",
+          "number": "91",
+          "label": "AGND",
+          "x": -2.5,
+          "y": -1.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin129",
+          "number": "129",
+          "label": "EPAD",
+          "x": -2.5,
+          "y": -1.200000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin21",
+          "pin22",
+          "pin23",
+          "pin24",
+          "pin25",
+          "pin47"
+        ],
+        "rightSide": [
+          "pin89",
+          "pin97",
+          "pin91",
+          "pin129"
+        ]
+      },
+      "width": 1.8000000000000007,
+      "height": 1.8000000000000007
+    },
+    {
+      "ref": "C17",
+      "originalRef": "C17",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 4.499999999999998,
+      "y": 5.2,
+      "boxX": 4.499999999999998,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.499999999999998,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.499999999999998,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C14",
+      "originalRef": "C14",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -5.1,
+      "y": 5.2,
+      "boxX": -5.1,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.1,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.1,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C18",
+      "originalRef": "C18",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 5.299999999999999,
+      "y": 5.2,
+      "boxX": 5.299999999999999,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 5.299999999999999,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 5.299999999999999,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C28",
+      "originalRef": "C28",
+      "value": "2u2",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 3.6999999999999993,
+      "y": 3.4000000000000004,
+      "boxX": 3.6999999999999993,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 3.6999999999999993,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 3.6999999999999993,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "Y1",
+      "originalRef": "Y1",
+      "value": "24MHz",
+      "lib": "Device:Crystal_GND24_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -7.3999999999999995,
+      "y": 0.10000000000000142,
+      "boxX": -7.3999999999999995,
+      "boxY": 0.10000000000000142,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -7.6,
+          "y": 0.10000000000000142,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "4",
+          "x": -7.3999999999999995,
+          "y": 0.3000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -7.3999999999999995,
+          "y": -0.09999999999999787,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": -7.199999999999999,
+          "y": 0.10000000000000142,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin3"
+        ],
+        "topSide": [
+          "pin4"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C19",
+      "originalRef": "C19",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 6.1,
+      "y": 5.2,
+      "boxX": 6.1,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 6.1,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 6.1,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R11",
+      "originalRef": "R11",
+      "value": "100k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -0.5,
+      "y": -3.799999999999999,
+      "boxX": -0.5,
+      "boxY": -3.799999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -0.5,
+          "y": -3.5999999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -0.5,
+          "y": -3.9999999999999982,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "gworkman_mpu:T113-S3",
+      "unit": 4,
+      "sheet": "Architecture/CPU Core",
+      "x": -7.3999999999999995,
+      "y": -5.199999999999999,
+      "boxX": -7.3999999999999995,
+      "boxY": -5.199999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin78",
+          "number": "78",
+          "label": "TVOUT0",
+          "x": -8.1,
+          "y": -4.799999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin108",
+          "number": "108",
+          "label": "TVIN0",
+          "x": -8.1,
+          "y": -5.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin109",
+          "number": "109",
+          "label": "TVIN1",
+          "x": -8.1,
+          "y": -5.199999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin110",
+          "number": "110",
+          "label": "TVIN_VRP",
+          "x": -8.1,
+          "y": -5.399999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin111",
+          "number": "111",
+          "label": "TVIN_VRN",
+          "x": -8.1,
+          "y": -5.6,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin78",
+          "pin108",
+          "pin109",
+          "pin110",
+          "pin111"
+        ]
+      },
+      "width": 1.0,
+      "height": 1.1999999999999993
+    },
+    {
+      "ref": "C39",
+      "originalRef": "C39",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 9.1,
+      "y": -2.599999999999998,
+      "boxX": 9.1,
+      "boxY": -2.599999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 9.1,
+          "y": -2.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 9.1,
+          "y": -2.799999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R9",
+      "originalRef": "R9",
+      "value": "${ERC_ERROR TODO}TODO",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 4.9,
+      "y": -0.7999999999999989,
+      "boxX": 4.9,
+      "boxY": -0.7999999999999989,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.9,
+          "y": -0.5999999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.9,
+          "y": -0.9999999999999982,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C32",
+      "originalRef": "C32",
+      "value": "10p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -8.1,
+      "y": -0.29999999999999893,
+      "boxX": -8.1,
+      "boxY": -0.29999999999999893,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -8.1,
+          "y": -0.09999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.1,
+          "y": -0.4999999999999982,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C26",
+      "originalRef": "C26",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -5.1,
+      "y": 3.4000000000000004,
+      "boxX": -5.1,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.1,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.1,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C20",
+      "originalRef": "C20",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 6.9,
+      "y": 5.2,
+      "boxX": 6.9,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 6.9,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 6.9,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "T113-S3",
+      "lib": "gworkman_mpu:T113-S3",
+      "unit": 6,
+      "sheet": "Architecture/CPU Core",
+      "x": 6.999999999999998,
+      "y": -1.3999999999999986,
+      "boxX": 6.999999999999998,
+      "boxY": -1.299999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin101",
+          "number": "101",
+          "label": "GPADC0",
+          "x": 5.999999999999998,
+          "y": -0.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin102",
+          "number": "102",
+          "label": "TP_X1",
+          "x": 5.999999999999998,
+          "y": -0.5999999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin103",
+          "number": "103",
+          "label": "TP_X2",
+          "x": 5.999999999999998,
+          "y": -0.7999999999999989,
+          "hidden": false
+        },
+        {
+          "pin": "pin104",
+          "number": "104",
+          "label": "TP_Y1",
+          "x": 5.999999999999998,
+          "y": -0.9999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin105",
+          "number": "105",
+          "label": "TP_Y2",
+          "x": 5.999999999999998,
+          "y": -1.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin99",
+          "number": "99",
+          "label": "HPOUTL",
+          "x": 5.999999999999998,
+          "y": -1.5999999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin98",
+          "number": "98",
+          "label": "HPOUTR",
+          "x": 5.999999999999998,
+          "y": -1.799999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin100",
+          "number": "100",
+          "label": "HPOUTFB",
+          "x": 5.999999999999998,
+          "y": -1.9999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin106",
+          "number": "106",
+          "label": "NC0",
+          "x": 5.999999999999998,
+          "y": -2.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin87",
+          "number": "87",
+          "label": "MICIN3P",
+          "x": 7.999999999999998,
+          "y": -0.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin88",
+          "number": "88",
+          "label": "MICIN3N",
+          "x": 7.999999999999998,
+          "y": -0.5999999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin96",
+          "number": "96",
+          "label": "LINEINL",
+          "x": 7.999999999999998,
+          "y": -0.7999999999999989,
+          "hidden": false
+        },
+        {
+          "pin": "pin95",
+          "number": "95",
+          "label": "LINEINR",
+          "x": 7.999999999999998,
+          "y": -0.9999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin94",
+          "number": "94",
+          "label": "FMINL",
+          "x": 7.999999999999998,
+          "y": -1.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin93",
+          "number": "93",
+          "label": "FMINR",
+          "x": 7.999999999999998,
+          "y": -1.5999999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin92",
+          "number": "92",
+          "label": "VRA1",
+          "x": 7.999999999999998,
+          "y": -1.9999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin90",
+          "number": "90",
+          "label": "VRA2",
+          "x": 7.999999999999998,
+          "y": -2.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin101",
+          "pin102",
+          "pin103",
+          "pin104",
+          "pin105",
+          "pin99",
+          "pin98",
+          "pin100",
+          "pin106"
+        ],
+        "rightSide": [
+          "pin87",
+          "pin88",
+          "pin96",
+          "pin95",
+          "pin94",
+          "pin93",
+          "pin92",
+          "pin90"
+        ]
+      },
+      "width": 1.6000000000000014,
+      "height": 2.1999999999999993
+    },
+    {
+      "ref": "C35",
+      "originalRef": "C35",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -0.5,
+      "y": -0.1999999999999993,
+      "boxX": -0.5,
+      "boxY": -0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -0.5,
+          "y": 0.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -0.5,
+          "y": -0.3999999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C40",
+      "originalRef": "C40",
+      "value": "2u2",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -0.5,
+      "y": -4.799999999999999,
+      "boxX": -0.5,
+      "boxY": -4.799999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -0.5,
+          "y": -4.6,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -0.5,
+          "y": -4.999999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C25",
+      "originalRef": "C25",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -5.9,
+      "y": 3.4000000000000004,
+      "boxX": -5.9,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.9,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.9,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C23",
+      "originalRef": "C23",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -7.5,
+      "y": 3.4000000000000004,
+      "boxX": -7.5,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -7.5,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -7.5,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C21",
+      "originalRef": "C21",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 7.700000000000001,
+      "y": 5.2,
+      "boxX": 7.700000000000001,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 7.700000000000001,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 7.700000000000001,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C37",
+      "originalRef": "C37",
+      "value": "18p",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -6.7,
+      "y": -2.5,
+      "boxX": -6.7,
+      "boxY": -2.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.7,
+          "y": -2.3000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.7,
+          "y": -2.6999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "SW1",
+      "originalRef": "SW1",
+      "value": "SW_Push",
+      "lib": "Switch:SW_Push",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -1.1999999999999993,
+      "y": -4.799999999999999,
+      "boxX": -1.1999999999999993,
+      "boxY": -4.799999999999999,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -1.1999999999999993,
+          "y": -5.199999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -1.1999999999999993,
+          "y": -4.399999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "C31",
+      "originalRef": "C31",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 6.1,
+      "y": 3.4000000000000004,
+      "boxX": 6.1,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 6.1,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 6.1,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C15",
+      "originalRef": "C15",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -4.3,
+      "y": 5.2,
+      "boxX": -4.3,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -4.3,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -4.3,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C29",
+      "originalRef": "C29",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": 4.499999999999998,
+      "y": 3.4000000000000004,
+      "boxX": 4.499999999999998,
+      "boxY": 3.4000000000000004,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.499999999999998,
+          "y": 3.6000000000000005,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.499999999999998,
+          "y": 3.2,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C13",
+      "originalRef": "C13",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/CPU Core",
+      "x": -5.9,
+      "y": 5.2,
+      "boxX": -5.9,
+      "boxY": 5.2,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.9,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.9,
+          "y": 5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "SW2",
+      "originalRef": "SW2",
+      "value": "SW_Push",
+      "lib": "Switch:SW_Push",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": -6.8999999999999995,
+      "y": -1.1499999999999995,
+      "boxX": -6.8999999999999995,
+      "boxY": -1.1499999999999986,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -6.8999999999999995,
+          "y": -1.549999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -6.8999999999999995,
+          "y": -0.7499999999999991,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U6",
+      "originalRef": "U6",
+      "value": "SN74AHC1G08",
+      "lib": "74xGxx:74LVC1G08",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": -3.5999999999999996,
+      "y": -0.34999999999999964,
+      "boxX": -3.6999999999999993,
+      "boxY": -0.34999999999999964,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -4.8,
+          "y": -0.14999999999999947,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -4.8,
+          "y": -0.5499999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "VCC",
+          "x": -3.5999999999999996,
+          "y": 0.4500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "GND",
+          "x": -3.5999999999999996,
+          "y": -1.1499999999999995,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "~",
+          "x": -2.5999999999999996,
+          "y": -0.34999999999999964,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2"
+        ],
+        "rightSide": [
+          "pin4"
+        ],
+        "topSide": [
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin3"
+        ]
+      },
+      "width": 2.2,
+      "height": 1.5999999999999996
+    },
+    {
+      "ref": "C44",
+      "originalRef": "C44",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": -6.0,
+      "y": -1.1499999999999995,
+      "boxX": -6.0,
+      "boxY": -1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.0,
+          "y": -0.9499999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.0,
+          "y": -1.3499999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R21",
+      "originalRef": "R21",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 4.800000000000001,
+      "y": 1.1499999999999995,
+      "boxX": 4.800000000000001,
+      "boxY": 1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.800000000000001,
+          "y": 1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.800000000000001,
+          "y": 0.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U5",
+      "originalRef": "U5",
+      "value": "ZDSD08GLGEAG",
+      "lib": "Memory_Flash:XTSD08G",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 6.6,
+      "y": 0.04999999999999982,
+      "boxX": 6.6,
+      "boxY": 0.04999999999999982,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "SD2",
+          "x": 5.799999999999999,
+          "y": 0.4500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "SD3/~{CS}",
+          "x": 5.799999999999999,
+          "y": 0.25,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "CMD/DI",
+          "x": 5.799999999999999,
+          "y": 0.04999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "CLK",
+          "x": 5.799999999999999,
+          "y": -0.15000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "SD0/DO",
+          "x": 5.799999999999999,
+          "y": -0.35000000000000053,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "SD1",
+          "x": 5.799999999999999,
+          "y": -0.5499999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "VDD",
+          "x": 6.6,
+          "y": 1.25,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "VSS",
+          "x": 6.6,
+          "y": -1.1500000000000004,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin5",
+          "pin3",
+          "pin6",
+          "pin7"
+        ],
+        "topSide": [
+          "pin8"
+        ],
+        "bottomSide": [
+          "pin4"
+        ]
+      },
+      "width": 1.2000000000000028,
+      "height": 2.0
+    },
+    {
+      "ref": "R20",
+      "originalRef": "R20",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 4.000000000000002,
+      "y": 1.1499999999999995,
+      "boxX": 4.000000000000002,
+      "boxY": 1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 4.000000000000002,
+          "y": 1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 4.000000000000002,
+          "y": 0.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R23",
+      "originalRef": "R23",
+      "value": "22R",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 0.7000000000000011,
+      "y": -0.34999999999999964,
+      "boxX": 0.7000000000000011,
+      "boxY": -0.34999999999999964,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 0.5000000000000018,
+          "y": -0.34999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 0.9000000000000004,
+          "y": -0.34999999999999964,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R17",
+      "originalRef": "R17",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 1.5999999999999996,
+      "y": 1.1499999999999995,
+      "boxX": 1.5999999999999996,
+      "boxY": 1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.5999999999999996,
+          "y": 1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.5999999999999996,
+          "y": 0.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R19",
+      "originalRef": "R19",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 3.200000000000001,
+      "y": 1.1499999999999995,
+      "boxX": 3.200000000000001,
+      "boxY": 1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 3.200000000000001,
+          "y": 1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 3.200000000000001,
+          "y": 0.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C43",
+      "originalRef": "C43",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": -9.2,
+      "y": -0.5499999999999998,
+      "boxX": -9.2,
+      "boxY": -0.5499999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -9.2,
+          "y": -0.34999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -9.2,
+          "y": -0.75,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R22",
+      "originalRef": "R22",
+      "value": "5k1",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": -6.8999999999999995,
+      "y": -0.14999999999999947,
+      "boxX": -6.8999999999999995,
+      "boxY": -0.14999999999999947,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -6.8999999999999995,
+          "y": -0.34999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -6.8999999999999995,
+          "y": 0.05000000000000071,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R18",
+      "originalRef": "R18",
+      "value": "51k",
+      "lib": "Device:R_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 2.3999999999999986,
+      "y": 1.1499999999999995,
+      "boxX": 2.3999999999999986,
+      "boxY": 1.1499999999999995,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 2.3999999999999986,
+          "y": 1.3499999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 2.3999999999999986,
+          "y": 0.9499999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C41",
+      "originalRef": "C41",
+      "value": "10u",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 8.799999999999999,
+      "y": 0.04999999999999982,
+      "boxX": 8.799999999999999,
+      "boxY": 0.04999999999999982,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 8.799999999999999,
+          "y": 0.25,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 8.799999999999999,
+          "y": -0.15000000000000036,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C42",
+      "originalRef": "C42",
+      "value": "100n",
+      "lib": "Device:C_Small",
+      "unit": 1,
+      "sheet": "Architecture/Storage",
+      "x": 9.200000000000001,
+      "y": 0.04999999999999982,
+      "boxX": 9.200000000000001,
+      "boxY": 0.04999999999999982,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 9.200000000000001,
+          "y": 0.25,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 9.200000000000001,
+          "y": -0.15000000000000036,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    }
+  ]
+}

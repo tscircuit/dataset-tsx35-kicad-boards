@@ -1,0 +1,35 @@
+{
+  "id": "b07-rp2040",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "96b19ac3670a918e9ad2e1200ccec1b6c13b122b2de973926fa96025cf2435e8",
+    "footprints.tsx": "092e131ef0a5ef7ae0c94f40c6be485a6afc90f01961670283dc7fe226c78419",
+    "schematic.tsx": "767810c8578518dc7973670de6eddcf77272f3b0d6f2aab0ceaf13299d6a3750",
+    "metadata.json": "6d2079abff87ea53ac8569a068ae24c417c7fcd91220ce4cf05abad6895e0f3c"
+  },
+  "expectedComponents": 40,
+  "actualComponents": 40,
+  "expectedPhysicalPrimitives": 204,
+  "actualPhysicalPrimitives": 204,
+  "netCount": 57,
+  "actualNetCount": 57,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "REF__ overlaps J1: 1 footprint overlap, 1 courtyard conflict. Move the components apart."
+    },
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "J1 overlaps REF___: 1 footprint overlap, 1 courtyard conflict. Move the components apart."
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of J6 overlaps with courtyard of C8"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

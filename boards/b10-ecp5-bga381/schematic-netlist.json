@@ -1,0 +1,2934 @@
+{
+  "root_file": "kicad/ECP5.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "H1",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H2",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H3",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H4",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "0.1\u00b5F",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "0.1\u00b5F",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "0.1\u00b5F",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "18nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D2",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D3",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D4",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D5",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D6",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D7",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D8",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D9",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D10",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D11",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D12",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D13",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D14",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D15",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D16",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D17",
+      "value": "YELLOW",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D18",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D19",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D20",
+      "value": "RED",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D21",
+      "value": "YELLOW",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D22",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D23",
+      "value": "YELLOW",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D24",
+      "value": "GREEN",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "D25",
+      "value": "BLUE",
+      "libpart": {
+        "lib": "Device",
+        "part": "LED",
+        "description": "Light emitting diode"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "FLE-126-01-G-DV",
+      "libpart": {
+        "lib": "Connector_Generic",
+        "part": "Conn_02x26_Odd_Even",
+        "description": "Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "RCJ-044",
+      "libpart": {
+        "lib": "ECP5_BGA381_FT2232HQ_FIFO_EXT",
+        "part": "Conn_Coaxial",
+        "description": "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "HDMI A",
+      "libpart": {
+        "lib": "Connector",
+        "part": "HDMI_A",
+        "description": "HDMI type A connector"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "750",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "750",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R21",
+      "value": "750",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R22",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R23",
+      "value": "750",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R24",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R25",
+      "value": "330",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R26",
+      "value": "150",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R27",
+      "value": "75",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R28",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "R29",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_US",
+        "description": "Resistor, US symbol"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "PTS645SK43SMTR92 LFS",
+      "libpart": {
+        "lib": "Switch",
+        "part": "SW_Push",
+        "description": "Push button switch, generic, two pins"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "T1",
+      "value": "DA101JC",
+      "libpart": {
+        "lib": "ECP5_BGA381_FT2232HQ_FIFO_EXT",
+        "part": "Transformer_1P_1S",
+        "description": "Transformer, single primary, single secondary"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "5197TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "5197TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "5190TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP4",
+      "value": "5190TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP5",
+      "value": "5190TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP6",
+      "value": "5190TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP7",
+      "value": "5191TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP8",
+      "value": "5191TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "TP9",
+      "value": "5194TR",
+      "libpart": {
+        "lib": "Connector",
+        "part": "TestPoint",
+        "description": "test point"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "74HC04",
+      "libpart": {
+        "lib": "74xx",
+        "part": "74HC04",
+        "description": "Hex Inverter"
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    },
+    {
+      "ref": "U2",
+      "value": "DSLVDS1047",
+      "libpart": {
+        "lib": "ECP5_BGA381_FT2232HQ_FIFO_EXT",
+        "part": "DSLVDS1047",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/Extension/",
+        "tstamps": "/61e66402-2089-43f0-88c3-2a4be23eb1c3/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "+3V3",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "49",
+          "function": "Pin_49_49",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "50",
+          "function": "Pin_50_50",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "14",
+          "function": "VCC_14",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "function": "EN_1",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "function": "VCC_4",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_BCLK+",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "4",
+          "function": "D1+_4",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "14",
+          "function": "DOUT2+_14",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_BCLK-",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "6",
+          "function": "D1-_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "13",
+          "function": "DOUT2-_13",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_LRCK+",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "7",
+          "function": "D0+_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "11",
+          "function": "DOUT3+_11",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_LRCK-",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "9",
+          "function": "D0-_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "12",
+          "function": "DOUT3-_12",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_MCLK+",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "10",
+          "function": "CK+_10",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "10",
+          "function": "DOUT4+_10",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_MCLK-",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "12",
+          "function": "CK-_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "9",
+          "function": "DOUT4-_9",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_SDATA+",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "1",
+          "function": "D2+_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "15",
+          "function": "DOUT1+_15",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "DIFF_SDATA-",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "3",
+          "function": "D2-_3",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "16",
+          "function": "DOUT1-_16",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "EXT_0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "48",
+          "function": "Pin_48_48",
+          "type": "passive"
+        },
+        {
+          "ref": "SW1",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "47",
+          "function": "Pin_47_47",
+          "type": "passive"
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_2",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "46",
+          "function": "Pin_46_46",
+          "type": "passive"
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_4",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "44",
+          "function": "Pin_44_44",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "function": null,
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "EXT_6",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "42",
+          "function": "Pin_42_42",
+          "type": "passive"
+        },
+        {
+          "ref": "TP6",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "function": "DIN4_7",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "EXT_8",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "40",
+          "function": "Pin_40_40",
+          "type": "passive"
+        },
+        {
+          "ref": "TP5",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "function": "DIN3_6",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "EXT_9",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "39",
+          "function": "Pin_39_39",
+          "type": "passive"
+        },
+        {
+          "ref": "R29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_10",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "38",
+          "function": "Pin_38_38",
+          "type": "passive"
+        },
+        {
+          "ref": "TP4",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "function": "DIN2_3",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "EXT_11",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "37",
+          "function": "Pin_37_37",
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_12",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "36",
+          "function": "Pin_36_36",
+          "type": "passive"
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "function": "DIN1_2",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "EXT_14",
+      "nodes": [
+        {
+          "ref": "D13",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "34",
+          "function": "Pin_34_34",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_16",
+      "nodes": [
+        {
+          "ref": "D14",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "32",
+          "function": "Pin_32_32",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_18",
+      "nodes": [
+        {
+          "ref": "D12",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "30",
+          "function": "Pin_30_30",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_20",
+      "nodes": [
+        {
+          "ref": "D11",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "28",
+          "function": "Pin_28_28",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_22",
+      "nodes": [
+        {
+          "ref": "D10",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "26",
+          "function": "Pin_26_26",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_24",
+      "nodes": [
+        {
+          "ref": "D9",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "24",
+          "function": "Pin_24_24",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_26",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "22",
+          "function": "Pin_22_22",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_28",
+      "nodes": [
+        {
+          "ref": "D7",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "20",
+          "function": "Pin_20_20",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_29",
+      "nodes": [
+        {
+          "ref": "D20",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "19",
+          "function": "Pin_19_19",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_30",
+      "nodes": [
+        {
+          "ref": "D6",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "18",
+          "function": "Pin_18_18",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_31",
+      "nodes": [
+        {
+          "ref": "D19",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "17",
+          "function": "Pin_17_17",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_32",
+      "nodes": [
+        {
+          "ref": "D5",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "16",
+          "function": "Pin_16_16",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_33",
+      "nodes": [
+        {
+          "ref": "D25",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "15",
+          "function": "Pin_15_15",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_34",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "14",
+          "function": "Pin_14_14",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_35",
+      "nodes": [
+        {
+          "ref": "D18",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "13",
+          "function": "Pin_13_13",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_36",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "12",
+          "function": "Pin_12_12",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_37",
+      "nodes": [
+        {
+          "ref": "D23",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "11",
+          "function": "Pin_11_11",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_38",
+      "nodes": [
+        {
+          "ref": "D2",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "10",
+          "function": "Pin_10_10",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_39",
+      "nodes": [
+        {
+          "ref": "D17",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "9",
+          "function": "Pin_9_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_40",
+      "nodes": [
+        {
+          "ref": "D1",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "8",
+          "function": "Pin_8_8",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_41",
+      "nodes": [
+        {
+          "ref": "D24",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "7",
+          "function": "Pin_7_7",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_42",
+      "nodes": [
+        {
+          "ref": "D16",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "6",
+          "function": "Pin_6_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_43",
+      "nodes": [
+        {
+          "ref": "D22",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "5",
+          "function": "Pin_5_5",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_44",
+      "nodes": [
+        {
+          "ref": "D15",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "function": "Pin_4_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "EXT_45",
+      "nodes": [
+        {
+          "ref": "D21",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "3",
+          "function": "Pin_3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "function": "Pin_1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "function": "Pin_2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "51",
+          "function": "Pin_51_51",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "52",
+          "function": "Pin_52_52",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "11",
+          "function": "CKS_11",
+          "type": "power_in"
+        },
+        {
+          "ref": "J3",
+          "pin": "17",
+          "function": "GND_17",
+          "type": "power_in"
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "function": "D2S_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "function": "D1S_5",
+          "type": "power_in"
+        },
+        {
+          "ref": "J3",
+          "pin": "8",
+          "function": "D0S_8",
+          "type": "power_in"
+        },
+        {
+          "ref": "J3",
+          "pin": "SH",
+          "function": "SH_SH",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "SW1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "T1",
+          "pin": "4",
+          "function": "SA_4",
+          "type": "passive"
+        },
+        {
+          "ref": "TP7",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "TP8",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "11",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "U1",
+          "pin": "13",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "U1",
+          "pin": "7",
+          "function": "GND_7",
+          "type": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "9",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "function": "GND_5",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "function": "~{EN}_8",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C3-Pad2)",
+      "nodes": [
+        {
+          "ref": "C3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP9",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D1-K)",
+      "nodes": [
+        {
+          "ref": "D1",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D2-K)",
+      "nodes": [
+        {
+          "ref": "D2",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D3-K)",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D4-K)",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D5-K)",
+      "nodes": [
+        {
+          "ref": "D5",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D6-K)",
+      "nodes": [
+        {
+          "ref": "D6",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D7-K)",
+      "nodes": [
+        {
+          "ref": "D7",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D8-K)",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D9-K)",
+      "nodes": [
+        {
+          "ref": "D9",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D10-K)",
+      "nodes": [
+        {
+          "ref": "D10",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D11-K)",
+      "nodes": [
+        {
+          "ref": "D11",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D12-K)",
+      "nodes": [
+        {
+          "ref": "D12",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D13-K)",
+      "nodes": [
+        {
+          "ref": "D13",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D14-K)",
+      "nodes": [
+        {
+          "ref": "D14",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D15-K)",
+      "nodes": [
+        {
+          "ref": "D15",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D16-K)",
+      "nodes": [
+        {
+          "ref": "D16",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D17-K)",
+      "nodes": [
+        {
+          "ref": "D17",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D18-K)",
+      "nodes": [
+        {
+          "ref": "D18",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D19-K)",
+      "nodes": [
+        {
+          "ref": "D19",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D20-K)",
+      "nodes": [
+        {
+          "ref": "D20",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D21-K)",
+      "nodes": [
+        {
+          "ref": "D21",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D22-K)",
+      "nodes": [
+        {
+          "ref": "D22",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D23-K)",
+      "nodes": [
+        {
+          "ref": "D23",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D24-K)",
+      "nodes": [
+        {
+          "ref": "D24",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D25-K)",
+      "nodes": [
+        {
+          "ref": "D25",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J2-Ext)",
+      "nodes": [
+        {
+          "ref": "C4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "function": "Ext_1",
+          "type": "passive"
+        },
+        {
+          "ref": "T1",
+          "pin": "3",
+          "function": "AB_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J2-In)",
+      "nodes": [
+        {
+          "ref": "J2",
+          "pin": "2",
+          "function": "In_2",
+          "type": "passive"
+        },
+        {
+          "ref": "T1",
+          "pin": "1",
+          "function": "AA_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-SCL)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "15",
+          "function": "SCL_15",
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J3-SDA)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "16",
+          "function": "SDA_16",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(R26-Pad2)",
+      "nodes": [
+        {
+          "ref": "R26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "function": null,
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "6",
+          "function": null,
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(T1-SB)",
+      "nodes": [
+        {
+          "ref": "C3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "T1",
+          "pin": "6",
+          "function": "SB_6",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-Pad2)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "2",
+          "function": null,
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "function": null,
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_21-Pad21)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "21",
+          "function": "Pin_21_21",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_23-Pad23)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "23",
+          "function": "Pin_23_23",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_25-Pad25)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "25",
+          "function": "Pin_25_25",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_27-Pad27)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "27",
+          "function": "Pin_27_27",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_29-Pad29)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "29",
+          "function": "Pin_29_29",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_31-Pad31)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "31",
+          "function": "Pin_31_31",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_33-Pad33)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "33",
+          "function": "Pin_33_33",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_35-Pad35)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "35",
+          "function": "Pin_35_35",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_41-Pad41)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "41",
+          "function": "Pin_41_41",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_43-Pad43)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "43",
+          "function": "Pin_43_43",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pin_45-Pad45)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "45",
+          "function": "Pin_45_45",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J3-+5V-Pad18)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "18",
+          "function": "+5V_18",
+          "type": "power_in+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J3-CEC-Pad13)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "13",
+          "function": "CEC_13",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J3-HPD-Pad19)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "19",
+          "function": "HPD_19",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J3-UTILITY-Pad14)",
+      "nodes": [
+        {
+          "ref": "J3",
+          "pin": "14",
+          "function": "UTILITY_14",
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(T1-NC-Pad2)",
+      "nodes": [
+        {
+          "ref": "T1",
+          "pin": "2",
+          "function": "NC_2",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(T1-NC-Pad5)",
+      "nodes": [
+        {
+          "ref": "T1",
+          "pin": "5",
+          "function": "NC_5",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad8)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "8",
+          "function": null,
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad10)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "10",
+          "function": null,
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-Pad12)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "12",
+          "function": null,
+          "type": "output+no_connect"
+        }
+      ]
+    }
+  ]
+}

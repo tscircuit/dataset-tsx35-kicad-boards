@@ -1,0 +1,21 @@
+{
+  "id": "b04-trellis",
+  "success": true,
+  "terminals_checked": 333,
+  "schematic_nets": 126,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [
+    [
+      "J1",
+      "A8"
+    ],
+    [
+      "J1",
+      "B8"
+    ]
+  ],
+  "mismatches": [],
+  "warnings": ""
+}

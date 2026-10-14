@@ -1,0 +1,1513 @@
+{
+  "provenance": {
+    "id": "antmicro_dual-ipex-csi-interposer",
+    "name": "Antmicro dual IPEX CSI interposer",
+    "author": "Antmicro",
+    "licence": "Apache-2.0",
+    "source": "https://github.com/antmicro/dual-ipex-csi-interposer",
+    "commit": "6b6bd0af5aafe13c02377d534a23a6373922f350",
+    "connections": 85,
+    "pcb": {
+      "path": "dual-ipex-csi-interposer.kicad_pcb",
+      "git_blob_sha": "da7050ccd413e9aaff2a46699ff8e9b99ed42880",
+      "size_bytes": 633689,
+      "download_url": "https://raw.githubusercontent.com/antmicro/dual-ipex-csi-interposer/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb"
+    },
+    "sha256": "aa46f0018b1e73e7af97d4b38f14ad50d19a662bc9bee965c6d24ed69b8b47f7"
+  },
+  "components": [
+    {
+      "name": "J1",
+      "originalName": "J1",
+      "value": "WE_68715014522",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:WE_68715014522",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -0.7499999999996589,
+        "y": 0.025000000000005684
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        },
+        {
+          "original": "33",
+          "pin": "pin33"
+        },
+        {
+          "original": "34",
+          "pin": "pin34"
+        },
+        {
+          "original": "35",
+          "pin": "pin35"
+        },
+        {
+          "original": "36",
+          "pin": "pin36"
+        },
+        {
+          "original": "37",
+          "pin": "pin37"
+        },
+        {
+          "original": "38",
+          "pin": "pin38"
+        },
+        {
+          "original": "39",
+          "pin": "pin39"
+        },
+        {
+          "original": "40",
+          "pin": "pin40"
+        },
+        {
+          "original": "41",
+          "pin": "pin41"
+        },
+        {
+          "original": "42",
+          "pin": "pin42"
+        },
+        {
+          "original": "43",
+          "pin": "pin43"
+        },
+        {
+          "original": "44",
+          "pin": "pin44"
+        },
+        {
+          "original": "45",
+          "pin": "pin45"
+        },
+        {
+          "original": "46",
+          "pin": "pin46"
+        },
+        {
+          "original": "47",
+          "pin": "pin47"
+        },
+        {
+          "original": "48",
+          "pin": "pin48"
+        },
+        {
+          "original": "49",
+          "pin": "pin49"
+        },
+        {
+          "original": "50",
+          "pin": "pin50"
+        },
+        {
+          "original": "~",
+          "pin": "pin51"
+        }
+      ]
+    },
+    {
+      "name": "N1",
+      "originalName": "N1",
+      "value": "oshw_logo",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:oshw-logo",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -9.449999999999662,
+        "y": -24.07499999999999
+      },
+      "pins": []
+    },
+    {
+      "name": "N2",
+      "originalName": "N2",
+      "value": "antmicro_logo",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:antmicro-logo_scaled_12mm",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -10.749999999999659,
+        "y": 13.175000000000011
+      },
+      "pins": []
+    },
+    {
+      "name": "MP4",
+      "originalName": "MP4",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 11.000000000000341,
+        "y": -29.924999999999983
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "MP2",
+      "originalName": "MP2",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -10.999999999999659,
+        "y": -29.924999999999983
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "MP1",
+      "originalName": "MP1",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -10.999999999999659,
+        "y": 29.905000000000015
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "originalName": "R1",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7250000000003354,
+        "y": 20.85000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "originalName": "R2",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7250000000003354,
+        "y": 21.92500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP8",
+      "originalName": "TP8",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -1.049999999999656,
+        "y": 23.275000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP7",
+      "originalName": "TP7",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -1.049999999999656,
+        "y": 24.625800000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP1",
+      "originalName": "TP1",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 5.700000000000344,
+        "y": 27.92500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP2",
+      "originalName": "TP2",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 7.100000000000335,
+        "y": 27.92500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP5",
+      "originalName": "TP5",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -1.0999999999996533,
+        "y": 20.42500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP4",
+      "originalName": "TP4",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -1.1499999999996646,
+        "y": -24.224999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP3",
+      "originalName": "TP3",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -1.1499999999996646,
+        "y": -22.724999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP6",
+      "originalName": "TP6",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -1.0999999999996533,
+        "y": 21.774200000000008
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "MP3",
+      "originalName": "MP3",
+      "value": "PCB_Mount_Hole_2.2_4.5",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 11.000000000000341,
+        "y": 29.92500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R7",
+      "originalName": "R7",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7100000000003348,
+        "y": -21.85499999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-cap",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -6.169999999999661,
+        "y": 27.67500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "originalName": "R8",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7250000000003354,
+        "y": 22.97500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "originalName": "R6",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7250000000003354,
+        "y": 24.05000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP9",
+      "originalName": "TP9",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 5.650000000000347,
+        "y": -29.125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP10",
+      "originalName": "TP10",
+      "value": "TP_SMD1MM",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 7.050000000000338,
+        "y": -29.125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "originalName": "R5",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7000000000003439,
+        "y": -20.794999999999987
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-cap",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -6.170000999999658,
+        "y": 30.46900000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7100000000003348,
+        "y": -22.894999999999982
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:0402-res",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 0.7100000000003348,
+        "y": -23.964999999999975
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "MSAK24025P30",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:MSAK24025P30",
+      "layer": "bottom",
+      "rotation": 90,
+      "center": {
+        "x": 10.250000000000341,
+        "y": 14.425000000000011
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "~",
+          "pin": "pin31"
+        }
+      ]
+    },
+    {
+      "name": "J3",
+      "originalName": "J3",
+      "value": "MSAK24025P30",
+      "kind": "chip",
+      "footprint": "dual-ipex-csi-interposer-footprints:MSAK24025P30",
+      "layer": "bottom",
+      "rotation": 90,
+      "center": {
+        "x": 10.250000000000341,
+        "y": -14.375
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "~",
+          "pin": "pin31"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "CAM2_CSI_D3_N",
+      "runtimeName": "CAM2_CSI_D3_N",
+      "targets": [
+        ".J1 > .pin1",
+        ".J3 > .pin2"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D3_P",
+      "runtimeName": "CAM2_CSI_D3_P",
+      "targets": [
+        ".J1 > .pin2",
+        ".J3 > .pin3"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D2_N",
+      "runtimeName": "CAM2_CSI_D2_N",
+      "targets": [
+        ".J1 > .pin3",
+        ".J3 > .pin5"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D2_P",
+      "runtimeName": "CAM2_CSI_D2_P",
+      "targets": [
+        ".J1 > .pin4",
+        ".J3 > .pin6"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D1_N",
+      "runtimeName": "CAM2_CSI_D1_N",
+      "targets": [
+        ".J1 > .pin5",
+        ".J3 > .pin8"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D1_P",
+      "runtimeName": "CAM2_CSI_D1_P",
+      "targets": [
+        ".J1 > .pin6",
+        ".J3 > .pin9"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D0_N",
+      "runtimeName": "CAM2_CSI_D0_N",
+      "targets": [
+        ".J1 > .pin7",
+        ".J3 > .pin11"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_D0_P",
+      "runtimeName": "CAM2_CSI_D0_P",
+      "targets": [
+        ".J1 > .pin8",
+        ".J3 > .pin12"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".J1 > .pin9",
+        ".J1 > .pin12",
+        ".J1 > .pin15",
+        ".J1 > .pin18",
+        ".J1 > .pin27",
+        ".J1 > .pin30",
+        ".C1 > .pin2",
+        ".C2 > .pin2",
+        ".J2 > .pin1",
+        ".J2 > .pin4",
+        ".J2 > .pin7",
+        ".J2 > .pin10",
+        ".J2 > .pin13",
+        ".J2 > .pin16",
+        ".J2 > .pin19",
+        ".J3 > .pin1",
+        ".J3 > .pin4",
+        ".J3 > .pin7",
+        ".J3 > .pin10",
+        ".J3 > .pin13",
+        ".J3 > .pin16",
+        ".J3 > .pin19"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CLK_N",
+      "runtimeName": "CAM2_CSI_CLK_N",
+      "targets": [
+        ".J1 > .pin10",
+        ".J3 > .pin14"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CLK_P",
+      "runtimeName": "CAM2_CSI_CLK_P",
+      "targets": [
+        ".J1 > .pin11",
+        ".J3 > .pin15"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad13)",
+      "runtimeName": "unconnected__J1_Pad13_",
+      "targets": [
+        ".J1 > .pin13"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad14)",
+      "runtimeName": "unconnected__J1_Pad14_",
+      "targets": [
+        ".J1 > .pin14"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad16)",
+      "runtimeName": "unconnected__J1_Pad16_",
+      "targets": [
+        ".J1 > .pin16"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad17)",
+      "runtimeName": "unconnected__J1_Pad17_",
+      "targets": [
+        ".J1 > .pin17"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D3_N",
+      "runtimeName": "CAM1_CSI_D3_N",
+      "targets": [
+        ".J1 > .pin19",
+        ".J2 > .pin2"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D3_P",
+      "runtimeName": "CAM1_CSI_D3_P",
+      "targets": [
+        ".J1 > .pin20",
+        ".J2 > .pin3"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D2_N",
+      "runtimeName": "CAM1_CSI_D2_N",
+      "targets": [
+        ".J1 > .pin21",
+        ".J2 > .pin5"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D2_P",
+      "runtimeName": "CAM1_CSI_D2_P",
+      "targets": [
+        ".J1 > .pin22",
+        ".J2 > .pin6"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D1_N",
+      "runtimeName": "CAM1_CSI_D1_N",
+      "targets": [
+        ".J1 > .pin23",
+        ".J2 > .pin8"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D1_P",
+      "runtimeName": "CAM1_CSI_D1_P",
+      "targets": [
+        ".J1 > .pin24",
+        ".J2 > .pin9"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D0_N",
+      "runtimeName": "CAM1_CSI_D0_N",
+      "targets": [
+        ".J1 > .pin25",
+        ".J2 > .pin11"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_D0_P",
+      "runtimeName": "CAM1_CSI_D0_P",
+      "targets": [
+        ".J1 > .pin26",
+        ".J2 > .pin12"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CLK_N",
+      "runtimeName": "CAM1_CSI_CLK_N",
+      "targets": [
+        ".J1 > .pin28",
+        ".J2 > .pin14"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CLK_P",
+      "runtimeName": "CAM1_CSI_CLK_P",
+      "targets": [
+        ".J1 > .pin29",
+        ".J2 > .pin15"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad31)",
+      "runtimeName": "unconnected__J1_Pad31_",
+      "targets": [
+        ".J1 > .pin31"
+      ]
+    },
+    {
+      "name": "/CAM_CSI_CAM_EN",
+      "runtimeName": "_CAM_CSI_CAM_EN",
+      "targets": [
+        ".J1 > .pin32",
+        ".TP7 > .pin1",
+        ".R6 > .pin2",
+        ".R5 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad33)",
+      "runtimeName": "unconnected__J1_Pad33_",
+      "targets": [
+        ".J1 > .pin33"
+      ]
+    },
+    {
+      "name": "/CAM_CSI_CAM_XVS",
+      "runtimeName": "_CAM_CSI_CAM_XVS",
+      "targets": [
+        ".J1 > .pin34",
+        ".TP8 > .pin1",
+        ".R7 > .pin2",
+        ".R8 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad35)",
+      "runtimeName": "unconnected__J1_Pad35_",
+      "targets": [
+        ".J1 > .pin35"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad36)",
+      "runtimeName": "unconnected__J1_Pad36_",
+      "targets": [
+        ".J1 > .pin36"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad37)",
+      "runtimeName": "unconnected__J1_Pad37_",
+      "targets": [
+        ".J1 > .pin37"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad38)",
+      "runtimeName": "unconnected__J1_Pad38_",
+      "targets": [
+        ".J1 > .pin38"
+      ]
+    },
+    {
+      "name": "/CAM_L_SDA",
+      "runtimeName": "_CAM_L_SDA",
+      "targets": [
+        ".J1 > .pin39",
+        ".TP3 > .pin1",
+        ".R4 > .pin2"
+      ]
+    },
+    {
+      "name": "/CAM_L_SCL",
+      "runtimeName": "_CAM_L_SCL",
+      "targets": [
+        ".J1 > .pin40",
+        ".TP4 > .pin1",
+        ".R3 > .pin2"
+      ]
+    },
+    {
+      "name": "/CAM_R_SDA",
+      "runtimeName": "_CAM_R_SDA",
+      "targets": [
+        ".J1 > .pin41",
+        ".R2 > .pin2",
+        ".TP6 > .pin1"
+      ]
+    },
+    {
+      "name": "/CAM_R_SCL",
+      "runtimeName": "_CAM_R_SCL",
+      "targets": [
+        ".J1 > .pin42",
+        ".R1 > .pin2",
+        ".TP5 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad43)",
+      "runtimeName": "unconnected__J1_Pad43_",
+      "targets": [
+        ".J1 > .pin43"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad44)",
+      "runtimeName": "unconnected__J1_Pad44_",
+      "targets": [
+        ".J1 > .pin44"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad45)",
+      "runtimeName": "unconnected__J1_Pad45_",
+      "targets": [
+        ".J1 > .pin45"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad46)",
+      "runtimeName": "unconnected__J1_Pad46_",
+      "targets": [
+        ".J1 > .pin46"
+      ]
+    },
+    {
+      "name": "3V3_FFC",
+      "runtimeName": "_3V3_FFC",
+      "targets": [
+        ".J1 > .pin47",
+        ".J1 > .pin48",
+        ".C1 > .pin1",
+        ".J2 > .pin24",
+        ".J2 > .pin25",
+        ".J2 > .pin26",
+        ".J3 > .pin24",
+        ".J3 > .pin25",
+        ".J3 > .pin26"
+      ]
+    },
+    {
+      "name": "5V0_SYS",
+      "runtimeName": "_5V0_SYS",
+      "targets": [
+        ".J1 > .pin49",
+        ".J1 > .pin50",
+        ".C2 > .pin1",
+        ".J2 > .pin27",
+        ".J2 > .pin28",
+        ".J2 > .pin29",
+        ".J2 > .pin30",
+        ".J3 > .pin27",
+        ".J3 > .pin28",
+        ".J3 > .pin29",
+        ".J3 > .pin30"
+      ]
+    },
+    {
+      "name": "CAM1_SCL",
+      "runtimeName": "CAM1_SCL",
+      "targets": [
+        ".R1 > .pin1",
+        ".J2 > .pin18"
+      ]
+    },
+    {
+      "name": "CAM1_SDA",
+      "runtimeName": "CAM1_SDA",
+      "targets": [
+        ".R2 > .pin1",
+        ".J2 > .pin17"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_CLK",
+      "runtimeName": "CAM1_CSI_CAM_CLK",
+      "targets": [
+        ".TP1 > .pin1",
+        ".J2 > .pin22"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_XTRIG",
+      "runtimeName": "CAM1_CSI_CAM_XTRIG",
+      "targets": [
+        ".TP2 > .pin1",
+        ".J2 > .pin23"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_XVS",
+      "runtimeName": "CAM2_CSI_CAM_XVS",
+      "targets": [
+        ".R7 > .pin1",
+        ".J3 > .pin21"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_XVS",
+      "runtimeName": "CAM1_CSI_CAM_XVS",
+      "targets": [
+        ".R8 > .pin1",
+        ".J2 > .pin21"
+      ]
+    },
+    {
+      "name": "CAM1_CSI_CAM_EN",
+      "runtimeName": "CAM1_CSI_CAM_EN",
+      "targets": [
+        ".R6 > .pin1",
+        ".J2 > .pin20"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_CLK",
+      "runtimeName": "CAM2_CSI_CAM_CLK",
+      "targets": [
+        ".TP9 > .pin1",
+        ".J3 > .pin22"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_XTRIG",
+      "runtimeName": "CAM2_CSI_CAM_XTRIG",
+      "targets": [
+        ".TP10 > .pin1",
+        ".J3 > .pin23"
+      ]
+    },
+    {
+      "name": "CAM2_CSI_CAM_EN",
+      "runtimeName": "CAM2_CSI_CAM_EN",
+      "targets": [
+        ".R5 > .pin1",
+        ".J3 > .pin20"
+      ]
+    },
+    {
+      "name": "CAM2_SDA",
+      "runtimeName": "CAM2_SDA",
+      "targets": [
+        ".R4 > .pin1",
+        ".J3 > .pin17"
+      ]
+    },
+    {
+      "name": "CAM2_SCL",
+      "runtimeName": "CAM2_SCL",
+      "targets": [
+        ".R3 > .pin1",
+        ".J3 > .pin18"
+      ]
+    }
+  ]
+}

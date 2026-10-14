@@ -1,0 +1,5997 @@
+{
+  "scale_mm_to_schematic": 0.07874015748031496,
+  "sheets": [
+    {
+      "name": "Overview",
+      "file": "Xerxes/Xerxes.kicad_sch",
+      "paper": "A2",
+      "symbols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "children": []
+    }
+  ],
+  "symbols": [
+    {
+      "ref": "U7",
+      "originalRef": "U7",
+      "value": "CDDFN10-3324P",
+      "lib": "Xerxes:TPD4EUSB30",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -9.65,
+      "y": 5.000000000000002,
+      "boxX": -9.65,
+      "boxY": 5.000000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "D1+",
+          "x": -10.65,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "~",
+          "x": -10.65,
+          "y": 5.200000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "D1-",
+          "x": -10.65,
+          "y": 4.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "~",
+          "x": -10.65,
+          "y": 4.8000000000000025,
+          "hidden": true
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "GND",
+          "x": -9.65,
+          "y": 4.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "GND",
+          "x": -9.65,
+          "y": 4.000000000000002,
+          "hidden": true
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "D2+",
+          "x": -8.650000000000002,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "~",
+          "x": -8.650000000000002,
+          "y": 5.200000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "D2-",
+          "x": -8.650000000000002,
+          "y": 4.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "~",
+          "x": -8.650000000000002,
+          "y": 4.8000000000000025,
+          "hidden": true
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin10",
+          "pin2",
+          "pin9"
+        ],
+        "rightSide": [
+          "pin4",
+          "pin7",
+          "pin5",
+          "pin6"
+        ],
+        "bottomSide": [
+          "pin3",
+          "pin8"
+        ]
+      },
+      "width": 1.1999999999999993,
+      "height": 1.1999999999999993
+    },
+    {
+      "ref": "J2",
+      "originalRef": "J2",
+      "value": "USB_C_Receptacle_USB2.0_16P",
+      "lib": "Xerxes:USB_C_Receptacle_USB2.0_16P",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -0.8499999999999979,
+      "y": 9.400000000000002,
+      "boxX": -0.8499999999999979,
+      "boxY": 9.400000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin17",
+          "number": "S1",
+          "label": "SHIELD",
+          "x": -1.4499999999999993,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "A1",
+          "label": "GND",
+          "x": -0.8499999999999979,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "A12",
+          "label": "GND",
+          "x": -0.8499999999999979,
+          "y": 7.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin9",
+          "number": "B1",
+          "label": "GND",
+          "x": -0.8499999999999979,
+          "y": 7.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin16",
+          "number": "B12",
+          "label": "GND",
+          "x": -0.8499999999999979,
+          "y": 7.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin2",
+          "number": "A4",
+          "label": "VBUS",
+          "x": 0.3500000000000014,
+          "y": 10.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "A9",
+          "label": "VBUS",
+          "x": 0.3500000000000014,
+          "y": 10.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin10",
+          "number": "B4",
+          "label": "VBUS",
+          "x": 0.3500000000000014,
+          "y": 10.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin15",
+          "number": "B9",
+          "label": "VBUS",
+          "x": 0.3500000000000014,
+          "y": 10.600000000000001,
+          "hidden": true
+        },
+        {
+          "pin": "pin3",
+          "number": "A5",
+          "label": "CC1",
+          "x": 0.3500000000000014,
+          "y": 10.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "B5",
+          "label": "CC2",
+          "x": 0.3500000000000014,
+          "y": 10.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "A7",
+          "label": "D-",
+          "x": 0.3500000000000014,
+          "y": 9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "B7",
+          "label": "D-",
+          "x": 0.3500000000000014,
+          "y": 9.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "A6",
+          "label": "D+",
+          "x": 0.3500000000000014,
+          "y": 9.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "B6",
+          "label": "D+",
+          "x": 0.3500000000000014,
+          "y": 9.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "A8",
+          "label": "SBU1",
+          "x": 0.3500000000000014,
+          "y": 8.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "B8",
+          "label": "SBU2",
+          "x": 0.3500000000000014,
+          "y": 8.200000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin2",
+          "pin7",
+          "pin10",
+          "pin15",
+          "pin3",
+          "pin11",
+          "pin5",
+          "pin13",
+          "pin4",
+          "pin12",
+          "pin6",
+          "pin14"
+        ],
+        "bottomSide": [
+          "pin17",
+          "pin1",
+          "pin8",
+          "pin9",
+          "pin16"
+        ]
+      },
+      "width": 1.6000000000000014,
+      "height": 2.8
+    },
+    {
+      "ref": "Conn1",
+      "originalRef": "Conn1",
+      "value": "ComputeModule5 GPIO rail",
+      "lib": "Xerxes:CM5_GPIO",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -17.35,
+      "y": 6.800000000000001,
+      "boxX": -17.55,
+      "boxY": 6.300000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": -19.95,
+          "y": 11.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "Ethernet_Pair1_P",
+          "x": -19.95,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "Ethernet_Pair1_N",
+          "x": -19.95,
+          "y": 10.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "GND",
+          "x": -19.95,
+          "y": 10.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "Ethernet_Pair0_N",
+          "x": -19.95,
+          "y": 10.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "Ethernet_Pair0_P",
+          "x": -19.95,
+          "y": 10.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "GND",
+          "x": -19.95,
+          "y": 10.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "FAN_TACHO",
+          "x": -19.95,
+          "y": 9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "Ethernet_SYNC_OUT(3.3v)",
+          "x": -19.95,
+          "y": 9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "EEPROM_nWP",
+          "x": -19.95,
+          "y": 9.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "GND",
+          "x": -19.95,
+          "y": 9.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "GPIO26",
+          "x": -19.95,
+          "y": 9.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "GPIO19",
+          "x": -19.95,
+          "y": 8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "GPIO13",
+          "x": -19.95,
+          "y": 8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "GPIO6",
+          "x": -19.95,
+          "y": 8.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "GND",
+          "x": -19.95,
+          "y": 8.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin34",
+          "number": "34",
+          "label": "GPIO5",
+          "x": -19.95,
+          "y": 8.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin36",
+          "number": "36",
+          "label": "ID_SD",
+          "x": -19.95,
+          "y": 7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin38",
+          "number": "38",
+          "label": "GPIO11",
+          "x": -19.95,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin40",
+          "number": "40",
+          "label": "GPIO9",
+          "x": -19.95,
+          "y": 7.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin42",
+          "number": "42",
+          "label": "GND",
+          "x": -19.95,
+          "y": 7.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin44",
+          "number": "44",
+          "label": "GPIO10",
+          "x": -19.95,
+          "y": 7.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin46",
+          "number": "46",
+          "label": "GPIO22",
+          "x": -19.95,
+          "y": 6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin48",
+          "number": "48",
+          "label": "GPIO27",
+          "x": -19.95,
+          "y": 6.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin50",
+          "number": "50",
+          "label": "GPIO17",
+          "x": -19.95,
+          "y": 6.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin52",
+          "number": "52",
+          "label": "GND",
+          "x": -19.95,
+          "y": 6.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin54",
+          "number": "54",
+          "label": "GPIO4",
+          "x": -19.95,
+          "y": 6.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin56",
+          "number": "56",
+          "label": "GPIO3",
+          "x": -19.95,
+          "y": 5.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin58",
+          "number": "58",
+          "label": "GPIO2",
+          "x": -19.95,
+          "y": 5.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin60",
+          "number": "60",
+          "label": "GND",
+          "x": -19.95,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin62",
+          "number": "62",
+          "label": "SD_CMD",
+          "x": -19.95,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin64",
+          "number": "64",
+          "label": "SD_DAT5",
+          "x": -19.95,
+          "y": 5.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin66",
+          "number": "66",
+          "label": "GND",
+          "x": -19.95,
+          "y": 4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin68",
+          "number": "68",
+          "label": "SD_DAT4",
+          "x": -19.95,
+          "y": 4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin70",
+          "number": "70",
+          "label": "SD_DAT7",
+          "x": -19.95,
+          "y": 4.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin72",
+          "number": "72",
+          "label": "SD_DAT6",
+          "x": -19.95,
+          "y": 4.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin74",
+          "number": "74",
+          "label": "GND",
+          "x": -19.95,
+          "y": 4.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin76",
+          "number": "76",
+          "label": "VBAT",
+          "x": -19.95,
+          "y": 3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin78",
+          "number": "78",
+          "label": "GPIO_VREF(1.8v/3.3v_Input)",
+          "x": -19.95,
+          "y": 3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin80",
+          "number": "80",
+          "label": "SCL0",
+          "x": -19.95,
+          "y": 3.4000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin82",
+          "number": "82",
+          "label": "SDA0",
+          "x": -19.95,
+          "y": 3.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin84",
+          "number": "84",
+          "label": "+3.3v_(Output)",
+          "x": -19.95,
+          "y": 3.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin86",
+          "number": "86",
+          "label": "+3.3v_(Output)",
+          "x": -19.95,
+          "y": 2.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin88",
+          "number": "88",
+          "label": "+1.8v_(Output)",
+          "x": -19.95,
+          "y": 2.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin90",
+          "number": "90",
+          "label": "+1.8v_(Output)",
+          "x": -19.95,
+          "y": 2.4000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin92",
+          "number": "92",
+          "label": "PWR_BUT",
+          "x": -19.95,
+          "y": 2.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin94",
+          "number": "94",
+          "label": "CC1",
+          "x": -19.95,
+          "y": 2.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin96",
+          "number": "96",
+          "label": "CC2",
+          "x": -19.95,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin98",
+          "number": "98",
+          "label": "GND",
+          "x": -19.95,
+          "y": 1.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin100",
+          "number": "100",
+          "label": "CAM_GPIO1",
+          "x": -19.95,
+          "y": 1.4000000000000021,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 11.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Ethernet_Pair3_P",
+          "x": -15.149999999999999,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "Ethernet_Pair3_N",
+          "x": -15.149999999999999,
+          "y": 10.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 10.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "Ethernet_Pair2_N",
+          "x": -15.149999999999999,
+          "y": 10.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "Ethernet_Pair2_P",
+          "x": -15.149999999999999,
+          "y": 10.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 10.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "Ethernet_nLED3(3.3v)",
+          "x": -15.149999999999999,
+          "y": 9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "Ethernet_nLED2(3.3v)",
+          "x": -15.149999999999999,
+          "y": 9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "FAN_PWM",
+          "x": -15.149999999999999,
+          "y": 9.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "LED_nACT",
+          "x": -15.149999999999999,
+          "y": 9.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 9.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "GPIO21",
+          "x": -15.149999999999999,
+          "y": 8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "GPIO20",
+          "x": -15.149999999999999,
+          "y": 8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "GPIO16",
+          "x": -15.149999999999999,
+          "y": 8.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "GPIO12",
+          "x": -15.149999999999999,
+          "y": 8.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin33",
+          "number": "33",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 8.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin35",
+          "number": "35",
+          "label": "ID_SC",
+          "x": -15.149999999999999,
+          "y": 7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin37",
+          "number": "37",
+          "label": "GPIO7",
+          "x": -15.149999999999999,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin39",
+          "number": "39",
+          "label": "GPIO8",
+          "x": -15.149999999999999,
+          "y": 7.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin41",
+          "number": "41",
+          "label": "GPIO25",
+          "x": -15.149999999999999,
+          "y": 7.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin43",
+          "number": "43",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 7.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin45",
+          "number": "45",
+          "label": "GPIO24",
+          "x": -15.149999999999999,
+          "y": 6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin47",
+          "number": "47",
+          "label": "GPIO23",
+          "x": -15.149999999999999,
+          "y": 6.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin49",
+          "number": "49",
+          "label": "GPIO18",
+          "x": -15.149999999999999,
+          "y": 6.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin51",
+          "number": "51",
+          "label": "GPIO15",
+          "x": -15.149999999999999,
+          "y": 6.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin53",
+          "number": "53",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 6.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin55",
+          "number": "55",
+          "label": "GPIO14",
+          "x": -15.149999999999999,
+          "y": 5.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin57",
+          "number": "57",
+          "label": "SD_CLK",
+          "x": -15.149999999999999,
+          "y": 5.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin59",
+          "number": "59",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 5.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin61",
+          "number": "61",
+          "label": "SD_DAT3",
+          "x": -15.149999999999999,
+          "y": 5.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin63",
+          "number": "63",
+          "label": "SD_DAT0",
+          "x": -15.149999999999999,
+          "y": 5.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin65",
+          "number": "65",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin67",
+          "number": "67",
+          "label": "SD_DAT1",
+          "x": -15.149999999999999,
+          "y": 4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin69",
+          "number": "69",
+          "label": "SD_DAT2",
+          "x": -15.149999999999999,
+          "y": 4.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin71",
+          "number": "71",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": 4.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin73",
+          "number": "73",
+          "label": "SD_VDD_Override",
+          "x": -15.149999999999999,
+          "y": 4.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin75",
+          "number": "75",
+          "label": "SD_PWR_ON",
+          "x": -15.149999999999999,
+          "y": 3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin77",
+          "number": "77",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin79",
+          "number": "79",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 3.4000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin81",
+          "number": "81",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 3.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin83",
+          "number": "83",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 3.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin85",
+          "number": "85",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 2.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin87",
+          "number": "87",
+          "label": "+5v_(Input)",
+          "x": -15.149999999999999,
+          "y": 2.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin89",
+          "number": "89",
+          "label": "WiFi_nDisable",
+          "x": -15.149999999999999,
+          "y": 2.4000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin91",
+          "number": "91",
+          "label": "BT_nDisable",
+          "x": -15.149999999999999,
+          "y": 2.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin93",
+          "number": "93",
+          "label": "nRPIBOOT",
+          "x": -15.149999999999999,
+          "y": 2.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin95",
+          "number": "95",
+          "label": "LED_nPWR",
+          "x": -15.149999999999999,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin97",
+          "number": "97",
+          "label": "CAM_GPIO0",
+          "x": -15.149999999999999,
+          "y": 1.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin99",
+          "number": "99",
+          "label": "PMIC_ENABLE",
+          "x": -15.149999999999999,
+          "y": 1.4000000000000021,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2",
+          "pin4",
+          "pin6",
+          "pin8",
+          "pin10",
+          "pin12",
+          "pin14",
+          "pin16",
+          "pin18",
+          "pin20",
+          "pin22",
+          "pin24",
+          "pin26",
+          "pin28",
+          "pin30",
+          "pin32",
+          "pin34",
+          "pin36",
+          "pin38",
+          "pin40",
+          "pin42",
+          "pin44",
+          "pin46",
+          "pin48",
+          "pin50",
+          "pin52",
+          "pin54",
+          "pin56",
+          "pin58",
+          "pin60",
+          "pin62",
+          "pin64",
+          "pin66",
+          "pin68",
+          "pin70",
+          "pin72",
+          "pin74",
+          "pin76",
+          "pin78",
+          "pin80",
+          "pin82",
+          "pin84",
+          "pin86",
+          "pin88",
+          "pin90",
+          "pin92",
+          "pin94",
+          "pin96",
+          "pin98",
+          "pin100"
+        ],
+        "rightSide": [
+          "pin1",
+          "pin3",
+          "pin5",
+          "pin7",
+          "pin9",
+          "pin11",
+          "pin13",
+          "pin15",
+          "pin17",
+          "pin19",
+          "pin21",
+          "pin23",
+          "pin25",
+          "pin27",
+          "pin29",
+          "pin31",
+          "pin33",
+          "pin35",
+          "pin37",
+          "pin39",
+          "pin41",
+          "pin43",
+          "pin45",
+          "pin47",
+          "pin49",
+          "pin51",
+          "pin53",
+          "pin55",
+          "pin57",
+          "pin59",
+          "pin61",
+          "pin63",
+          "pin65",
+          "pin67",
+          "pin69",
+          "pin71",
+          "pin73",
+          "pin75",
+          "pin77",
+          "pin79",
+          "pin81",
+          "pin83",
+          "pin85",
+          "pin87",
+          "pin89",
+          "pin91",
+          "pin93",
+          "pin95",
+          "pin97",
+          "pin99"
+        ]
+      },
+      "width": 4.4,
+      "height": 10.200000000000001
+    },
+    {
+      "ref": "U2",
+      "originalRef": "U2",
+      "value": "ASEK-32.768KHZ-L-R-T",
+      "lib": "Xerxes:ASEK-32.768KHZ-L-R-T",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 15.45,
+      "y": 3.3000000000000007,
+      "boxX": 15.45,
+      "boxY": 3.3000000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "EN",
+          "x": 14.749999999999996,
+          "y": 3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": 14.749999999999996,
+          "y": 3.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "VDD",
+          "x": 16.150000000000002,
+          "y": 3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Out",
+          "x": 16.150000000000002,
+          "y": 3.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2"
+        ],
+        "rightSide": [
+          "pin4",
+          "pin3"
+        ]
+      },
+      "width": 1.0,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "J8",
+      "originalRef": "J8",
+      "value": "BM03B-SRSS-TBLFSN",
+      "lib": "Xerxes:BM03B-SRSS-TBLFSN",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 2.4499999999999993,
+      "y": -8.900000000000002,
+      "boxX": 2.4499999999999993,
+      "boxY": -9.100000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 2.4499999999999993,
+          "y": -8.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 2.4499999999999993,
+          "y": -9.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": 2.4499999999999993,
+          "y": -9.3,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin2"
+        ],
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin3"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R14",
+      "originalRef": "R14",
+      "value": "5.1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.3500000000000014,
+      "y": 9.700000000000001,
+      "boxX": 1.3500000000000014,
+      "boxY": 9.700000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.3500000000000014,
+          "y": 10.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.3500000000000014,
+          "y": 9.400000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J7",
+      "originalRef": "J7",
+      "value": "BM04B-SRSS-TBLFSN",
+      "lib": "Xerxes:BM04B-SRSS-TB",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -1.1499999999999986,
+      "y": -8.799999999999997,
+      "boxX": -1.1499999999999986,
+      "boxY": -9.099999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -1.1499999999999986,
+          "y": -8.799999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -1.1499999999999986,
+          "y": -8.999999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": -1.1499999999999986,
+          "y": -9.199999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "4",
+          "x": -1.1499999999999986,
+          "y": -9.399999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1",
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin3",
+          "pin4"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R11",
+      "originalRef": "R11",
+      "value": "1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 0.15000000000000213,
+      "y": -5.299999999999997,
+      "boxX": 0.15000000000000213,
+      "boxY": -5.299999999999997,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 0.15000000000000213,
+          "y": -4.9999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 0.15000000000000213,
+          "y": -5.599999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C6",
+      "originalRef": "C6",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 7.850000000000005,
+      "y": 0.3000000000000025,
+      "boxX": 7.850000000000005,
+      "boxY": 0.30000000000000426,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 7.850000000000005,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 7.850000000000005,
+          "y": 3.552713678800501e-15,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "D2",
+      "originalRef": "D2",
+      "value": "LED Red",
+      "lib": "Xerxes:LED",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 0.15000000000000213,
+      "y": -4.599999999999998,
+      "boxX": 0.15000000000000213,
+      "boxY": -4.599999999999998,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "K",
+          "x": 0.15000000000000213,
+          "y": -4.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A",
+          "x": 0.15000000000000213,
+          "y": -4.299999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C1",
+      "originalRef": "C1",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -10.55,
+      "y": 10.600000000000001,
+      "boxX": -10.55,
+      "boxY": 10.600000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -10.55,
+          "y": 10.9,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -10.55,
+          "y": 10.3,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R3",
+      "originalRef": "R3",
+      "value": "1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 14.349999999999998,
+      "y": 7.0,
+      "boxX": 14.349999999999998,
+      "boxY": 7.0,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 14.349999999999998,
+          "y": 7.300000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 14.349999999999998,
+          "y": 6.699999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J3",
+      "originalRef": "J3",
+      "value": "Bus_M.2_Socket_M",
+      "lib": "Xerxes:Bus_M.2_Socket_M",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 11.150000000000002,
+      "y": 7.200000000000001,
+      "boxX": 11.150000000000002,
+      "boxY": 7.200000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin50",
+          "number": "50",
+          "label": "~{PERST}",
+          "x": 9.150000000000002,
+          "y": 10.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin52",
+          "number": "52",
+          "label": "~{CLKREQ}",
+          "x": 9.150000000000002,
+          "y": 10.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin54",
+          "number": "54",
+          "label": "~{PEWAKE}",
+          "x": 9.150000000000002,
+          "y": 10.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin49",
+          "number": "49",
+          "label": "PERp0",
+          "x": 9.150000000000002,
+          "y": 9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin47",
+          "number": "47",
+          "label": "PERn0",
+          "x": 9.150000000000002,
+          "y": 9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin43",
+          "number": "43",
+          "label": "PETp0",
+          "x": 9.150000000000002,
+          "y": 9.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin41",
+          "number": "41",
+          "label": "PETn0",
+          "x": 9.150000000000002,
+          "y": 9.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin37",
+          "number": "37",
+          "label": "PERp1",
+          "x": 9.150000000000002,
+          "y": 9.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin35",
+          "number": "35",
+          "label": "PERn1",
+          "x": 9.150000000000002,
+          "y": 8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "PETp1",
+          "x": 9.150000000000002,
+          "y": 8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "PETn1",
+          "x": 9.150000000000002,
+          "y": 8.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "PERp2",
+          "x": 9.150000000000002,
+          "y": 8.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "PERn2",
+          "x": 9.150000000000002,
+          "y": 8.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "PETp2",
+          "x": 9.150000000000002,
+          "y": 7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "PETn2",
+          "x": 9.150000000000002,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "PERp3",
+          "x": 9.150000000000002,
+          "y": 7.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "PERn3",
+          "x": 9.150000000000002,
+          "y": 7.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "PETp3",
+          "x": 9.150000000000002,
+          "y": 7.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "PETn3",
+          "x": 9.150000000000002,
+          "y": 6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin38",
+          "number": "38",
+          "label": "DEVSLP",
+          "x": 9.150000000000002,
+          "y": 5.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin55",
+          "number": "55",
+          "label": "REFCLKp",
+          "x": 9.150000000000002,
+          "y": 4.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin53",
+          "number": "53",
+          "label": "REFCLKn",
+          "x": 9.150000000000002,
+          "y": 4.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "GND",
+          "x": 9.55,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "GND",
+          "x": 9.750000000000004,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "GND",
+          "x": 9.95,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "GND",
+          "x": 10.150000000000002,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "GND",
+          "x": 10.350000000000005,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "3.3V",
+          "x": 10.45,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "GND",
+          "x": 10.55,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "3.3V",
+          "x": 10.650000000000002,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin33",
+          "number": "33",
+          "label": "GND",
+          "x": 10.750000000000004,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "3.3V",
+          "x": 10.850000000000005,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin39",
+          "number": "39",
+          "label": "GND",
+          "x": 10.95,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "3.3V",
+          "x": 11.05,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin45",
+          "number": "45",
+          "label": "GND",
+          "x": 11.150000000000002,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "3.3V",
+          "x": 11.250000000000004,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin51",
+          "number": "51",
+          "label": "GND",
+          "x": 11.350000000000005,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "3.3V",
+          "x": 11.45,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin57",
+          "number": "57",
+          "label": "GND",
+          "x": 11.55,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin70",
+          "number": "70",
+          "label": "3.3V",
+          "x": 11.650000000000002,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin71",
+          "number": "71",
+          "label": "GND",
+          "x": 11.750000000000004,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin72",
+          "number": "72",
+          "label": "3.3V",
+          "x": 11.850000000000005,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin73",
+          "number": "73",
+          "label": "GND",
+          "x": 11.95,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin74",
+          "number": "74",
+          "label": "3.3V",
+          "x": 12.05,
+          "y": 11.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin75",
+          "number": "75",
+          "label": "GND",
+          "x": 12.150000000000002,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin58",
+          "number": "58",
+          "label": "NC",
+          "x": 12.95,
+          "y": 10.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin56",
+          "number": "56",
+          "label": "NC",
+          "x": 12.95,
+          "y": 10.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin48",
+          "number": "48",
+          "label": "NC",
+          "x": 12.95,
+          "y": 10.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin46",
+          "number": "46",
+          "label": "NC",
+          "x": 12.95,
+          "y": 9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin44",
+          "number": "44",
+          "label": "NC",
+          "x": 12.95,
+          "y": 9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin42",
+          "number": "42",
+          "label": "NC",
+          "x": 12.95,
+          "y": 9.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin40",
+          "number": "40",
+          "label": "NC",
+          "x": 12.95,
+          "y": 9.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin36",
+          "number": "36",
+          "label": "NC",
+          "x": 12.95,
+          "y": 9.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin34",
+          "number": "34",
+          "label": "NC",
+          "x": 12.95,
+          "y": 8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "NC",
+          "x": 12.95,
+          "y": 8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "NC",
+          "x": 12.95,
+          "y": 8.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "NC",
+          "x": 12.95,
+          "y": 8.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "NC",
+          "x": 12.95,
+          "y": 8.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "NC",
+          "x": 12.95,
+          "y": 7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "NC",
+          "x": 12.95,
+          "y": 7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "NC",
+          "x": 12.95,
+          "y": 7.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "NC",
+          "x": 12.95,
+          "y": 7.200000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "NC",
+          "x": 12.95,
+          "y": 7.000000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin67",
+          "number": "67",
+          "label": "NC",
+          "x": 12.95,
+          "y": 6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "DAS/~{DSS}/~{LED1}",
+          "x": 13.150000000000002,
+          "y": 6.4,
+          "hidden": false
+        },
+        {
+          "pin": "pin69",
+          "number": "69",
+          "label": "PEDET",
+          "x": 13.150000000000002,
+          "y": 5.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin68",
+          "number": "68",
+          "label": "SUSCLK",
+          "x": 13.150000000000002,
+          "y": 5.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin78",
+          "number": "M3",
+          "label": "GND2260",
+          "x": 13.150000000000002,
+          "y": 4.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin77",
+          "number": "M2",
+          "label": "GND2242",
+          "x": 13.150000000000002,
+          "y": 4.300000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin76",
+          "number": "M1",
+          "label": "GND2230",
+          "x": 13.150000000000002,
+          "y": 4.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin79",
+          "number": "S1",
+          "label": "S1",
+          "x": 13.150000000000002,
+          "y": 3.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin80",
+          "number": "S2",
+          "label": "S2",
+          "x": 13.150000000000002,
+          "y": 3.700000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin50",
+          "pin52",
+          "pin54",
+          "pin49",
+          "pin47",
+          "pin43",
+          "pin41",
+          "pin37",
+          "pin35",
+          "pin31",
+          "pin29",
+          "pin25",
+          "pin23",
+          "pin19",
+          "pin17",
+          "pin13",
+          "pin11",
+          "pin7",
+          "pin5",
+          "pin38",
+          "pin55",
+          "pin53"
+        ],
+        "rightSide": [
+          "pin58",
+          "pin56",
+          "pin48",
+          "pin46",
+          "pin44",
+          "pin42",
+          "pin40",
+          "pin36",
+          "pin34",
+          "pin32",
+          "pin30",
+          "pin28",
+          "pin26",
+          "pin24",
+          "pin22",
+          "pin20",
+          "pin8",
+          "pin6",
+          "pin67",
+          "pin10",
+          "pin69",
+          "pin68",
+          "pin78",
+          "pin77",
+          "pin76",
+          "pin79",
+          "pin80"
+        ],
+        "topSide": [
+          "pin2",
+          "pin4",
+          "pin12",
+          "pin14",
+          "pin16",
+          "pin18",
+          "pin70",
+          "pin72",
+          "pin74"
+        ],
+        "bottomSide": [
+          "pin1",
+          "pin3",
+          "pin9",
+          "pin15",
+          "pin21",
+          "pin27",
+          "pin33",
+          "pin39",
+          "pin45",
+          "pin51",
+          "pin57",
+          "pin71",
+          "pin73",
+          "pin75"
+        ]
+      },
+      "width": 3.5999999999999943,
+      "height": 7.199999999999999
+    },
+    {
+      "ref": "C3",
+      "originalRef": "C3",
+      "value": "16SVPK220M",
+      "lib": "Xerxes:16SVPK220M",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 11.95,
+      "y": -5.899999999999999,
+      "boxX": 11.834370078740154,
+      "boxY": -5.842637795275589,
+      "rotation": 270.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 11.95,
+          "y": -5.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 11.95,
+          "y": -6.299999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U5",
+      "originalRef": "U5",
+      "value": "74LVC1G07",
+      "lib": "Xerxes:74LVC1G07",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -0.4499999999999993,
+      "y": -6.100000000000001,
+      "boxX": -0.5,
+      "boxY": -6.100000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -1.0500000000000007,
+          "y": -6.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "VCC",
+          "x": -0.4499999999999993,
+          "y": -5.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "GND",
+          "x": -0.4499999999999993,
+          "y": -6.300000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "~",
+          "x": 0.05000000000000071,
+          "y": -6.100000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "rightSide": [
+          "pin4"
+        ],
+        "topSide": [
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin3"
+        ]
+      },
+      "width": 1.1000000000000014,
+      "height": 0.8
+    },
+    {
+      "ref": "R12",
+      "originalRef": "R12",
+      "value": "1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.8499999999999979,
+      "y": -6.5,
+      "boxX": 1.8499999999999979,
+      "boxY": -6.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.8499999999999979,
+          "y": -6.199999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.8499999999999979,
+          "y": -6.800000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R10",
+      "originalRef": "R10",
+      "value": "2.2K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 14.249999999999996,
+      "y": -0.3999999999999986,
+      "boxX": 14.249999999999996,
+      "boxY": -0.3999999999999986,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 14.249999999999996,
+          "y": -0.09999999999999787,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 14.249999999999996,
+          "y": -0.6999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J10",
+      "originalRef": "J10",
+      "value": "DF40HC(4.0)-50DS-0.4V(51)",
+      "lib": "Xerxes:DF40HC_4.0_-50DS-0.4V_51_",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 16.45,
+      "y": -4.899999999999999,
+      "boxX": 16.45,
+      "boxY": -4.899999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 15.45,
+          "y": -2.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": 15.45,
+          "y": -2.6999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "5",
+          "x": 15.45,
+          "y": -2.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "7",
+          "x": 15.45,
+          "y": -3.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "9",
+          "x": 15.45,
+          "y": -3.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "11",
+          "x": 15.45,
+          "y": -3.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "13",
+          "x": 15.45,
+          "y": -3.6999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "15",
+          "x": 15.45,
+          "y": -3.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "17",
+          "x": 15.45,
+          "y": -4.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "19",
+          "x": 15.45,
+          "y": -4.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "21",
+          "x": 15.45,
+          "y": -4.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "23",
+          "x": 15.45,
+          "y": -4.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "25",
+          "x": 15.45,
+          "y": -4.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "27",
+          "x": 15.45,
+          "y": -5.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "29",
+          "x": 15.45,
+          "y": -5.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "31",
+          "x": 15.45,
+          "y": -5.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin33",
+          "number": "33",
+          "label": "33",
+          "x": 15.45,
+          "y": -5.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin35",
+          "number": "35",
+          "label": "35",
+          "x": 15.45,
+          "y": -5.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin37",
+          "number": "37",
+          "label": "37",
+          "x": 15.45,
+          "y": -6.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin39",
+          "number": "39",
+          "label": "39",
+          "x": 15.45,
+          "y": -6.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin41",
+          "number": "41",
+          "label": "41",
+          "x": 15.45,
+          "y": -6.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin43",
+          "number": "43",
+          "label": "43",
+          "x": 15.45,
+          "y": -6.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin45",
+          "number": "45",
+          "label": "45",
+          "x": 15.45,
+          "y": -6.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin47",
+          "number": "47",
+          "label": "47",
+          "x": 15.45,
+          "y": -7.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin49",
+          "number": "49",
+          "label": "49",
+          "x": 15.45,
+          "y": -7.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 17.45,
+          "y": -2.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "4",
+          "x": 17.45,
+          "y": -2.6999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "6",
+          "x": 17.45,
+          "y": -2.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "8",
+          "x": 17.45,
+          "y": -3.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "10",
+          "x": 17.45,
+          "y": -3.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "12",
+          "x": 17.45,
+          "y": -3.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "14",
+          "x": 17.45,
+          "y": -3.6999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "16",
+          "x": 17.45,
+          "y": -3.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "18",
+          "x": 17.45,
+          "y": -4.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "20",
+          "x": 17.45,
+          "y": -4.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "22",
+          "x": 17.45,
+          "y": -4.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "24",
+          "x": 17.45,
+          "y": -4.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "26",
+          "x": 17.45,
+          "y": -4.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "28",
+          "x": 17.45,
+          "y": -5.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "30",
+          "x": 17.45,
+          "y": -5.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "32",
+          "x": 17.45,
+          "y": -5.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin34",
+          "number": "34",
+          "label": "34",
+          "x": 17.45,
+          "y": -5.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin36",
+          "number": "36",
+          "label": "36",
+          "x": 17.45,
+          "y": -5.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin38",
+          "number": "38",
+          "label": "38",
+          "x": 17.45,
+          "y": -6.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin40",
+          "number": "40",
+          "label": "40",
+          "x": 17.45,
+          "y": -6.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin42",
+          "number": "42",
+          "label": "42",
+          "x": 17.45,
+          "y": -6.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin44",
+          "number": "44",
+          "label": "44",
+          "x": 17.45,
+          "y": -6.699999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin46",
+          "number": "46",
+          "label": "46",
+          "x": 17.45,
+          "y": -6.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin48",
+          "number": "48",
+          "label": "48",
+          "x": 17.45,
+          "y": -7.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin50",
+          "number": "50",
+          "label": "50",
+          "x": 17.45,
+          "y": -7.299999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin3",
+          "pin5",
+          "pin7",
+          "pin9",
+          "pin11",
+          "pin13",
+          "pin15",
+          "pin17",
+          "pin19",
+          "pin21",
+          "pin23",
+          "pin25",
+          "pin27",
+          "pin29",
+          "pin31",
+          "pin33",
+          "pin35",
+          "pin37",
+          "pin39",
+          "pin41",
+          "pin43",
+          "pin45",
+          "pin47",
+          "pin49"
+        ],
+        "rightSide": [
+          "pin2",
+          "pin4",
+          "pin6",
+          "pin8",
+          "pin10",
+          "pin12",
+          "pin14",
+          "pin16",
+          "pin18",
+          "pin20",
+          "pin22",
+          "pin24",
+          "pin26",
+          "pin28",
+          "pin30",
+          "pin32",
+          "pin34",
+          "pin36",
+          "pin38",
+          "pin40",
+          "pin42",
+          "pin44",
+          "pin46",
+          "pin48",
+          "pin50"
+        ]
+      },
+      "width": 1.4000000000000057,
+      "height": 5.200000000000003
+    },
+    {
+      "ref": "U8",
+      "originalRef": "U8",
+      "value": "CDDFN10-3324P",
+      "lib": "Xerxes:TPD4EUSB30",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -9.549999999999999,
+      "y": 2.0,
+      "boxX": -9.549999999999999,
+      "boxY": 2.0,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "D1+",
+          "x": -10.549999999999999,
+          "y": 2.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "~",
+          "x": -10.549999999999999,
+          "y": 2.1999999999999993,
+          "hidden": true
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "D1-",
+          "x": -10.549999999999999,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "~",
+          "x": -10.549999999999999,
+          "y": 1.8000000000000007,
+          "hidden": true
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "GND",
+          "x": -9.549999999999999,
+          "y": 1.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "GND",
+          "x": -9.549999999999999,
+          "y": 1.0,
+          "hidden": true
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "D2+",
+          "x": -8.55,
+          "y": 2.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "~",
+          "x": -8.55,
+          "y": 2.1999999999999993,
+          "hidden": true
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "D2-",
+          "x": -8.55,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "~",
+          "x": -8.55,
+          "y": 1.8000000000000007,
+          "hidden": true
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin10",
+          "pin2",
+          "pin9"
+        ],
+        "rightSide": [
+          "pin4",
+          "pin7",
+          "pin5",
+          "pin6"
+        ],
+        "bottomSide": [
+          "pin3",
+          "pin8"
+        ]
+      },
+      "width": 1.1999999999999993,
+      "height": 1.1999999999999993
+    },
+    {
+      "ref": "D1",
+      "originalRef": "D1",
+      "value": "LED Green",
+      "lib": "Xerxes:LED",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 14.349999999999998,
+      "y": 8.100000000000001,
+      "boxX": 14.349999999999998,
+      "boxY": 8.100000000000001,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "K",
+          "x": 14.349999999999998,
+          "y": 7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A",
+          "x": 14.349999999999998,
+          "y": 8.400000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C11",
+      "originalRef": "C11",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 16.049999999999994,
+      "y": 0.1999999999999993,
+      "boxX": 16.049999999999994,
+      "boxY": 0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 16.049999999999994,
+          "y": 0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 16.049999999999994,
+          "y": -0.10000000000000142,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R13",
+      "originalRef": "R13",
+      "value": "1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.3500000000000014,
+      "y": -10.599999999999998,
+      "boxX": 1.3500000000000014,
+      "boxY": -10.599999999999998,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.0500000000000007,
+          "y": -10.599999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.6500000000000021,
+          "y": -10.599999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C13",
+      "originalRef": "C13",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 17.650000000000002,
+      "y": 0.1999999999999993,
+      "boxX": 17.650000000000002,
+      "boxY": 0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 17.650000000000002,
+          "y": 0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 17.650000000000002,
+          "y": -0.10000000000000142,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R2",
+      "originalRef": "R2",
+      "value": "12K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -5.2499999999999964,
+      "y": 8.000000000000002,
+      "boxX": -5.2499999999999964,
+      "boxY": 8.000000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -5.2499999999999964,
+          "y": 8.3,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -5.2499999999999964,
+          "y": 7.700000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C8",
+      "originalRef": "C8",
+      "value": "100n",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 9.250000000000004,
+      "y": 0.3000000000000025,
+      "boxX": 9.250000000000004,
+      "boxY": 0.30000000000000426,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 9.250000000000004,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 9.250000000000004,
+          "y": 3.552713678800501e-15,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U3",
+      "originalRef": "U3",
+      "value": "AP3441SHE-7B",
+      "lib": "Xerxes:AP3441SHE-7B",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 10.650000000000002,
+      "y": 0.6000000000000014,
+      "boxX": 10.650000000000002,
+      "boxY": 0.7000000000000011,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "FB",
+          "x": 9.95,
+          "y": 1.0000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "PG",
+          "x": 9.95,
+          "y": 0.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "VIN",
+          "x": 9.95,
+          "y": 0.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "PGND",
+          "x": 9.95,
+          "y": 0.40000000000000213,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "PAD",
+          "x": 10.750000000000004,
+          "y": 0.10000000000000142,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "SGND",
+          "x": 11.350000000000005,
+          "y": 1.0000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "EN",
+          "x": 11.350000000000005,
+          "y": 0.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "LX",
+          "x": 11.350000000000005,
+          "y": 0.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "nc",
+          "x": 11.350000000000005,
+          "y": 0.40000000000000213,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4"
+        ],
+        "rightSide": [
+          "pin8",
+          "pin7",
+          "pin6",
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin9"
+        ]
+      },
+      "width": 1.0,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "J4",
+      "originalRef": "J4",
+      "value": "Conn_01x02",
+      "lib": "Xerxes:Conn_01x02",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -2.349999999999998,
+      "y": 4.100000000000001,
+      "boxX": -2.349999999999998,
+      "boxY": 4.0,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": -1.9499999999999993,
+          "y": 4.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": -1.9499999999999993,
+          "y": 3.900000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin1",
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "D3",
+      "originalRef": "D3",
+      "value": "LED Green",
+      "lib": "Xerxes:LED",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.8499999999999979,
+      "y": -5.299999999999997,
+      "boxX": 1.8499999999999979,
+      "boxY": -5.299999999999997,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "K",
+          "x": 1.8499999999999979,
+          "y": -5.599999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A",
+          "x": 1.8499999999999979,
+          "y": -4.9999999999999964,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "D6",
+      "originalRef": "D6",
+      "value": "SMAJ58A",
+      "lib": "Xerxes:SMAJ58A",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 8.150000000000002,
+      "y": -6.199999999999999,
+      "boxX": 8.150000000000002,
+      "boxY": -6.199999999999999,
+      "rotation": 270.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "A1",
+          "x": 8.150000000000002,
+          "y": -5.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A2",
+          "x": 8.150000000000002,
+          "y": -6.5,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J9",
+      "originalRef": "J9",
+      "value": "BM06B-SRSS-TBLFSN",
+      "lib": "Xerxes:BM06B-SRSS-TBLFSN",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 0.8499999999999979,
+      "y": -0.5999999999999979,
+      "boxX": 0.8499999999999979,
+      "boxY": -1.0999999999999979,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 0.8499999999999979,
+          "y": -0.5999999999999979,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 0.8499999999999979,
+          "y": -0.7999999999999972,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": 0.8499999999999979,
+          "y": -0.9999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "4",
+          "x": 0.8499999999999979,
+          "y": -1.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "5",
+          "x": 0.8499999999999979,
+          "y": -1.3999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "6",
+          "x": 0.8499999999999979,
+          "y": -1.5999999999999979,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1",
+          "pin2",
+          "pin3"
+        ],
+        "bottomSide": [
+          "pin4",
+          "pin5",
+          "pin6"
+        ]
+      },
+      "width": 0.8,
+      "height": 1.0
+    },
+    {
+      "ref": "C4",
+      "originalRef": "C4",
+      "value": "100n",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -8.350000000000001,
+      "y": 3.200000000000001,
+      "boxX": -8.350000000000001,
+      "boxY": 3.200000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -8.350000000000001,
+          "y": 3.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.350000000000001,
+          "y": 2.9000000000000004,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J5",
+      "originalRef": "J5",
+      "value": "Conn_01x03",
+      "lib": "Xerxes:Conn_01x03",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 2.0500000000000007,
+      "y": 4.100000000000001,
+      "boxX": 2.0500000000000007,
+      "boxY": 4.100000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": 2.4499999999999993,
+          "y": 4.300000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": 2.4499999999999993,
+          "y": 4.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Pin_3",
+          "x": 2.4499999999999993,
+          "y": 3.900000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin1",
+          "pin2",
+          "pin3"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "L1",
+      "originalRef": "L1",
+      "value": "2.2uH",
+      "lib": "Xerxes:L",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 12.850000000000005,
+      "y": 0.6000000000000014,
+      "boxX": 12.850000000000005,
+      "boxY": 0.6000000000000014,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 12.550000000000008,
+          "y": 0.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 13.150000000000002,
+          "y": 0.6000000000000014,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R4",
+      "originalRef": "R4",
+      "value": "2.2K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.6500000000000021,
+      "y": 1.5,
+      "boxX": 1.6500000000000021,
+      "boxY": 1.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.6500000000000021,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.6500000000000021,
+          "y": 1.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C12",
+      "originalRef": "C12",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 16.850000000000005,
+      "y": 0.1999999999999993,
+      "boxX": 16.850000000000005,
+      "boxY": 0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 16.850000000000005,
+          "y": 0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 16.850000000000005,
+          "y": -0.10000000000000142,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R9",
+      "originalRef": "R9",
+      "value": "100K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 11.849999999999998,
+      "y": 0.10000000000000142,
+      "boxX": 11.849999999999998,
+      "boxY": 0.10000000000000142,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 11.849999999999998,
+          "y": 0.40000000000000213,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 11.849999999999998,
+          "y": -0.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C7",
+      "originalRef": "C7",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 8.55,
+      "y": 0.3000000000000025,
+      "boxX": 8.55,
+      "boxY": 0.30000000000000426,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 8.55,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 8.55,
+          "y": 3.552713678800501e-15,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C9",
+      "originalRef": "C9",
+      "value": "4.7nF",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 13.45,
+      "y": 0.3000000000000025,
+      "boxX": 13.45,
+      "boxY": 0.30000000000000426,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 13.45,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 13.45,
+          "y": 3.552713678800501e-15,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R7",
+      "originalRef": "R7",
+      "value": "470R",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -8.05,
+      "y": 0.1999999999999993,
+      "boxX": -8.05,
+      "boxY": 0.1999999999999993,
+      "rotation": 270.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -7.75,
+          "y": 0.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.350000000000001,
+          "y": 0.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "rightSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C5",
+      "originalRef": "C5",
+      "value": "100n",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 16.850000000000005,
+      "y": 2.5000000000000018,
+      "boxX": 16.850000000000005,
+      "boxY": 2.5000000000000018,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 16.850000000000005,
+          "y": 2.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 16.850000000000005,
+          "y": 2.200000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R5",
+      "originalRef": "R5",
+      "value": "2.2K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.8499999999999979,
+      "y": 1.5,
+      "boxX": 1.8499999999999979,
+      "boxY": 1.5,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.8499999999999979,
+          "y": 1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.8499999999999979,
+          "y": 1.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U6",
+      "originalRef": "U6",
+      "value": "DP5405",
+      "lib": "Xerxes:DP5405",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 10.55,
+      "y": -5.299999999999997,
+      "boxX": 10.55,
+      "boxY": -6.099999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "VIN+",
+          "x": 9.55,
+          "y": -5.699999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "VIN-",
+          "x": 9.55,
+          "y": -5.9999999999999964,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "AT-Det",
+          "x": 9.55,
+          "y": -6.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "NC",
+          "x": 9.55,
+          "y": -6.599999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "VDC+",
+          "x": 11.55,
+          "y": -5.699999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "VDC-",
+          "x": 11.55,
+          "y": -6.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "VDC-",
+          "x": 11.55,
+          "y": -6.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "ADJ",
+          "x": 11.55,
+          "y": -6.599999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4"
+        ],
+        "rightSide": [
+          "pin6",
+          "pin5",
+          "pin8",
+          "pin7"
+        ]
+      },
+      "width": 1.5999999999999943,
+      "height": 1.3999999999999986
+    },
+    {
+      "ref": "C2",
+      "originalRef": "C2",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 3.5500000000000007,
+      "y": 10.100000000000001,
+      "boxX": 3.5500000000000007,
+      "boxY": 10.100000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 3.5500000000000007,
+          "y": 10.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 3.5500000000000007,
+          "y": 9.8,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U1",
+      "originalRef": "U1",
+      "value": "RT9742GGJ5",
+      "lib": "Xerxes:RT9742GGJ5",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -7.25,
+      "y": 7.5,
+      "boxX": -7.349999999999998,
+      "boxY": 8.1,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "OUT",
+          "x": -7.949999999999999,
+          "y": 8.3,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "GND",
+          "x": -7.949999999999999,
+          "y": 8.1,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "nFLG",
+          "x": -7.949999999999999,
+          "y": 7.9,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "IN",
+          "x": -6.75,
+          "y": 8.3,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "EN",
+          "x": -6.75,
+          "y": 7.9,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3"
+        ],
+        "rightSide": [
+          "pin5",
+          "pin4"
+        ]
+      },
+      "width": 0.8000000000000007,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "R15",
+      "originalRef": "R15",
+      "value": "5.1k",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.9500000000000028,
+      "y": 9.700000000000001,
+      "boxX": 1.9500000000000028,
+      "boxY": 9.700000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 1.9500000000000028,
+          "y": 10.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 1.9500000000000028,
+          "y": 9.400000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "Conn2",
+      "originalRef": "Conn2",
+      "value": "ComputeModule5 High Speed rail",
+      "lib": "Xerxes:CM5_HighSpeed",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -17.65,
+      "y": -6.400000000000002,
+      "boxX": -17.549999999999997,
+      "boxY": -5.699999999999999,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "PCIe_CLK_nREQ",
+          "x": -19.95,
+          "y": -0.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "PCIE_nWAKE",
+          "x": -19.95,
+          "y": -1.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "PCIE_PWR_EN",
+          "x": -19.95,
+          "y": -1.2000000000000028,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "GND",
+          "x": -19.95,
+          "y": -1.4000000000000021,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "PCIe_CLK_P",
+          "x": -19.95,
+          "y": -1.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "PCIe_CLK_N",
+          "x": -19.95,
+          "y": -1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "GND",
+          "x": -19.95,
+          "y": -2.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "PCIe_RX_P",
+          "x": -19.95,
+          "y": -2.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "PCIe_RX_N",
+          "x": -19.95,
+          "y": -2.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "GND",
+          "x": -19.95,
+          "y": -2.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "PCIe_TX_P",
+          "x": -19.95,
+          "y": -2.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "PCIe_TX_N",
+          "x": -19.95,
+          "y": -3.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "GND",
+          "x": -19.95,
+          "y": -3.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "USB3-0-RX_N",
+          "x": -19.95,
+          "y": -3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "USB3-0-RX_P",
+          "x": -19.95,
+          "y": -3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "GND",
+          "x": -19.95,
+          "y": -3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin34",
+          "number": "34",
+          "label": "USB3-0-D_P",
+          "x": -19.95,
+          "y": -4.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin36",
+          "number": "36",
+          "label": "USB3-0-D_N",
+          "x": -19.95,
+          "y": -4.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin38",
+          "number": "38",
+          "label": "GND",
+          "x": -19.95,
+          "y": -4.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin40",
+          "number": "40",
+          "label": "USB3-0-TX_N",
+          "x": -19.95,
+          "y": -4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin42",
+          "number": "42",
+          "label": "USB3-0-TX_P",
+          "x": -19.95,
+          "y": -4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin44",
+          "number": "44",
+          "label": "GND",
+          "x": -19.95,
+          "y": -5.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin46",
+          "number": "46",
+          "label": "HDMI1_TX2_P",
+          "x": -19.95,
+          "y": -5.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin48",
+          "number": "48",
+          "label": "HDMI1_TX2_N",
+          "x": -19.95,
+          "y": -5.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin50",
+          "number": "50",
+          "label": "GND",
+          "x": -19.95,
+          "y": -5.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin52",
+          "number": "52",
+          "label": "HDMI1_TX1_P",
+          "x": -19.95,
+          "y": -5.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin54",
+          "number": "54",
+          "label": "HDMI1_TX1_N",
+          "x": -19.95,
+          "y": -6.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin56",
+          "number": "56",
+          "label": "GND",
+          "x": -19.95,
+          "y": -6.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin58",
+          "number": "58",
+          "label": "HDMI1_TX0_P",
+          "x": -19.95,
+          "y": -6.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin60",
+          "number": "60",
+          "label": "HDMI1_TX0_N",
+          "x": -19.95,
+          "y": -6.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin62",
+          "number": "62",
+          "label": "GND",
+          "x": -19.95,
+          "y": -6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin64",
+          "number": "64",
+          "label": "HDMI1_CLK_P",
+          "x": -19.95,
+          "y": -7.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin66",
+          "number": "66",
+          "label": "HDMI1_CLK_N",
+          "x": -19.95,
+          "y": -7.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin68",
+          "number": "68",
+          "label": "GND",
+          "x": -19.95,
+          "y": -7.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin70",
+          "number": "70",
+          "label": "HDMI0_TX2_P",
+          "x": -19.95,
+          "y": -7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin72",
+          "number": "72",
+          "label": "HDMI0_TX2_N",
+          "x": -19.95,
+          "y": -7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin74",
+          "number": "74",
+          "label": "GND",
+          "x": -19.95,
+          "y": -8.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin76",
+          "number": "76",
+          "label": "HDMI0_TX1_P",
+          "x": -19.95,
+          "y": -8.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin78",
+          "number": "78",
+          "label": "HDMI0_TX1_N",
+          "x": -19.95,
+          "y": -8.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin80",
+          "number": "80",
+          "label": "GND",
+          "x": -19.95,
+          "y": -8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin82",
+          "number": "82",
+          "label": "HDMI0_TX0_P",
+          "x": -19.95,
+          "y": -8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin84",
+          "number": "84",
+          "label": "HDMI0_TX0_N",
+          "x": -19.95,
+          "y": -9.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin86",
+          "number": "86",
+          "label": "GND",
+          "x": -19.95,
+          "y": -9.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin88",
+          "number": "88",
+          "label": "HDMI0_CLK_P",
+          "x": -19.95,
+          "y": -9.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin90",
+          "number": "90",
+          "label": "HDMI0_CLK_N",
+          "x": -19.95,
+          "y": -9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin92",
+          "number": "92",
+          "label": "GND",
+          "x": -19.95,
+          "y": -9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin94",
+          "number": "94",
+          "label": "MIPI1_D3_N",
+          "x": -19.95,
+          "y": -10.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin96",
+          "number": "96",
+          "label": "MIPI1_D3_P",
+          "x": -19.95,
+          "y": -10.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin98",
+          "number": "98",
+          "label": "GND",
+          "x": -19.95,
+          "y": -10.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin100",
+          "number": "100",
+          "label": "HDMI0_SCL",
+          "x": -19.95,
+          "y": -10.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "USB_OTG_ID",
+          "x": -15.149999999999999,
+          "y": -0.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "USB2_N",
+          "x": -15.149999999999999,
+          "y": -1.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "USB2_P",
+          "x": -15.149999999999999,
+          "y": -1.2000000000000028,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -1.4000000000000021,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "PCIe_nRST",
+          "x": -15.149999999999999,
+          "y": -1.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "VBUS_EN",
+          "x": -15.149999999999999,
+          "y": -1.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -2.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "MIPI0_D0_N",
+          "x": -15.149999999999999,
+          "y": -2.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "MIPI0_D0_P",
+          "x": -15.149999999999999,
+          "y": -2.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -2.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "MIPI0_D1_N",
+          "x": -15.149999999999999,
+          "y": -2.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "MIPI0_D1_P",
+          "x": -15.149999999999999,
+          "y": -3.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -3.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "MIPI0_C_N",
+          "x": -15.149999999999999,
+          "y": -3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "MIPI0_C_P",
+          "x": -15.149999999999999,
+          "y": -3.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -3.8000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin33",
+          "number": "33",
+          "label": "MIPI0_D2_N",
+          "x": -15.149999999999999,
+          "y": -4.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin35",
+          "number": "35",
+          "label": "MIPI0_D2_P",
+          "x": -15.149999999999999,
+          "y": -4.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin37",
+          "number": "37",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -4.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin39",
+          "number": "39",
+          "label": "MIPI0_D3_N",
+          "x": -15.149999999999999,
+          "y": -4.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin41",
+          "number": "41",
+          "label": "MIPI0_D3_P",
+          "x": -15.149999999999999,
+          "y": -4.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin43",
+          "number": "43",
+          "label": "HDMI1_HOTPLUG",
+          "x": -15.149999999999999,
+          "y": -5.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin45",
+          "number": "45",
+          "label": "HDMI1_SDA",
+          "x": -15.149999999999999,
+          "y": -5.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin47",
+          "number": "47",
+          "label": "HDMI1_SCL",
+          "x": -15.149999999999999,
+          "y": -5.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin49",
+          "number": "49",
+          "label": "HDMI1_CEC",
+          "x": -15.149999999999999,
+          "y": -5.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin51",
+          "number": "51",
+          "label": "HDMI0_CEC",
+          "x": -15.149999999999999,
+          "y": -5.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin53",
+          "number": "53",
+          "label": "HDMI0_HOTPLUG",
+          "x": -15.149999999999999,
+          "y": -6.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin55",
+          "number": "55",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -6.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin57",
+          "number": "57",
+          "label": "USB3-1-RX_N",
+          "x": -15.149999999999999,
+          "y": -6.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin59",
+          "number": "59",
+          "label": "USB3-1-RX_P",
+          "x": -15.149999999999999,
+          "y": -6.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin61",
+          "number": "61",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -6.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin63",
+          "number": "63",
+          "label": "USB3-1-D_P",
+          "x": -15.149999999999999,
+          "y": -7.0000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin65",
+          "number": "65",
+          "label": "USB3-1-D_N",
+          "x": -15.149999999999999,
+          "y": -7.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin67",
+          "number": "67",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -7.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin69",
+          "number": "69",
+          "label": "USB3-1-TX_N",
+          "x": -15.149999999999999,
+          "y": -7.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin71",
+          "number": "71",
+          "label": "USB3-1-TX_P",
+          "x": -15.149999999999999,
+          "y": -7.800000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin73",
+          "number": "73",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -8.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin75",
+          "number": "75",
+          "label": "MIPI1_D0_N",
+          "x": -15.149999999999999,
+          "y": -8.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin77",
+          "number": "77",
+          "label": "MIPI1_D0_P",
+          "x": -15.149999999999999,
+          "y": -8.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin79",
+          "number": "79",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -8.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin81",
+          "number": "81",
+          "label": "MIPI1_D1_N",
+          "x": -15.149999999999999,
+          "y": -8.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin83",
+          "number": "83",
+          "label": "MIPI1_D1_P",
+          "x": -15.149999999999999,
+          "y": -9.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin85",
+          "number": "85",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -9.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin87",
+          "number": "87",
+          "label": "MIPI1_C_N",
+          "x": -15.149999999999999,
+          "y": -9.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin89",
+          "number": "89",
+          "label": "MIPI1_C_P",
+          "x": -15.149999999999999,
+          "y": -9.600000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin91",
+          "number": "91",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -9.8,
+          "hidden": false
+        },
+        {
+          "pin": "pin93",
+          "number": "93",
+          "label": "MIPI1_D2_N",
+          "x": -15.149999999999999,
+          "y": -10.000000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin95",
+          "number": "95",
+          "label": "MIPI1_D2_P",
+          "x": -15.149999999999999,
+          "y": -10.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin97",
+          "number": "97",
+          "label": "GND",
+          "x": -15.149999999999999,
+          "y": -10.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin99",
+          "number": "99",
+          "label": "HDMI0_SDA",
+          "x": -15.149999999999999,
+          "y": -10.600000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2",
+          "pin4",
+          "pin6",
+          "pin8",
+          "pin10",
+          "pin12",
+          "pin14",
+          "pin16",
+          "pin18",
+          "pin20",
+          "pin22",
+          "pin24",
+          "pin26",
+          "pin28",
+          "pin30",
+          "pin32",
+          "pin34",
+          "pin36",
+          "pin38",
+          "pin40",
+          "pin42",
+          "pin44",
+          "pin46",
+          "pin48",
+          "pin50",
+          "pin52",
+          "pin54",
+          "pin56",
+          "pin58",
+          "pin60",
+          "pin62",
+          "pin64",
+          "pin66",
+          "pin68",
+          "pin70",
+          "pin72",
+          "pin74",
+          "pin76",
+          "pin78",
+          "pin80",
+          "pin82",
+          "pin84",
+          "pin86",
+          "pin88",
+          "pin90",
+          "pin92",
+          "pin94",
+          "pin96",
+          "pin98",
+          "pin100"
+        ],
+        "rightSide": [
+          "pin1",
+          "pin3",
+          "pin5",
+          "pin7",
+          "pin9",
+          "pin11",
+          "pin13",
+          "pin15",
+          "pin17",
+          "pin19",
+          "pin21",
+          "pin23",
+          "pin25",
+          "pin27",
+          "pin29",
+          "pin31",
+          "pin33",
+          "pin35",
+          "pin37",
+          "pin39",
+          "pin41",
+          "pin43",
+          "pin45",
+          "pin47",
+          "pin49",
+          "pin51",
+          "pin53",
+          "pin55",
+          "pin57",
+          "pin59",
+          "pin61",
+          "pin63",
+          "pin65",
+          "pin67",
+          "pin69",
+          "pin71",
+          "pin73",
+          "pin75",
+          "pin77",
+          "pin79",
+          "pin81",
+          "pin83",
+          "pin85",
+          "pin87",
+          "pin89",
+          "pin91",
+          "pin93",
+          "pin95",
+          "pin97",
+          "pin99"
+        ]
+      },
+      "width": 4.0,
+      "height": 10.2
+    },
+    {
+      "ref": "R1",
+      "originalRef": "R1",
+      "value": "2.2K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 2.5500000000000007,
+      "y": 10.200000000000001,
+      "boxX": 2.5500000000000007,
+      "boxY": 10.200000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 2.5500000000000007,
+          "y": 10.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 2.5500000000000007,
+          "y": 9.900000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C10",
+      "originalRef": "C10",
+      "value": "10u",
+      "lib": "Xerxes:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 15.249999999999996,
+      "y": 0.1999999999999993,
+      "boxX": 15.249999999999996,
+      "boxY": 0.1999999999999993,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 15.249999999999996,
+          "y": 0.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 15.249999999999996,
+          "y": -0.10000000000000142,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R6",
+      "originalRef": "R6",
+      "value": "470R",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -8.05,
+      "y": 0.6000000000000014,
+      "boxX": -8.05,
+      "boxY": 0.6000000000000014,
+      "rotation": 270.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": -7.75,
+          "y": 0.6000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": -8.350000000000001,
+          "y": 0.6000000000000014,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "rightSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R8",
+      "originalRef": "R8",
+      "value": "10K 1%",
+      "lib": "Xerxes:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 14.249999999999996,
+      "y": 0.3000000000000025,
+      "boxX": 14.249999999999996,
+      "boxY": 0.3000000000000007,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 14.249999999999996,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 14.249999999999996,
+          "y": 3.552713678800501e-15,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "D5",
+      "originalRef": "D5",
+      "value": "MB6S",
+      "lib": "Xerxes:MB6S",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 6.7500000000000036,
+      "y": -5.699999999999996,
+      "boxX": 6.7500000000000036,
+      "boxY": -5.699999999999996,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "-",
+          "x": 6.150000000000002,
+          "y": -5.699999999999996,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 6.7500000000000036,
+          "y": -5.099999999999994,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 6.7500000000000036,
+          "y": -6.299999999999997,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "+",
+          "x": 7.350000000000005,
+          "y": -5.699999999999996,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin4"
+        ],
+        "rightSide": [
+          "pin3"
+        ],
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 1.2000000000000028,
+      "height": 1.2000000000000028
+    },
+    {
+      "ref": "D4",
+      "originalRef": "D4",
+      "value": "MB6S",
+      "lib": "Xerxes:MB6S",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 6.7500000000000036,
+      "y": -3.900000000000002,
+      "boxX": 6.7500000000000036,
+      "boxY": -3.900000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "-",
+          "x": 6.150000000000002,
+          "y": -3.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "~",
+          "x": 6.7500000000000036,
+          "y": -3.3000000000000007,
+          "hidden": false
+        },
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "~",
+          "x": 6.7500000000000036,
+          "y": -4.5000000000000036,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "+",
+          "x": 7.350000000000005,
+          "y": -3.900000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin4"
+        ],
+        "rightSide": [
+          "pin3"
+        ],
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 1.2000000000000028,
+      "height": 1.2000000000000028
+    },
+    {
+      "ref": "J1",
+      "originalRef": "J1",
+      "value": "Micro_SD_Card_Det",
+      "lib": "Xerxes:Micro_SD_Card_Det",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -7.050000000000001,
+      "y": 10.3,
+      "boxX": -7.550000000000001,
+      "boxY": 10.4,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "DAT2",
+          "x": -8.850000000000001,
+          "y": 11.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "DAT3/CD",
+          "x": -8.850000000000001,
+          "y": 10.9,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "CMD",
+          "x": -8.850000000000001,
+          "y": 10.700000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "VDD",
+          "x": -8.850000000000001,
+          "y": 10.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "CLK",
+          "x": -8.850000000000001,
+          "y": 10.3,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "VSS",
+          "x": -8.850000000000001,
+          "y": 10.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "DAT0",
+          "x": -8.850000000000001,
+          "y": 9.9,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "DAT1",
+          "x": -8.850000000000001,
+          "y": 9.700000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "DET_A",
+          "x": -8.850000000000001,
+          "y": 9.5,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "DET_B",
+          "x": -8.850000000000001,
+          "y": 9.3,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "SHIELD",
+          "x": -5.449999999999999,
+          "y": 9.3,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4",
+          "pin5",
+          "pin6",
+          "pin7",
+          "pin8",
+          "pin10",
+          "pin9"
+        ],
+        "rightSide": [
+          "pin11"
+        ]
+      },
+      "width": 0.8,
+      "height": 1.5
+    },
+    {
+      "ref": "J6",
+      "originalRef": "J6",
+      "value": "BM04B-SRSS-TBLFSN",
+      "lib": "Xerxes:BM04B-SRSS-TB",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 0.75,
+      "y": 2.5000000000000018,
+      "boxX": 0.75,
+      "boxY": 2.200000000000003,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 0.75,
+          "y": 2.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 0.75,
+          "y": 2.3000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": 0.75,
+          "y": 2.1000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "4",
+          "x": 0.75,
+          "y": 1.9000000000000021,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1",
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin3",
+          "pin4"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "U4",
+      "originalRef": "U4",
+      "value": "MagJack-RJ45",
+      "lib": "Xerxes:MagJack-RJ45",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -5.2499999999999964,
+      "y": -0.7999999999999972,
+      "boxX": -5.449999999999996,
+      "boxY": 2.200000000000003,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "TRD0+",
+          "x": -6.949999999999996,
+          "y": 4.800000000000004,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "TRD0-",
+          "x": -6.949999999999996,
+          "y": 4.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "TRD1+",
+          "x": -6.949999999999996,
+          "y": 4.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "TRD1-",
+          "x": -6.949999999999996,
+          "y": 3.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "CT",
+          "x": -6.949999999999996,
+          "y": 3.600000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "CT",
+          "x": -6.949999999999996,
+          "y": 3.400000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "TRD2+",
+          "x": -6.949999999999996,
+          "y": 3.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "TRD2-",
+          "x": -6.949999999999996,
+          "y": 2.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "TRD3+",
+          "x": -6.949999999999996,
+          "y": 2.600000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "TRD3-",
+          "x": -6.949999999999996,
+          "y": 2.200000000000003,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "VC1",
+          "x": -6.949999999999996,
+          "y": 1.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "VC2",
+          "x": -6.949999999999996,
+          "y": 1.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "VC3",
+          "x": -6.949999999999996,
+          "y": 1.4000000000000021,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "VC4",
+          "x": -6.949999999999996,
+          "y": 1.2000000000000028,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "LEDG_A",
+          "x": -6.949999999999996,
+          "y": 0.8000000000000025,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "LEDG_K",
+          "x": -6.949999999999996,
+          "y": 0.6000000000000032,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "LEDY_A",
+          "x": -6.949999999999996,
+          "y": 0.40000000000000213,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "LEDY_K",
+          "x": -6.949999999999996,
+          "y": 0.20000000000000284,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "SHIELD",
+          "x": -6.949999999999996,
+          "y": -0.19999999999999574,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "SHIELD",
+          "x": -6.949999999999996,
+          "y": -0.3999999999999986,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin6",
+          "pin4",
+          "pin5",
+          "pin7",
+          "pin8",
+          "pin9",
+          "pin10",
+          "pin11",
+          "pin12",
+          "pin13",
+          "pin14",
+          "pin15",
+          "pin16",
+          "pin17",
+          "pin18",
+          "pin19",
+          "pin20"
+        ]
+      },
+      "width": 2.3999999999999986,
+      "height": 5.799999999999999
+    }
+  ]
+}

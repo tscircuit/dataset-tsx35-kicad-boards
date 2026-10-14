@@ -1,0 +1,2555 @@
+{
+  "id": "greatscottgadgets_hackrf-pro",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "70753973be444bdcd1c507b018e30bec027e286fb0007ab87ad67c942f15272e",
+    "footprints.tsx": "ac8b456385aa6674f2aabfe18357b7ac4e02ecdc61b5e51cf09e15316b57719d",
+    "schematic.tsx": "35c61b17a876118205e0e3ffe38f2ca4ccb08488f9ad931a9128e179158fcd41",
+    "metadata.json": "15bc3ff3d8859a3dfd82f4a5e2926f8fe6f8c6a832cffc848550167f4fbaeb5b"
+  },
+  "expectedComponents": 581,
+  "actualComponents": 581,
+  "expectedPhysicalPrimitives": 2185,
+  "actualPhysicalPrimitives": 2185,
+  "netCount": 490,
+  "actualNetCount": 490,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "pcb_courtyard_circle unnamed courtyard circle overlaps with pcb_plated_hole P26.6"
+    },
+    {
+      "type": "pcb_footprint_overlap_error",
+      "message": "SW2 overlaps H1: 1 footprint overlap, 1 courtyard conflict. Move the components apart."
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.041mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.115mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.115mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: -0.115mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.115mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.115mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.076mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.035mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and U21.pin11_internal_2 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0.05mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.11mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: -0.055mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of D8 overlaps with courtyard of SW1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of D7 overlaps with courtyard of SW1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of D7 overlaps with courtyard of SW2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C1 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C3 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C5 overlaps with courtyard of R3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C5 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C7 overlaps with courtyard of U5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C12 overlaps with courtyard of C14"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C12 overlaps with courtyard of R1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C14 overlaps with courtyard of R1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C15 overlaps with courtyard of R3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C16 overlaps with courtyard of U5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C19 overlaps with courtyard of U9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C24 overlaps with courtyard of R92"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C24 overlaps with courtyard of R24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C24 overlaps with courtyard of U26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C31 overlaps with courtyard of U9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C37 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C41 overlaps with courtyard of L29"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C42 overlaps with courtyard of L2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C42 overlaps with courtyard of R147"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C50 overlaps with courtyard of R152"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C53 overlaps with courtyard of R116"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C53 overlaps with courtyard of L4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C57 overlaps with courtyard of U12"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C60 overlaps with courtyard of U12"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C62 overlaps with courtyard of R129"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C63 overlaps with courtyard of U14"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C66 overlaps with courtyard of U14"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C67 overlaps with courtyard of C70"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C67 overlaps with courtyard of R151"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C67 overlaps with courtyard of R150"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C70 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C70 overlaps with courtyard of R151"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C83 overlaps with courtyard of U18"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C83 overlaps with courtyard of R122"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C85 overlaps with courtyard of C102"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C85 overlaps with courtyard of L7"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C89 overlaps with courtyard of C48"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C97 overlaps with courtyard of U18"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C97 overlaps with courtyard of R121"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C99 overlaps with courtyard of C102"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C99 overlaps with courtyard of L7"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C100 overlaps with courtyard of U18"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C102 overlaps with courtyard of L7"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C104 overlaps with courtyard of C111"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C104 overlaps with courtyard of L9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C106 overlaps with courtyard of C47"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C111 overlaps with courtyard of L9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C115 overlaps with courtyard of C116"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C160 overlaps with courtyard of R128"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C160 overlaps with courtyard of L26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C161 overlaps with courtyard of U25"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L2 overlaps with courtyard of R147"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of L6"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of C198"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of R43"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of L30"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of R144"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L3 overlaps with courtyard of R124"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L7 overlaps with courtyard of T3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L9 overlaps with courtyard of T4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of P2 overlaps with courtyard of P20"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of P1 overlaps with courtyard of H3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of P20 overlaps with courtyard of J1"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of Q5 overlaps with courtyard of R51"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of Q5 overlaps with courtyard of R57"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R1 overlaps with courtyard of R2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R4 overlaps with courtyard of U4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R4 overlaps with courtyard of C109"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R25 overlaps with courtyard of R26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R25 overlaps with courtyard of C45"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R26 overlaps with courtyard of C45"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R31 overlaps with courtyard of R12"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R33 overlaps with courtyard of R108"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R51 overlaps with courtyard of R57"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U1 overlaps with courtyard of C91"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U4 overlaps with courtyard of C109"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U14 overlaps with courtyard of C68"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U18 overlaps with courtyard of R122"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R122 overlaps with courtyard of R121"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R133 overlaps with courtyard of L28"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R133 overlaps with courtyard of L27"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R133 overlaps with courtyard of C191"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R133 overlaps with courtyard of R155"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L32 overlaps with courtyard of R154"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L32 overlaps with courtyard of L5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R83 overlaps with courtyard of R87"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R102 overlaps with courtyard of C74"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R102 overlaps with courtyard of L23"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C203 overlaps with courtyard of R142"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C203 overlaps with courtyard of R43"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of Q1 overlaps with courtyard of C95"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C114 overlaps with courtyard of R43"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C114 overlaps with courtyard of R124"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R136 overlaps with courtyard of C195"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R136 overlaps with courtyard of L33"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C178"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C179"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C148"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C176"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C149"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U16 overlaps with courtyard of C150"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C195 overlaps with courtyard of L33"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C195 overlaps with courtyard of R137"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C195 overlaps with courtyard of R138"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R128 overlaps with courtyard of L26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R157 overlaps with courtyard of R106"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C159 overlaps with courtyard of U35"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R61 overlaps with courtyard of Q6"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R96 overlaps with courtyard of R97"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U40 overlaps with courtyard of C52"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U40 overlaps with courtyard of R114"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U40 overlaps with courtyard of C78"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U40 overlaps with courtyard of R115"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U24 overlaps with courtyard of R20"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L29 overlaps with courtyard of R142"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L29 overlaps with courtyard of R143"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U38 overlaps with courtyard of L28"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U38 overlaps with courtyard of R135"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U38 overlaps with courtyard of C193"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U38 overlaps with courtyard of R134"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U38 overlaps with courtyard of C192"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C74 overlaps with courtyard of R112"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C210 overlaps with courtyard of R116"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C210 overlaps with courtyard of L4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C210 overlaps with courtyard of R42"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C56 overlaps with courtyard of L14"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C56 overlaps with courtyard of L15"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of RN2 overlaps with courtyard of RN3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R116 overlaps with courtyard of L4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R116 overlaps with courtyard of R42"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U3 overlaps with courtyard of C107"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U3 overlaps with courtyard of L22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U3 overlaps with courtyard of U36"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of H2 overlaps with courtyard of J3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C52 overlaps with courtyard of R114"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L18 overlaps with courtyard of C101"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L18 overlaps with courtyard of C103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C185 overlaps with courtyard of RN3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C76 overlaps with courtyard of U35"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C76 overlaps with courtyard of L23"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C76 overlaps with courtyard of L24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C72 overlaps with courtyard of U36"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L16 overlaps with courtyard of C91"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L16 overlaps with courtyard of C101"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R110 overlaps with courtyard of R111"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R110 overlaps with courtyard of C108"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R110 overlaps with courtyard of L21"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C139 overlaps with courtyard of R131"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C139 overlaps with courtyard of L26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R106 overlaps with courtyard of C152"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R106 overlaps with courtyard of C151"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R106 overlaps with courtyard of R103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L28 overlaps with courtyard of L27"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L28 overlaps with courtyard of C192"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L28 overlaps with courtyard of C191"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R151 overlaps with courtyard of R150"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L14 overlaps with courtyard of C54"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of RN5 overlaps with courtyard of C186"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L31 overlaps with courtyard of R153"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C196 overlaps with courtyard of C175"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L4 overlaps with courtyard of R153"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L17 overlaps with courtyard of C96"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L17 overlaps with courtyard of C103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L33 overlaps with courtyard of R137"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L33 overlaps with courtyard of C194"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C68 overlaps with courtyard of D15"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C190 overlaps with courtyard of L27"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C190 overlaps with courtyard of R132"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R129 overlaps with courtyard of L12"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R129 overlaps with courtyard of L26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C188 overlaps with courtyard of R155"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of C6"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of C206"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of R117"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of C78"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of R115"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R111 overlaps with courtyard of C108"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R111 overlaps with courtyard of L21"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R111 overlaps with courtyard of L22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R111 overlaps with courtyard of U8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R71 overlaps with courtyard of FB4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R92 overlaps with courtyard of R24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R92 overlaps with courtyard of U26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C69 overlaps with courtyard of D15"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C69 overlaps with courtyard of D14"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R86 overlaps with courtyard of R81"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C141 overlaps with courtyard of U8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R149 overlaps with courtyard of R148"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C202 overlaps with courtyard of R144"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C202 overlaps with courtyard of R124"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R123 overlaps with courtyard of R138"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R123 overlaps with courtyard of C211"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R135 overlaps with courtyard of C193"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U34 overlaps with courtyard of C156"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U34 overlaps with courtyard of R112"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U34 overlaps with courtyard of L24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C207 overlaps with courtyard of R146"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C207 overlaps with courtyard of L5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U35 overlaps with courtyard of L24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R137 overlaps with courtyard of R138"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R137 overlaps with courtyard of L34"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R137 overlaps with courtyard of C194"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R97 overlaps with courtyard of U26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R142 overlaps with courtyard of C198"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R142 overlaps with courtyard of R43"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R142 overlaps with courtyard of L30"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C51 overlaps with courtyard of L8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L6 overlaps with courtyard of C198"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L6 overlaps with courtyard of L30"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L6 overlaps with courtyard of R144"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C107 overlaps with courtyard of L21"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C107 overlaps with courtyard of L22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R35 overlaps with courtyard of C112"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L21 overlaps with courtyard of L22"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R154 overlaps with courtyard of L5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R146 overlaps with courtyard of L5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L27 overlaps with courtyard of R132"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L27 overlaps with courtyard of R130"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L27 overlaps with courtyard of R134"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L27 overlaps with courtyard of C192"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L27 overlaps with courtyard of C191"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C152 overlaps with courtyard of C151"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C152 overlaps with courtyard of R103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R156 overlaps with courtyard of R103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L12 overlaps with courtyard of U25"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C4 overlaps with courtyard of U25"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R112 overlaps with courtyard of L24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L22 overlaps with courtyard of U8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C198 overlaps with courtyard of L30"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R131 overlaps with courtyard of L26"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R117 overlaps with courtyard of L5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R132 overlaps with courtyard of R130"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R134 overlaps with courtyard of C192"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R134 overlaps with courtyard of L34"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R43 overlaps with courtyard of L30"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R43 overlaps with courtyard of R124"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C151 overlaps with courtyard of R103"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C78 overlaps with courtyard of R115"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R41 overlaps with courtyard of R12"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of L30 overlaps with courtyard of R124"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C54 overlaps with courtyard of L8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R144 overlaps with courtyard of R124"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

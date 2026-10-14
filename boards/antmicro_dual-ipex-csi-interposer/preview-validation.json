@@ -1,0 +1,15 @@
+{
+  "id": "antmicro_dual-ipex-csi-interposer",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 29,
+  "actualComponents": 29,
+  "expectedPhysicalPrimitives": 152,
+  "actualPhysicalPrimitives": 152,
+  "netCount": 55,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

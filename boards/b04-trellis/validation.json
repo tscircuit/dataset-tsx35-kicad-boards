@@ -1,0 +1,22 @@
+{
+  "id": "b04-trellis",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "4a58c3c6454731765147265df4367df61a355e32a2b99233a100ff5322a36c46",
+    "footprints.tsx": "4db9e29d9b0e9139fb0d1f4916d798f5cf9b86c13bfebfb9bc236d49de4e30ba",
+    "schematic.tsx": "971164f85a392ac52f4599ab185c2771fb7956cbeb7885b0028950f0c83fc3a0",
+    "metadata.json": "477bb66f9d3c4a0be3fc2c4493a5771ca9bc2ef6564fa6685a4edf544912ffdc"
+  },
+  "expectedComponents": 89,
+  "actualComponents": 89,
+  "expectedPhysicalPrimitives": 342,
+  "actualPhysicalPrimitives": 342,
+  "netCount": 126,
+  "actualNetCount": 126,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

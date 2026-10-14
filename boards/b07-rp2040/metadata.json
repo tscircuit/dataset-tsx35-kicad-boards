@@ -1,0 +1,1921 @@
+{
+  "provenance": {
+    "id": "b07-rp2040",
+    "name": "RP2040 development board",
+    "author": "acon",
+    "licence": "MIT",
+    "source": "https://github.com/acornitum/fucked-up-rp2040-devboard",
+    "commit": "d94328619f4fcaef2f2d62aa42c62c789a463d56",
+    "connections": 139,
+    "pcb": {
+      "path": "catkeeb_devboard.kicad_pcb",
+      "git_blob_sha": "6dd0cf884f07d162e2add7ef842fe15497e6bc8f",
+      "size_bytes": 6053458,
+      "download_url": "https://raw.githubusercontent.com/acornitum/fucked-up-rp2040-devboard/d94328619f4fcaef2f2d62aa42c62c789a463d56/catkeeb_devboard.kicad_pcb"
+    },
+    "sha256": "b8c3c88dc79791d4b6e2c1e3643c49ec4a5cfbb14b4f8517904f4a160a03f0b3"
+  },
+  "components": [
+    {
+      "name": "C10",
+      "originalName": "C10",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 68.43,
+        "y": -59.3
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "REF__",
+      "originalName": "REF**",
+      "value": "MountingHole_3.2mm_M3",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 96.55,
+        "y": -47.65
+      },
+      "pins": []
+    },
+    {
+      "name": "R7",
+      "originalName": "R7",
+      "value": "5.1k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 90.69,
+        "y": -57.49
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "SW1",
+      "originalName": "SW1",
+      "value": "SW_Push",
+      "kind": "chip",
+      "footprint": "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 75.52,
+        "y": -52.355
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "originalName": "C4",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 51.79,
+        "y": -58.27
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "originalName": "R6",
+      "value": "330",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 90.77,
+        "y": -50.98
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 68.44,
+        "y": -60.32
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U1",
+      "originalName": "U1",
+      "value": "RP2040",
+      "kind": "chip",
+      "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 57.32,
+        "y": -55.081371
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        },
+        {
+          "original": "33",
+          "pin": "pin33"
+        },
+        {
+          "original": "34",
+          "pin": "pin34"
+        },
+        {
+          "original": "35",
+          "pin": "pin35"
+        },
+        {
+          "original": "36",
+          "pin": "pin36"
+        },
+        {
+          "original": "37",
+          "pin": "pin37"
+        },
+        {
+          "original": "38",
+          "pin": "pin38"
+        },
+        {
+          "original": "39",
+          "pin": "pin39"
+        },
+        {
+          "original": "40",
+          "pin": "pin40"
+        },
+        {
+          "original": "41",
+          "pin": "pin41"
+        },
+        {
+          "original": "42",
+          "pin": "pin42"
+        },
+        {
+          "original": "43",
+          "pin": "pin43"
+        },
+        {
+          "original": "44",
+          "pin": "pin44"
+        },
+        {
+          "original": "45",
+          "pin": "pin45"
+        },
+        {
+          "original": "46",
+          "pin": "pin46"
+        },
+        {
+          "original": "47",
+          "pin": "pin47"
+        },
+        {
+          "original": "48",
+          "pin": "pin48"
+        },
+        {
+          "original": "49",
+          "pin": "pin49"
+        },
+        {
+          "original": "50",
+          "pin": "pin50"
+        },
+        {
+          "original": "51",
+          "pin": "pin51"
+        },
+        {
+          "original": "52",
+          "pin": "pin52"
+        },
+        {
+          "original": "53",
+          "pin": "pin53"
+        },
+        {
+          "original": "54",
+          "pin": "pin54"
+        },
+        {
+          "original": "55",
+          "pin": "pin55"
+        },
+        {
+          "original": "56",
+          "pin": "pin56"
+        },
+        {
+          "original": "57",
+          "pin": "pin57"
+        }
+      ]
+    },
+    {
+      "name": "J6",
+      "originalName": "J6",
+      "value": "Conn_01x20",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 89.36,
+        "y": -63.96
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "originalName": "C5",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 135,
+      "center": {
+        "x": 52.66,
+        "y": -50.67
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "1u",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 57.92,
+        "y": -61.17
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "1k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 71.74,
+        "y": -56.61
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "originalName": "R5",
+      "value": "1k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 43.68,
+        "y": -56.99
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C15",
+      "originalName": "C15",
+      "value": "15p",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 45.52,
+        "y": -60.17
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D7",
+      "originalName": "D7",
+      "value": "S-LMBR340FT1G",
+      "kind": "chip",
+      "footprint": "Diode_SMD:D_SOD-123F",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 84.4,
+        "y": -60.45
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C13",
+      "originalName": "C13",
+      "value": "1u",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 90.69,
+        "y": -60.07
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J1",
+      "originalName": "J1",
+      "value": "USB_C_Receptacle_USB2.0_16P",
+      "kind": "chip",
+      "footprint": "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 96.195,
+        "y": -55.15
+      },
+      "pins": [
+        {
+          "original": "A1",
+          "pin": "pin1"
+        },
+        {
+          "original": "A4",
+          "pin": "pin2"
+        },
+        {
+          "original": "A5",
+          "pin": "pin3"
+        },
+        {
+          "original": "A6",
+          "pin": "pin4"
+        },
+        {
+          "original": "A7",
+          "pin": "pin5"
+        },
+        {
+          "original": "A8",
+          "pin": "pin6"
+        },
+        {
+          "original": "A9",
+          "pin": "pin7"
+        },
+        {
+          "original": "A12",
+          "pin": "pin8"
+        },
+        {
+          "original": "B1",
+          "pin": "pin9"
+        },
+        {
+          "original": "B4",
+          "pin": "pin10"
+        },
+        {
+          "original": "B5",
+          "pin": "pin11"
+        },
+        {
+          "original": "B6",
+          "pin": "pin12"
+        },
+        {
+          "original": "B7",
+          "pin": "pin13"
+        },
+        {
+          "original": "B8",
+          "pin": "pin14"
+        },
+        {
+          "original": "B9",
+          "pin": "pin15"
+        },
+        {
+          "original": "B12",
+          "pin": "pin16"
+        },
+        {
+          "original": "S1",
+          "pin": "pin17"
+        }
+      ]
+    },
+    {
+      "name": "C9",
+      "originalName": "C9",
+      "value": "1u",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 59.44,
+        "y": -61.68
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "originalName": "R1",
+      "value": "27.4",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 61.8,
+        "y": -60.44
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "DNF",
+      "kind": "chip",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 75.43,
+        "y": -55.7125
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C11",
+      "originalName": "C11",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 135,
+      "center": {
+        "x": 51.98,
+        "y": -51.35
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U3",
+      "originalName": "U3",
+      "value": "W25Q64JVZPIQ",
+      "kind": "chip",
+      "footprint": "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 75.6475,
+        "y": -59.0775
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "Conn_01x20",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 89.36,
+        "y": -46.18
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "originalName": "C8",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 56.41,
+        "y": -61.35
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D5",
+      "originalName": "D5",
+      "value": "LED",
+      "kind": "chip",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 81.15,
+        "y": -55.04
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "originalName": "R2",
+      "value": "27.4",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 61.1,
+        "y": -61.13
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "Y1",
+      "originalName": "Y1",
+      "value": "Crystal_GND23",
+      "kind": "chip",
+      "footprint": "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 42.72,
+        "y": -59.4
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        }
+      ]
+    },
+    {
+      "name": "U2",
+      "originalName": "U2",
+      "value": "XC6206PxxxMR",
+      "kind": "chip",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 88.3575,
+        "y": -59.67
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "C14",
+      "originalName": "C14",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 79.55,
+        "y": -56.77
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C12",
+      "originalName": "C12",
+      "value": "1u",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 89.03,
+        "y": -57.01
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "originalName": "R8",
+      "value": "5.1k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 90.74,
+        "y": -53.31
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "originalName": "C3",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 55.44,
+        "y": -60.95
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "originalName": "C6",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 45,
+      "center": {
+        "x": 60.54,
+        "y": -48.97
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "originalName": "C7",
+      "value": "100n",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 69.67,
+        "y": -56.79
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C17",
+      "originalName": "C17",
+      "value": "10u",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 68.43,
+        "y": -61.35
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C16",
+      "originalName": "C16",
+      "value": "15p",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 41.61,
+        "y": -56.98
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "REF___",
+      "originalName": "REF**",
+      "value": "MountingHole_3.2mm_M3",
+      "kind": "chip",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 96.55,
+        "y": -62.6
+      },
+      "pins": []
+    },
+    {
+      "name": "MX2",
+      "originalName": "MX2",
+      "value": "MX-NoLED",
+      "kind": "chip",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate",
+      "layer": "bottom",
+      "rotation": 180,
+      "center": {
+        "x": 63.34125,
+        "y": -50
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "MX3",
+      "originalName": "MX3",
+      "value": "MX-NoLED",
+      "kind": "chip",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate",
+      "layer": "bottom",
+      "rotation": 180,
+      "center": {
+        "x": 44.29125,
+        "y": -50
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "MX1",
+      "originalName": "MX1",
+      "value": "MX-NoLED",
+      "kind": "chip",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate",
+      "layer": "bottom",
+      "rotation": 180,
+      "center": {
+        "x": 82.39125,
+        "y": -50
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "+1V1",
+      "runtimeName": "_1V1",
+      "targets": [
+        ".C10 > .pin1",
+        ".U1 > .pin23",
+        ".U1 > .pin45",
+        ".U1 > .pin50",
+        ".C9 > .pin1",
+        ".C11 > .pin1"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".C10 > .pin2",
+        ".R7 > .pin2",
+        ".SW1 > .pin1",
+        ".C4 > .pin2",
+        ".R6 > .pin2",
+        ".C2 > .pin2",
+        ".U1 > .pin19",
+        ".U1 > .pin57",
+        ".J6 > .pin3",
+        ".J6 > .pin8",
+        ".J6 > .pin13",
+        ".J6 > .pin18",
+        ".C5 > .pin2",
+        ".C1 > .pin2",
+        ".C15 > .pin1",
+        ".C13 > .pin2",
+        ".J1 > .pin1",
+        ".J1 > .pin8",
+        ".J1 > .pin9",
+        ".J1 > .pin16",
+        ".J1 > .pin17",
+        ".C9 > .pin2",
+        ".C11 > .pin2",
+        ".U3 > .pin4",
+        ".J2 > .pin3",
+        ".J2 > .pin8",
+        ".J2 > .pin13",
+        ".J2 > .pin18",
+        ".C8 > .pin2",
+        ".Y1 > .pin2",
+        ".Y1 > .pin3",
+        ".U2 > .pin1",
+        ".C14 > .pin2",
+        ".C12 > .pin2",
+        ".R8 > .pin2",
+        ".C3 > .pin2",
+        ".C6 > .pin2",
+        ".C7 > .pin2",
+        ".C17 > .pin2",
+        ".C16 > .pin1",
+        ".MX2 > .pin2",
+        ".MX3 > .pin2",
+        ".MX1 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(J1-CC1)",
+      "runtimeName": "Net__J1_CC1_",
+      "targets": [
+        ".R7 > .pin1",
+        ".J1 > .pin3"
+      ]
+    },
+    {
+      "name": "Net-(R3-Pad1)",
+      "runtimeName": "Net__R3_Pad1_",
+      "targets": [
+        ".SW1 > .pin2",
+        ".R3 > .pin1"
+      ]
+    },
+    {
+      "name": "+3V3",
+      "runtimeName": "_3V3",
+      "targets": [
+        ".C4 > .pin1",
+        ".C2 > .pin1",
+        ".U1 > .pin1",
+        ".U1 > .pin10",
+        ".U1 > .pin22",
+        ".U1 > .pin33",
+        ".U1 > .pin42",
+        ".U1 > .pin43",
+        ".U1 > .pin44",
+        ".U1 > .pin48",
+        ".U1 > .pin49",
+        ".J6 > .pin4",
+        ".J6 > .pin5",
+        ".C5 > .pin1",
+        ".C1 > .pin1",
+        ".D7 > .pin1",
+        ".R4 > .pin1",
+        ".U3 > .pin8",
+        ".C8 > .pin1",
+        ".C14 > .pin1",
+        ".C3 > .pin1",
+        ".C6 > .pin1",
+        ".C7 > .pin1",
+        ".C17 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(D5-K)",
+      "runtimeName": "Net__D5_K_",
+      "targets": [
+        ".R6 > .pin1",
+        ".D5 > .pin1"
+      ]
+    },
+    {
+      "name": "GPIO0",
+      "runtimeName": "GPIO0",
+      "targets": [
+        ".U1 > .pin2",
+        ".J2 > .pin1"
+      ]
+    },
+    {
+      "name": "GPIO1",
+      "runtimeName": "GPIO1",
+      "targets": [
+        ".U1 > .pin3",
+        ".J2 > .pin2"
+      ]
+    },
+    {
+      "name": "GPIO2",
+      "runtimeName": "GPIO2",
+      "targets": [
+        ".U1 > .pin4",
+        ".J2 > .pin4"
+      ]
+    },
+    {
+      "name": "GPIO3",
+      "runtimeName": "GPIO3",
+      "targets": [
+        ".U1 > .pin5",
+        ".J2 > .pin5"
+      ]
+    },
+    {
+      "name": "GPIO4",
+      "runtimeName": "GPIO4",
+      "targets": [
+        ".U1 > .pin6",
+        ".J2 > .pin6"
+      ]
+    },
+    {
+      "name": "GPIO5",
+      "runtimeName": "GPIO5",
+      "targets": [
+        ".U1 > .pin7",
+        ".J2 > .pin7"
+      ]
+    },
+    {
+      "name": "GPIO6",
+      "runtimeName": "GPIO6",
+      "targets": [
+        ".U1 > .pin8",
+        ".J2 > .pin9"
+      ]
+    },
+    {
+      "name": "GPIO7",
+      "runtimeName": "GPIO7",
+      "targets": [
+        ".U1 > .pin9",
+        ".J2 > .pin10"
+      ]
+    },
+    {
+      "name": "GPIO8",
+      "runtimeName": "GPIO8",
+      "targets": [
+        ".U1 > .pin11",
+        ".J2 > .pin11"
+      ]
+    },
+    {
+      "name": "GPIO9",
+      "runtimeName": "GPIO9",
+      "targets": [
+        ".U1 > .pin12",
+        ".J2 > .pin12"
+      ]
+    },
+    {
+      "name": "GPIO10",
+      "runtimeName": "GPIO10",
+      "targets": [
+        ".U1 > .pin13",
+        ".J2 > .pin14"
+      ]
+    },
+    {
+      "name": "GPIO11",
+      "runtimeName": "GPIO11",
+      "targets": [
+        ".U1 > .pin14",
+        ".J2 > .pin15"
+      ]
+    },
+    {
+      "name": "GPIO12",
+      "runtimeName": "GPIO12",
+      "targets": [
+        ".U1 > .pin15",
+        ".J2 > .pin16"
+      ]
+    },
+    {
+      "name": "GPIO13",
+      "runtimeName": "GPIO13",
+      "targets": [
+        ".U1 > .pin16",
+        ".J2 > .pin17"
+      ]
+    },
+    {
+      "name": "GPIO14",
+      "runtimeName": "GPIO14",
+      "targets": [
+        ".U1 > .pin17",
+        ".J2 > .pin19"
+      ]
+    },
+    {
+      "name": "GPIO15",
+      "runtimeName": "GPIO15",
+      "targets": [
+        ".U1 > .pin18",
+        ".J2 > .pin20"
+      ]
+    },
+    {
+      "name": "XIN",
+      "runtimeName": "XIN",
+      "targets": [
+        ".U1 > .pin20",
+        ".C15 > .pin2",
+        ".Y1 > .pin1"
+      ]
+    },
+    {
+      "name": "XOUT",
+      "runtimeName": "XOUT",
+      "targets": [
+        ".U1 > .pin21",
+        ".R5 > .pin2"
+      ]
+    },
+    {
+      "name": "SWCLK",
+      "runtimeName": "SWCLK",
+      "targets": [
+        ".U1 > .pin24"
+      ]
+    },
+    {
+      "name": "SWD",
+      "runtimeName": "SWD",
+      "targets": [
+        ".U1 > .pin25"
+      ]
+    },
+    {
+      "name": "RUN",
+      "runtimeName": "RUN",
+      "targets": [
+        ".U1 > .pin26",
+        ".J6 > .pin11"
+      ]
+    },
+    {
+      "name": "GPIO16",
+      "runtimeName": "GPIO16",
+      "targets": [
+        ".U1 > .pin27",
+        ".J6 > .pin20"
+      ]
+    },
+    {
+      "name": "GPIO17",
+      "runtimeName": "GPIO17",
+      "targets": [
+        ".U1 > .pin28",
+        ".J6 > .pin19"
+      ]
+    },
+    {
+      "name": "GPIO18",
+      "runtimeName": "GPIO18",
+      "targets": [
+        ".U1 > .pin29",
+        ".J6 > .pin17"
+      ]
+    },
+    {
+      "name": "GPIO19",
+      "runtimeName": "GPIO19",
+      "targets": [
+        ".U1 > .pin30",
+        ".J6 > .pin16"
+      ]
+    },
+    {
+      "name": "GPIO20",
+      "runtimeName": "GPIO20",
+      "targets": [
+        ".U1 > .pin31",
+        ".J6 > .pin15"
+      ]
+    },
+    {
+      "name": "GPIO21",
+      "runtimeName": "GPIO21",
+      "targets": [
+        ".U1 > .pin32",
+        ".J6 > .pin14"
+      ]
+    },
+    {
+      "name": "GPIO22",
+      "runtimeName": "GPIO22",
+      "targets": [
+        ".U1 > .pin34",
+        ".J6 > .pin12"
+      ]
+    },
+    {
+      "name": "GPIO23",
+      "runtimeName": "GPIO23",
+      "targets": [
+        ".U1 > .pin35",
+        ".MX1 > .pin1"
+      ]
+    },
+    {
+      "name": "GPIO24",
+      "runtimeName": "GPIO24",
+      "targets": [
+        ".U1 > .pin36",
+        ".MX2 > .pin1"
+      ]
+    },
+    {
+      "name": "GPIO25",
+      "runtimeName": "GPIO25",
+      "targets": [
+        ".U1 > .pin37",
+        ".MX3 > .pin1"
+      ]
+    },
+    {
+      "name": "GPIO26_ADC0",
+      "runtimeName": "GPIO26_ADC0",
+      "targets": [
+        ".U1 > .pin38",
+        ".J6 > .pin10"
+      ]
+    },
+    {
+      "name": "GPIO26_ADC1",
+      "runtimeName": "GPIO26_ADC1",
+      "targets": [
+        ".U1 > .pin39",
+        ".J6 > .pin9"
+      ]
+    },
+    {
+      "name": "GPIO26_ADC2",
+      "runtimeName": "GPIO26_ADC2",
+      "targets": [
+        ".U1 > .pin40",
+        ".J6 > .pin7"
+      ]
+    },
+    {
+      "name": "GPIO26_ADC3",
+      "runtimeName": "GPIO26_ADC3",
+      "targets": [
+        ".U1 > .pin41",
+        ".J6 > .pin6"
+      ]
+    },
+    {
+      "name": "Net-(U1-USB_DM)",
+      "runtimeName": "Net__U1_USB_DM_",
+      "targets": [
+        ".U1 > .pin46",
+        ".R2 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U1-USB_DP)",
+      "runtimeName": "Net__U1_USB_DP_",
+      "targets": [
+        ".U1 > .pin47",
+        ".R1 > .pin1"
+      ]
+    },
+    {
+      "name": "QSPI_SD3",
+      "runtimeName": "QSPI_SD3",
+      "targets": [
+        ".U1 > .pin51",
+        ".U3 > .pin7"
+      ]
+    },
+    {
+      "name": "QSPI_SCLK",
+      "runtimeName": "QSPI_SCLK",
+      "targets": [
+        ".U1 > .pin52",
+        ".U3 > .pin6"
+      ]
+    },
+    {
+      "name": "QSPI_SD0",
+      "runtimeName": "QSPI_SD0",
+      "targets": [
+        ".U1 > .pin53",
+        ".U3 > .pin5"
+      ]
+    },
+    {
+      "name": "QSPI_SD2",
+      "runtimeName": "QSPI_SD2",
+      "targets": [
+        ".U1 > .pin54",
+        ".U3 > .pin3"
+      ]
+    },
+    {
+      "name": "QSPI_SD1",
+      "runtimeName": "QSPI_SD1",
+      "targets": [
+        ".U1 > .pin55",
+        ".U3 > .pin2"
+      ]
+    },
+    {
+      "name": "QSPI_SS",
+      "runtimeName": "QSPI_SS",
+      "targets": [
+        ".U1 > .pin56",
+        ".R3 > .pin2",
+        ".R4 > .pin2",
+        ".U3 > .pin1"
+      ]
+    },
+    {
+      "name": "+5V",
+      "runtimeName": "_5V",
+      "targets": [
+        ".J6 > .pin1",
+        ".J6 > .pin2",
+        ".J1 > .pin2",
+        ".J1 > .pin7",
+        ".J1 > .pin10",
+        ".J1 > .pin15",
+        ".D5 > .pin2",
+        ".U2 > .pin3",
+        ".C12 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(C16-Pad2)",
+      "runtimeName": "Net__C16_Pad2_",
+      "targets": [
+        ".R5 > .pin1",
+        ".Y1 > .pin4",
+        ".C16 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(D7-A)",
+      "runtimeName": "Net__D7_A_",
+      "targets": [
+        ".D7 > .pin2",
+        ".C13 > .pin1",
+        ".U2 > .pin2"
+      ]
+    },
+    {
+      "name": "D+",
+      "runtimeName": "D_",
+      "targets": [
+        ".J1 > .pin4",
+        ".J1 > .pin12",
+        ".R1 > .pin2"
+      ]
+    },
+    {
+      "name": "D-",
+      "runtimeName": "D__",
+      "targets": [
+        ".J1 > .pin5",
+        ".J1 > .pin13",
+        ".R2 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-SBU1-PadA8)",
+      "runtimeName": "unconnected__J1_SBU1_PadA8_",
+      "targets": [
+        ".J1 > .pin6"
+      ]
+    },
+    {
+      "name": "Net-(J1-CC2)",
+      "runtimeName": "Net__J1_CC2_",
+      "targets": [
+        ".J1 > .pin11",
+        ".R8 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-SBU2-PadB8)",
+      "runtimeName": "unconnected__J1_SBU2_PadB8_",
+      "targets": [
+        ".J1 > .pin14"
+      ]
+    }
+  ]
+}

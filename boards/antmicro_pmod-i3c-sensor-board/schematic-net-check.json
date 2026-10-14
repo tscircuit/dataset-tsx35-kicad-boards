@@ -1,0 +1,29 @@
+{
+  "id": "antmicro_pmod-i3c-sensor-board",
+  "success": true,
+  "terminals_checked": 229,
+  "schematic_nets": 48,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [
+    [
+      "BoardFeature_83",
+      "1"
+    ],
+    [
+      "BoardFeature_85",
+      "1"
+    ],
+    [
+      "BoardFeature_87",
+      "1"
+    ],
+    [
+      "BoardFeature_94",
+      "1"
+    ]
+  ],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [],
+  "mismatches": [],
+  "warnings": "09:43:34\u202fPM: Font 'DejaVu Sans Mono' not found; substituting 'Andale Mono Regular'.\n"
+}

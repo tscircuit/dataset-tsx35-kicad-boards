@@ -1,0 +1,12 @@
+{
+  "id": "b01-cm4-lvds",
+  "success": true,
+  "terminals_checked": 514,
+  "schematic_nets": 142,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [],
+  "mismatches": [],
+  "warnings": ""
+}

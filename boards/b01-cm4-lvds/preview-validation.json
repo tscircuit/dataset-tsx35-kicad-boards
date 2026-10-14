@@ -1,0 +1,24 @@
+{
+  "id": "b01-cm4-lvds",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 155,
+  "actualComponents": 155,
+  "expectedPhysicalPrimitives": 519,
+  "actualPhysicalPrimitives": 519,
+  "netCount": 142,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of REF__ overlaps with courtyard of REF___"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of TP20 overlaps with courtyard of L1"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "b02-ecp5-dcscm",
+  "success": true,
+  "terminals_checked": 2619,
+  "schematic_nets": 791,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [
+    {
+      "ref": "U10",
+      "pin": "J1",
+      "net": "unconnected-(U10-PadJ1)"
+    },
+    {
+      "ref": "U10",
+      "pin": "J9",
+      "net": "unconnected-(U10-PadJ9)"
+    },
+    {
+      "ref": "U10",
+      "pin": "L1",
+      "net": "unconnected-(U10-PadL1)"
+    },
+    {
+      "ref": "U10",
+      "pin": "L9",
+      "net": "unconnected-(U10-PadL9)"
+    },
+    {
+      "ref": "U10",
+      "pin": "M7",
+      "net": "unconnected-(U10-PadM7)"
+    },
+    {
+      "ref": "U10",
+      "pin": "T7",
+      "net": "unconnected-(U10-PadT7)"
+    }
+  ],
+  "absent_or_isolated_schematic_terminals": [],
+  "mismatches": [],
+  "warnings": ""
+}

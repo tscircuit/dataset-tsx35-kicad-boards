@@ -1,0 +1,15 @@
+{
+  "id": "b03-ftdi-jtag",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 122,
+  "actualComponents": 122,
+  "expectedPhysicalPrimitives": 365,
+  "actualPhysicalPrimitives": 365,
+  "netCount": 93,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

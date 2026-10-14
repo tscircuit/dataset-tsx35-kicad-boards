@@ -1,0 +1,39 @@
+{
+  "id": "buildbotics_bbctrl-pcb-new",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "8d8e32cac0fd09025201b7db51c3c61d5050f251571c3eeb4494ba24c7710405",
+    "footprints.tsx": "355be36daae80c2a1477879fd381fbdd373860435fabef24e2754efba65305b4",
+    "schematic.tsx": "095e2f904a78c86b6f2771dcd0267e552f7774b0def6e468729b624202e68ae0",
+    "metadata.json": "de5846b45d02b25a3f26d19e6dd152369a2ba524daa865118d4323c57f5840ab"
+  },
+  "expectedComponents": 305,
+  "actualComponents": 305,
+  "expectedPhysicalPrimitives": 1195,
+  "actualPhysicalPrimitives": 1195,
+  "netCount": 291,
+  "actualNetCount": 291,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed SMD pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and Q5.6 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and Q5.7 are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and Q5.8 are too close (clearance: 0mm, minimum: 0.1mm)"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

@@ -1,0 +1,4118 @@
+{
+  "provenance": {
+    "id": "antmicro_gmsl-serializer",
+    "name": "Antmicro GMSL serializer",
+    "author": "Antmicro",
+    "licence": "Apache-2.0",
+    "source": "https://github.com/antmicro/gmsl-serializer",
+    "commit": "58641df7b331050bbb4456cb4cb73e3975ae9de9",
+    "connections": 256,
+    "pcb": {
+      "path": "gmsl-serializer.kicad_pcb",
+      "git_blob_sha": "8cff31b76b0a23524671be6069c3931927e9bc12",
+      "size_bytes": 6613276,
+      "download_url": "https://raw.githubusercontent.com/antmicro/gmsl-serializer/58641df7b331050bbb4456cb4cb73e3975ae9de9/gmsl-serializer.kicad_pcb"
+    },
+    "sha256": "74f3ac14070b4a65eb5d290f86022b75b7ed4754e43f27fd3737f03ff016bef6"
+  },
+  "components": [
+    {
+      "name": "R31",
+      "originalName": "R31",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -9.75,
+        "y": -11.600000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "originalName": "C3",
+      "value": "C_220n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -14.030000000000001,
+        "y": 14.468999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R14",
+      "originalName": "R14",
+      "value": "R_0R_22.4A_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 19.25,
+        "y": -6.950000000000003
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U6",
+      "originalName": "U6",
+      "value": "MAX96717GTJ_VY+",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TQFN-32-1EP_5x5mm_P0.5mm",
+      "layer": "top",
+      "rotation": 135,
+      "center": {
+        "x": 2.5,
+        "y": -2.5
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        },
+        {
+          "original": "33",
+          "pin": "pin33"
+        }
+      ]
+    },
+    {
+      "name": "TP9",
+      "originalName": "TP9",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18.400000000000006,
+        "y": -12
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP7",
+      "originalName": "TP7",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 13.599999999999994,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "D5",
+      "originalName": "D5",
+      "value": "LED_G_0603_LTST-C190GKT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:LED_0603_1608Metric_G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -2.9000000000000057,
+        "y": -16.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R44",
+      "originalName": "R44",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -4.319999999999993,
+        "y": 19.369857999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R33",
+      "originalName": "R33",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -9.75,
+        "y": -9.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R41",
+      "originalName": "R41",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -0.4099999999999966,
+        "y": 19.649857999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C14",
+      "originalName": "C14",
+      "value": "C_1u_16V_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 15.057999999999993,
+        "y": -7.044000000000011
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C10",
+      "originalName": "C10",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 20.400000000000006,
+        "y": 12.876999999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "originalName": "C7",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -8.569999999999993,
+        "y": 13.702999999999989
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R37",
+      "originalName": "R37",
+      "value": "R_31k6_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -4.319999999999993,
+        "y": 18.289857999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R20",
+      "originalName": "R20",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 7.757999999999981,
+        "y": -1.2340000000000089
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R7",
+      "originalName": "R7",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -8.295000000000016,
+        "y": 19.674999999999997
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "originalName": "R1",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -6.224000000000004
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C19",
+      "originalName": "C19",
+      "value": "C_10u_25V_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0603_1608Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 0,
+        "y": 16.36999999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D11",
+      "originalName": "D11",
+      "value": "LED_G_0603_LTST-C190GKT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:LED_0603_1608Metric_G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -0.17000000000001592,
+        "y": -16.41000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP5",
+      "originalName": "TP5",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 5.349999999999994,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "originalName": "R6",
+      "value": "R_4k7_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -9.75,
+        "y": -12.63000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C12",
+      "originalName": "C12",
+      "value": "C_1u_16V_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 7.3799999999999955,
+        "y": -9.990000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R35",
+      "originalName": "R35",
+      "value": "R_470R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 4.194999999999993,
+        "y": -16.60000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "Y1",
+      "originalName": "Y1",
+      "value": "Resonator_25MHz_ABM8G",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:Resonator_SMD_Abracon_ABM8G_3.2x2.5mm",
+      "layer": "top",
+      "rotation": 45,
+      "center": {
+        "x": 9.536000000000001,
+        "y": -2.504000000000005
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        }
+      ]
+    },
+    {
+      "name": "C11",
+      "originalName": "C11",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18.700999999999993,
+        "y": 5.614999999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R19",
+      "originalName": "R19",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 5,
+        "y": -10.930000000000007
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R28",
+      "originalName": "R28",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 3,
+        "y": -9.855000000000004
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U4",
+      "originalName": "U4",
+      "value": "REF3012AIDBZT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:SOT-23-3",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 7.180000000000007,
+        "y": -7.790000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "R39",
+      "originalName": "R39",
+      "value": "R_470R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 1.4000000000000057,
+        "y": -16.64500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R29",
+      "originalName": "R29",
+      "value": "R_51R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 6.625,
+        "y": 2.674999999999997
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D9",
+      "originalName": "D9",
+      "value": "LED_G_0603_LTST-C190GKT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:LED_0603_1608Metric_G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -5.650000000000006,
+        "y": -16.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J1",
+      "originalName": "J1",
+      "value": "Conn_FFC_WE_68715014022",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:Conn_FFC_WE_68715014x22",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -18.950000000000003,
+        "y": -2.5
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        },
+        {
+          "original": "33",
+          "pin": "pin33"
+        },
+        {
+          "original": "34",
+          "pin": "pin34"
+        },
+        {
+          "original": "35",
+          "pin": "pin35"
+        },
+        {
+          "original": "36",
+          "pin": "pin36"
+        },
+        {
+          "original": "37",
+          "pin": "pin37"
+        },
+        {
+          "original": "38",
+          "pin": "pin38"
+        },
+        {
+          "original": "39",
+          "pin": "pin39"
+        },
+        {
+          "original": "40",
+          "pin": "pin40"
+        },
+        {
+          "original": "41",
+          "pin": "pin41"
+        },
+        {
+          "original": "42",
+          "pin": "pin42"
+        },
+        {
+          "original": "43",
+          "pin": "pin43"
+        },
+        {
+          "original": "44",
+          "pin": "pin44"
+        },
+        {
+          "original": "45",
+          "pin": "pin45"
+        },
+        {
+          "original": "46",
+          "pin": "pin46"
+        },
+        {
+          "original": "47",
+          "pin": "pin47"
+        },
+        {
+          "original": "48",
+          "pin": "pin48"
+        },
+        {
+          "original": "49",
+          "pin": "pin49"
+        },
+        {
+          "original": "50",
+          "pin": "pin50"
+        },
+        {
+          "original": "MP1",
+          "pin": "pin51"
+        },
+        {
+          "original": "MP2",
+          "pin": "pin52"
+        }
+      ]
+    },
+    {
+      "name": "C18",
+      "originalName": "C18",
+      "value": "C_10u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 5.069999999999993,
+        "y": 3.1299999999999955
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "originalName": "C8",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 20.275000000000006,
+        "y": -3.8500000000000085
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R17",
+      "originalName": "R17",
+      "value": "R_5k1_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 13.11699999999999,
+        "y": 2.471999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "C_10u_25V_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0603_1608Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 19.625,
+        "y": -1.2750000000000057
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C34",
+      "originalName": "C34",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 1,
+        "y": 13.599999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "originalName": "C6",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 19.32499999999999,
+        "y": -3.8500000000000085
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R46",
+      "originalName": "R46",
+      "value": "R_200R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -1.3300000000000125,
+        "y": -16.22
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "L3",
+      "originalName": "L3",
+      "value": "L_22u_1.12A_Coilcraft-MSS6132T",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Coilcraft-MSS6132T",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 16.44999999999999,
+        "y": 9.687999999999988
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C32",
+      "originalName": "C32",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 1.5699999999999932,
+        "y": 1.9899999999999949
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "originalName": "C4",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 14.150000000000006,
+        "y": -3.081000000000003
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R25",
+      "originalName": "R25",
+      "value": "R_100R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -11.600000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D2",
+      "originalName": "D2",
+      "value": "AXGD10402KR",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:D_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 7.347390999999988,
+        "y": 1.3002409999999998
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "R_100R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -8.350000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C15",
+      "originalName": "C15",
+      "value": "C_1u_16V_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 10.049999999999983,
+        "y": -8.012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP8",
+      "originalName": "TP8",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 10.849999999999994,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "U5",
+      "originalName": "U5",
+      "value": "TLV73312PDBVT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:SOT-23-5",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 12.536000000000001,
+        "y": -6.577000000000012
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        }
+      ]
+    },
+    {
+      "name": "C22",
+      "originalName": "C22",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 4.3799999999999955,
+        "y": 2.4399999999999977
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D4",
+      "originalName": "D4",
+      "value": "PESD4USB5U-TTS",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:DFN-10_2.5x1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -14.650000000000006,
+        "y": -13.99900000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        }
+      ]
+    },
+    {
+      "name": "MP4",
+      "originalName": "MP4",
+      "value": "MP_Pad6mm_Drill3mm",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:MP_Pad6mm_Drill3mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -18,
+        "y": 18
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "TP1",
+      "originalName": "TP1",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -2.9000000000000057,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R34",
+      "originalName": "R34",
+      "value": "R_100k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 6.549999999999983,
+        "y": -16.00500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D1",
+      "originalName": "D1",
+      "value": "PESD4USB5U-TTS",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:DFN-10_2.5x1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -14.650000000000006,
+        "y": -9.99900000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "originalName": "R8",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18.799999999999983,
+        "y": 1.2249999999999943
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R32",
+      "originalName": "R32",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -9.75,
+        "y": -8.350000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "originalName": "C5",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -7.3700000000000045,
+        "y": 13.702999999999989
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R12",
+      "originalName": "R12",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 15.835999999999984,
+        "y": 1.5499999999999972
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C31",
+      "originalName": "C31",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 45,
+      "center": {
+        "x": 5.299999999999983,
+        "y": 1.3249999999999886
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U1",
+      "originalName": "U1",
+      "value": "AP62301_TSOT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TSOT23-6",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -11.37100000000001,
+        "y": 15.899999999999991
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        }
+      ]
+    },
+    {
+      "name": "R40",
+      "originalName": "R40",
+      "value": "R_1k65_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -6.800000000000011,
+        "y": -16.17500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "L2",
+      "originalName": "L2",
+      "value": "L_1u_2.6A_0806",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_0806_2016Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 16.44999999999999,
+        "y": -4.450000000000003
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U2",
+      "originalName": "U2",
+      "value": "AP62301_TSOT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TSOT23-6",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 16.650000000000006,
+        "y": -1.6500000000000057
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        }
+      ]
+    },
+    {
+      "name": "MP1",
+      "originalName": "MP1",
+      "value": "MP_Pad6mm_Drill3mm",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:MP_Pad6mm_Drill3mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18,
+        "y": -18
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "C33",
+      "originalName": "C33",
+      "value": "C_10u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 2.759999999999991,
+        "y": 3.5799999999999983
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "L7",
+      "originalName": "L7",
+      "value": "L_3u3_3.1A_Bourns-SRP3212A",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Bourns-SRP3212A",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -2.9000000000000057,
+        "y": 12.439858000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R38",
+      "originalName": "R38",
+      "value": "R_100k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 3.9000000000000057,
+        "y": -13.850000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "Conn_FAKRA_59S2AQ-40MT5-Z_1",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 7.849999999999994,
+        "y": 19.35199999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "R_100R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -9.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C17",
+      "originalName": "C17",
+      "value": "C_33p_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 135,
+      "center": {
+        "x": 11.079999999999984,
+        "y": -0.44000000000001194
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R21",
+      "originalName": "R21",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 3,
+        "y": -12.00500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP4",
+      "originalName": "TP4",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -0.15000000000000568,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "L6",
+      "originalName": "L6",
+      "value": "L_470n_1A_Coilcraft-PFL1609",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Coilcraft-PFL1609",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 8.484999999999985,
+        "y": 7.1499999999999915
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP2",
+      "originalName": "TP2",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 2.5999999999999943,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "R27",
+      "originalName": "R27",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -9.319999999999993,
+        "y": 19.674999999999997
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "originalName": "R2",
+      "value": "R_12k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -7.300000000000011
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "L4",
+      "originalName": "L4",
+      "value": "L_6u8_1A_Coilcraft-1210POC",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Coilcraft-1210POC",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 13.091999999999985,
+        "y": 4.60799999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R11",
+      "originalName": "R11",
+      "value": "R_12k4_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 15.835999999999984,
+        "y": 0.5499999999999972
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U3",
+      "originalName": "U3",
+      "value": "AP62301_TSOT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TSOT23-6",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -2.9550000000000125,
+        "y": 15.999857999999989
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        }
+      ]
+    },
+    {
+      "name": "L5",
+      "originalName": "L5",
+      "value": "L_470n_1A_Coilcraft-PFL1609",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Coilcraft-PFL1609",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 11.186999999999983,
+        "y": 7.1499999999999915
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R15",
+      "originalName": "R15",
+      "value": "R_470R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -4.050000000000011,
+        "y": -16.200000000000003
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "MP3",
+      "originalName": "MP3",
+      "value": "MP_Pad6mm_Drill3mm",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:MP_Pad6mm_Drill3mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -11,
+        "y": -18
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "Q1",
+      "originalName": "Q1",
+      "value": "DMG1012T-7",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:SOT-523",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 6.019999999999982,
+        "y": -13.950000000000003
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "originalName": "R22",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 5.009999999999991,
+        "y": -12.00500000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R9",
+      "originalName": "R9",
+      "value": "R_52k3_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -12.980000000000018,
+        "y": 18.153999999999996
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R18",
+      "originalName": "R18",
+      "value": "R_80k6_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 3,
+        "y": -10.930000000000007
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "N1",
+      "originalName": "N1",
+      "value": "antmicro_logo",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:antmicro-logo_scaled_12mm_mask",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -8.525000000000006,
+        "y": 6.694999999999993
+      },
+      "pins": []
+    },
+    {
+      "name": "TP3",
+      "originalName": "TP3",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -5.650000000000006,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "C30",
+      "originalName": "C30",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": 45,
+      "center": {
+        "x": 5.882447999999982,
+        "y": 0.539999999999992
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R10",
+      "originalName": "R10",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.980000000000018,
+        "y": 19.19999999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "originalName": "R5",
+      "value": "R_4k7_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -12.050000000000011,
+        "y": -12.63000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R24",
+      "originalName": "R24",
+      "value": "R_100R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -12.049000000000007,
+        "y": -10.534000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R42",
+      "originalName": "R42",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -1.460000000000008,
+        "y": 19.649857999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R45",
+      "originalName": "R45",
+      "value": "R_0R_22.4A_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 0.1449999999999818,
+        "y": 10.679857999999996
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "C_10u_25V_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0603_1608Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -8.39500000000001,
+        "y": 16.25
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "L1",
+      "originalName": "L1",
+      "value": "L_3u3_3.1A_Bourns-SRP3212A",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:L_Bourns-SRP3212A",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -11.37100000000001,
+        "y": 12.399999999999991
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "Q3",
+      "originalName": "Q3",
+      "value": "DMG1012T-7",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:SOT-523",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": 2.2750000000000057,
+        "y": -13.875
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "C20",
+      "originalName": "C20",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 3.6999999999999886,
+        "y": 1.7399999999999949
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C21",
+      "originalName": "C21",
+      "value": "C_220n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -5.590000000000003,
+        "y": 14.499857999999989
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C29",
+      "originalName": "C29",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 2.069999999999993,
+        "y": 2.8900000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R26",
+      "originalName": "R26",
+      "value": "R_10k_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 18.799999999999983,
+        "y": 2.2249999999999943
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D3",
+      "originalName": "D3",
+      "value": "PESD4USB5U-TTS",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:DFN-10_2.5x1mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -14.650000000000006,
+        "y": -6.749000000000009
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        }
+      ]
+    },
+    {
+      "name": "R13",
+      "originalName": "R13",
+      "value": "R_0R_22.4A_0603",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0603_1608Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -8.221000000000004,
+        "y": 10.702999999999989
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "D8",
+      "originalName": "D8",
+      "value": "LED_G_0603_LTST-C190GKT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:LED_0603_1608Metric_G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 2.5999999999999943,
+        "y": -16.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "MP2",
+      "originalName": "MP2",
+      "value": "MP_Pad6mm_Drill3mm",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:MP_Pad6mm_Drill3mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 18,
+        "y": 18
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "C35",
+      "originalName": "C35",
+      "value": "C_22u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -0.05000000000001137,
+        "y": 13.599999999999994
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C16",
+      "originalName": "C16",
+      "value": "C_33p_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "top",
+      "rotation": -45,
+      "center": {
+        "x": 7.539999999999992,
+        "y": -3.980000000000004
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R23",
+      "originalName": "R23",
+      "value": "R_402R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": -135,
+      "center": {
+        "x": 6.919482999999985,
+        "y": -0.49748400000000004
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R30",
+      "originalName": "R30",
+      "value": "R_0R_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -9.75,
+        "y": -10.534000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "TP6",
+      "originalName": "TP6",
+      "value": "TP_1.5mm_SMD",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:TP_SMD_1.5mm",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 8.099999999999994,
+        "y": -18.650000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        }
+      ]
+    },
+    {
+      "name": "D6",
+      "originalName": "D6",
+      "value": "LED_G_0603_LTST-C190GKT",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:LED_0603_1608Metric_G",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 5.349999999999994,
+        "y": -16.400000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R16",
+      "originalName": "R16",
+      "value": "R_5k1_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:R_0402_1005Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": 16.44999999999999,
+        "y": 13.751999999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C28",
+      "originalName": "C28",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 5.019999999999982,
+        "y": -2.0900000000000034
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C24",
+      "originalName": "C24",
+      "value": "C_100n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 2.940035999999992,
+        "y": -0.010037000000011176
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C25",
+      "originalName": "C25",
+      "value": "C_10u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 5.710000000000008,
+        "y": -2.780000000000001
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C26",
+      "originalName": "C26",
+      "value": "C_10u_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 2.2399999999999807,
+        "y": 0.6899999999999977
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C27",
+      "originalName": "C27",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 4.329999999999984,
+        "y": -1.4000000000000057
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C23",
+      "originalName": "C23",
+      "value": "C_10n_0402",
+      "kind": "chip",
+      "footprint": "antmicro-footprints:C_0402_1005Metric",
+      "layer": "bottom",
+      "rotation": 45,
+      "center": {
+        "x": 3.640071000000006,
+        "y": -0.7100720000000109
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "/CSI Connector/I2C.SCL",
+      "runtimeName": "_CSI_Connector_I2C_SCL",
+      "targets": [
+        ".R31 > .pin1",
+        ".R33 > .pin1",
+        ".R6 > .pin1",
+        ".R25 > .pin2",
+        ".R4 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP8)",
+      "runtimeName": "Net__U6_MFP8_",
+      "targets": [
+        ".R31 > .pin2",
+        ".U6 > .pin32"
+      ]
+    },
+    {
+      "name": "Net-(U1-BST)",
+      "runtimeName": "Net__U1_BST_",
+      "targets": [
+        ".C3 > .pin1",
+        ".U1 > .pin6"
+      ]
+    },
+    {
+      "name": "/Supply/SW_5V",
+      "runtimeName": "_Supply_SW_5V",
+      "targets": [
+        ".C3 > .pin2",
+        ".U1 > .pin2",
+        ".L1 > .pin1"
+      ]
+    },
+    {
+      "name": "/Supply/OUT_1V8",
+      "runtimeName": "_Supply_OUT_1V8",
+      "targets": [
+        ".R14 > .pin1",
+        ".C8 > .pin2",
+        ".C6 > .pin2",
+        ".L2 > .pin2",
+        ".R11 > .pin2"
+      ]
+    },
+    {
+      "name": "+1V8",
+      "runtimeName": "_1V8",
+      "targets": [
+        ".R14 > .pin2",
+        ".U6 > .pin11",
+        ".C14 > .pin2",
+        ".U5 > .pin1",
+        ".U5 > .pin3",
+        ".R38 > .pin2",
+        ".TP2 > .pin1",
+        ".Q3 > .pin1",
+        ".C28 > .pin2",
+        ".C25 > .pin2",
+        ".C27 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-PWDNB)",
+      "runtimeName": "Net__U6_PWDNB_",
+      "targets": [
+        ".U6 > .pin1",
+        ".R28 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP0)",
+      "runtimeName": "Net__U6_MFP0_",
+      "targets": [
+        ".U6 > .pin2",
+        ".TP6 > .pin1"
+      ]
+    },
+    {
+      "name": "/Serializer/CFG0",
+      "runtimeName": "_Serializer_CFG0",
+      "targets": [
+        ".U6 > .pin3",
+        ".R19 > .pin2",
+        ".R18 > .pin1"
+      ]
+    },
+    {
+      "name": "/Serializer/CFG1",
+      "runtimeName": "_Serializer_CFG1",
+      "targets": [
+        ".U6 > .pin4",
+        ".R21 > .pin1",
+        ".R22 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP9)",
+      "runtimeName": "Net__U6_MFP9_",
+      "targets": [
+        ".U6 > .pin5",
+        ".R32 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP10)",
+      "runtimeName": "Net__U6_MFP10_",
+      "targets": [
+        ".U6 > .pin6",
+        ".R33 > .pin2"
+      ]
+    },
+    {
+      "name": "/Serializer/VREF",
+      "runtimeName": "_Serializer_VREF",
+      "targets": [
+        ".U6 > .pin7",
+        ".U4 > .pin2"
+      ]
+    },
+    {
+      "name": "/Serializer/X1",
+      "runtimeName": "_Serializer_X1",
+      "targets": [
+        ".U6 > .pin8",
+        ".Y1 > .pin1",
+        ".C16 > .pin2"
+      ]
+    },
+    {
+      "name": "/Serializer/X2",
+      "runtimeName": "_Serializer_X2",
+      "targets": [
+        ".U6 > .pin9",
+        ".R20 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-XRES)",
+      "runtimeName": "Net__U6_XRES_",
+      "targets": [
+        ".U6 > .pin10",
+        ".R23 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U6-SIOP)",
+      "runtimeName": "Net__U6_SIOP_",
+      "targets": [
+        ".U6 > .pin12",
+        ".C30 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U6-SION)",
+      "runtimeName": "Net__U6_SION_",
+      "targets": [
+        ".U6 > .pin13",
+        ".C31 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U6-CAP_VDD)",
+      "runtimeName": "Net__U6_CAP_VDD_",
+      "targets": [
+        ".U6 > .pin14",
+        ".C24 > .pin2",
+        ".C26 > .pin2",
+        ".C23 > .pin2"
+      ]
+    },
+    {
+      "name": "+1V2",
+      "runtimeName": "_1V2",
+      "targets": [
+        ".U6 > .pin15",
+        ".TP5 > .pin1",
+        ".C18 > .pin2",
+        ".C15 > .pin2",
+        ".U5 > .pin5",
+        ".C22 > .pin2",
+        ".R34 > .pin2",
+        ".Q1 > .pin1",
+        ".C20 > .pin2"
+      ]
+    },
+    {
+      "name": "+3V3",
+      "runtimeName": "_3V3",
+      "targets": [
+        ".U6 > .pin16",
+        ".D11 > .pin2",
+        ".R6 > .pin2",
+        ".R28 > .pin2",
+        ".J1 > .pin47",
+        ".J1 > .pin48",
+        ".C32 > .pin2",
+        ".D4 > .pin1",
+        ".D4 > .pin2",
+        ".D4 > .pin9",
+        ".D4 > .pin10",
+        ".C33 > .pin2",
+        ".R21 > .pin2",
+        ".TP4 > .pin1",
+        ".R18 > .pin2",
+        ".R5 > .pin2",
+        ".R45 > .pin2",
+        ".C29 > .pin2"
+      ]
+    },
+    {
+      "name": "/CSI Connector/GPIO3",
+      "runtimeName": "_CSI_Connector_GPIO3",
+      "targets": [
+        ".U6 > .pin17",
+        ".J1 > .pin32",
+        ".D3 > .pin1",
+        ".D3 > .pin10"
+      ]
+    },
+    {
+      "name": "/CSI Connector/GPIO4",
+      "runtimeName": "_CSI_Connector_GPIO4",
+      "targets": [
+        ".U6 > .pin18",
+        ".R1 > .pin2"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D2_P",
+      "runtimeName": "_CSI_Connector_CSI_D2_P",
+      "targets": [
+        ".U6 > .pin19",
+        ".J1 > .pin22"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D2_N",
+      "runtimeName": "_CSI_Connector_CSI_D2_N",
+      "targets": [
+        ".U6 > .pin20",
+        ".J1 > .pin21"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP5)",
+      "runtimeName": "Net__U6_MFP5_",
+      "targets": [
+        ".U6 > .pin21",
+        ".TP7 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP6)",
+      "runtimeName": "Net__U6_MFP6_",
+      "targets": [
+        ".U6 > .pin22",
+        ".TP8 > .pin1"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D3_P",
+      "runtimeName": "_CSI_Connector_CSI_D3_P",
+      "targets": [
+        ".U6 > .pin23",
+        ".J1 > .pin20"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D3_N",
+      "runtimeName": "_CSI_Connector_CSI_D3_N",
+      "targets": [
+        ".U6 > .pin24",
+        ".J1 > .pin19"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D0_P",
+      "runtimeName": "_CSI_Connector_CSI_D0_P",
+      "targets": [
+        ".U6 > .pin25",
+        ".J1 > .pin26"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D0_N",
+      "runtimeName": "_CSI_Connector_CSI_D0_N",
+      "targets": [
+        ".U6 > .pin26",
+        ".J1 > .pin25"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.CLK_P",
+      "runtimeName": "_CSI_Connector_CSI_CLK_P",
+      "targets": [
+        ".U6 > .pin27",
+        ".J1 > .pin29"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.CLK_N",
+      "runtimeName": "_CSI_Connector_CSI_CLK_N",
+      "targets": [
+        ".U6 > .pin28",
+        ".J1 > .pin28"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D1_P",
+      "runtimeName": "_CSI_Connector_CSI_D1_P",
+      "targets": [
+        ".U6 > .pin29",
+        ".J1 > .pin24"
+      ]
+    },
+    {
+      "name": "/CSI Connector/CSI.D1_N",
+      "runtimeName": "_CSI_Connector_CSI_D1_N",
+      "targets": [
+        ".U6 > .pin30",
+        ".J1 > .pin23"
+      ]
+    },
+    {
+      "name": "Net-(U6-MFP7)",
+      "runtimeName": "Net__U6_MFP7_",
+      "targets": [
+        ".U6 > .pin31",
+        ".R30 > .pin2"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".U6 > .pin33",
+        ".TP9 > .pin1",
+        ".R44 > .pin1",
+        ".C14 > .pin1",
+        ".C10 > .pin1",
+        ".C7 > .pin1",
+        ".C19 > .pin1",
+        ".C12 > .pin1",
+        ".Y1 > .pin2",
+        ".Y1 > .pin4",
+        ".C11 > .pin1",
+        ".R19 > .pin1",
+        ".U4 > .pin3",
+        ".R29 > .pin1",
+        ".J1 > .pin9",
+        ".J1 > .pin12",
+        ".J1 > .pin15",
+        ".J1 > .pin18",
+        ".J1 > .pin27",
+        ".J1 > .pin30",
+        ".J1 > .pin51",
+        ".J1 > .pin52",
+        ".C18 > .pin1",
+        ".C8 > .pin1",
+        ".C2 > .pin1",
+        ".C34 > .pin1",
+        ".C6 > .pin1",
+        ".R46 > .pin1",
+        ".C32 > .pin1",
+        ".D2 > .pin2",
+        ".C15 > .pin1",
+        ".U5 > .pin2",
+        ".C22 > .pin1",
+        ".D4 > .pin3",
+        ".D4 > .pin8",
+        ".MP4 > .pin1",
+        ".R34 > .pin1",
+        ".D1 > .pin3",
+        ".D1 > .pin8",
+        ".C5 > .pin1",
+        ".R12 > .pin1",
+        ".U1 > .pin1",
+        ".R40 > .pin1",
+        ".U2 > .pin1",
+        ".MP1 > .pin1",
+        ".C33 > .pin1",
+        ".R38 > .pin1",
+        ".J2 > .pin2",
+        ".J2 > .pin3",
+        ".J2 > .pin4",
+        ".J2 > .pin5",
+        ".C17 > .pin1",
+        ".R27 > .pin1",
+        ".R2 > .pin2",
+        ".U3 > .pin1",
+        ".R15 > .pin1",
+        ".MP3 > .pin1",
+        ".Q1 > .pin2",
+        ".R22 > .pin1",
+        ".R10 > .pin1",
+        ".R42 > .pin1",
+        ".C1 > .pin1",
+        ".Q3 > .pin2",
+        ".C20 > .pin1",
+        ".C29 > .pin1",
+        ".R26 > .pin1",
+        ".D3 > .pin3",
+        ".D3 > .pin8",
+        ".MP2 > .pin1",
+        ".C35 > .pin1",
+        ".C16 > .pin1",
+        ".R23 > .pin1",
+        ".C28 > .pin1",
+        ".C24 > .pin1",
+        ".C25 > .pin1",
+        ".C26 > .pin1",
+        ".C27 > .pin1",
+        ".C23 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(D5-C)",
+      "runtimeName": "Net__D5_C_",
+      "targets": [
+        ".D5 > .pin1",
+        ".R15 > .pin2"
+      ]
+    },
+    {
+      "name": "+5V",
+      "runtimeName": "_5V",
+      "targets": [
+        ".D5 > .pin2",
+        ".C12 > .pin2",
+        ".R35 > .pin2",
+        ".U4 > .pin1",
+        ".R39 > .pin2",
+        ".J1 > .pin49",
+        ".J1 > .pin50",
+        ".D4 > .pin4",
+        ".D4 > .pin5",
+        ".D4 > .pin6",
+        ".D4 > .pin7",
+        ".TP1 > .pin1",
+        ".R13 > .pin2"
+      ]
+    },
+    {
+      "name": "/Supply/FB_3V3",
+      "runtimeName": "_Supply_FB_3V3",
+      "targets": [
+        ".R44 > .pin2",
+        ".R37 > .pin1",
+        ".U3 > .pin4"
+      ]
+    },
+    {
+      "name": "/Supply/EN_3V3",
+      "runtimeName": "_Supply_EN_3V3",
+      "targets": [
+        ".R41 > .pin1",
+        ".U3 > .pin5",
+        ".R42 > .pin2"
+      ]
+    },
+    {
+      "name": "+12V",
+      "runtimeName": "_12V",
+      "targets": [
+        ".R41 > .pin2",
+        ".C10 > .pin2",
+        ".R7 > .pin2",
+        ".C19 > .pin2",
+        ".C11 > .pin2",
+        ".D9 > .pin2",
+        ".C2 > .pin2",
+        ".L3 > .pin1",
+        ".R8 > .pin2",
+        ".U1 > .pin3",
+        ".U2 > .pin3",
+        ".U3 > .pin3",
+        ".TP3 > .pin1",
+        ".C1 > .pin2",
+        ".R16 > .pin1"
+      ]
+    },
+    {
+      "name": "/Supply/OUT_5V",
+      "runtimeName": "_Supply_OUT_5V",
+      "targets": [
+        ".C7 > .pin2",
+        ".C5 > .pin2",
+        ".R9 > .pin2",
+        ".L1 > .pin2",
+        ".R13 > .pin1"
+      ]
+    },
+    {
+      "name": "/Supply/OUT_3V3",
+      "runtimeName": "_Supply_OUT_3V3",
+      "targets": [
+        ".R37 > .pin2",
+        ".C34 > .pin2",
+        ".L7 > .pin2",
+        ".R45 > .pin1",
+        ".C35 > .pin2"
+      ]
+    },
+    {
+      "name": "/Serializer/X2_R",
+      "runtimeName": "_Serializer_X2_R",
+      "targets": [
+        ".R20 > .pin1",
+        ".Y1 > .pin3",
+        ".C17 > .pin2"
+      ]
+    },
+    {
+      "name": "/Supply/EN_5V",
+      "runtimeName": "_Supply_EN_5V",
+      "targets": [
+        ".R7 > .pin1",
+        ".U1 > .pin5",
+        ".R27 > .pin2"
+      ]
+    },
+    {
+      "name": "/CSI Connector/GPIO4_1V8",
+      "runtimeName": "_CSI_Connector_GPIO4_1V8",
+      "targets": [
+        ".R1 > .pin1",
+        ".J1 > .pin34",
+        ".R2 > .pin1",
+        ".D3 > .pin2",
+        ".D3 > .pin9"
+      ]
+    },
+    {
+      "name": "Net-(D11-C)",
+      "runtimeName": "Net__D11_C_",
+      "targets": [
+        ".D11 > .pin1",
+        ".R46 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(D6-A)",
+      "runtimeName": "Net__D6_A_",
+      "targets": [
+        ".R35 > .pin1",
+        ".D6 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(D8-A)",
+      "runtimeName": "Net__D8_A_",
+      "targets": [
+        ".R39 > .pin1",
+        ".D8 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(C31-Pad2)",
+      "runtimeName": "Net__C31_Pad2_",
+      "targets": [
+        ".R29 > .pin2",
+        ".C31 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(D9-C)",
+      "runtimeName": "Net__D9_C_",
+      "targets": [
+        ".D9 > .pin1",
+        ".R40 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad1)",
+      "runtimeName": "unconnected__J1_Pad1_",
+      "targets": [
+        ".J1 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad2)",
+      "runtimeName": "unconnected__J1_Pad2_",
+      "targets": [
+        ".J1 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad3)",
+      "runtimeName": "unconnected__J1_Pad3_",
+      "targets": [
+        ".J1 > .pin3"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad4)",
+      "runtimeName": "unconnected__J1_Pad4_",
+      "targets": [
+        ".J1 > .pin4"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad5)",
+      "runtimeName": "unconnected__J1_Pad5_",
+      "targets": [
+        ".J1 > .pin5"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad6)",
+      "runtimeName": "unconnected__J1_Pad6_",
+      "targets": [
+        ".J1 > .pin6"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad7)",
+      "runtimeName": "unconnected__J1_Pad7_",
+      "targets": [
+        ".J1 > .pin7"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad8)",
+      "runtimeName": "unconnected__J1_Pad8_",
+      "targets": [
+        ".J1 > .pin8"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad10)",
+      "runtimeName": "unconnected__J1_Pad10_",
+      "targets": [
+        ".J1 > .pin10"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad11)",
+      "runtimeName": "unconnected__J1_Pad11_",
+      "targets": [
+        ".J1 > .pin11"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad13)",
+      "runtimeName": "unconnected__J1_Pad13_",
+      "targets": [
+        ".J1 > .pin13"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad14)",
+      "runtimeName": "unconnected__J1_Pad14_",
+      "targets": [
+        ".J1 > .pin14"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad16)",
+      "runtimeName": "unconnected__J1_Pad16_",
+      "targets": [
+        ".J1 > .pin16"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad17)",
+      "runtimeName": "unconnected__J1_Pad17_",
+      "targets": [
+        ".J1 > .pin17"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad31)",
+      "runtimeName": "unconnected__J1_Pad31_",
+      "targets": [
+        ".J1 > .pin31"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad33)",
+      "runtimeName": "unconnected__J1_Pad33_",
+      "targets": [
+        ".J1 > .pin33"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad35)",
+      "runtimeName": "unconnected__J1_Pad35_",
+      "targets": [
+        ".J1 > .pin35"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad36)",
+      "runtimeName": "unconnected__J1_Pad36_",
+      "targets": [
+        ".J1 > .pin36"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad37)",
+      "runtimeName": "unconnected__J1_Pad37_",
+      "targets": [
+        ".J1 > .pin37"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad38)",
+      "runtimeName": "unconnected__J1_Pad38_",
+      "targets": [
+        ".J1 > .pin38"
+      ]
+    },
+    {
+      "name": "/CSI Connector/SDA_CAM0",
+      "runtimeName": "_CSI_Connector_SDA_CAM0",
+      "targets": [
+        ".J1 > .pin39",
+        ".R3 > .pin1",
+        ".D1 > .pin1",
+        ".D1 > .pin10"
+      ]
+    },
+    {
+      "name": "/CSI Connector/SCL_CAM0",
+      "runtimeName": "_CSI_Connector_SCL_CAM0",
+      "targets": [
+        ".J1 > .pin40",
+        ".D1 > .pin2",
+        ".D1 > .pin9",
+        ".R4 > .pin1"
+      ]
+    },
+    {
+      "name": "/CSI Connector/SDA_CAM1",
+      "runtimeName": "_CSI_Connector_SDA_CAM1",
+      "targets": [
+        ".J1 > .pin41",
+        ".D1 > .pin4",
+        ".D1 > .pin7",
+        ".R24 > .pin1"
+      ]
+    },
+    {
+      "name": "/CSI Connector/SCL_CAM1",
+      "runtimeName": "_CSI_Connector_SCL_CAM1",
+      "targets": [
+        ".J1 > .pin42",
+        ".R25 > .pin1",
+        ".D1 > .pin5",
+        ".D1 > .pin6"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad43)",
+      "runtimeName": "unconnected__J1_Pad43_",
+      "targets": [
+        ".J1 > .pin43"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad44)",
+      "runtimeName": "unconnected__J1_Pad44_",
+      "targets": [
+        ".J1 > .pin44"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad45)",
+      "runtimeName": "unconnected__J1_Pad45_",
+      "targets": [
+        ".J1 > .pin45"
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad46)",
+      "runtimeName": "unconnected__J1_Pad46_",
+      "targets": [
+        ".J1 > .pin46"
+      ]
+    },
+    {
+      "name": "Net-(L3-Pad2)",
+      "runtimeName": "Net__L3_Pad2_",
+      "targets": [
+        ".R17 > .pin1",
+        ".L3 > .pin2",
+        ".L4 > .pin1",
+        ".R16 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(L4-Pad2)",
+      "runtimeName": "Net__L4_Pad2_",
+      "targets": [
+        ".R17 > .pin2",
+        ".L4 > .pin2",
+        ".L5 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(U2-BST)",
+      "runtimeName": "Net__U2_BST_",
+      "targets": [
+        ".C4 > .pin1",
+        ".U2 > .pin6"
+      ]
+    },
+    {
+      "name": "/Supply/SW_1V8",
+      "runtimeName": "_Supply_SW_1V8",
+      "targets": [
+        ".C4 > .pin2",
+        ".L2 > .pin1",
+        ".U2 > .pin2"
+      ]
+    },
+    {
+      "name": "/GMSL Connector/SIO_P",
+      "runtimeName": "_GMSL_Connector_SIO_P",
+      "targets": [
+        ".D2 > .pin1",
+        ".J2 > .pin1",
+        ".L6 > .pin2",
+        ".C30 > .pin2"
+      ]
+    },
+    {
+      "name": "/CSI Connector/I2C.SDA",
+      "runtimeName": "_CSI_Connector_I2C_SDA",
+      "targets": [
+        ".R3 > .pin2",
+        ".R32 > .pin1",
+        ".R5 > .pin1",
+        ".R24 > .pin2",
+        ".R30 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad4)",
+      "runtimeName": "unconnected__U5_NC_Pad4_",
+      "targets": [
+        ".U5 > .pin4"
+      ]
+    },
+    {
+      "name": "/Supply/EN_1V8",
+      "runtimeName": "_Supply_EN_1V8",
+      "targets": [
+        ".R8 > .pin1",
+        ".U2 > .pin5",
+        ".R26 > .pin2"
+      ]
+    },
+    {
+      "name": "/Supply/FB_1V8",
+      "runtimeName": "_Supply_FB_1V8",
+      "targets": [
+        ".R12 > .pin2",
+        ".U2 > .pin4",
+        ".R11 > .pin1"
+      ]
+    },
+    {
+      "name": "/Supply/FB_5V",
+      "runtimeName": "_Supply_FB_5V",
+      "targets": [
+        ".U1 > .pin4",
+        ".R9 > .pin1",
+        ".R10 > .pin2"
+      ]
+    },
+    {
+      "name": "/Supply/SW_3V3",
+      "runtimeName": "_Supply_SW_3V3",
+      "targets": [
+        ".L7 > .pin1",
+        ".U3 > .pin2",
+        ".C21 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(L5-Pad2)",
+      "runtimeName": "Net__L5_Pad2_",
+      "targets": [
+        ".L6 > .pin1",
+        ".L5 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(U3-BST)",
+      "runtimeName": "Net__U3_BST_",
+      "targets": [
+        ".U3 > .pin6",
+        ".C21 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(D6-C)",
+      "runtimeName": "Net__D6_C_",
+      "targets": [
+        ".Q1 > .pin3",
+        ".D6 > .pin1"
+      ]
+    },
+    {
+      "name": "Net-(D8-C)",
+      "runtimeName": "Net__D8_C_",
+      "targets": [
+        ".Q3 > .pin3",
+        ".D8 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(D3-Pad4)",
+      "runtimeName": "unconnected__D3_Pad4_",
+      "targets": [
+        ".D3 > .pin4",
+        ".D3 > .pin7"
+      ]
+    },
+    {
+      "name": "unconnected-(D3-Pad5)",
+      "runtimeName": "unconnected__D3_Pad5_",
+      "targets": [
+        ".D3 > .pin5",
+        ".D3 > .pin6"
+      ]
+    }
+  ]
+}

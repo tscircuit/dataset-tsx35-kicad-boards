@@ -1,0 +1,1281 @@
+{
+  "scale_mm_to_schematic": 0.07874015748031496,
+  "sheets": [
+    {
+      "name": "Overview",
+      "file": "hardware/water_level.kicad_sch",
+      "paper": "A3",
+      "symbols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "children": []
+    }
+  ],
+  "symbols": [
+    {
+      "ref": "SW2",
+      "originalRef": "SW2",
+      "value": "AUTO/MANUAL",
+      "lib": "Switch:SW_Push",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.5999999999999979,
+      "y": -5.0,
+      "boxX": 1.5999999999999979,
+      "boxY": -5.0,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 1.1999999999999993,
+          "y": -5.0,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 1.9999999999999964,
+          "y": -5.0,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R3",
+      "originalRef": "R3",
+      "value": "220R",
+      "lib": "Device:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -1.7000000000000028,
+      "y": 2.900000000000002,
+      "boxX": -1.7000000000000028,
+      "boxY": 2.900000000000002,
+      "rotation": 270.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": -1.4000000000000021,
+          "y": 2.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": -2.0000000000000036,
+          "y": 2.900000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "rightSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J4",
+      "originalRef": "J4",
+      "value": "POWER_IN",
+      "lib": "Connector:Conn_01x02_Pin",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 6.800000000000001,
+      "y": -1.8999999999999986,
+      "boxX": 6.834,
+      "boxY": -2.0,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": 7.199999999999999,
+          "y": -1.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": 7.199999999999999,
+          "y": -2.099999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin1",
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "K1",
+      "originalRef": "K1",
+      "value": "SANYOU_SRD_Form_C",
+      "lib": "Relay:SANYOU_SRD_Form_C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -8.900000000000002,
+      "y": -2.8999999999999986,
+      "boxX": -8.900000000000002,
+      "boxY": -2.8999999999999986,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": -8.500000000000002,
+          "y": -3.4999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": -9.300000000000002,
+          "y": -3.4999999999999982,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "",
+          "x": -8.300000000000002,
+          "y": -2.299999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "",
+          "x": -8.700000000000003,
+          "y": -2.299999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "",
+          "x": -9.300000000000002,
+          "y": -2.299999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin5",
+          "pin4",
+          "pin3"
+        ],
+        "bottomSide": [
+          "pin2",
+          "pin1"
+        ]
+      },
+      "width": 1.5999999999999996,
+      "height": 0.8000000000000007
+    },
+    {
+      "ref": "U1",
+      "originalRef": "U1",
+      "value": "Arduino_UNO_R3",
+      "lib": "MCU_Module:Arduino_UNO_R3",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -10.200000000000003,
+      "y": 4.700000000000002,
+      "boxX": -10.200000000000003,
+      "boxY": 4.600000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "NC",
+          "x": -11.000000000000002,
+          "y": 3.1000000000000014,
+          "hidden": true
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "IOREF",
+          "x": -9.200000000000003,
+          "y": 5.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "~{RESET}",
+          "x": -9.200000000000003,
+          "y": 5.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "3V3",
+          "x": -10.000000000000002,
+          "y": 6.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "+5V",
+          "x": -9.8,
+          "y": 6.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "GND",
+          "x": -10.200000000000003,
+          "y": 2.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "GND",
+          "x": -10.000000000000002,
+          "y": 2.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "VIN",
+          "x": -10.400000000000002,
+          "y": 6.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "A0",
+          "x": -9.200000000000003,
+          "y": 4.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "A1",
+          "x": -9.200000000000003,
+          "y": 4.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "A2",
+          "x": -9.200000000000003,
+          "y": 4.300000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "A3",
+          "x": -9.200000000000003,
+          "y": 4.100000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "SDA/A4",
+          "x": -9.200000000000003,
+          "y": 3.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "SCL/A5",
+          "x": -9.200000000000003,
+          "y": 3.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "D0/RX",
+          "x": -11.200000000000003,
+          "y": 5.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "D1/TX",
+          "x": -11.200000000000003,
+          "y": 5.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin17",
+          "number": "17",
+          "label": "D2",
+          "x": -11.200000000000003,
+          "y": 5.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin18",
+          "number": "18",
+          "label": "D3",
+          "x": -11.200000000000003,
+          "y": 5.300000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin19",
+          "number": "19",
+          "label": "D4",
+          "x": -11.200000000000003,
+          "y": 5.100000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin20",
+          "number": "20",
+          "label": "D5",
+          "x": -11.200000000000003,
+          "y": 4.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin21",
+          "number": "21",
+          "label": "D6",
+          "x": -11.200000000000003,
+          "y": 4.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin22",
+          "number": "22",
+          "label": "D7",
+          "x": -11.200000000000003,
+          "y": 4.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin23",
+          "number": "23",
+          "label": "D8",
+          "x": -11.200000000000003,
+          "y": 4.300000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin24",
+          "number": "24",
+          "label": "D9",
+          "x": -11.200000000000003,
+          "y": 4.100000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin25",
+          "number": "25",
+          "label": "D10",
+          "x": -11.200000000000003,
+          "y": 3.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin26",
+          "number": "26",
+          "label": "D11",
+          "x": -11.200000000000003,
+          "y": 3.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin27",
+          "number": "27",
+          "label": "D12",
+          "x": -11.200000000000003,
+          "y": 3.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin28",
+          "number": "28",
+          "label": "D13",
+          "x": -11.200000000000003,
+          "y": 3.3000000000000016,
+          "hidden": false
+        },
+        {
+          "pin": "pin29",
+          "number": "29",
+          "label": "GND",
+          "x": -10.400000000000002,
+          "y": 2.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin30",
+          "number": "30",
+          "label": "AREF",
+          "x": -9.200000000000003,
+          "y": 5.100000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin31",
+          "number": "31",
+          "label": "SDA/A4",
+          "x": -9.200000000000003,
+          "y": 3.3000000000000016,
+          "hidden": false
+        },
+        {
+          "pin": "pin32",
+          "number": "32",
+          "label": "SCL/A5",
+          "x": -9.200000000000003,
+          "y": 3.1000000000000014,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin15",
+          "pin16",
+          "pin17",
+          "pin18",
+          "pin19",
+          "pin20",
+          "pin21",
+          "pin22",
+          "pin23",
+          "pin24",
+          "pin25",
+          "pin26",
+          "pin27",
+          "pin28",
+          "pin1"
+        ],
+        "rightSide": [
+          "pin3",
+          "pin2",
+          "pin30",
+          "pin9",
+          "pin10",
+          "pin11",
+          "pin12",
+          "pin13",
+          "pin14",
+          "pin31",
+          "pin32"
+        ],
+        "topSide": [
+          "pin8",
+          "pin4",
+          "pin5"
+        ],
+        "bottomSide": [
+          "pin29",
+          "pin6",
+          "pin7"
+        ]
+      },
+      "width": 1.5999999999999996,
+      "height": 3.8
+    },
+    {
+      "ref": "U2",
+      "originalRef": "U2",
+      "value": "HC-SR04",
+      "lib": "Connector:Conn_01x04_Pin",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 8.899999999999995,
+      "y": 4.700000000000002,
+      "boxX": 8.933999999999994,
+      "boxY": 4.600000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": 9.299999999999994,
+          "y": 4.900000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": 9.299999999999994,
+          "y": 4.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Pin_3",
+          "x": 9.299999999999994,
+          "y": 4.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "Pin_4",
+          "x": 9.299999999999994,
+          "y": 4.300000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J2",
+      "originalRef": "J2",
+      "value": "Conn_01x16_Pin",
+      "lib": "Connector:Conn_01x16_Pin",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -0.5000000000000018,
+      "y": 4.300000000000002,
+      "boxX": -0.4660000000000011,
+      "boxY": 4.200000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": -0.10000000000000142,
+          "y": 5.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": -0.10000000000000142,
+          "y": 5.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Pin_3",
+          "x": -0.10000000000000142,
+          "y": 5.300000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin4",
+          "number": "4",
+          "label": "Pin_4",
+          "x": -0.10000000000000142,
+          "y": 5.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin5",
+          "number": "5",
+          "label": "Pin_5",
+          "x": -0.10000000000000142,
+          "y": 4.900000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin6",
+          "number": "6",
+          "label": "Pin_6",
+          "x": -0.10000000000000142,
+          "y": 4.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin7",
+          "number": "7",
+          "label": "Pin_7",
+          "x": -0.10000000000000142,
+          "y": 4.500000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin8",
+          "number": "8",
+          "label": "Pin_8",
+          "x": -0.10000000000000142,
+          "y": 4.300000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin9",
+          "number": "9",
+          "label": "Pin_9",
+          "x": -0.10000000000000142,
+          "y": 4.100000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin10",
+          "number": "10",
+          "label": "Pin_10",
+          "x": -0.10000000000000142,
+          "y": 3.9000000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin11",
+          "number": "11",
+          "label": "Pin_11",
+          "x": -0.10000000000000142,
+          "y": 3.700000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin12",
+          "number": "12",
+          "label": "Pin_12",
+          "x": -0.10000000000000142,
+          "y": 3.5000000000000018,
+          "hidden": false
+        },
+        {
+          "pin": "pin13",
+          "number": "13",
+          "label": "Pin_13",
+          "x": -0.10000000000000142,
+          "y": 3.3000000000000016,
+          "hidden": false
+        },
+        {
+          "pin": "pin14",
+          "number": "14",
+          "label": "Pin_14",
+          "x": -0.10000000000000142,
+          "y": 3.1000000000000014,
+          "hidden": false
+        },
+        {
+          "pin": "pin15",
+          "number": "15",
+          "label": "Pin_15",
+          "x": -0.10000000000000142,
+          "y": 2.9000000000000012,
+          "hidden": false
+        },
+        {
+          "pin": "pin16",
+          "number": "16",
+          "label": "Pin_16",
+          "x": -0.10000000000000142,
+          "y": 2.700000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4",
+          "pin5",
+          "pin6",
+          "pin7",
+          "pin8",
+          "pin9",
+          "pin10",
+          "pin11",
+          "pin12",
+          "pin13",
+          "pin14",
+          "pin15",
+          "pin16"
+        ]
+      },
+      "width": 0.8,
+      "height": 3.0200000000000005
+    },
+    {
+      "ref": "R1",
+      "originalRef": "R1",
+      "value": "1k",
+      "lib": "Device:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -11.800000000000002,
+      "y": -4.499999999999998,
+      "boxX": -11.800000000000002,
+      "boxY": -4.499999999999998,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": -12.100000000000001,
+          "y": -4.499999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": -11.500000000000004,
+          "y": -4.499999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C3",
+      "originalRef": "C3",
+      "value": "100nF",
+      "lib": "Device:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 10.899999999999999,
+      "y": 4.400000000000001,
+      "boxX": 10.899999999999999,
+      "boxY": 4.400000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": 10.899999999999999,
+          "y": 4.700000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": 10.899999999999999,
+          "y": 4.100000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C4",
+      "originalRef": "C4",
+      "value": "10uF",
+      "lib": "Device:C",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 11.8,
+      "y": 4.400000000000001,
+      "boxX": 11.8,
+      "boxY": 4.400000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": 11.8,
+          "y": 4.700000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": 11.8,
+          "y": 4.100000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "RV1",
+      "originalRef": "RV1",
+      "value": "10k",
+      "lib": "Device:R_Potentiometer_Trim",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -2.700000000000003,
+      "y": 4.400000000000001,
+      "boxX": -2.700000000000003,
+      "boxY": 4.400000000000001,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": -2.700000000000003,
+          "y": 4.700000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": -2.400000000000002,
+          "y": 4.400000000000001,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "3",
+          "x": -2.700000000000003,
+          "y": 4.100000000000001,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "rightSide": [
+          "pin2"
+        ],
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin3"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "D1",
+      "originalRef": "D1",
+      "value": "1N4007",
+      "lib": "Diode:1N4007",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -10.600000000000001,
+      "y": -2.299999999999997,
+      "boxX": -10.600000000000001,
+      "boxY": -2.299999999999997,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "K",
+          "x": -10.600000000000001,
+          "y": -2.599999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "A",
+          "x": -10.600000000000001,
+          "y": -1.9999999999999964,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin2"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "SW1",
+      "originalRef": "SW1",
+      "value": "SET",
+      "lib": "Switch:SW_Push",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 1.6999999999999993,
+      "y": -3.1999999999999975,
+      "boxX": 1.6999999999999993,
+      "boxY": -3.1999999999999975,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "1",
+          "x": 1.3000000000000007,
+          "y": -3.1999999999999975,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "2",
+          "x": 2.099999999999998,
+          "y": -3.1999999999999975,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C1",
+      "originalRef": "C1",
+      "value": "100nF",
+      "lib": "Device:C_Small_US",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 2.4999999999999964,
+      "y": 5.000000000000002,
+      "boxX": 2.4999999999999964,
+      "boxY": 5.000000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": 2.4999999999999964,
+          "y": 5.200000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": 2.4999999999999964,
+          "y": 4.800000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R5",
+      "originalRef": "R5",
+      "value": "10k",
+      "lib": "Device:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -0.3000000000000025,
+      "y": -4.199999999999999,
+      "boxX": -0.3000000000000025,
+      "boxY": -4.199999999999999,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": -0.6000000000000032,
+          "y": -4.199999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": -1.7763568394002505e-15,
+          "y": -4.199999999999999,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "C2",
+      "originalRef": "C2",
+      "value": "10uF",
+      "lib": "Device:C_Small_US",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": 3.299999999999997,
+      "y": 5.000000000000002,
+      "boxX": 3.299999999999997,
+      "boxY": 5.000000000000002,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": 3.299999999999997,
+          "y": 5.200000000000002,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": 3.299999999999997,
+          "y": 4.800000000000002,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "topSide": [
+          "pin1"
+        ],
+        "bottomSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "J3",
+      "originalRef": "J3",
+      "value": "RELAY_OUT",
+      "lib": "Connector:Conn_01x03_Pin",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -6.000000000000002,
+      "y": -3.099999999999998,
+      "boxX": -6.0340000000000025,
+      "boxY": -3.099999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "Pin_1",
+          "x": -6.400000000000002,
+          "y": -2.8999999999999986,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "Pin_2",
+          "x": -6.400000000000002,
+          "y": -3.099999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "Pin_3",
+          "x": -6.400000000000002,
+          "y": -3.299999999999997,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1",
+          "pin2",
+          "pin3"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "R4",
+      "originalRef": "R4",
+      "value": "10k",
+      "lib": "Device:R",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -0.3000000000000025,
+      "y": -2.1999999999999993,
+      "boxX": -0.3000000000000025,
+      "boxY": -2.1999999999999993,
+      "rotation": 90.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "",
+          "x": -0.6000000000000032,
+          "y": -2.1999999999999993,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "",
+          "x": -1.7763568394002505e-15,
+          "y": -2.1999999999999993,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin1"
+        ],
+        "rightSide": [
+          "pin2"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8
+    },
+    {
+      "ref": "Q1",
+      "originalRef": "Q1",
+      "value": "2N2219",
+      "lib": "Transistor_BJT:2N2219",
+      "unit": 1,
+      "sheet": "Overview",
+      "x": -10.800000000000002,
+      "y": -4.499999999999998,
+      "boxX": -10.900000000000002,
+      "boxY": -4.499999999999998,
+      "rotation": 0.0,
+      "pins": [
+        {
+          "pin": "pin1",
+          "number": "1",
+          "label": "E",
+          "x": -10.600000000000001,
+          "y": -4.899999999999999,
+          "hidden": false
+        },
+        {
+          "pin": "pin2",
+          "number": "2",
+          "label": "B",
+          "x": -11.200000000000003,
+          "y": -4.499999999999998,
+          "hidden": false
+        },
+        {
+          "pin": "pin3",
+          "number": "3",
+          "label": "C",
+          "x": -10.600000000000001,
+          "y": -4.099999999999998,
+          "hidden": false
+        }
+      ],
+      "arrangement": {
+        "leftSide": [
+          "pin2"
+        ],
+        "topSide": [
+          "pin3"
+        ],
+        "bottomSide": [
+          "pin1"
+        ]
+      },
+      "width": 0.8,
+      "height": 0.8000000000000007
+    }
+  ]
+}

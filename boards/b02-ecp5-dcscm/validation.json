@@ -1,0 +1,51 @@
+{
+  "id": "b02-ecp5-dcscm",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "489210d8c47bf871d5c092d9ef144bef38c9cb66684ef8937bb85524c765d542",
+    "footprints.tsx": "7f7254a3d411d7585d8c0e8909ee9668d2119e64b0aaccaed872394f44c9d6f5",
+    "schematic.tsx": "e1c3878d4df1a6279b8c48ab71308a4dba4ae8c292db702a639e372aac169b98",
+    "metadata.json": "a1840b373997e4eeafb69efa1aba6dd0306075f36deb5e4037f392722c1cff95"
+  },
+  "expectedComponents": 506,
+  "actualComponents": 506,
+  "expectedPhysicalPrimitives": 2634,
+  "actualPhysicalPrimitives": 2634,
+  "netCount": 785,
+  "actualNetCount": 785,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component J1 extends outside board boundaries by 4.87mm."
+    },
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component J5 extends outside board boundaries by 0.66mm."
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U12 overlaps with courtyard of L2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C95 overlaps with courtyard of L2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of TP4 overlaps with courtyard of TP5"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of N1 overlaps with courtyard of N2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of N1 overlaps with courtyard of J3"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

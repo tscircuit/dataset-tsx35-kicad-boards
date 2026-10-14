@@ -1,0 +1,32 @@
+{
+  "id": "CNES_argos-demo-board",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 91,
+  "actualComponents": 91,
+  "expectedPhysicalPrimitives": 321,
+  "actualPhysicalPrimitives": 321,
+  "netCount": 87,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component H2 extends outside board boundaries by 0.68mm."
+    },
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component H5 extends outside board boundaries by 0.68mm."
+    },
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component H1 extends outside board boundaries by 0.68mm."
+    },
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component H3 extends outside board boundaries by 0.68mm."
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

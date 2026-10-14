@@ -1,0 +1,12 @@
+{
+  "id": "antmicro_stm32h7-hdmi-board-sodimm",
+  "success": true,
+  "terminals_checked": 789,
+  "schematic_nets": 230,
+  "mismatched_terminals": 0,
+  "pcb_only_terminals": [],
+  "redundant_no_connect_entries": [],
+  "absent_or_isolated_schematic_terminals": [],
+  "mismatches": [],
+  "warnings": ""
+}

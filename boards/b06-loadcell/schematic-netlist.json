@@ -1,0 +1,2492 @@
+{
+  "root_file": "PCB/LoadcellSensor.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "3VREG1",
+      "value": "AP2112K-3.3",
+      "libpart": {
+        "lib": "Regulator_Linear",
+        "part": "AP2112K-3.3",
+        "description": "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "BLT-CONN1",
+      "value": "532610571",
+      "libpart": {
+        "lib": "0532610471",
+        "part": "532610571",
+        "description": "Conn; Rect; Header; 1.25 mm Pitch; PCB; 5 Cir; Rt Angle; SMT; PicoBlade; Tin; LF | Molex Incorporated 53261-0571"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Boot1",
+      "value": "PTS645SK50SMTR92LFS",
+      "libpart": {
+        "lib": "PTS645SK50SMTR92LFS",
+        "part": "PTS645SK50SMTR92LFS",
+        "description": "Switch;Tactile;SPST-NO;OFF-MOM;Top Actuator;260 Grams;4.3mm;.05A;12VDC;Gull Wing | C&K PTS645SK50SMTR92 LFS"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "10uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "4.7nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "10uf",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "10uf",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "10uf",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "12pF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "12pF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "0.1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C21",
+      "value": "1uF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C22",
+      "value": "10nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C23",
+      "value": "1nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C24",
+      "value": "1nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C25",
+      "value": "1nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C26",
+      "value": "1nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C27",
+      "value": "10nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C28",
+      "value": "1nF",
+      "libpart": {
+        "lib": "Device",
+        "part": "C_Small",
+        "description": "Unpolarized capacitor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "CRYSTAL1",
+      "value": "12Mhz",
+      "libpart": {
+        "lib": "ABM3B-12.000MHZ-12-N2Y-T",
+        "part": "ABM3B-12.000MHZ-12-N2Y-T",
+        "description": "12 MHz \u00b120ppm Crystal 12pF 70 Ohms 4-SMD, No Lead"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "FLASH1",
+      "value": "W25Q128JVS",
+      "libpart": {
+        "lib": "Memory_Flash",
+        "part": "W25Q128JVS",
+        "description": "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H1",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H2",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H3",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "H4",
+      "value": "MountingHole",
+      "libpart": {
+        "lib": "Mechanical",
+        "part": "MountingHole",
+        "description": "Mounting Hole without connection"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "LED1",
+      "value": "WS2812B",
+      "libpart": {
+        "lib": "LED",
+        "part": "WS2812B",
+        "description": "RGB LED with integrated controller"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "LOADCELL1",
+      "value": "B4B-XH-A",
+      "libpart": {
+        "lib": "2023-11-18_16-50-05",
+        "part": "B4B-XH-A",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "100k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "27",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "27",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "1k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "10K",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "5.1k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "5.1k",
+      "libpart": {
+        "lib": "Device",
+        "part": "R_Small",
+        "description": "Resistor, small symbol"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "100",
+      "libpart": {
+        "lib": "Device",
+        "part": "R",
+        "description": "Resistor"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "RP2040",
+      "value": "RP2040",
+      "libpart": {
+        "lib": "MCU_RaspberryPi",
+        "part": "RP2040",
+        "description": "A microcontroller by Raspberry Pi"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "SWD1",
+      "value": "~",
+      "libpart": {
+        "lib": "Connector",
+        "part": "Conn_01x03_Pin",
+        "description": "Generic connector, single row, 01x03, script generated"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "ADS1235IRHBR",
+      "libpart": {
+        "lib": "ADS1235IRHBR",
+        "part": "ADS1235IRHBR",
+        "description": "24-bit, 7.2-kSPS, 3-ch differential, delta-sigma ADC with PGA and AC excitation for bridge sensors"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "USB1",
+      "value": "~",
+      "libpart": {
+        "lib": "USB4145-03-0170-C_REVA2",
+        "part": "USB4145-03-0170-C_REVA2",
+        "description": "Type C USB 2.0 Connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "+3.3V",
+      "nodes": [
+        {
+          "ref": "3VREG1",
+          "pin": "5",
+          "function": "VOUT_5",
+          "type": "power_out"
+        },
+        {
+          "ref": "C11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FLASH1",
+          "pin": "8",
+          "function": "VCC_8",
+          "type": "power_in"
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "1",
+          "function": "IOVDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "10",
+          "function": "IOVDD_10",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "22",
+          "function": "IOVDD_22",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "33",
+          "function": "IOVDD_33",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "42",
+          "function": "IOVDD_42",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "43",
+          "function": "ADC_AVDD_43",
+          "type": "power_in"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "44",
+          "function": "VREG_IN_44",
+          "type": "power_in"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "48",
+          "function": "USB_VDD_48",
+          "type": "power_in"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "49",
+          "function": "IOVDD_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "17",
+          "function": "DVDD_17",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "+5V",
+      "nodes": [
+        {
+          "ref": "3VREG1",
+          "pin": "1",
+          "function": "VIN_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "3VREG1",
+          "pin": "3",
+          "function": "EN_3",
+          "type": "input"
+        },
+        {
+          "ref": "BLT-CONN1",
+          "pin": "4",
+          "function": "4_4",
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "LED1",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "LOADCELL1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "unspecified"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "27",
+          "function": "AIN3_27",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "28",
+          "function": "AIN2_28",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "29",
+          "function": "AIN1_29",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "30",
+          "function": "AIN0_30",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "function": "AVDD_4",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A4",
+          "function": "VBUS_A_A4",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A9",
+          "function": "VBUS_A_A9",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B4",
+          "function": "VBUS_B_B4",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B9",
+          "function": "VBUS_B_B9",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "/A+",
+      "nodes": [
+        {
+          "ref": "LOADCELL1",
+          "pin": "3",
+          "function": "3_3",
+          "type": "unspecified"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/A-",
+      "nodes": [
+        {
+          "ref": "LOADCELL1",
+          "pin": "4",
+          "function": "4_4",
+          "type": "unspecified"
+        },
+        {
+          "ref": "R13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_CS",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "13",
+          "function": "GPIO10_13",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "10",
+          "function": "CS_10",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_DRDY",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "9",
+          "function": "GPIO7_9",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "13",
+          "function": "DRDY_13",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_MISO",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "8",
+          "function": "GPIO6_8",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "14",
+          "function": "DOUT/DRDY_14",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_MOSI",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "11",
+          "function": "GPIO8_11",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "12",
+          "function": "DIN_12",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_PWDN",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "16",
+          "function": "GPIO13_16",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "7",
+          "function": "PWDN_7",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_RESET",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "15",
+          "function": "GPIO12_15",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "8",
+          "function": "RESET_8",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_SCLK",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "12",
+          "function": "GPIO9_12",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "11",
+          "function": "SCLK_11",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/ADC_START",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "14",
+          "function": "GPIO11_14",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U1",
+          "pin": "9",
+          "function": "START_9",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/BOOT",
+      "nodes": [
+        {
+          "ref": "Boot1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Boot1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/D+",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A6",
+          "function": "DP1_A6",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B6",
+          "function": "DP2_B6",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/D-",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A7",
+          "function": "DN1_A7",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B7",
+          "function": "DN2_B7",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/LED_DIN",
+      "nodes": [
+        {
+          "ref": "LED1",
+          "pin": "4",
+          "function": "DIN_4",
+          "type": "input"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "29",
+          "function": "GPIO18_29",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SCLK",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "6",
+          "function": "CLK_6",
+          "type": "input"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "52",
+          "function": "QSPI_SCLK_52",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SD0",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "5",
+          "function": "DI(IO0)_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "53",
+          "function": "QSPI_SD0_53",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SD1",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "2",
+          "function": "DO(IO1)_2",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "55",
+          "function": "QSPI_SD1_55",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SD2",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "3",
+          "function": "IO2_3",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "54",
+          "function": "QSPI_SD2_54",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SD3",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "7",
+          "function": "IO3_7",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "51",
+          "function": "QSPI_SD3_51",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/QSPI_SS",
+      "nodes": [
+        {
+          "ref": "FLASH1",
+          "pin": "1",
+          "function": "~{CS}_1",
+          "type": "input"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "56",
+          "function": "QSPI_SS_56",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SENSOR_OUT",
+      "nodes": [
+        {
+          "ref": "BLT-CONN1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "3",
+          "function": "GPIO1_3",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SERVO",
+      "nodes": [
+        {
+          "ref": "BLT-CONN1",
+          "pin": "3",
+          "function": "3_3",
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "4",
+          "function": "GPIO2_4",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/USB_D+",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "47",
+          "function": "USB_DP_47",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/USB_D-",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "46",
+          "function": "USB_DM_46",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "3VREG1",
+          "pin": "2",
+          "function": "GND_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "BLT-CONN1",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "BLT-CONN1",
+          "pin": "5",
+          "function": "5_5",
+          "type": "passive"
+        },
+        {
+          "ref": "BLT-CONN1",
+          "pin": "S1",
+          "function": "SHIELD1_S1",
+          "type": "passive"
+        },
+        {
+          "ref": "BLT-CONN1",
+          "pin": "S2",
+          "function": "SHIELD2_S2",
+          "type": "passive"
+        },
+        {
+          "ref": "Boot1",
+          "pin": "3",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Boot1",
+          "pin": "4",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "CRYSTAL1",
+          "pin": "2",
+          "function": "GND_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "CRYSTAL1",
+          "pin": "4",
+          "function": "GND_4",
+          "type": "power_in"
+        },
+        {
+          "ref": "FLASH1",
+          "pin": "4",
+          "function": "GND_4",
+          "type": "power_in"
+        },
+        {
+          "ref": "LED1",
+          "pin": "3",
+          "function": "VSS_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "LOADCELL1",
+          "pin": "2",
+          "function": "2_2",
+          "type": "unspecified"
+        },
+        {
+          "ref": "R11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "19",
+          "function": "TESTEN_19",
+          "type": "input"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "57",
+          "function": "GND_57",
+          "type": "power_in"
+        },
+        {
+          "ref": "SWD1",
+          "pin": "2",
+          "function": "Pin_2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "16",
+          "function": "DGND_16",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "18",
+          "function": "CLKIN_18",
+          "type": "input"
+        },
+        {
+          "ref": "U1",
+          "pin": "33",
+          "function": "AVSS_33",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "function": "AVSS_2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A1",
+          "function": "GND_A_A1",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A12",
+          "function": "GND_A_A12",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B1",
+          "function": "GND_B_B1",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B12",
+          "function": "GND_B_B12",
+          "type": "power_in"
+        },
+        {
+          "ref": "USB1",
+          "pin": "S1",
+          "function": "SHIELD_S1",
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "S2",
+          "function": "SHIELD_S2",
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "S3",
+          "function": "SHIELD_S3",
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "S4",
+          "function": "SHIELD_S4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C10-Pad2)",
+      "nodes": [
+        {
+          "ref": "C10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "CRYSTAL1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-RUN)",
+      "nodes": [
+        {
+          "ref": "R10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "26",
+          "function": "RUN_26",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-SWCLK)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "24",
+          "function": "SWCLK_24",
+          "type": "input"
+        },
+        {
+          "ref": "SWD1",
+          "pin": "1",
+          "function": "Pin_1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-SWD)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "25",
+          "function": "SWD_25",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "SWD1",
+          "pin": "3",
+          "function": "Pin_3_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-VREG_VOUT)",
+      "nodes": [
+        {
+          "ref": "C19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "23",
+          "function": "DVDD_23",
+          "type": "power_in"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "45",
+          "function": "VREG_VOUT_45",
+          "type": "power_out"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "50",
+          "function": "DVDD_50",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-XIN)",
+      "nodes": [
+        {
+          "ref": "C9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "CRYSTAL1",
+          "pin": "3",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "20",
+          "function": "XIN_20",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(RP2040-XOUT)",
+      "nodes": [
+        {
+          "ref": "R9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "RP2040",
+          "pin": "21",
+          "function": "XOUT_21",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-AIN4)",
+      "nodes": [
+        {
+          "ref": "C25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "26",
+          "function": "AIN4_26",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-AIN5)",
+      "nodes": [
+        {
+          "ref": "C26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "25",
+          "function": "AIN5_25",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-BYPASS)",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "15",
+          "function": "BYPASS_15",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-CAPN)",
+      "nodes": [
+        {
+          "ref": "C4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "function": "CAPN_3",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-CAPP)",
+      "nodes": [
+        {
+          "ref": "C4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "function": "CAPP_2",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-REFN0)",
+      "nodes": [
+        {
+          "ref": "C22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "31",
+          "function": "REFN0_31",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1-REFP0)",
+      "nodes": [
+        {
+          "ref": "C22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "32",
+          "function": "REFP0_32",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "Net-(USB1-CC1)",
+      "nodes": [
+        {
+          "ref": "R12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "A5",
+          "function": "CC1_A5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "Net-(USB1-CC2)",
+      "nodes": [
+        {
+          "ref": "R11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "USB1",
+          "pin": "B5",
+          "function": "CC2_B5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(3VREG1-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "3VREG1",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(LED1-DOUT-Pad2)",
+      "nodes": [
+        {
+          "ref": "LED1",
+          "pin": "2",
+          "function": "DOUT_2",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO0-Pad2)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "2",
+          "function": "GPIO0_2",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO3-Pad5)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "5",
+          "function": "GPIO3_5",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO4-Pad6)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "6",
+          "function": "GPIO4_6",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO5-Pad7)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "7",
+          "function": "GPIO5_7",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO14-Pad17)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "17",
+          "function": "GPIO14_17",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO15-Pad18)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "18",
+          "function": "GPIO15_18",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO16-Pad27)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "27",
+          "function": "GPIO16_27",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO17-Pad28)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "28",
+          "function": "GPIO17_28",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO19-Pad30)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "30",
+          "function": "GPIO19_30",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO20-Pad31)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "31",
+          "function": "GPIO20_31",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO21-Pad32)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "32",
+          "function": "GPIO21_32",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO22-Pad34)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "34",
+          "function": "GPIO22_34",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO23-Pad35)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "35",
+          "function": "GPIO23_35",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO24-Pad36)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "36",
+          "function": "GPIO24_36",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO25-Pad37)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "37",
+          "function": "GPIO25_37",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO26_ADC0-Pad38)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "38",
+          "function": "GPIO26_ADC0_38",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO27_ADC1-Pad39)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "39",
+          "function": "GPIO27_ADC1_39",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO28_ADC2-Pad40)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "40",
+          "function": "GPIO28_ADC2_40",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(RP2040-GPIO29_ADC3-Pad41)",
+      "nodes": [
+        {
+          "ref": "RP2040",
+          "pin": "41",
+          "function": "GPIO29_ADC3_41",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad24)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "24",
+          "function": "NC_24",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_2-Pad1)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "1",
+          "function": "NC_2_1",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_3-Pad6)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "6",
+          "function": "NC_3_6",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_4-Pad19)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "19",
+          "function": "NC_4_19",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_5-Pad20)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "20",
+          "function": "NC_5_20",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_6-Pad21)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "21",
+          "function": "NC_6_21",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_7-Pad22)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "22",
+          "function": "NC_7_22",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC_8-Pad23)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "23",
+          "function": "NC_8_23",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(USB1-SBU1-PadA8)",
+      "nodes": [
+        {
+          "ref": "USB1",
+          "pin": "A8",
+          "function": "SBU1_A8",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(USB1-SBU2-PadB8)",
+      "nodes": [
+        {
+          "ref": "USB1",
+          "pin": "B8",
+          "function": "SBU2_B8",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    }
+  ]
+}

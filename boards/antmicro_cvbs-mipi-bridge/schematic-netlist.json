@@ -1,0 +1,3821 @@
+{
+  "root_file": "cvbs-mipi-bridge.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "C1",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "C_1u_0603",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0603",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "C_10n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C21",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C22",
+      "value": "C_10p_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10p_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C23",
+      "value": "C_10p_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10p_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C24",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C25",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C26",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C27",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C28",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_1u_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C29",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_100n_0402",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C30",
+      "value": "C_10u_0603",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10u_0603",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C31",
+      "value": "C_10u_0603",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10u_0603",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "C32",
+      "value": "C_10u_0603",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "C_10u_0603",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "UCLAMP2501T.TCT",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "UCLAMP2501T.TCT",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D2",
+      "value": "UCLAMP2501T.TCT",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "UCLAMP2501T.TCT",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D3",
+      "value": "UCLAMP2501T.TCT",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "UCLAMP2501T.TCT",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D4",
+      "value": "UCLAMP2501T.TCT",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "UCLAMP2501T.TCT",
+        "description": ""
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D5",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "Red, 0603, 20mA"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D6",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "Red, 0603, 20mA"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D7",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "Red, 0603, 20mA"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "D8",
+      "value": "LED_G_0603_KP-1608ZGC",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "LED_G_0603_KP-1608ZGC",
+        "description": "Red, 0603, 20mA"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "FB1",
+      "value": "FB_220Z_1.5A_WE-CBF_0805",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "FB_220Z_1.5A_WE-CBF_0805",
+        "description": "Ferrite Bead, 0805 [2012 Metric], 220 ohm, 2 A, WE-CBF, 0.05 ohm, \u00b1 25%, High Current"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "FB3",
+      "value": "FB_220Z_1.5A_WE-CBF_0805",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "FB_220Z_1.5A_WE-CBF_0805",
+        "description": "Ferrite Bead, 0805 [2012 Metric], 220 ohm, 2 A, WE-CBF, 0.05 ohm, \u00b1 25%, High Current"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "FB4",
+      "value": "FB_220Z_1.5A_WE-CBF_0805",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "FB_220Z_1.5A_WE-CBF_0805",
+        "description": "Ferrite Bead, 0805 [2012 Metric], 220 ohm, 2 A, WE-CBF, 0.05 ohm, \u00b1 25%, High Current"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "FB5",
+      "value": "FB_220Z_1.5A_WE-CBF_0805",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "FB_220Z_1.5A_WE-CBF_0805",
+        "description": "Ferrite Bead, 0805 [2012 Metric], 220 ohm, 2 A, WE-CBF, 0.05 ohm, \u00b1 25%, High Current"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "IC1",
+      "value": "ADV7282-M",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "ADV7282-M",
+        "description": "10-bit, 8-channel, 4x Oversampled SDTV Video Decoder w Diff Inputs and Deinterlacer"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "IC2",
+      "value": "TLV70018_SC70",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "TLV70018_SC70",
+        "description": "1.8V, 200mA LDO. 6V Vin MAX"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "IC4",
+      "value": "SN74AUP1G17_SC70",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "SN74AUP1G17_SC70",
+        "description": "Low power, non-inverting, single schmitt-trigger, SC-70-5 aka TSSOP5 aka SOT-353 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "IC5",
+      "value": "SN74AUP1G17_SC70",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "SN74AUP1G17_SC70",
+        "description": "Low power, non-inverting, single schmitt-trigger, SC-70-5 aka TSSOP5 aka SOT-353 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "Conn_FFC_WE_68715014522",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Conn_FFC_WE_68715014522",
+        "description": "FFC connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "Molex_Nano-Fit_1x2_1053131102",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Molex_Nano-Fit_1x2_1053131102",
+        "description": "Rectangular connector, header"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "RCA_Jack_KLPX-0848A-2-Y",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "RCA_Jack_KLPX-0848A-2-Y",
+        "description": "Barrel audio connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J4",
+      "value": "RCA_Jack_KLPX-0848A-2-Y",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "RCA_Jack_KLPX-0848A-2-Y",
+        "description": "Barrel audio connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J5",
+      "value": "RCA_Jack_KLPX-0848A-2-Y",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "RCA_Jack_KLPX-0848A-2-Y",
+        "description": "Barrel audio connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J6",
+      "value": "RCA_Jack_KLPX-0848A-2-Y",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "RCA_Jack_KLPX-0848A-2-Y",
+        "description": "Barrel audio connector"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "J7",
+      "value": "PinHeader_1x2_P2.54mm_Drill1.1mm",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "PinHeader_1x2_P2.54mm_Drill1.1mm",
+        "description": "2x1 goldpin header"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP1",
+      "value": "Spacer_Drill3mm_H3mm_9774030243R",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Spacer_Drill3mm_H3mm_9774030243R",
+        "description": "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 3 mm, M2 Thread, WA-SMSI Series"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP2",
+      "value": "Spacer_Drill3mm_H3mm_9774030243R",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Spacer_Drill3mm_H3mm_9774030243R",
+        "description": "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 3 mm, M2 Thread, WA-SMSI Series"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP3",
+      "value": "Spacer_Drill3mm_H3mm_9774030243R",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Spacer_Drill3mm_H3mm_9774030243R",
+        "description": "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 3 mm, M2 Thread, WA-SMSI Series"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "MP4",
+      "value": "Spacer_Drill3mm_H3mm_9774030243R",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Spacer_Drill3mm_H3mm_9774030243R",
+        "description": "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 3 mm, M2 Thread, WA-SMSI Series"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Q1",
+      "value": "BSS138PW",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "BSS138PW",
+        "description": "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Q2",
+      "value": "BSS138PW",
+      "libpart": {
+        "lib": "",
+        "part": "BSS138PW_1",
+        "description": "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Q3",
+      "value": "BSS138PW",
+      "libpart": {
+        "lib": "",
+        "part": "BSS138PW_2",
+        "description": "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Q4",
+      "value": "BSS138PW",
+      "libpart": {
+        "lib": "",
+        "part": "BSS138PW_3",
+        "description": "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "R_24R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_24R_0402",
+        "description": "24R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "R_1k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_1k_0402",
+        "description": "1k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "R_51R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_51R_0402",
+        "description": "51R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "R_24R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_24R_0402",
+        "description": "24R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "R_51R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_51R_0402",
+        "description": "51R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "R_4k7_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_4k7_0402",
+        "description": "4k7 resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "R_4k7_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_4k7_0402",
+        "description": "4k7 resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "R_24R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_24R_0402",
+        "description": "24R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "R_51R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_51R_0402",
+        "description": "51R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "R_24R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_24R_0402",
+        "description": "24R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "R_51R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_51R_0402",
+        "description": "51R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_470R_0402",
+        "description": "470R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_470R_0402",
+        "description": "470R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_470R_0402",
+        "description": "470R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "R_22k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_22k_0402",
+        "description": "22k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "R_1M_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_1M_0402",
+        "description": "1M resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R21",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R22",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R23",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R24",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R25",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R26",
+      "value": "R_470R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_470R_0402",
+        "description": "470R resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R27",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R28",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R29",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R30",
+      "value": "R_0R_0805",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0805",
+        "description": "0R resistor in 0805 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R31",
+      "value": "R_100k_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_100k_0402",
+        "description": "100k resistor in 0402 package with 1% tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R32",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "R33",
+      "value": "R_0R_0402",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "R_0R_0402",
+        "description": "0R resistor in 0402 package with unspecified tolerance"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "S1",
+      "value": "SW_KMR211NGLFS_SMD",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "SW_KMR211NGLFS_SMD",
+        "description": "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_10",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_12",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "TP_1.5mm_SMD",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP4",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_1",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP5",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_15",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP6",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_9",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP7",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_6",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP8",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_11",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP9",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_13",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP10",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_5",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP11",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_7",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP12",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_8",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP13",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_14",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP14",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_3",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP15",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_4",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "TP16",
+      "value": "TP_1.5mm_SMD",
+      "libpart": {
+        "lib": "",
+        "part": "TP_1.5mm_SMD_2",
+        "description": "Testpoint 1.5mm"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    },
+    {
+      "ref": "Y1",
+      "value": "Resonator_28.63636MHz_ABM8G",
+      "libpart": {
+        "lib": "cvbs-mipi-bridge",
+        "part": "Resonator_28.63636MHz_ABM8G",
+        "description": "Crystal, 28.63636 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 18 pF, 20 ppm, ABM8G"
+      },
+      "sheet": {
+        "names": "/",
+        "tstamps": "/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "/AGPO0",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "8",
+          "function": "GPO0_8",
+          "type": "output"
+        },
+        {
+          "ref": "Q3",
+          "pin": "1",
+          "function": "G_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP11",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AGPO1",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "7",
+          "function": "GPO1_7",
+          "type": "output"
+        },
+        {
+          "ref": "Q4",
+          "pin": "1",
+          "function": "G_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R31",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP10",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AGPO2",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "6",
+          "function": "GPO2_6",
+          "type": "output"
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN1",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "17",
+          "function": "AIN1_17",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/AIN1_C",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN1_ESD",
+      "nodes": [
+        {
+          "ref": "D1",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN2",
+      "nodes": [
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "18",
+          "function": "AIN2_18",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/AIN2_C",
+      "nodes": [
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN2_ESD",
+      "nodes": [
+        {
+          "ref": "D2",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN3",
+      "nodes": [
+        {
+          "ref": "C4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "23",
+          "function": "AIN3_23",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/AIN3_C",
+      "nodes": [
+        {
+          "ref": "C4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN3_ESD",
+      "nodes": [
+        {
+          "ref": "D3",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN4",
+      "nodes": [
+        {
+          "ref": "C10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "24",
+          "function": "AIN4_24",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/AIN4_C",
+      "nodes": [
+        {
+          "ref": "C10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/AIN4_ESD",
+      "nodes": [
+        {
+          "ref": "D4",
+          "pin": "2",
+          "function": "A_2",
+          "type": "passive"
+        },
+        {
+          "ref": "J6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/ALSB",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "29",
+          "function": "ALSB_29",
+          "type": "input"
+        },
+        {
+          "ref": "J7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP12",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_CLK_N",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "12",
+          "function": "CLK_N_12",
+          "type": "output"
+        },
+        {
+          "ref": "R24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_CLK_P",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "11",
+          "function": "CLK_P_11",
+          "type": "output"
+        },
+        {
+          "ref": "R25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_CLK_R_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "28",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_CLK_R_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "29",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_D0_N",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "10",
+          "function": "D0_N_10",
+          "type": "output"
+        },
+        {
+          "ref": "R22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_D0_P",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "9",
+          "function": "D0_P_9",
+          "type": "output"
+        },
+        {
+          "ref": "R23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_D0_R_N",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "25",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/CSI_A_D0_R_P",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "26",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/PWRDWN",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "32",
+          "function": "~{PWRDWN}_32",
+          "type": "input"
+        },
+        {
+          "ref": "IC4",
+          "pin": "4",
+          "function": "Y_4",
+          "type": "output"
+        },
+        {
+          "ref": "R17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP9",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/RESET",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "28",
+          "function": "~{RESET}_28",
+          "type": "input"
+        },
+        {
+          "ref": "IC5",
+          "pin": "4",
+          "function": "Y_4",
+          "type": "output"
+        },
+        {
+          "ref": "R19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP8",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/RST_IN",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "33",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q1",
+          "pin": "1",
+          "function": "G_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/SCL",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "31",
+          "function": "SCLK_31",
+          "type": "input"
+        },
+        {
+          "ref": "R21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R33",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP7",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/SDA",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "30",
+          "function": "SDATA_30",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R32",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP6",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/VREFN",
+      "nodes": [
+        {
+          "ref": "C6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "20",
+          "function": "VREFN_20",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/VREFP",
+      "nodes": [
+        {
+          "ref": "C6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "19",
+          "function": "VREFP_19",
+          "type": "output"
+        }
+      ]
+    },
+    {
+      "name": "/XTAL_N",
+      "nodes": [
+        {
+          "ref": "C22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "15",
+          "function": "XTALN_15",
+          "type": "input"
+        },
+        {
+          "ref": "R16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Y1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/XTAL_P",
+      "nodes": [
+        {
+          "ref": "C23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "14",
+          "function": "XTALP_14",
+          "type": "output"
+        },
+        {
+          "ref": "R16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Y1",
+          "pin": "3",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/~{INTRQ}",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "5",
+          "function": "~{INTRQ}_5",
+          "type": "output"
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "1V8_SYS",
+      "nodes": [
+        {
+          "ref": "C26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C32",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "1",
+          "function": "G_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R30",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "3V3_SYS",
+      "nodes": [
+        {
+          "ref": "C20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "2",
+          "function": "DVDDIO_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC2",
+          "pin": "1",
+          "function": "VIN_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC2",
+          "pin": "3",
+          "function": "EN_3",
+          "type": "input"
+        },
+        {
+          "ref": "IC4",
+          "pin": "5",
+          "function": "VCC_5",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC5",
+          "pin": "5",
+          "function": "VCC_5",
+          "type": "power_in"
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "R12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP5",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "AVDD_1V8",
+      "nodes": [
+        {
+          "ref": "C14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "16",
+          "function": "PVDD_16",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "DVDD_1V8",
+      "nodes": [
+        {
+          "ref": "C16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "13",
+          "function": "MVDD_13",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC1",
+          "pin": "3",
+          "function": "DVDD_3",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "C11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C32",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "D1",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D2",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D3",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D4",
+          "pin": "1",
+          "function": "K_1",
+          "type": "passive"
+        },
+        {
+          "ref": "D6",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "1",
+          "function": "DGND_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC1",
+          "pin": "33",
+          "function": "EP_33",
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "4",
+          "function": "DGND_4",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC2",
+          "pin": "2",
+          "function": "GND_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC4",
+          "pin": "3",
+          "function": "GND_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "IC5",
+          "pin": "3",
+          "function": "GND_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "12",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "15",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "18",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "27",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "30",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "9",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "MP1",
+          "function": "MP_MP1",
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "MP2",
+          "function": "MP_MP2",
+          "type": "passive"
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "function": null,
+          "type": "input"
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "Q1",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q3",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q4",
+          "pin": "2",
+          "function": "S_2",
+          "type": "passive"
+        },
+        {
+          "ref": "R11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R31",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "S1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "S1",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "TP13",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "Y1",
+          "pin": "2",
+          "function": "SH_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Y1",
+          "pin": "4",
+          "function": "SH_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(C12-Pad1)",
+      "nodes": [
+        {
+          "ref": "C12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "47",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "48",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D5-Pad1)",
+      "nodes": [
+        {
+          "ref": "D5",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D6-Pad1)",
+      "nodes": [
+        {
+          "ref": "D6",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D7-Pad1)",
+      "nodes": [
+        {
+          "ref": "D7",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(D8-Pad1)",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "R12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC1-AIN5)",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "26",
+          "function": "AIN5_26",
+          "type": "input"
+        },
+        {
+          "ref": "TP15",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC1-AIN6)",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "27",
+          "function": "AIN6_27",
+          "type": "input"
+        },
+        {
+          "ref": "TP16",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC1-DIAG1)",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "22",
+          "function": "DIAG1_22",
+          "type": "input"
+        },
+        {
+          "ref": "TP4",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC1-DIAG2)",
+      "nodes": [
+        {
+          "ref": "IC1",
+          "pin": "25",
+          "function": "DIAG2_25",
+          "type": "input"
+        },
+        {
+          "ref": "TP14",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC2-VOUT)",
+      "nodes": [
+        {
+          "ref": "C9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC2",
+          "pin": "5",
+          "function": "VOUT_5",
+          "type": "power_out"
+        },
+        {
+          "ref": "R30",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC4-A)",
+      "nodes": [
+        {
+          "ref": "C13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC4",
+          "pin": "2",
+          "function": "A_2",
+          "type": "input"
+        },
+        {
+          "ref": "R15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(IC5-A)",
+      "nodes": [
+        {
+          "ref": "C21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC5",
+          "pin": "2",
+          "function": "A_2",
+          "type": "input"
+        },
+        {
+          "ref": "Q1",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        },
+        {
+          "ref": "R18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "S1",
+          "pin": "3",
+          "function": "3_3",
+          "type": "passive"
+        },
+        {
+          "ref": "S1",
+          "pin": "4",
+          "function": "4_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1-Pad39)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "39",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1-Pad40)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "40",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1-Pad41)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "41",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R32",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1-Pad42)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "42",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R33",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q2-D)",
+      "nodes": [
+        {
+          "ref": "D5",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q3-D)",
+      "nodes": [
+        {
+          "ref": "D8",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q3",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q4-D)",
+      "nodes": [
+        {
+          "ref": "D7",
+          "pin": "2",
+          "function": "2_2",
+          "type": "passive"
+        },
+        {
+          "ref": "Q4",
+          "pin": "3",
+          "function": "D_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "PVDD_1V8",
+      "nodes": [
+        {
+          "ref": "C11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "FB5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "IC1",
+          "pin": "21",
+          "function": "AVDD_21",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(IC2-Pad4)",
+      "nodes": [
+        {
+          "ref": "IC2",
+          "pin": "4",
+          "function": null,
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(IC4-NC-Pad1)",
+      "nodes": [
+        {
+          "ref": "IC4",
+          "pin": "1",
+          "function": "NC_1",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(IC5-NC-Pad1)",
+      "nodes": [
+        {
+          "ref": "IC5",
+          "pin": "1",
+          "function": "NC_1",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad1)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "1",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad2)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "2",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad3)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "3",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad4)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "4",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad5)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "5",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad6)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "6",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad7)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "7",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad8)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "8",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad10)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "10",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad11)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "11",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad13)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "13",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad14)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "14",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad16)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "16",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad17)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "17",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad19)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "19",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad20)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "20",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad21)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "21",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad22)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "22",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad23)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "23",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad24)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "24",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad31)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "31",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad32)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "32",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad34)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "34",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad35)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "35",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad36)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "36",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad37)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "37",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad38)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "38",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad43)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "43",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad44)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "44",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad45)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "45",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad46)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "46",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad49)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "49",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1-Pad50)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "50",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(MP1-Pad1)",
+      "nodes": [
+        {
+          "ref": "MP1",
+          "pin": "1",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(MP2-Pad1)",
+      "nodes": [
+        {
+          "ref": "MP2",
+          "pin": "1",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(MP3-Pad1)",
+      "nodes": [
+        {
+          "ref": "MP3",
+          "pin": "1",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(MP4-Pad1)",
+      "nodes": [
+        {
+          "ref": "MP4",
+          "pin": "1",
+          "function": null,
+          "type": "passive+no_connect"
+        }
+      ]
+    }
+  ]
+}

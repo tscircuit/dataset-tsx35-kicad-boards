@@ -1,0 +1,31 @@
+{
+  "id": "b01-cm4-lvds",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "cf74dd1657215288657df2bae38aaa4439744463af015a2ca9e3811af4bb9c6c",
+    "footprints.tsx": "83fe00cea5e97bda355700ea84aae67952ad1e461f9f7e60bfb8910bcdcc3760",
+    "schematic.tsx": "d0732e953e0ae1abe54df29fe4fe9b135c74fdcc4f55c20294dfb0cc982a3e0e",
+    "metadata.json": "c098f04eeb2a0a2f6b99ae9f2b4edf9afcbc8ae122840e977edf2a5a4050aafa"
+  },
+  "expectedComponents": 155,
+  "actualComponents": 155,
+  "expectedPhysicalPrimitives": 519,
+  "actualPhysicalPrimitives": 519,
+  "netCount": 142,
+  "actualNetCount": 142,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of REF__ overlaps with courtyard of REF___"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of TP20 overlaps with courtyard of L1"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

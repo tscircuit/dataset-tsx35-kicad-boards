@@ -1,0 +1,23 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/npm/@tscircuit/cli/types/tscircuit.config.schema.json",
+  "mainEntrypoint": "index.circuit.tsx",
+  "previewComponentPath": "examples/b03-ftdi-jtag.circuit.tsx",
+  "siteDefaultComponentPath": "examples/b03-ftdi-jtag.circuit.tsx",
+  "includeBoardFiles": [
+    "examples/*.circuit.tsx"
+  ],
+  "ignoredFiles": [
+    "work",
+    "dist",
+    "upstream-schematics",
+    "**/*.json",
+    "!tscircuit.config.json",
+    "!package.json",
+    "!tsconfig.json"
+  ],
+  "build": {
+    "typescriptLibrary": false,
+    "routingDisabled": true,
+    "workerTimeoutMs": 240000
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "dataset-tsx35-kicad-boards",
+  "version": "0.1.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "node tools/check-all.mjs",
+    "dev": "tsci dev --port 3021",
+    "check:kicad": "python3 tools/check-kicad-nets.py",
+    "start": "tsci dev --port 3021",
+    "build": "tsci build --site examples/b03-ftdi-jtag.circuit.tsx --disable-parts-engine --ignore-placement-drc --ignore-routing-drc",
+    "build:site": "pnpm build",
+    "build:all": "tsci build --site --disable-parts-engine --ignore-placement-drc --ignore-routing-drc --concurrency 2"
+  },
+  "description": "25 KiCad boards reconstructed as native tscircuit TSX with verified net connectivity",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscircuit/dataset-tsx35-kicad-boards.git"
+  },
+  "devDependencies": {
+    "@tscircuit/cli": "0.1.2316",
+    "@tscircuit/core": "0.0.2142",
+    "@tscircuit/props": "0.0.701",
+    "@types/react": "19.2.2",
+    "react": "19.2.0",
+    "tscircuit": "0.0.2861",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

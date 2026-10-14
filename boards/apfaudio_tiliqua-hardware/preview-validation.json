@@ -1,0 +1,160 @@
+{
+  "id": "apfaudio_tiliqua-hardware",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 171,
+  "actualComponents": 171,
+  "expectedPhysicalPrimitives": 763,
+  "actualPhysicalPrimitives": 763,
+  "netCount": 230,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_component_outside_board_error",
+      "message": "Component H2 extends outside board boundaries by 0.25mm."
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C17 overlaps with courtyard of C29"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of RN5 overlaps with courtyard of C3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C50 overlaps with courtyard of C49"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C49 overlaps with courtyard of C48"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R25 overlaps with courtyard of R9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R41 overlaps with courtyard of R50"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of RN10 overlaps with courtyard of J3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R29 overlaps with courtyard of SW3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of J3 overlaps with courtyard of RN9"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C22 overlaps with courtyard of C24"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C38 overlaps with courtyard of L4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R22 overlaps with courtyard of SW3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C39 overlaps with courtyard of SW3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C37 overlaps with courtyard of U13"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C30 overlaps with courtyard of L3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R13 overlaps with courtyard of SW3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of SW3 overlaps with courtyard of C41"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C24 overlaps with courtyard of J2"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of C53"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U13 overlaps with courtyard of C45"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of U10 overlaps with courtyard of R42"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R36 overlaps with courtyard of R44"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C13 overlaps with courtyard of R4"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R19 overlaps with courtyard of U8"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of C25 overlaps with courtyard of C23"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R2 overlaps with courtyard of L3"
+    },
+    {
+      "type": "pcb_courtyard_overlap_error",
+      "message": "Courtyard of R34 overlaps with courtyard of R35"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}

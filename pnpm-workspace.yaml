@@ -1,0 +1,10 @@
+autoInstallPeers: true
+overrides:
+  "@tscircuit/capacity-autorouter": "0.0.900"
+  "@tscircuit/cli": "0.1.2316"
+  "@tscircuit/core": "0.0.2142"
+  "@tscircuit/circuit-json-util": "0.0.121"
+  "@tscircuit/checks": "0.0.252"
+  "@tscircuit/props": "0.0.701"
+  "react": "19.2.0"
+  "react-dom": "19.2.0"

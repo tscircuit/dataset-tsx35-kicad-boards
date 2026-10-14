@@ -1,0 +1,1009 @@
+{
+  "provenance": {
+    "id": "b09-waterlevel",
+    "name": "Arduino water-level monitor",
+    "author": "Srushti D",
+    "licence": "MIT",
+    "source": "https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor",
+    "commit": "7b47f46949e99d8075590de0c5a08a550d646d84",
+    "connections": 52,
+    "pcb": {
+      "path": "hardware/water_level.kicad_pcb",
+      "git_blob_sha": "8e54e1c8a51efd8823ed474afbd033a513e02da3",
+      "size_bytes": 372822,
+      "download_url": "https://raw.githubusercontent.com/Srushti-D-Hebbar/arduino-water-level-monitor/7b47f46949e99d8075590de0c5a08a550d646d84/hardware/water_level.kicad_pcb"
+    },
+    "sha256": "91fb081c3b764ea8f5cd917f657872217028d7df177a4e099e6d2089aa3c4d49"
+  },
+  "components": [
+    {
+      "name": "R4",
+      "originalName": "R4",
+      "value": "10k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -33.000000000000014,
+        "y": -31.414999999999992
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "RV1",
+      "originalName": "RV1",
+      "value": "10k",
+      "kind": "chip",
+      "footprint": "Potentiometer_SMD:Potentiometer_Bourns_3224J_Horizontal",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -27.30000000000001,
+        "y": -21.264999999999986
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "J4",
+      "originalName": "J4",
+      "value": "POWER_IN",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": 41.26999999999998,
+        "y": -6.434999999999988
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "U2",
+      "originalName": "U2",
+      "value": "HC-SR04",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -25.790000000000006,
+        "y": -12.054999999999993
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "originalName": "C4",
+      "value": "10uF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -29.640000000000015,
+        "y": -14.21499999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "SW2",
+      "originalName": "SW2",
+      "value": "AUTO/MANUAL",
+      "kind": "chip",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3S-1000",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -36.16000000000001,
+        "y": -10.47999999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "originalName": "R3",
+      "value": "220R",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -24.710000000000008,
+        "y": 2.5575000000000045
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "originalName": "C2",
+      "value": "10uF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -24.730000000000004,
+        "y": -31.379999999999995
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "Q1",
+      "originalName": "Q1",
+      "value": "2N2219",
+      "kind": "chip",
+      "footprint": "Package_TO_SOT_THT:TO-39-3",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -36.150000000000006,
+        "y": -1.8749999999999858
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "SW1",
+      "originalName": "SW1",
+      "value": "SET",
+      "kind": "chip",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3S-1000",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": -35.44000000000001,
+        "y": -24.52499999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J2",
+      "originalName": "J2",
+      "value": "Conn_01x16_Pin",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -20.460000000000008,
+        "y": -31.774999999999977
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        }
+      ]
+    },
+    {
+      "name": "D1",
+      "originalName": "D1",
+      "value": "1N4007",
+      "kind": "chip",
+      "footprint": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -25.30000000000001,
+        "y": 8.025000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "originalName": "R1",
+      "value": "1k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -28.640000000000015,
+        "y": -0.32499999999998863
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "K1",
+      "originalName": "K1",
+      "value": "SANYOU_SRD_Form_C",
+      "kind": "chip",
+      "footprint": "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -36.620000000000005,
+        "y": 18.875000000000014
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "originalName": "R5",
+      "value": "10k",
+      "kind": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "layer": "top",
+      "rotation": 0,
+      "center": {
+        "x": -34.91000000000001,
+        "y": -17.144999999999982
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "originalName": "C1",
+      "value": "100nF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -24.780000000000015,
+        "y": -26.94999999999999
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "originalName": "C3",
+      "value": "100nF",
+      "kind": "capacitor",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "layer": "top",
+      "rotation": 90,
+      "center": {
+        "x": -29.590000000000003,
+        "y": -9.814999999999984
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        }
+      ]
+    },
+    {
+      "name": "J3",
+      "originalName": "J3",
+      "value": "RELAY_OUT",
+      "kind": "chip",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "layer": "top",
+      "rotation": 180,
+      "center": {
+        "x": -41.230000000000004,
+        "y": 16.275000000000006
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        }
+      ]
+    },
+    {
+      "name": "U1",
+      "originalName": "U1",
+      "value": "Arduino_UNO_R3",
+      "kind": "chip",
+      "footprint": "Module:Arduino_UNO_R3",
+      "layer": "top",
+      "rotation": -90,
+      "center": {
+        "x": 34.95999999999998,
+        "y": 3.8400000000000176
+      },
+      "pins": [
+        {
+          "original": "1",
+          "pin": "pin1"
+        },
+        {
+          "original": "2",
+          "pin": "pin2"
+        },
+        {
+          "original": "3",
+          "pin": "pin3"
+        },
+        {
+          "original": "4",
+          "pin": "pin4"
+        },
+        {
+          "original": "5",
+          "pin": "pin5"
+        },
+        {
+          "original": "6",
+          "pin": "pin6"
+        },
+        {
+          "original": "7",
+          "pin": "pin7"
+        },
+        {
+          "original": "8",
+          "pin": "pin8"
+        },
+        {
+          "original": "9",
+          "pin": "pin9"
+        },
+        {
+          "original": "10",
+          "pin": "pin10"
+        },
+        {
+          "original": "11",
+          "pin": "pin11"
+        },
+        {
+          "original": "12",
+          "pin": "pin12"
+        },
+        {
+          "original": "13",
+          "pin": "pin13"
+        },
+        {
+          "original": "14",
+          "pin": "pin14"
+        },
+        {
+          "original": "15",
+          "pin": "pin15"
+        },
+        {
+          "original": "16",
+          "pin": "pin16"
+        },
+        {
+          "original": "17",
+          "pin": "pin17"
+        },
+        {
+          "original": "18",
+          "pin": "pin18"
+        },
+        {
+          "original": "19",
+          "pin": "pin19"
+        },
+        {
+          "original": "20",
+          "pin": "pin20"
+        },
+        {
+          "original": "21",
+          "pin": "pin21"
+        },
+        {
+          "original": "22",
+          "pin": "pin22"
+        },
+        {
+          "original": "23",
+          "pin": "pin23"
+        },
+        {
+          "original": "24",
+          "pin": "pin24"
+        },
+        {
+          "original": "25",
+          "pin": "pin25"
+        },
+        {
+          "original": "26",
+          "pin": "pin26"
+        },
+        {
+          "original": "27",
+          "pin": "pin27"
+        },
+        {
+          "original": "28",
+          "pin": "pin28"
+        },
+        {
+          "original": "29",
+          "pin": "pin29"
+        },
+        {
+          "original": "30",
+          "pin": "pin30"
+        },
+        {
+          "original": "31",
+          "pin": "pin31"
+        },
+        {
+          "original": "32",
+          "pin": "pin32"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "+5V",
+      "runtimeName": "_5V",
+      "targets": [
+        ".R4 > .pin1",
+        ".RV1 > .pin1",
+        ".J4 > .pin1",
+        ".U2 > .pin1",
+        ".C4 > .pin1",
+        ".R3 > .pin2",
+        ".C2 > .pin1",
+        ".J2 > .pin2",
+        ".D1 > .pin1",
+        ".K1 > .pin5",
+        ".R5 > .pin1",
+        ".C1 > .pin1",
+        ".C3 > .pin1",
+        ".U1 > .pin5"
+      ]
+    },
+    {
+      "name": "/BTN_SET",
+      "runtimeName": "_BTN_SET",
+      "targets": [
+        ".R4 > .pin2",
+        ".SW1 > .pin1",
+        ".U1 > .pin25"
+      ]
+    },
+    {
+      "name": "/VO",
+      "runtimeName": "_VO",
+      "targets": [
+        ".RV1 > .pin2",
+        ".J2 > .pin3"
+      ]
+    },
+    {
+      "name": "GND",
+      "runtimeName": "GND",
+      "targets": [
+        ".RV1 > .pin3",
+        ".J4 > .pin2",
+        ".U2 > .pin4",
+        ".C4 > .pin2",
+        ".SW2 > .pin2",
+        ".C2 > .pin2",
+        ".Q1 > .pin1",
+        ".SW1 > .pin2",
+        ".J2 > .pin1",
+        ".J2 > .pin5",
+        ".J2 > .pin16",
+        ".C1 > .pin2",
+        ".C3 > .pin2",
+        ".U1 > .pin6",
+        ".U1 > .pin7"
+      ]
+    },
+    {
+      "name": "/TRIG",
+      "runtimeName": "_TRIG",
+      "targets": [
+        ".U2 > .pin2",
+        ".U1 > .pin23"
+      ]
+    },
+    {
+      "name": "/ECHO",
+      "runtimeName": "_ECHO",
+      "targets": [
+        ".U2 > .pin3",
+        ".U1 > .pin24"
+      ]
+    },
+    {
+      "name": "/AUTO_MODE",
+      "runtimeName": "_AUTO_MODE",
+      "targets": [
+        ".SW2 > .pin1",
+        ".R5 > .pin2",
+        ".U1 > .pin26"
+      ]
+    },
+    {
+      "name": "/A",
+      "runtimeName": "_A",
+      "targets": [
+        ".R3 > .pin1",
+        ".J2 > .pin15"
+      ]
+    },
+    {
+      "name": "Net-(Q1-B)",
+      "runtimeName": "Net__Q1_B_",
+      "targets": [
+        ".Q1 > .pin2",
+        ".R1 > .pin2"
+      ]
+    },
+    {
+      "name": "Net-(D1-A)",
+      "runtimeName": "Net__D1_A_",
+      "targets": [
+        ".Q1 > .pin3",
+        ".D1 > .pin2",
+        ".K1 > .pin2"
+      ]
+    },
+    {
+      "name": "/LCD_RS",
+      "runtimeName": "_LCD_RS",
+      "targets": [
+        ".J2 > .pin4",
+        ".U1 > .pin17"
+      ]
+    },
+    {
+      "name": "/LCD_E",
+      "runtimeName": "_LCD_E",
+      "targets": [
+        ".J2 > .pin6",
+        ".U1 > .pin18"
+      ]
+    },
+    {
+      "name": "/D0",
+      "runtimeName": "_D0",
+      "targets": [
+        ".J2 > .pin7"
+      ]
+    },
+    {
+      "name": "/D1",
+      "runtimeName": "_D1",
+      "targets": [
+        ".J2 > .pin8"
+      ]
+    },
+    {
+      "name": "/D2",
+      "runtimeName": "_D2",
+      "targets": [
+        ".J2 > .pin9"
+      ]
+    },
+    {
+      "name": "/D3",
+      "runtimeName": "_D3",
+      "targets": [
+        ".J2 > .pin10"
+      ]
+    },
+    {
+      "name": "/LCD_D4",
+      "runtimeName": "_LCD_D4",
+      "targets": [
+        ".J2 > .pin11",
+        ".U1 > .pin19"
+      ]
+    },
+    {
+      "name": "/LCD_D5",
+      "runtimeName": "_LCD_D5",
+      "targets": [
+        ".J2 > .pin12",
+        ".U1 > .pin20"
+      ]
+    },
+    {
+      "name": "/LCD_D6",
+      "runtimeName": "_LCD_D6",
+      "targets": [
+        ".J2 > .pin13",
+        ".U1 > .pin21"
+      ]
+    },
+    {
+      "name": "/LCD_D7",
+      "runtimeName": "_LCD_D7",
+      "targets": [
+        ".J2 > .pin14",
+        ".U1 > .pin22"
+      ]
+    },
+    {
+      "name": "/RELAY_CTRL",
+      "runtimeName": "_RELAY_CTRL",
+      "targets": [
+        ".R1 > .pin1",
+        ".U1 > .pin27"
+      ]
+    },
+    {
+      "name": "/COM",
+      "runtimeName": "_COM",
+      "targets": [
+        ".K1 > .pin1",
+        ".J3 > .pin2"
+      ]
+    },
+    {
+      "name": "/NO",
+      "runtimeName": "_NO",
+      "targets": [
+        ".K1 > .pin3",
+        ".J3 > .pin1"
+      ]
+    },
+    {
+      "name": "/NC",
+      "runtimeName": "_NC",
+      "targets": [
+        ".K1 > .pin4",
+        ".J3 > .pin3"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad1)",
+      "runtimeName": "unconnected__U1_NC_Pad1_",
+      "targets": [
+        ".U1 > .pin1"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-IOREF-Pad2)",
+      "runtimeName": "unconnected__U1_IOREF_Pad2_",
+      "targets": [
+        ".U1 > .pin2"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-~{RESET}-Pad3)",
+      "runtimeName": "unconnected__U1___RESET__Pad3_",
+      "targets": [
+        ".U1 > .pin3"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-3V3-Pad4)",
+      "runtimeName": "unconnected__U1_3V3_Pad4_",
+      "targets": [
+        ".U1 > .pin4"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-VIN-Pad8)",
+      "runtimeName": "unconnected__U1_VIN_Pad8_",
+      "targets": [
+        ".U1 > .pin8"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-A0-Pad9)",
+      "runtimeName": "unconnected__U1_A0_Pad9_",
+      "targets": [
+        ".U1 > .pin9"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-A1-Pad10)",
+      "runtimeName": "unconnected__U1_A1_Pad10_",
+      "targets": [
+        ".U1 > .pin10"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-A2-Pad11)",
+      "runtimeName": "unconnected__U1_A2_Pad11_",
+      "targets": [
+        ".U1 > .pin11"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-A3-Pad12)",
+      "runtimeName": "unconnected__U1_A3_Pad12_",
+      "targets": [
+        ".U1 > .pin12"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-SDA{slash}A4-Pad13)",
+      "runtimeName": "unconnected__U1_SDA_slash_A4_Pad13_",
+      "targets": [
+        ".U1 > .pin13"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-SCL{slash}A5-Pad14)",
+      "runtimeName": "unconnected__U1_SCL_slash_A5_Pad14_",
+      "targets": [
+        ".U1 > .pin14"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-D0{slash}RX-Pad15)",
+      "runtimeName": "unconnected__U1_D0_slash_RX_Pad15_",
+      "targets": [
+        ".U1 > .pin15"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-D1{slash}TX-Pad16)",
+      "runtimeName": "unconnected__U1_D1_slash_TX_Pad16_",
+      "targets": [
+        ".U1 > .pin16"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-D13-Pad28)",
+      "runtimeName": "unconnected__U1_D13_Pad28_",
+      "targets": [
+        ".U1 > .pin28"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-GND-Pad29)",
+      "runtimeName": "unconnected__U1_GND_Pad29_",
+      "targets": [
+        ".U1 > .pin29"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-AREF-Pad30)",
+      "runtimeName": "unconnected__U1_AREF_Pad30_",
+      "targets": [
+        ".U1 > .pin30"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-SDA{slash}A4-Pad31)",
+      "runtimeName": "unconnected__U1_SDA_slash_A4_Pad31_",
+      "targets": [
+        ".U1 > .pin31"
+      ]
+    },
+    {
+      "name": "unconnected-(U1-SCL{slash}A5-Pad32)",
+      "runtimeName": "unconnected__U1_SCL_slash_A5_Pad32_",
+      "targets": [
+        ".U1 > .pin32"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b10-ecp5-bga381",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "3f3306b52daf19b846adb9ca82ffc3895e8bd545d917fc66995e04caaadb5732",
+    "footprints.tsx": "1a10dee4815ec66e1a7ab8587fa9fd9c814a0d5dd9acdff2e3b11898e13d236f",
+    "schematic.tsx": "b783d7d29ded0698ed79edf0de56aaa85b8a1b9a73330771f7df47a16c08d01e",
+    "metadata.json": "b0c2cbfbc214be8c2bc239affe3bb2fec7cd42d9e103ec87ebeedac825c4df3b"
+  },
+  "expectedComponents": 79,
+  "actualComponents": 79,
+  "expectedPhysicalPrimitives": 246,
+  "actualPhysicalPrimitives": 246,
+  "netCount": 98,
+  "actualNetCount": 98,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

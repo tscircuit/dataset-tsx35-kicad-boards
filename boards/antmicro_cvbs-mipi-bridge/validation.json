@@ -1,0 +1,39 @@
+{
+  "id": "antmicro_cvbs-mipi-bridge",
+  "compiled": true,
+  "input_sha256": {
+    "board.tsx": "84691f73b1fb2f41976515ed89fccebed0bbd98ed78932acf0aaad2936b8b013",
+    "footprints.tsx": "fbd2cad8a4ad484d6cdcf742ba08b18a933bb46baaa50bfa72e339dfc437397b",
+    "schematic.tsx": "c96c2e6c81cb0f66b2fe2e204f2e8e8e3ad7f6af94b3c81645562f5bf8ff8522",
+    "metadata.json": "c4cfd3c33bbb64e159e662bbddc37d67cd7df6889ae7dcf9606f38fafe559596"
+  },
+  "expectedComponents": 116,
+  "actualComponents": 116,
+  "expectedPhysicalPrimitives": 312,
+  "actualPhysicalPrimitives": 312,
+  "netCount": 99,
+  "actualNetCount": 99,
+  "unexpectedNets": [],
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    },
+    {
+      "type": "pcb_pad_pad_clearance_error",
+      "message": "Pads unnamed SMD pad and unnamed through-hole pad are too close (clearance: 0mm, minimum: 0.1mm)"
+    }
+  ],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering disabled."
+}

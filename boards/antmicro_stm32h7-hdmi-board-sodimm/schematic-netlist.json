@@ -1,0 +1,7110 @@
+{
+  "root_file": "stm32h7-hdmi-board-sodimm-module.kicad_sch",
+  "kicad_version": "10.0.6",
+  "components": [
+    {
+      "ref": "C66",
+      "value": "C_10u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_10u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 10 \u00b5F, 6.3 V, 0402 [1005 Metric], \u00b1 20%, X5R, CC Series"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "PCB-Edge_SODIMM_144_SDR",
+      "libpart": {
+        "lib": "",
+        "part": "PCB-Edge_SODIMM_144_SDR_1",
+        "description": "SDR SO-DIMM PCB Edge"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "4x10R_0201_array",
+      "libpart": {
+        "lib": "antmicroResistorNetworksArrays",
+        "part": "4x10R_0201_array",
+        "description": "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, \u00b1 5%"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "TP_1mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_1mm_SMD",
+        "description": "Test point 1mm SMD"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "TP_1mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_1mm_SMD",
+        "description": "Test point 1mm SMD"
+      },
+      "sheet": {
+        "names": "/SODIMM/",
+        "tstamps": "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR/",
+        "tstamps": "/8065b630-3bb7-47f1-baca-00560e3eccce/"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "U2",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR1/",
+        "tstamps": "/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4/"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C21",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C22",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C23",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C24",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "U3",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR2/",
+        "tstamps": "/3172e308-a2cd-4699-b7f7-52aa5b1e774d/"
+      }
+    },
+    {
+      "ref": "C25",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C26",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C27",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C28",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C29",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C30",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C31",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C32",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "U4",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR3/",
+        "tstamps": "/62c27c32-6311-42aa-bf75-c9963b399923/"
+      }
+    },
+    {
+      "ref": "C33",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C34",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C35",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C36",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C37",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C38",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C39",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C40",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "U5",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR4/",
+        "tstamps": "/05ead750-6d75-4b35-8d56-7be54878703d/"
+      }
+    },
+    {
+      "ref": "C41",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C42",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C43",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C44",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C45",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C46",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C47",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C48",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "U6",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR5/",
+        "tstamps": "/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0/"
+      }
+    },
+    {
+      "ref": "C49",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C50",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C51",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C52",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C53",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C54",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C55",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C56",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "U7",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR6/",
+        "tstamps": "/586d0a54-a3e4-4698-85e6-a584486f93a0/"
+      }
+    },
+    {
+      "ref": "C57",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C58",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C59",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C60",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C61",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C62",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C63",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C64",
+      "value": "C_1u_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_1u_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 10 V, 0402 [1005 Metric], \u00b1 10%, X6S, C"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "U8",
+      "value": "IS42S86400F-7TL",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "IS42S86400F-7TL",
+        "description": "DRAM 512M, 3.3V, SDRAM, 64Mx8, 143Mhz, 54 pin TSOP II RoHS"
+      },
+      "sheet": {
+        "names": "/SDR7/",
+        "tstamps": "/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349/"
+      }
+    },
+    {
+      "ref": "C65",
+      "value": "C_100n_0402",
+      "libpart": {
+        "lib": "antmicroCapacitors0402",
+        "part": "C_100n_0402",
+        "description": "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X5R, GRM Series"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "R_10k_0402",
+      "libpart": {
+        "lib": "antmicroResistors0402",
+        "part": "R_10k_0402",
+        "description": "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "TP_1mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_1mm_SMD",
+        "description": "Test point 1mm SMD"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    },
+    {
+      "ref": "TP4",
+      "value": "TP_1mm_SMD",
+      "libpart": {
+        "lib": "antmicroTestPoints",
+        "part": "TP_1mm_SMD",
+        "description": "Test point 1mm SMD"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    },
+    {
+      "ref": "U10",
+      "value": "24AA024_TDFN",
+      "libpart": {
+        "lib": "antmicroMemory",
+        "part": "24AA024_TDFN",
+        "description": "EEPROM, 2 Kbit, 256 x 8bit, Serial I2C (2-Wire), 400 kHz, TDFN, 8 Pins"
+      },
+      "sheet": {
+        "names": "/EEPROM/",
+        "tstamps": "/02eb4e3c-e878-409b-8c26-d4f0756348cb/"
+      }
+    }
+  ],
+  "nets": [
+    {
+      "name": "+3.3V",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C11",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C19",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C22",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C26",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C29",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C32",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C33",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C34",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C35",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C36",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C37",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C38",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C39",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C40",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C41",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C42",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C43",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C44",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C45",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C46",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C47",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C48",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C49",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C50",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C51",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C52",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C53",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C54",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C55",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C56",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C57",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C58",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C59",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C60",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C61",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C62",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C63",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C64",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C65",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C66",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "101",
+          "function": "V_{DD}_101",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "102",
+          "function": "V_{DD}_102",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "11",
+          "function": "V_{DD}_11",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "113",
+          "function": "V_{DD}_113",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "114",
+          "function": "V_{DD}_114",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "12",
+          "function": "V_{DD}_12",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "129",
+          "function": "V_{DD}_129",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "130",
+          "function": "V_{DD}_130",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "143",
+          "function": "V_{DD}_143",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "144",
+          "function": "V_{DD}_144",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "27",
+          "function": "V_{DD}_27",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "28",
+          "function": "V_{DD}_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "45",
+          "function": "V_{DD}_45",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "46",
+          "function": "V_{DD}_46",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "63",
+          "function": "V_{DD}_63",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "64",
+          "function": "V_{DD}_64",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "81",
+          "function": "V_{DD}_81",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "82",
+          "function": "V_{DD}_82",
+          "type": "power_in"
+        },
+        {
+          "ref": "R10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U10",
+          "pin": "8",
+          "function": "VCC_8",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U7",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U7",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "1",
+          "function": "VDD_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "U8",
+          "pin": "14",
+          "function": "VDD_14",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "27",
+          "function": "VDD_27",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "3",
+          "function": "VDDQ_3",
+          "type": "power_in"
+        },
+        {
+          "ref": "U8",
+          "pin": "43",
+          "function": "VDDQ_43",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "49",
+          "function": "VDDQ_49",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "9",
+          "function": "VDDQ_9",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "/BA0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "106",
+          "function": "BA0_106",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "20",
+          "function": "BA0_20",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/BA1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "110",
+          "function": "BA1_110",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "21",
+          "function": "BA1_21",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/CAS",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "66",
+          "function": "CAS_66",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "17",
+          "function": "~{CAS}_17",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/CKE0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "62",
+          "function": "CKE0_62",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/CKE1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "68",
+          "function": "CKE1_68",
+          "type": "output"
+        },
+        {
+          "ref": "U5",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "37",
+          "function": "CKE_37",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/CLK0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "61",
+          "function": "CK0_61",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/CLK1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "74",
+          "function": "CK1_74",
+          "type": "output"
+        },
+        {
+          "ref": "U5",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "38",
+          "function": "CLK_38",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DQMB0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "23",
+          "function": "DQMB0_23",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DQMB1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "25",
+          "function": "DQMB1_25",
+          "type": "output"
+        },
+        {
+          "ref": "U2",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DQMB2",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "115",
+          "function": "DQMB2_115",
+          "type": "output"
+        },
+        {
+          "ref": "U3",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/DQMB3",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "117",
+          "function": "DQMB3_117",
+          "type": "output"
+        },
+        {
+          "ref": "U4",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "39",
+          "function": "DQM_39",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/EEPROM/EEPROM.SCL",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "142",
+          "function": "SCL_142",
+          "type": "output"
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U10",
+          "pin": "6",
+          "function": "SCL_6",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/EEPROM/EEPROM.SDA",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "141",
+          "function": "SDA_141",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "TP4",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U10",
+          "pin": "5",
+          "function": "SDA_5",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/RAS",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "65",
+          "function": "RAS_65",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "18",
+          "function": "~{RAS}_18",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/S0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "69",
+          "function": "S0_69",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/S1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "71",
+          "function": "S1_71",
+          "type": "output"
+        },
+        {
+          "ref": "U5",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "19",
+          "function": "~{CS}_19",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A0",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "29",
+          "function": "A0_29",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "23",
+          "function": "A0_23",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A1",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "31",
+          "function": "A1_31",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "24",
+          "function": "A1_24",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A2",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "33",
+          "function": "A2_33",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "25",
+          "function": "A2_25",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A3",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "30",
+          "function": "A3_30",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "26",
+          "function": "A3_26",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A4",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "32",
+          "function": "A4_32",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "29",
+          "function": "A4_29",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A5",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "34",
+          "function": "A5_34",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "30",
+          "function": "A5_30",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A6",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "103",
+          "function": "A6_103",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "31",
+          "function": "A6_31",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A7",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "104",
+          "function": "A7_104",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "32",
+          "function": "A7_32",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A8",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "105",
+          "function": "A8_105",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "33",
+          "function": "A8_33",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A9",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "109",
+          "function": "A9_109",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "34",
+          "function": "A9_34",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A10",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "111",
+          "function": "A10/AP_111",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "22",
+          "function": "A10_22",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A11",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "112",
+          "function": "A11_112",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "35",
+          "function": "A11_35",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SDR/A12",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "70",
+          "function": "A12_70",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "36",
+          "function": "A12_36",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D0",
+      "nodes": [
+        {
+          "ref": "R1",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D1",
+      "nodes": [
+        {
+          "ref": "R1",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D2",
+      "nodes": [
+        {
+          "ref": "R1",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D3",
+      "nodes": [
+        {
+          "ref": "R1",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D4",
+      "nodes": [
+        {
+          "ref": "R2",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D5",
+      "nodes": [
+        {
+          "ref": "R2",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D6",
+      "nodes": [
+        {
+          "ref": "R2",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D0.D7",
+      "nodes": [
+        {
+          "ref": "R2",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U5",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D0",
+      "nodes": [
+        {
+          "ref": "R3",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D1",
+      "nodes": [
+        {
+          "ref": "R3",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D2",
+      "nodes": [
+        {
+          "ref": "R3",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D3",
+      "nodes": [
+        {
+          "ref": "R3",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D4",
+      "nodes": [
+        {
+          "ref": "R4",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D5",
+      "nodes": [
+        {
+          "ref": "R4",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D6",
+      "nodes": [
+        {
+          "ref": "R4",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D1.D7",
+      "nodes": [
+        {
+          "ref": "R4",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U6",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D0",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D1",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D2",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D3",
+      "nodes": [
+        {
+          "ref": "R5",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D4",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D5",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D6",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D2.D7",
+      "nodes": [
+        {
+          "ref": "R6",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U7",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D0",
+      "nodes": [
+        {
+          "ref": "R7",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D1",
+      "nodes": [
+        {
+          "ref": "R7",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D2",
+      "nodes": [
+        {
+          "ref": "R7",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D3",
+      "nodes": [
+        {
+          "ref": "R7",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D4",
+      "nodes": [
+        {
+          "ref": "R8",
+          "pin": "8",
+          "function": "R1.2_8",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "11",
+          "function": "DQ3_11",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "44",
+          "function": "DQ4_44",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D5",
+      "nodes": [
+        {
+          "ref": "R8",
+          "pin": "7",
+          "function": "R2.2_7",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "8",
+          "function": "DQ2_8",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "47",
+          "function": "DQ5_47",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D6",
+      "nodes": [
+        {
+          "ref": "R8",
+          "pin": "6",
+          "function": "R3.2_6",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "50",
+          "function": "DQ6_50",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/SODIMM/D3.D7",
+      "nodes": [
+        {
+          "ref": "R8",
+          "pin": "5",
+          "function": "R4.2_5",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "2",
+          "function": "DQ0_2",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "U8",
+          "pin": "53",
+          "function": "DQ7_53",
+          "type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "name": "/WE",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "67",
+          "function": "WE_67",
+          "type": "output"
+        },
+        {
+          "ref": "U1",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U2",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U3",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U4",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U5",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U6",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U7",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        },
+        {
+          "ref": "U8",
+          "pin": "16",
+          "function": "~{WE}_16",
+          "type": "input"
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C10",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C11",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C12",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C13",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C14",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C15",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C16",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C17",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C18",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C19",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C20",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C21",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C22",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C23",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C25",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C26",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C27",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C28",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C29",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C30",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C31",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C32",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C33",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C34",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C35",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C36",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C37",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C38",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C39",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C40",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C41",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C42",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C43",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C44",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C45",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C46",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C47",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C48",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C49",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C50",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C51",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C52",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C53",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C54",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C55",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C56",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C57",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C58",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C59",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C60",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C61",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C62",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C63",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C64",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C65",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C66",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "C9",
+          "pin": "2",
+          "function": null,
+          "type": "passive"
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "function": "V_{SS}_1",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "107",
+          "function": "V_{SS}_107",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "108",
+          "function": "V_{SS}_108",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "119",
+          "function": "V_{SS}_119",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "120",
+          "function": "V_{SS}_120",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "139",
+          "function": "V_{SS}_139",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "140",
+          "function": "V_{SS}_140",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "function": "V_{SS}_2",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "21",
+          "function": "V_{SS}_21",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "22",
+          "function": "V_{SS}_22",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "35",
+          "function": "V_{SS}_35",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "36",
+          "function": "V_{SS}_36",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "55",
+          "function": "V_{SS}_55",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "56",
+          "function": "V_{SS}_56",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "75",
+          "function": "V_{SS}_75",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "76",
+          "function": "V_{SS}_76",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "91",
+          "function": "V_{SS}_91",
+          "type": "power_in"
+        },
+        {
+          "ref": "J1",
+          "pin": "92",
+          "function": "V_{SS}_92",
+          "type": "power_in"
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "function": "1_1",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U10",
+          "pin": "1",
+          "function": "A0_1",
+          "type": "input"
+        },
+        {
+          "ref": "U10",
+          "pin": "2",
+          "function": "A1_2",
+          "type": "input"
+        },
+        {
+          "ref": "U10",
+          "pin": "3",
+          "function": "A2_3",
+          "type": "input"
+        },
+        {
+          "ref": "U10",
+          "pin": "4",
+          "function": "VSS_4",
+          "type": "power_in"
+        },
+        {
+          "ref": "U10",
+          "pin": "7",
+          "function": "WP_7",
+          "type": "input"
+        },
+        {
+          "ref": "U10",
+          "pin": "9",
+          "function": "EP_9",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U2",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U3",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U3",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U4",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U5",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U6",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U7",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U7",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        },
+        {
+          "ref": "U8",
+          "pin": "12",
+          "function": "VSSQ_12",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "28",
+          "function": "VSS_28",
+          "type": "power_in"
+        },
+        {
+          "ref": "U8",
+          "pin": "41",
+          "function": "VSS_41",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "46",
+          "function": "VSSQ_46",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "52",
+          "function": "VSSQ_52",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "54",
+          "function": "VSS_54",
+          "type": "passive"
+        },
+        {
+          "ref": "U8",
+          "pin": "6",
+          "function": "VSSQ_6",
+          "type": "power_in"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ0)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "3",
+          "function": "DQ0_3",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ1)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "5",
+          "function": "DQ1_5",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ2)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "7",
+          "function": "DQ2_7",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R1",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ3)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "9",
+          "function": "DQ3_9",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R1",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ4)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "13",
+          "function": "DQ4_13",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ5)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "15",
+          "function": "DQ5_15",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ6)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "17",
+          "function": "DQ6_17",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R2",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ7)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "19",
+          "function": "DQ7_19",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R2",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ8)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "37",
+          "function": "DQ8_37",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ9)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "39",
+          "function": "DQ9_39",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ10)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "41",
+          "function": "DQ10_41",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R3",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ11)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "43",
+          "function": "DQ11_43",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R3",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ12)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "47",
+          "function": "DQ12_47",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ13)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "49",
+          "function": "DQ13_49",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ14)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "51",
+          "function": "DQ14_51",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R4",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ15)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "53",
+          "function": "DQ15_53",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R4",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ16)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "83",
+          "function": "DQ16_83",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ17)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "85",
+          "function": "DQ17_85",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ18)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "87",
+          "function": "DQ18_87",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R5",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ19)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "89",
+          "function": "DQ19_89",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R5",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ20)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "93",
+          "function": "DQ20_93",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ21)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "95",
+          "function": "DQ21_95",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ22)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "97",
+          "function": "DQ22_97",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R6",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ23)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "99",
+          "function": "DQ23_99",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R6",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ24)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "121",
+          "function": "DQ24_121",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ25)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "123",
+          "function": "DQ25_123",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ26)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "125",
+          "function": "DQ26_125",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R7",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ27)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "127",
+          "function": "DQ27_127",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R7",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ28)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "131",
+          "function": "DQ28_131",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "function": "R1.1_1",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ29)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "133",
+          "function": "DQ29_133",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "function": "R2.1_2",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ30)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "135",
+          "function": "DQ30_135",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R8",
+          "pin": "3",
+          "function": "R3.1_3",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "Net-(J1C-DQ31)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "137",
+          "function": "DQ31_137",
+          "type": "bidirectional"
+        },
+        {
+          "ref": "R8",
+          "pin": "4",
+          "function": "R4.1_4",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-A13-Pad72)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "72",
+          "function": "A13_72",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad57)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "57",
+          "function": "NC_57",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad58)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "58",
+          "function": "NC_58",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad59)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "59",
+          "function": "NC_59",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad60)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "60",
+          "function": "NC_60",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad77)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "77",
+          "function": "NC_77",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad78)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "78",
+          "function": "NC_78",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad79)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "79",
+          "function": "NC_79",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NC-Pad80)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "80",
+          "function": "NC_80",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1B-NU-Pad73)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "73",
+          "function": "NU_73",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ32-Pad4)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "4",
+          "function": "DQ32_4",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ33-Pad6)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "6",
+          "function": "DQ33_6",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ34-Pad8)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "8",
+          "function": "DQ34_8",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ35-Pad10)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "10",
+          "function": "DQ35_10",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ36-Pad14)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "14",
+          "function": "DQ36_14",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ37-Pad16)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "16",
+          "function": "DQ37_16",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ38-Pad18)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "18",
+          "function": "DQ38_18",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ39-Pad20)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "20",
+          "function": "DQ39_20",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ40-Pad38)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "38",
+          "function": "DQ40_38",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ41-Pad40)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "40",
+          "function": "DQ41_40",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ42-Pad42)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "42",
+          "function": "DQ42_42",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ43-Pad44)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "44",
+          "function": "DQ43_44",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ44-Pad48)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "48",
+          "function": "DQ44_48",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ45-Pad50)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "50",
+          "function": "DQ45_50",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ46-Pad52)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "52",
+          "function": "DQ46_52",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ47-Pad54)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "54",
+          "function": "DQ47_54",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ48-Pad84)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "84",
+          "function": "DQ48_84",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ49-Pad86)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "86",
+          "function": "DQ49_86",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ50-Pad88)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "88",
+          "function": "DQ50_88",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ51-Pad90)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "90",
+          "function": "DQ51_90",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ52-Pad94)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "94",
+          "function": "DQ52_94",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ53-Pad96)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "96",
+          "function": "DQ53_96",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ54-Pad98)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "98",
+          "function": "DQ54_98",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ55-Pad100)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "100",
+          "function": "DQ55_100",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ56-Pad122)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "122",
+          "function": "DQ56_122",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ57-Pad124)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "124",
+          "function": "DQ57_124",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ58-Pad126)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "126",
+          "function": "DQ58_126",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ59-Pad128)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "128",
+          "function": "DQ59_128",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ60-Pad132)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "132",
+          "function": "DQ60_132",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ61-Pad134)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "134",
+          "function": "DQ61_134",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ62-Pad136)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "136",
+          "function": "DQ62_136",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQ63-Pad138)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "138",
+          "function": "DQ63_138",
+          "type": "bidirectional+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQMB4-Pad24)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "24",
+          "function": "DQMB4_24",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQMB5-Pad26)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "26",
+          "function": "DQMB5_26",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQMB6-Pad116)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "116",
+          "function": "DQMB6_116",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(J1D-DQMB7-Pad118)",
+      "nodes": [
+        {
+          "ref": "J1",
+          "pin": "118",
+          "function": "DQMB7_118",
+          "type": "output+no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U2-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U3-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U4-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U4",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U5-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U5",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U6-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U6",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U7-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U7",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad4)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "4",
+          "function": "NC_4",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad7)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad7)_1",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "7",
+          "function": "NC_7",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad10)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "10",
+          "function": "NC_10",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad13)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "13",
+          "function": "NC_13",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad15)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "15",
+          "function": "NC_15",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad40)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "40",
+          "function": "NC_40",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad42)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "42",
+          "function": "NC_42",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad45)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "45",
+          "function": "NC_45",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad48)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "48",
+          "function": "NC_48",
+          "type": "no_connect"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U8-NC-Pad51)",
+      "nodes": [
+        {
+          "ref": "U8",
+          "pin": "51",
+          "function": "NC_51",
+          "type": "no_connect"
+        }
+      ]
+    }
+  ]
+}

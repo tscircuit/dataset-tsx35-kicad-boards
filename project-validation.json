@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-14T16:17:20.622719+00:00",
+  "name": "dataset-tsx35-kicad-boards",
+  "init_compiler_options_match": true,
+  "init_include_match": true,
+  "additional_tsconfig_exclusions": [
+    "work"
+  ],
+  "frozen_dependency_install": "passed",
+  "strict_typecheck": "passed",
+  "native_boards_checked": 25,
+  "native_net_mismatches": 0,
+  "native_pad_center_layer_mismatches": 0,
+  "original_schematic_files_hash_checked": 142,
+  "shared_schematic_terminals_checked": 15235,
+  "schematic_net_mismatches": 0,
+  "html_build_command": "pnpm build",
+  "html_output": "dist/index.html",
+  "html_build": "passed",
+  "html_preview_entrypoint": "examples/b03-ftdi-jtag.circuit.tsx",
+  "html_browser_views_checked": [
+    "pcb",
+    "schematic",
+    "3d_board_geometry"
+  ],
+  "html_silkscreen_primitives": 0,
+  "full_dataset_static_site_build": "not verified; use build:all; large-board schematic rendering has known timeouts",
+  "component_cad_bodies_included": false
+}

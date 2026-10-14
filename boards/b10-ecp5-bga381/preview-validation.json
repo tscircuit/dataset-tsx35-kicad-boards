@@ -1,0 +1,15 @@
+{
+  "id": "b10-ecp5-bga381",
+  "compiled": true,
+  "previewBundle": "tscircuit 0.0.2462",
+  "expectedComponents": 79,
+  "actualComponents": 79,
+  "expectedPhysicalPrimitives": 246,
+  "actualPhysicalPrimitives": 246,
+  "netCount": 98,
+  "netMismatches": [],
+  "geometryMismatches": [],
+  "unmatchedActualPrimitives": 0,
+  "circuitErrors": [],
+  "checked": "Compiled native TSX with tscircuit core. Compared each imported copper pad/hole center and layer and every original pad-number net membership. PCB routing disabled; schematic rendering enabled."
+}
