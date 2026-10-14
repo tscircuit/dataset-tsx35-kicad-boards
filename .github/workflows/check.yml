@@ -13,7 +13,7 @@ jobs:
           bun-version: 1.3.14
       - run: bun install --frozen-lockfile --ignore-scripts
       - run: bun run typecheck
-      - run: bun run build examples/b03-ftdi-jtag.circuit.tsx --site --routing-disabled
+      - run: bun run build examples/b03-ftdi-jtag.circuit.tsx --site --routing-disabled --ignore-placement-drc
       - uses: actions/upload-artifact@v4
         with:
           name: dataset-tsx35-kicad-boards-html

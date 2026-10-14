@@ -21,10 +21,12 @@ bun run build examples/b03-ftdi-jtag.circuit.tsx --site
 
 All 25 boards enable the normal automatic router by default, with `routeRemaining={true}`. Each board uses standard solid GND `<copperpour />` elements on top and bottom with the default 0.2 mm clearance and thermal reliefs. Pours follow the board boundary and flow around routed traces; all layers remain available to the router. Existing ground domains remain separate.
 
+Imported layouts may contain placement findings. Add `--ignore-placement-drc` to run routing without changing their placement.
+
 To build an inspection preview without running the autorouter (also used by CI):
 
 ```sh
-bun run build examples/b03-ftdi-jtag.circuit.tsx --site --routing-disabled
+bun run build examples/b03-ftdi-jtag.circuit.tsx --site --routing-disabled --ignore-placement-drc
 ```
 
 ## Files
