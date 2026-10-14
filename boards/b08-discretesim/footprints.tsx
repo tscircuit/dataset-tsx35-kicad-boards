@@ -2,7 +2,6 @@
 // Source: https://github.com/cnlohr/discretesim
 // Commit: f7a169ee07b18b6c857d23582474b8ba20185436; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // TP39: GNDXOR; cnhardware:TPTHRU
 export const Footprint_TP39 = () => (<footprint originalLayer="top">
         <platedhole portHints={["pin1"]} pcbX="0mm" pcbY="0mm" holeShape="circle" padShape="rect" holeDiameter="1mm" rectPadWidth="1.8mm" rectPadHeight="1.85mm" rectBorderRadius="0.27mm" holeOffsetX="0mm" holeOffsetY="0mm" pcbRotation="0deg" shape="circular_hole_with_rect_pad"/>

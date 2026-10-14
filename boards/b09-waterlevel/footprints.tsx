@@ -2,7 +2,6 @@
 // Source: https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor
 // Commit: 7b47f46949e99d8075590de0c5a08a550d646d84; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // R4: 10k; Resistor_SMD:R_0805_2012Metric
 export const Footprint_R4 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.9125mm" pcbY="0mm" layer="top" cornerRadius="0.125mm" width="1.025mm" height="1.4mm" shape="rect"/>

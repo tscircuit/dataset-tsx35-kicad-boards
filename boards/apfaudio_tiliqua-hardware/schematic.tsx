@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — tiliqua-motherboard.kicad_sch"} sheetIndex={1} sheetWidth={306.06999999999994} sheetHeight={224.79}><schematicbox name={"sheet_encoder"} title={"encoder"} schX={-8.1} schY={3.884999999999999} width={2.5} height={0.75}/>
 <schematicbox name={"sheet_rp2040_jtag"} title={"rp2040_jtag"} schX={8.100000000000001} schY={-1.2400000000000002} width={2.5} height={1.7999999999999998}/>

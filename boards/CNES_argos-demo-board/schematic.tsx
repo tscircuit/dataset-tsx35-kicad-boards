@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — ARGOS DEMO.kicad_sch"} sheetIndex={1} sheetWidth={317.5} sheetHeight={179.07000000000002}><schematicbox name={"sheet_USBtoSerial"} title={"USBtoSerial"} schX={-3.3999999999999995} schY={0.10000000000000053} width={1.1} height={0.8}/>
 <schematicbox name={"F1"} chipRef={".F1"} pinLabels={{ "pin1": ["__1", "pin1"], "pin2": ["__2", "pin2"] }} schPinArrangement={{ "leftSide": ["pin2"], "rightSide": ["pin1"] }} schX={-8.35} schY={-3.0999999999999996} width={0.8} height={0.8}/>

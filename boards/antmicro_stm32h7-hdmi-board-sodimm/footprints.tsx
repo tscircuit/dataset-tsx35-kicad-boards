@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/stm32h7-hdmi-board-sodimm
 // Commit: 27e3ac9968983f236155c288ded30beb1a2d24a1; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // C21: C_100n_0402; antmicro-footprints:C_0402_1005Metric
 export const Footprint_C21 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.48mm" pcbY="0mm" layer="top" cornerRadius="0.07375mm" width="0.64mm" height="0.59mm" ccwRotation={-90} shape="rotated_rect"/>

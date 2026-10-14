@@ -3,7 +3,6 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Source: https://github.com/rapidanalysis/xerxes
 // Commit: 43abf5730d092358bc6d10e9faa7233818b5412e; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 import { Footprint_R1, Footprint_U6, Footprint_U8, Footprint_J4, Footprint_Sym2, Footprint_R15, Footprint_C3, Footprint_J2, Footprint_C2, Footprint_J7, Footprint_R7, Footprint_C4, Footprint_Conn2, Footprint_Module1, Footprint_J5, Footprint_D2, Footprint_U5, Footprint_Conn1, Footprint_J8, Footprint_R14, Footprint_J6, Footprint_R11, Footprint_D3, Footprint_R12, Footprint_R6, Footprint_J9, Footprint_U4, Footprint_U7, Footprint_Sym1, Footprint_C11, Footprint_C8, Footprint_J10, Footprint_R8, Footprint_R4, Footprint_D1, Footprint_D6, Footprint_U1, Footprint_C10, Footprint_R10, Footprint_C9, Footprint_R9, Footprint_D4, Footprint_C7, Footprint_D5, Footprint_C12, Footprint_L1, Footprint_J1, Footprint_U2, Footprint_C13, Footprint_C6, Footprint_U3, Footprint_R2, Footprint_C5, Footprint_R13, Footprint_R5, Footprint_R3, Footprint_J3, Footprint_C1 } from './footprints';
 export default function Board({ routingDisabled = true }: {
     routingDisabled?: boolean;

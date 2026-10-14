@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/cm4-baseboard-lvds-adapter
 // Commit: 4af945ed558e58e4b8aea6fe909fc33d78b63f6f; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // R21: R_1k5_0402; antmicro-footprints:R_0402_1005Metric
 export const Footprint_R21 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.48mm" pcbY="0mm" layer="top" cornerRadius="0.07375mm" width="0.64mm" height="0.59mm" ccwRotation={-90} shape="rotated_rect"/>

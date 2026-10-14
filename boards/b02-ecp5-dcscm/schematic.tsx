@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — ecp5-dc-scm.kicad_sch"} sheetIndex={1} sheetWidth={288.2899999999999} sheetHeight={107.31500000000001}><schematicbox name={"sheet_PCIe-connector"} title={"PCIe-connector"} schX={-5.462499999999999} schY={1.3000000000000007} width={2.25} height={1.5}/>
 <schematicbox name={"sheet_Power supply"} title={"Power supply"} schX={8.2875} schY={1.3000000000000007} width={2.25} height={1.5}/>

@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — BuildboticsController.kicad_sch"} sheetIndex={1} sheetWidth={280.67} sheetHeight={184.14999999999998}><schematicbox name={"sheet_MotorDriver0"} title={"MotorDriver0"} schX={8.25} schY={3.0189763779527565} width={1.2} height={1.9}/>
 <schematicbox name={"sheet_Power Supply"} title={"Power Supply"} schX={-8.250000000000002} schY={4.381023622047245} width={1.9999999999999998} height={1.3759055118110237}/>

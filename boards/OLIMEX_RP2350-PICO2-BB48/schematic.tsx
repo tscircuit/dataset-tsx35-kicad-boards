@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — PICO2-BB48_Rev_A.kicad_sch"} sheetIndex={1} sheetWidth={425.45} sheetHeight={299.72}><schematicbox name={"FID1"} chipRef={".FID1"} pinLabels={{ "pin1": ["FID__Fid1", "pin1"] }} schPinArrangement={{ "rightSide": ["pin1"] }} schX={-2.400000000000002} schY={-9.399999999999999} width={0.8} height={0.8}/>
 <schematictext text={"Fiducial"} schX={-2.800000000000002} schY={-10.049999999999999} anchor="top_left" fontSize={0.16}/>

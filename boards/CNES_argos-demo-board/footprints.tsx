@@ -2,7 +2,6 @@
 // Source: https://github.com/CNES/argos-demo-board
 // Commit: 1eccb3f20cb9004c046dba82b72bf85c500efcaa; license: CERN-OHL-S-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // H4: 3610213126S; Project_library:H_Wurth_WE-SHC-SMT-FRAME_36103255S
 export const Footprint_H4 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-12.75mm" pcbY="11.6mm" layer="top" width="1mm" height="3.3mm" shape="rect"/>

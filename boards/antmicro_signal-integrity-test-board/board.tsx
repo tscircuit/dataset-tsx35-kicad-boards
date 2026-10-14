@@ -3,7 +3,6 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Source: https://github.com/antmicro/signal-integrity-test-board
 // Commit: de0b5922c372481bb146cbd1d0a9f3b7e97c124a; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 import { Footprint_J17, Footprint_J8, Footprint_J20, Footprint_J14, Footprint_J9, Footprint_J3, Footprint_J18, Footprint_C2, Footprint_R2, Footprint_C1, Footprint_J10, Footprint_J11, Footprint_J13, Footprint_J15, Footprint_R4, Footprint_J1, Footprint_J2, Footprint_J12, Footprint_J19, Footprint_J5, Footprint_J6, Footprint_J16, Footprint_J4, Footprint_J21, Footprint_J22, Footprint_G___, Footprint_J7, Footprint_R3 } from './footprints';
 export default function Board({ routingDisabled = true }: {
     routingDisabled?: boolean;

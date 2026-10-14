@@ -2,7 +2,6 @@
 // Source: https://github.com/acornitum/fucked-up-rp2040-devboard
 // Commit: d94328619f4fcaef2f2d62aa42c62c789a463d56; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // C10: 100n; Capacitor_SMD:C_0402_1005Metric
 export const Footprint_C10 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.48mm" pcbY="0mm" layer="top" cornerRadius="0.07mm" width="0.56mm" height="0.62mm" shape="rect"/>

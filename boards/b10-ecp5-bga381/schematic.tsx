@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — ECP5.kicad_sch"} sheetIndex={1} sheetWidth={101.6} sheetHeight={101.6}><schematicbox name={"sheet_Extension"} title={"Extension"} schX={0} schY={0} width={1.4000000000000001} height={0.9999999999999999}/></schematicsheet>
 <schematicsheet name={"Extension"} displayName={"Extension — Extension.kicad_sch"} sheetIndex={2} sheetWidth={407.67} sheetHeight={278.12999999999994}><schematicbox name={"D14"} chipRef={".D14"} pinLabels={{ "pin1": ["K_1", "pin1"], "pin2": ["A_2", "pin2"] }} schPinArrangement={{ "topSide": ["pin2"], "bottomSide": ["pin1"] }} schX={1.3999999999999986} schY={4.949999999999999} width={0.8} height={0.8}/>

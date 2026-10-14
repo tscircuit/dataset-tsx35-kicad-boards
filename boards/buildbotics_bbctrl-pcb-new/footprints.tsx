@@ -2,7 +2,6 @@
 // Source: https://github.com/buildbotics/bbctrl-pcb-new
 // Commit: 1a2f36ddc4797ac05e45405fb5664ff1f7ca7974; license: CERN-OHL-S-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // D11: CDBW46-G; Project_Footprints_Library:CDBW46-G
 export const Footprint_D11 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-1.7526mm" pcbY="0mm" layer="top" width="0.762mm" height="1.1176mm" ccwRotation={90} shape="rotated_rect"/>

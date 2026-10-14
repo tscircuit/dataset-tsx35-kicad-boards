@@ -2,7 +2,6 @@
 // Source: https://github.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor
 // Commit: eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // C22: 10nF; Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
 export const Footprint_C22 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-1.0375mm" pcbY="0mm" layer="top" cornerRadius="0.125mm" width="1.45mm" height="1.175mm" ccwRotation={90} shape="rotated_rect"/>

@@ -2,7 +2,6 @@
 // Source: https://github.com/anthony-bernaert/ftdi-jtag-programmer
 // Commit: c33005ef528526c137ba8fd1e9cf4e8ceab63a1f; license: CERN-OHL-P-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // D19: LED; LED_SMD:LED_0603_1608Metric
 export const Footprint_D19 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.7875mm" pcbY="0mm" layer="top" cornerRadius="0.109375mm" width="0.95mm" height="0.875mm" ccwRotation={90} shape="rotated_rect"/>

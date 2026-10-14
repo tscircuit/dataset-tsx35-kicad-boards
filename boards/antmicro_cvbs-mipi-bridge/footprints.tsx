@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/cvbs-mipi-bridge
 // Commit: 7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // REF**: antmicro-logo_scaled_20mm; cvbs-mipi-bridge-footprints:antmicro-logo_scaled_20mm_mask
 export const Footprint_REF__ = () => (<footprint />);
 // S1: SW_KMR211NGLFS_SMD; cvbs-mipi-bridge-footprints:SW_KMR211NGLFS_SMD

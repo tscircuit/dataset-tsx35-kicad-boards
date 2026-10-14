@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — stm32h7-hdmi-board-sodimm-module.kicad_sch"} sheetIndex={1} sheetWidth={344.1699999999999} sheetHeight={148.58999999999997}><schematicbox name={"sheet_SDR1"} title={"SDR1"} schX={2.100000000000003} schY={1.3999999999999995} width={2.1} height={2.6}/>
 <schematicbox name={"sheet_EEPROM"} title={"EEPROM"} schX={-9.149999999999999} schY={2.6999999999999993} width={2.2} height={1.4000000000000001}/>

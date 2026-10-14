@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — water_level.kicad_sch"} sheetIndex={1} sheetWidth={360.68000000000006} sheetHeight={201.93}><schematicbox name={"SW2"} chipRef={".SW2"} pinLabels={{ "pin1": ["1_1", "pin1"], "pin2": ["2_2", "pin2"] }} schPinArrangement={{ "leftSide": ["pin1"], "rightSide": ["pin2"] }} schX={1.5999999999999979} schY={-5} width={0.8} height={0.8}/>
 <schematictext text={"AUTO/MANUAL"} schX={1.199999999999998} schY={-5.65} anchor="top_left" fontSize={0.16}/>

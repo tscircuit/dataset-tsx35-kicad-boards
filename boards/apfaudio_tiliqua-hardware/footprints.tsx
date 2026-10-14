@@ -2,7 +2,6 @@
 // Source: https://github.com/apfaudio/tiliqua-hardware
 // Commit: 4ee5878ae821a6b7096f6aed6795dc1349475cb5; license: CERN-OHL-S-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // J5: USB_C_Receptacle_USB2.0_14P; usb:USB-C-TH_U264-141N-4BAC10
 export const Footprint_J5 = () => (<footprint originalLayer="top">
         <platedhole portHints={["pin1"]} pcbX="0.375mm" pcbY="2.925mm" outerDiameter="0.6mm" holeDiameter="0.35mm" shape="circle"/>

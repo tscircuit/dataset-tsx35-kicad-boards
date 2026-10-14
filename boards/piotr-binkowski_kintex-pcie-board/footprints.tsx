@@ -2,7 +2,6 @@
 // Source: https://github.com/piotr-binkowski/kintex-pcie-board
 // Commit: 056792c009a8920d4ef11e76ba3284ee58376078; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // R16: 3K; Resistor_SMD:R_0402_1005Metric
 export const Footprint_R16 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.51mm" pcbY="0mm" layer="top" cornerRadius="0.0675mm" width="0.54mm" height="0.64mm" shape="rect"/>

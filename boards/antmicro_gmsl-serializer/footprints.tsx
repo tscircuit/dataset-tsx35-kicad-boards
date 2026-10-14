@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/gmsl-serializer
 // Commit: 58641df7b331050bbb4456cb4cb73e3975ae9de9; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // R31: R_0R_0402; antmicro-footprints:R_0402_1005Metric
 export const Footprint_R31 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.48mm" pcbY="0mm" layer="top" cornerRadius="0.07375mm" width="0.59mm" height="0.64mm" shape="rect"/>
