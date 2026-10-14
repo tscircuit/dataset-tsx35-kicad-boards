@@ -23,7 +23,7 @@ All 25 boards enable the normal automatic router by default, with `routeRemainin
 
 Imported layouts may contain placement findings. Add `--ignore-placement-drc` to run routing without changing their placement.
 
-To build an inspection preview without running the autorouter (also used by CI):
+To build an inspection preview without running the autorouter:
 
 ```sh
 bun run build examples/b03-ftdi-jtag.circuit.tsx --site --routing-disabled --ignore-placement-drc
