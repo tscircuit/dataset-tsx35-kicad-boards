@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — JTAGProgrammer.kicad_sch"} sheetIndex={1} sheetWidth={243.84000000000003} sheetHeight={146.04999999999998}><schematicbox name={"sheet_JTAG"} title={"JTAG"} schX={6.300000000000001} schY={3.2124999999999995} width={2.4} height={1.3499999999999999}/>
 <schematicbox name={"sheet_UART"} title={"UART"} schX={6.25} schY={0.3124999999999991} width={2.4} height={1.3499999999999999}/>

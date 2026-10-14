@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — cvbs-mipi-bridge.kicad_sch"} sheetIndex={1} sheetWidth={424.18000000000006} sheetHeight={294.64000000000004}><schematicbox name={"TP8"} chipRef={".TP8"} pinLabels={{ "pin1": ["1_1", "pin1"] }} schPinArrangement={{ "rightSide": ["pin1"] }} schX={3.8000000000000007} schY={8.9} width={0.8} height={0.8}/>
 <schematictext text={"TP_1.5mm_SMD"} schX={3.400000000000001} schY={8.25} anchor="top_left" fontSize={0.16}/>

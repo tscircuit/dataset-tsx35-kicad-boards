@@ -2,7 +2,6 @@
 // Source: https://github.com/OLIMEX/RP2350-PICO2-BB48
 // Commit: 74b030363ca03eea5bfa6dac59cbcd9e4277e910; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // FID1: Fiducial; OLIMEX_Other-FP:Fiducial1x3_Paste
 export const Footprint_FID1 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="0mm" pcbY="0mm" layer="top" radius="0.5mm" shape="circle"/>

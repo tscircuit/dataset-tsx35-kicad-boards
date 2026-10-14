@@ -2,7 +2,6 @@
 // Source: https://github.com/protolux-electronics/trellis_core
 // Commit: db4fe71623c14bcea47d7457d0db4c99d3899124; license: CERN-OHL-P-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // C7: 10u; Capacitor_SMD:C_0603_1608Metric
 export const Footprint_C7 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.775mm" pcbY="0mm" layer="top" cornerRadius="0.1125mm" width="0.9mm" height="0.95mm" shape="rect"/>

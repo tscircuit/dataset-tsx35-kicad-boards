@@ -2,7 +2,6 @@
 // Source: https://github.com/rapidanalysis/xerxes
 // Commit: 43abf5730d092358bc6d10e9faa7233818b5412e; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // R1: 2.2K 1%; Xerxes:R_0402_1005Metric
 export const Footprint_R1 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.51mm" pcbY="0mm" layer="top" cornerRadius="0.0675mm" width="0.64mm" height="0.54mm" ccwRotation={90} shape="rotated_rect"/>

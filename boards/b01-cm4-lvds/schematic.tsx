@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — cm4-lvds-adapter.kicad_sch"} sheetIndex={1} sheetWidth={218.44000000000003} sheetHeight={111.76}><schematicbox name={"sheet_Power"} title={"Power"} schX={1.7763568394002505e-15} schY={-1.5} width={3.5999999999999996} height={1.7999999999999998}/>
 <schematicbox name={"sheet_Antmicro CM4 Baseboard DSI Connector "} title={"Antmicro CM4 Baseboard DSI Connector "} schX={-4.8000000000000025} schY={1.5} width={3.5999999999999996} height={1.7999999999999998}/>

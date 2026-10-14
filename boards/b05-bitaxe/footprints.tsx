@@ -2,7 +2,6 @@
 // Source: https://github.com/BastelPichi/bitaxe
 // Commit: 0c3e71fd54fc0edef4c19c06d2320ef5468adc6a; license: CERN-OHL-S-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // C43: 10uF; Capacitor_SMD:C_0805_2012Metric
 export const Footprint_C43 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.95mm" pcbY="0mm" layer="top" cornerRadius="0.125mm" width="1mm" height="1.45mm" ccwRotation={-180} shape="rotated_rect"/>

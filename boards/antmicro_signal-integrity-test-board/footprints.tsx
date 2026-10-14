@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/signal-integrity-test-board
 // Commit: de0b5922c372481bb146cbd1d0a9f3b7e97c124a; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // J17: Conn_SMA_RF2-143-T-17-50-G; si-simulation-test-board-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G
 export const Footprint_J17 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="0.007mm" pcbY="-4.955mm" layer="top" width="4.191mm" height="2.29mm" ccwRotation={90} shape="rotated_rect"/>

@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/pmod-i3c-sensor-board
 // Commit: 5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // U5: MMC5603NJ; antmicro-footprints:WLP-4_0.82x0.82mm
 export const Footprint_U5 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.2mm" pcbY="0.2mm" layer="top" radius="0.115mm" shape="circle"/>

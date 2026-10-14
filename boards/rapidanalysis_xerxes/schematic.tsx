@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — Xerxes.kicad_sch"} sheetIndex={1} sheetWidth={530.8599999999999} sheetHeight={335.28}><schematicbox name={"U7"} chipRef={".U7"} pinLabels={{ "pin1": ["D1__1", "pin1"], "pin2": ["D1__2", "pin2"], "pin3": ["GND_3", "pin3"], "pin4": ["D2__4", "pin4"], "pin5": ["D2__5", "pin5"] }} schPinArrangement={{ "leftSide": ["pin1", "pin2"], "rightSide": ["pin4", "pin5"], "bottomSide": ["pin3"] }} schX={-9.65} schY={5.000000000000002} width={1.1999999999999993} height={1.1999999999999993}/>
 <schematictext text={"CDDFN10-3324P"} schX={-10.25} schY={4.150000000000002} anchor="top_left" fontSize={0.16}/>

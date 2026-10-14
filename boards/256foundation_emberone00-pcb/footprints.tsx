@@ -2,7 +2,6 @@
 // Source: https://github.com/256foundation/emberone00-pcb
 // Commit: b21b32ca49710b99cb75f86406b0df5190c9beb4; license: CERN-OHL-S-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // U55: BM1362AC_MODE0; emberone:BM1362AC
 export const Footprint_U55 = () => (<footprint originalLayer="top">
         <platedhole portHints={["pin26"]} pcbX="-2.245712mm" pcbY="-0.11mm" outerDiameter="0.54mm" holeDiameter="0.3mm" shape="circle"/>

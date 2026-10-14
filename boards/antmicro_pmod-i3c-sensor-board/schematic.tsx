@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — pmod-i3c-sensor-board.kicad_sch"} sheetIndex={1} sheetWidth={417.83} sheetHeight={278.13}><schematicbox name={"C3"} chipRef={".C3"} pinLabels={{ "pin1": ["__1", "pin1"], "pin2": ["__2", "pin2"] }} schPinArrangement={{ "topSide": ["pin1"], "bottomSide": ["pin2"] }} schX={-2.299999999999999} schY={4.3500000000000005} width={0.8} height={0.8}/>
 <schematictext text={"C_100n_0402"} schX={-2.699999999999999} schY={3.7000000000000006} anchor="top_left" fontSize={0.16}/>

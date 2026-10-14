@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — bitaxeUltra.kicad_sch"} sheetIndex={1} sheetWidth={217.17000000000002} sheetHeight={194.945}><schematicbox name={"sheet_BM1366"} title={"BM1366"} schX={0.7749999999999986} schY={2.925} width={1.4000000000000001} height={1.25}/>
 <schematicbox name={"sheet_Fan"} title={"Fan"} schX={5.824999999999999} schY={0.5} width={1.7} height={1.1}/>

@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — emberone.kicad_sch"} sheetIndex={1} sheetWidth={264.15999999999997} sheetHeight={201.93}><schematicbox name={"sheet_stack5"} title={"stack5"} schX={3.1500000000000004} schY={-0.3999999999999986} width={2.2} height={2.6}/>
 <schematicbox name={"sheet_stack7"} title={"stack7"} schX={-5.850000000000001} schY={-0.3999999999999986} width={2.2} height={2.6}/>

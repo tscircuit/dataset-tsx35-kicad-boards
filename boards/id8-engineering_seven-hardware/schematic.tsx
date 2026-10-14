@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — seven.kicad_sch"} sheetIndex={1} sheetWidth={140.97} sheetHeight={167.64}><schematicbox name={"sheet_JST-SH Contact"} title={"JST-SH Contact"} schX={-1.325000000000001} schY={2.6375} width={0.9999999999999999} height={0.6}/>
 <schematicbox name={"sheet_Antenna LTE"} title={"Antenna LTE"} schX={-2.9250000000000016} schY={-1.2624999999999993} width={1.2} height={0.4}/>

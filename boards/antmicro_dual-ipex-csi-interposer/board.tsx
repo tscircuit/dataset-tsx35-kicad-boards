@@ -3,7 +3,6 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Source: https://github.com/antmicro/dual-ipex-csi-interposer
 // Commit: 6b6bd0af5aafe13c02377d534a23a6373922f350; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 import { Footprint_J1, Footprint_N1, Footprint_N2, Footprint_MP4, Footprint_MP2, Footprint_MP1, Footprint_R1, Footprint_R2, Footprint_TP8, Footprint_TP7, Footprint_TP1, Footprint_TP2, Footprint_TP5, Footprint_TP4, Footprint_TP3, Footprint_TP6, Footprint_MP3, Footprint_R7, Footprint_C1, Footprint_R8, Footprint_R6, Footprint_TP9, Footprint_TP10, Footprint_R5, Footprint_C2, Footprint_R4, Footprint_R3, Footprint_J2, Footprint_J3 } from './footprints';
 export default function Board({ routingDisabled = true }: {
     routingDisabled?: boolean;

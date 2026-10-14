@@ -3,7 +3,6 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Source: https://github.com/acornitum/fucked-up-rp2040-devboard
 // Commit: d94328619f4fcaef2f2d62aa42c62c789a463d56; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 import { Footprint_C10, Footprint_REF__, Footprint_R7, Footprint_SW1, Footprint_C4, Footprint_R6, Footprint_C2, Footprint_U1, Footprint_J6, Footprint_C5, Footprint_C1, Footprint_R3, Footprint_R5, Footprint_C15, Footprint_D7, Footprint_C13, Footprint_J1, Footprint_C9, Footprint_R1, Footprint_R4, Footprint_C11, Footprint_U3, Footprint_J2, Footprint_C8, Footprint_D5, Footprint_R2, Footprint_Y1, Footprint_U2, Footprint_C14, Footprint_C12, Footprint_R8, Footprint_C3, Footprint_C6, Footprint_C7, Footprint_C17, Footprint_C16, Footprint_REF___, Footprint_MX2, Footprint_MX3, Footprint_MX1 } from './footprints';
 export default function Board({ routingDisabled = true }: {
     routingDisabled?: boolean;

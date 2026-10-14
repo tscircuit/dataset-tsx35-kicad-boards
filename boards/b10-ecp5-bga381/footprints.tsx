@@ -2,7 +2,6 @@
 // Source: https://github.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT
 // Commit: 81403f7487a9eded36c6500b8c8b6c12a6705f81; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // D21: YELLOW; LED_SMD:LED_0603_1608Metric
 export const Footprint_D21 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-0.7875mm" pcbY="0mm" layer="top" cornerRadius="0.109375mm" width="0.95mm" height="0.875mm" ccwRotation={90} shape="rotated_rect"/>

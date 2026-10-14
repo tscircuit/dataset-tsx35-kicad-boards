@@ -2,7 +2,6 @@
 // Source: https://github.com/greatscottgadgets/hackrf-pro
 // Commit: 359b98f2451395408bc25dae64efa9fc518e93d0; license: CERN-OHL-P-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // D6: LED; praline:LED_Dual_Xinglight_XL-3210_Horizontal
 export const Footprint_D6 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="0.4mm" pcbY="-0.55mm" layer="top" cornerRadius="0.0275mm" width="0.44mm" height="0.5mm" ccwRotation={-90} shape="rotated_rect"/>

@@ -2,7 +2,6 @@
 // Source: https://github.com/antmicro/dual-ipex-csi-interposer
 // Commit: 6b6bd0af5aafe13c02377d534a23a6373922f350; license: Apache-2.0. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 // J1: WE_68715014522; dual-ipex-csi-interposer-footprints:WE_68715014522
 export const Footprint_J1 = () => (<footprint originalLayer="top">
         <smtpad portHints={["pin1"]} pcbX="-12.25mm" pcbY="-0.6mm" layer="top" width="1.2mm" height="0.3mm" ccwRotation={-90} shape="rotated_rect"/>

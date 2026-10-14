@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — kintex-pcie.kicad_sch"} sheetIndex={1} sheetWidth={847.09} sheetHeight={604.52}><schematicbox name={"D6"} chipRef={".D6"} pinLabels={{ "pin1": ["K_1", "pin1"], "pin2": ["A_2", "pin2"] }} schPinArrangement={{ "topSide": ["pin2"], "bottomSide": ["pin1"] }} schX={-27.3} schY={6.100000000000001} width={0.8} height={0.8}/>
 <schematictext text={"GLED"} schX={-27.7} schY={5.450000000000001} anchor="top_left" fontSize={0.16}/>

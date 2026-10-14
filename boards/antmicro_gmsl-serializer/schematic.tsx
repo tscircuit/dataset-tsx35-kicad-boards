@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — gmsl-serializer.kicad_sch"} sheetIndex={1} sheetWidth={298.45} sheetHeight={125.72999999999998}><schematicbox name={"sheet_GMSL Connector"} title={"GMSL Connector"} schX={9.075} schY={2.4250000000000007} width={1.9} height={1.3}/>
 <schematicbox name={"sheet_CSI Connector"} title={"CSI Connector"} schX={2.5749999999999993} schY={2.4250000000000007} width={1.9} height={1.3}/>

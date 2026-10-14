@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — praline.kicad_sch"} sheetIndex={1} sheetWidth={284.47999999999996} sheetHeight={199.39}><schematicbox name={"sheet_Microcontroller"} title={"Microcontroller"} schX={2.9499999999999993} schY={2.8249999999999993} width={3.2} height={4.5}/>
 <schematicbox name={"sheet_IF Transceiver"} title={"IF Transceiver"} schX={-8.35} schY={-1.1250000000000009} width={2.6} height={2.6}/>

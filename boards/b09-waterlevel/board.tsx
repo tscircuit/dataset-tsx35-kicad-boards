@@ -3,7 +3,6 @@ import { KiCadSchematic, KiCadNet } from './schematic'
 // Source: https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor
 // Commit: 7b47f46949e99d8075590de0c5a08a550d646d84; license: MIT. See LICENSE.upstream.
 // Native component/footprint/net TSX. Original copper routing is omitted.
-import type {} from '@tscircuit/core';
 import { Footprint_R4, Footprint_RV1, Footprint_J4, Footprint_U2, Footprint_C4, Footprint_SW2, Footprint_R3, Footprint_C2, Footprint_Q1, Footprint_SW1, Footprint_J2, Footprint_D1, Footprint_R1, Footprint_K1, Footprint_R5, Footprint_C1, Footprint_C3, Footprint_J3, Footprint_U1 } from './footprints';
 export default function Board({ routingDisabled = true }: {
     routingDisabled?: boolean;

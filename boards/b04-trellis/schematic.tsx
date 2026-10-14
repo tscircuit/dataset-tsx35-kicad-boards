@@ -1,4 +1,3 @@
-import type {} from '@tscircuit/core';
 // Placement, sheet grouping and pin names from the pinned original KiCad schematics.
 export const KiCadSchematic = () => (<><schematicsheet name={"Overview"} displayName={"Overview — trellis_core.kicad_sch"} sheetIndex={1} sheetWidth={129.54000000000002} sheetHeight={101.6}><schematicbox name={"sheet_Block Diagram"} title={"Block Diagram"} schX={-1.8999999999999986} schY={0} width={2.4} height={0.8}/>
 <schematicbox name={"sheet_Architecture"} title={"Architecture"} schX={1.9000000000000021} schY={0} width={2.4} height={0.8}/></schematicsheet>
