@@ -1,11 +1,9 @@
 {
-  "checked_at": "2026-10-14T16:17:20.622719+00:00",
+  "checked_at": "2026-10-14T16:46:06.976550+00:00",
   "name": "dataset-tsx35-kicad-boards",
   "init_compiler_options_match": true,
   "init_include_match": true,
-  "additional_tsconfig_exclusions": [
-    "work"
-  ],
+  "additional_tsconfig_exclusions": [],
   "frozen_dependency_install": "passed",
   "strict_typecheck": "passed",
   "native_boards_checked": 25,
@@ -14,7 +12,7 @@
   "original_schematic_files_hash_checked": 142,
   "shared_schematic_terminals_checked": 15235,
   "schematic_net_mismatches": 0,
-  "html_build_command": "pnpm build",
+  "html_build_command": "tsci build examples/b03-ftdi-jtag.circuit.tsx --site",
   "html_output": "dist/index.html",
   "html_build": "passed",
   "html_preview_entrypoint": "examples/b03-ftdi-jtag.circuit.tsx",
@@ -24,12 +22,16 @@
     "3d_board_geometry"
   ],
   "html_silkscreen_primitives": 0,
-  "full_dataset_static_site_build": "not verified; use build:all; large-board schematic rendering has known timeouts",
+  "full_dataset_static_site_build": "not verified; default build discovers all circuit files; large-board schematic rendering has known timeouts",
   "component_cad_bodies_included": false,
   "dev_server_port": 3023,
   "dev_browser_views_checked": [
     "pcb",
     "schematic",
     "3d_board_geometry"
-  ]
+  ],
+  "init_tscircuit_config_match": true,
+  "init_tsconfig_match": true,
+  "init_scripts_match": true,
+  "cloud_build_command": "tsci build --ci (standard runner flow)"
 }

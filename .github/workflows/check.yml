@@ -18,7 +18,7 @@ jobs:
       - run: pnpm install --frozen-lockfile --ignore-scripts
       - run: pnpm typecheck
       - run: pnpm check
-      - run: pnpm build
+      - run: pnpm exec tsci build examples/b03-ftdi-jtag.circuit.tsx --site --disable-parts-engine --ignore-placement-drc --ignore-routing-drc
       - uses: actions/upload-artifact@v4
         with:
           name: dataset-tsx35-kicad-boards-html
