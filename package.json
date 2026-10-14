@@ -6,9 +6,9 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "check": "node tools/check-all.mjs",
-    "dev": "tsci dev --port 3021",
+    "dev": "tsci dev --port 3023",
     "check:kicad": "python3 tools/check-kicad-nets.py",
-    "start": "tsci dev --port 3021",
+    "start": "tsci dev --port 3023",
     "build": "tsci build --site examples/b03-ftdi-jtag.circuit.tsx --disable-parts-engine --ignore-placement-drc --ignore-routing-drc",
     "build:site": "pnpm build",
     "build:all": "tsci build --site --disable-parts-engine --ignore-placement-drc --ignore-routing-drc --concurrency 2"

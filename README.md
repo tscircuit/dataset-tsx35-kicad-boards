@@ -13,7 +13,7 @@ pnpm install --frozen-lockfile --ignore-scripts
 pnpm dev
 ```
 
-Open http://localhost:3021 and choose any `examples/*.circuit.tsx` file. The standard `tsci dev` server watches the original TSX directly. `tscircuit.config.json` excludes upstream KiCad files, validation reports, and generated output.
+Open http://localhost:3023 and choose any `examples/*.circuit.tsx` file. The standard `tsci dev` server watches the original TSX directly. `tscircuit.config.json` excludes upstream KiCad files, validation reports, and generated output.
 
 ```sh
 pnpm typecheck

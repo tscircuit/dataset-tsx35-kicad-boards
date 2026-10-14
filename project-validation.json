@@ -25,5 +25,11 @@
   ],
   "html_silkscreen_primitives": 0,
   "full_dataset_static_site_build": "not verified; use build:all; large-board schematic rendering has known timeouts",
-  "component_cad_bodies_included": false
+  "component_cad_bodies_included": false,
+  "dev_server_port": 3023,
+  "dev_browser_views_checked": [
+    "pcb",
+    "schematic",
+    "3d_board_geometry"
+  ]
 }
