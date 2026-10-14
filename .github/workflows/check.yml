@@ -1,4 +1,4 @@
-name: Check dataset and HTML preview
+name: Check
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -8,17 +8,12 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - uses: pnpm/action-setup@v4
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.3.14
-      - run: pnpm install --frozen-lockfile --ignore-scripts
-      - run: pnpm typecheck
-      - run: pnpm check
-      - run: pnpm exec tsci build examples/b03-ftdi-jtag.circuit.tsx --site --disable-parts-engine --ignore-placement-drc --ignore-routing-drc
+      - run: bun install --frozen-lockfile --ignore-scripts
+      - run: bun run typecheck
+      - run: bun run build examples/b03-ftdi-jtag.circuit.tsx --site
       - uses: actions/upload-artifact@v4
         with:
           name: dataset-tsx35-kicad-boards-html

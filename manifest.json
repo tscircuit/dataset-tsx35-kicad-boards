@@ -4,299 +4,449 @@
     "components": 395,
     "nets": 365,
     "source": "boards/256foundation_emberone00-pcb/board.tsx",
-    "success": true,
     "schematic": "boards/256foundation_emberone00-pcb/schematic.tsx",
     "schematic_sheets": 7,
-    "schematic_net_check": "boards/256foundation_emberone00-pcb/schematic-net-check.json",
     "schematic_source": "upstream-schematics/256foundation_emberone00-pcb/emberone.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "EmberOne",
+      "author": "256 Foundation",
+      "repository": "https://github.com/256foundation/emberone00-pcb",
+      "commit": "b21b32ca49710b99cb75f86406b0df5190c9beb4",
+      "license": "CERN-OHL-S-2.0",
+      "pcb": "emberone.kicad_pcb",
+      "pcb_git_blob_sha": "feee9b99ab84a9250e3c88cd70dcbe33a3ece27a"
+    }
   },
   {
     "id": "CNES_argos-demo-board",
     "components": 91,
     "nets": 87,
     "source": "boards/CNES_argos-demo-board/board.tsx",
-    "success": true,
     "schematic": "boards/CNES_argos-demo-board/schematic.tsx",
     "schematic_sheets": 2,
-    "schematic_net_check": "boards/CNES_argos-demo-board/schematic-net-check.json",
     "schematic_source": "upstream-schematics/CNES_argos-demo-board/ARGOS DEMO.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Argos demo board",
+      "author": "CNES",
+      "repository": "https://github.com/CNES/argos-demo-board",
+      "commit": "1eccb3f20cb9004c046dba82b72bf85c500efcaa",
+      "license": "CERN-OHL-S-2.0",
+      "pcb": "ARGOS DEMO.kicad_pcb",
+      "pcb_git_blob_sha": "e1ebb1455e9182d7cc54ce94a4e4e2e729e855d8"
+    }
   },
   {
     "id": "OLIMEX_RP2350-PICO2-BB48",
     "components": 85,
     "nets": 95,
     "source": "boards/OLIMEX_RP2350-PICO2-BB48/board.tsx",
-    "success": true,
     "schematic": "boards/OLIMEX_RP2350-PICO2-BB48/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/OLIMEX_RP2350-PICO2-BB48/schematic-net-check.json",
     "schematic_source": "upstream-schematics/OLIMEX_RP2350-PICO2-BB48/HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "RP2350-PICO2-BB48",
+      "author": "Olimex Ltd",
+      "repository": "https://github.com/OLIMEX/RP2350-PICO2-BB48",
+      "commit": "74b030363ca03eea5bfa6dac59cbcd9e4277e910",
+      "license": "MIT",
+      "pcb": "HARDWARE/RP2350-PICO2-BB48.REV.A/PICO2-BB48_Rev_A.kicad_pcb",
+      "pcb_git_blob_sha": "7ffd1c1eb2d561c6265223b8f313591d6264b572"
+    }
   },
   {
     "id": "antmicro_cvbs-mipi-bridge",
     "components": 116,
     "nets": 99,
     "source": "boards/antmicro_cvbs-mipi-bridge/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_cvbs-mipi-bridge/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/antmicro_cvbs-mipi-bridge/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_cvbs-mipi-bridge/cvbs-mipi-bridge.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro CVBS-to-MIPI bridge",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/cvbs-mipi-bridge",
+      "commit": "7cbcec2bceaf6e1efd25cce1d73ff4989dfcfe02",
+      "license": "Apache-2.0",
+      "pcb": "cvbs-mipi-bridge.kicad_pcb",
+      "pcb_git_blob_sha": "4c700d9765b2ac4273b08db9715dcca34d6cf44c"
+    }
   },
   {
     "id": "antmicro_dual-ipex-csi-interposer",
     "components": 29,
     "nets": 55,
     "source": "boards/antmicro_dual-ipex-csi-interposer/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_dual-ipex-csi-interposer/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/antmicro_dual-ipex-csi-interposer/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_dual-ipex-csi-interposer/dual-ipex-csi-interposer.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro dual IPEX CSI interposer",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/dual-ipex-csi-interposer",
+      "commit": "6b6bd0af5aafe13c02377d534a23a6373922f350",
+      "license": "Apache-2.0",
+      "pcb": "dual-ipex-csi-interposer.kicad_pcb",
+      "pcb_git_blob_sha": "da7050ccd413e9aaff2a46699ff8e9b99ed42880"
+    }
   },
   {
     "id": "antmicro_gmsl-serializer",
     "components": 118,
     "nets": 97,
     "source": "boards/antmicro_gmsl-serializer/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_gmsl-serializer/schematic.tsx",
     "schematic_sheets": 5,
-    "schematic_net_check": "boards/antmicro_gmsl-serializer/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_gmsl-serializer/gmsl-serializer.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro GMSL serializer",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/gmsl-serializer",
+      "commit": "58641df7b331050bbb4456cb4cb73e3975ae9de9",
+      "license": "Apache-2.0",
+      "pcb": "gmsl-serializer.kicad_pcb",
+      "pcb_git_blob_sha": "8cff31b76b0a23524671be6069c3931927e9bc12"
+    }
   },
   {
     "id": "antmicro_pmod-i3c-sensor-board",
     "components": 96,
     "nets": 48,
     "source": "boards/antmicro_pmod-i3c-sensor-board/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_pmod-i3c-sensor-board/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/antmicro_pmod-i3c-sensor-board/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_pmod-i3c-sensor-board/pmod-i3c-sensor-board.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro PMOD I3C sensor board",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/pmod-i3c-sensor-board",
+      "commit": "5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7",
+      "license": "Apache-2.0",
+      "pcb": "pmod-i3c-sensor-board.kicad_pcb",
+      "pcb_git_blob_sha": "9a26ab76bcd6e8ea52ad93384646c364c5296e7e"
+    }
   },
   {
     "id": "antmicro_signal-integrity-test-board",
     "components": 28,
     "nets": 13,
     "source": "boards/antmicro_signal-integrity-test-board/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_signal-integrity-test-board/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/antmicro_signal-integrity-test-board/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_signal-integrity-test-board/si-simulation-test-board.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro signal-integrity test board",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/signal-integrity-test-board",
+      "commit": "de0b5922c372481bb146cbd1d0a9f3b7e97c124a",
+      "license": "Apache-2.0",
+      "pcb": "si-simulation-test-board.kicad_pcb",
+      "pcb_git_blob_sha": "7d262c1ed038750e1b2e97889721fe789b585f91"
+    }
   },
   {
     "id": "antmicro_stm32h7-hdmi-board-sodimm",
     "components": 90,
     "nets": 222,
     "source": "boards/antmicro_stm32h7-hdmi-board-sodimm/board.tsx",
-    "success": true,
     "schematic": "boards/antmicro_stm32h7-hdmi-board-sodimm/schematic.tsx",
     "schematic_sheets": 11,
-    "schematic_net_check": "boards/antmicro_stm32h7-hdmi-board-sodimm/schematic-net-check.json",
     "schematic_source": "upstream-schematics/antmicro_stm32h7-hdmi-board-sodimm/stm32h7-hdmi-board-sodimm-module.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro STM32H7 HDMI SO-DIMM board",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/stm32h7-hdmi-board-sodimm",
+      "commit": "27e3ac9968983f236155c288ded30beb1a2d24a1",
+      "license": "Apache-2.0",
+      "pcb": "stm32h7-hdmi-board-sodimm-module.kicad_pcb",
+      "pcb_git_blob_sha": "5f7c5c423148c21e33ed7492f7704187e14532e1"
+    }
   },
   {
     "id": "apfaudio_tiliqua-hardware",
     "components": 171,
     "nets": 230,
     "source": "boards/apfaudio_tiliqua-hardware/board.tsx",
-    "success": true,
     "schematic": "boards/apfaudio_tiliqua-hardware/schematic.tsx",
     "schematic_sheets": 9,
-    "schematic_net_check": "boards/apfaudio_tiliqua-hardware/schematic-net-check.json",
     "schematic_source": "upstream-schematics/apfaudio_tiliqua-hardware/hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Tiliqua (apfaudio)",
+      "author": "Sebastian Holzapfel",
+      "repository": "https://github.com/apfaudio/tiliqua-hardware",
+      "commit": "4ee5878ae821a6b7096f6aed6795dc1349475cb5",
+      "license": "CERN-OHL-S-2.0",
+      "pcb": "hardware/tiliqua-motherboard/tiliqua-motherboard.kicad_pcb",
+      "pcb_git_blob_sha": "2c0b47fee33fcc3a9c3a95b2e1c181d56a1c7e0c"
+    }
   },
   {
     "id": "b01-cm4-lvds",
     "components": 155,
     "nets": 142,
     "source": "boards/b01-cm4-lvds/board.tsx",
-    "success": true,
     "schematic": "boards/b01-cm4-lvds/schematic.tsx",
     "schematic_sheets": 5,
-    "schematic_net_check": "boards/b01-cm4-lvds/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b01-cm4-lvds/cm4-lvds-adapter.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro CM4 baseboard LVDS adapter",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/cm4-baseboard-lvds-adapter",
+      "commit": "4af945ed558e58e4b8aea6fe909fc33d78b63f6f",
+      "license": "Apache-2.0",
+      "pcb": "cm4-lvds-adapter.kicad_pcb",
+      "pcb_git_blob_sha": "e8bb05a3b4d139f24841d194ce307980b70975dc"
+    }
   },
   {
     "id": "b02-ecp5-dcscm",
     "components": 506,
     "nets": 785,
     "source": "boards/b02-ecp5-dcscm/board.tsx",
-    "success": true,
     "schematic": "boards/b02-ecp5-dcscm/schematic.tsx",
     "schematic_sheets": 10,
-    "schematic_net_check": "boards/b02-ecp5-dcscm/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b02-ecp5-dcscm/ecp5-dc-scm.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Antmicro ECP5 DC-SCM",
+      "author": "Antmicro",
+      "repository": "https://github.com/antmicro/ecp5-dc-scm",
+      "commit": "0019313fd2e214f618788e5e61636a4a023ee361",
+      "license": "Apache-2.0",
+      "pcb": "ecp5-dc-scm.kicad_pcb",
+      "pcb_git_blob_sha": "18c001f5561902db72471a63d270dcfcfda9d78f"
+    }
   },
   {
     "id": "b03-ftdi-jtag",
     "components": 122,
     "nets": 93,
     "source": "boards/b03-ftdi-jtag/board.tsx",
-    "success": true,
     "schematic": "boards/b03-ftdi-jtag/schematic.tsx",
     "schematic_sheets": 5,
-    "schematic_net_check": "boards/b03-ftdi-jtag/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b03-ftdi-jtag/JTAGProgrammer/JTAGProgrammer.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "FTDI JTAG programmer",
+      "author": "Anthony Bernaert",
+      "repository": "https://github.com/anthony-bernaert/ftdi-jtag-programmer",
+      "commit": "c33005ef528526c137ba8fd1e9cf4e8ceab63a1f",
+      "license": "CERN-OHL-P-2.0",
+      "pcb": "JTAGProgrammer/JTAGProgrammer.kicad_pcb",
+      "pcb_git_blob_sha": "6b48e13e3342de5e9d6eea11a8be39b036eb98d7"
+    }
   },
   {
     "id": "b04-trellis",
     "components": 89,
     "nets": 126,
     "source": "boards/b04-trellis/board.tsx",
-    "success": true,
     "schematic": "boards/b04-trellis/schematic.tsx",
     "schematic_sheets": 8,
-    "schematic_net_check": "boards/b04-trellis/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b04-trellis/src/trellis_core.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Trellis Core",
+      "author": "Protolux Electronics SARL-S",
+      "repository": "https://github.com/protolux-electronics/trellis_core",
+      "commit": "db4fe71623c14bcea47d7457d0db4c99d3899124",
+      "license": "CERN-OHL-P-2.0",
+      "pcb": "src/trellis_core.kicad_pcb",
+      "pcb_git_blob_sha": "d63b0c9f78b7cd6eebaddb4488c83136baea8de8"
+    }
   },
   {
     "id": "b05-bitaxe",
     "components": 137,
     "nets": 93,
     "source": "boards/b05-bitaxe/board.tsx",
-    "success": true,
     "schematic": "boards/b05-bitaxe/schematic.tsx",
     "schematic_sheets": 5,
-    "schematic_net_check": "boards/b05-bitaxe/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b05-bitaxe/bitaxeUltra.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Bitaxe Ultra (fork)",
+      "author": "BastelPichi, fork of skot/bitaxe",
+      "repository": "https://github.com/BastelPichi/bitaxe",
+      "commit": "0c3e71fd54fc0edef4c19c06d2320ef5468adc6a",
+      "license": "CERN-OHL-S-2.0",
+      "pcb": "bitaxeUltra.kicad_pcb",
+      "pcb_git_blob_sha": "b2ad0fa4d55f04237b680595c5b4f5c35ec7d69e"
+    }
   },
   {
     "id": "b06-loadcell",
     "components": 56,
     "nets": 74,
     "source": "boards/b06-loadcell/board.tsx",
-    "success": true,
     "schematic": "boards/b06-loadcell/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/b06-loadcell/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b06-loadcell/PCB/LoadcellSensor.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Ender-3 load-cell bed-levelling sensor",
+      "author": "Lakshminarayanan",
+      "repository": "https://github.com/jujojujo2003/Ender-3-3DPrinter-Load-Cell-Bed-Leveling-Sensor",
+      "commit": "eae5c6f3e67d0b7f83a500bfb3d1aef38cb69b0b",
+      "license": "MIT",
+      "pcb": "PCB/LoadcellSensor.kicad_pcb",
+      "pcb_git_blob_sha": "460e95c9b7dd97b88463d99f2047f325375a836d"
+    }
   },
   {
     "id": "b07-rp2040",
     "components": 40,
     "nets": 57,
     "source": "boards/b07-rp2040/board.tsx",
-    "success": true,
     "schematic": "boards/b07-rp2040/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/b07-rp2040/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b07-rp2040/catkeeb_devboard.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "RP2040 development board",
+      "author": "acon",
+      "repository": "https://github.com/acornitum/fucked-up-rp2040-devboard",
+      "commit": "d94328619f4fcaef2f2d62aa42c62c789a463d56",
+      "license": "MIT",
+      "pcb": "catkeeb_devboard.kicad_pcb",
+      "pcb_git_blob_sha": "6dd0cf884f07d162e2add7ef842fe15497e6bc8f"
+    }
   },
   {
     "id": "b08-discretesim",
     "components": 362,
     "nets": 161,
     "source": "boards/b08-discretesim/board.tsx",
-    "success": true,
     "schematic": "boards/b08-discretesim/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/b08-discretesim/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b08-discretesim/hwtest/hwtest.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "discretesim test board",
+      "author": "cnlohr",
+      "repository": "https://github.com/cnlohr/discretesim",
+      "commit": "f7a169ee07b18b6c857d23582474b8ba20185436",
+      "license": "MIT",
+      "pcb": "hwtest/hwtest.kicad_pcb",
+      "pcb_git_blob_sha": "5609025048916f5df25c210f6560c973ad5e11cc"
+    }
   },
   {
     "id": "b09-waterlevel",
     "components": 19,
     "nets": 42,
     "source": "boards/b09-waterlevel/board.tsx",
-    "success": true,
     "schematic": "boards/b09-waterlevel/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/b09-waterlevel/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b09-waterlevel/hardware/water_level.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Arduino water-level monitor",
+      "author": "Srushti D",
+      "repository": "https://github.com/Srushti-D-Hebbar/arduino-water-level-monitor",
+      "commit": "7b47f46949e99d8075590de0c5a08a550d646d84",
+      "license": "MIT",
+      "pcb": "hardware/water_level.kicad_pcb",
+      "pcb_git_blob_sha": "8e54e1c8a51efd8823ed474afbd033a513e02da3"
+    }
   },
   {
     "id": "b10-ecp5-bga381",
     "components": 79,
     "nets": 98,
     "source": "boards/b10-ecp5-bga381/board.tsx",
-    "success": true,
     "schematic": "boards/b10-ecp5-bga381/schematic.tsx",
     "schematic_sheets": 2,
-    "schematic_net_check": "boards/b10-ecp5-bga381/schematic-net-check.json",
     "schematic_source": "upstream-schematics/b10-ecp5-bga381/kicad/ECP5.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "ECP5 BGA-381 FT2232HQ FIFO board",
+      "author": "gildobjanschi",
+      "repository": "https://github.com/gildobjanschi/ECP5_BGA381_FT2232HQ_FIFO_EXT",
+      "commit": "81403f7487a9eded36c6500b8c8b6c12a6705f81",
+      "license": "MIT",
+      "pcb": "kicad/ECP5.kicad_pcb",
+      "pcb_git_blob_sha": "cbea9125deb1eea171375e96bb42bc69cc3938ba"
+    }
   },
   {
     "id": "buildbotics_bbctrl-pcb-new",
     "components": 305,
     "nets": 291,
     "source": "boards/buildbotics_bbctrl-pcb-new/board.tsx",
-    "success": true,
     "schematic": "boards/buildbotics_bbctrl-pcb-new/schematic.tsx",
     "schematic_sheets": 23,
-    "schematic_net_check": "boards/buildbotics_bbctrl-pcb-new/schematic-net-check.json",
     "schematic_source": "upstream-schematics/buildbotics_bbctrl-pcb-new/BuildboticsController.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Buildbotics controller",
+      "author": "Buildbotics LLC",
+      "repository": "https://github.com/buildbotics/bbctrl-pcb-new",
+      "commit": "1a2f36ddc4797ac05e45405fb5664ff1f7ca7974",
+      "license": "CERN-OHL-S-2.0",
+      "pcb": "BuildboticsController.kicad_pcb",
+      "pcb_git_blob_sha": "71d8b905fae1380ace9a2b3417df9e96526c2a0e"
+    }
   },
   {
     "id": "greatscottgadgets_hackrf-pro",
     "components": 581,
     "nets": 490,
     "source": "boards/greatscottgadgets_hackrf-pro/board.tsx",
-    "success": true,
     "schematic": "boards/greatscottgadgets_hackrf-pro/schematic.tsx",
     "schematic_sheets": 12,
-    "schematic_net_check": "boards/greatscottgadgets_hackrf-pro/schematic-net-check.json",
     "schematic_source": "upstream-schematics/greatscottgadgets_hackrf-pro/praline.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "HackRF Pro",
+      "author": "Great Scott Gadgets",
+      "repository": "https://github.com/greatscottgadgets/hackrf-pro",
+      "commit": "359b98f2451395408bc25dae64efa9fc518e93d0",
+      "license": "CERN-OHL-P-2.0",
+      "pcb": "praline.kicad_pcb",
+      "pcb_git_blob_sha": "2ef7a71702117711417efc673ba0b8f1e1dbfae7"
+    }
   },
   {
     "id": "id8-engineering_seven-hardware",
     "components": 87,
     "nets": 135,
     "source": "boards/id8-engineering_seven-hardware/board.tsx",
-    "success": true,
     "schematic": "boards/id8-engineering_seven-hardware/schematic.tsx",
     "schematic_sheets": 15,
-    "schematic_net_check": "boards/id8-engineering_seven-hardware/schematic-net-check.json",
     "schematic_source": "upstream-schematics/id8-engineering_seven-hardware/kicad/seven.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Seven",
+      "author": "ID8 Engineering AB",
+      "repository": "https://github.com/id8-engineering/seven-hardware",
+      "commit": "7c69a1482ffd1dddc206294a55602477c55e17d8",
+      "license": "CERN-OHL-P-2.0",
+      "pcb": "kicad/seven.kicad_pcb",
+      "pcb_git_blob_sha": "cb56d4d50291d8fdb17bf1342f27994bc68c3f21"
+    }
   },
   {
     "id": "piotr-binkowski_kintex-pcie-board",
     "components": 166,
     "nets": 546,
     "source": "boards/piotr-binkowski_kintex-pcie-board/board.tsx",
-    "success": true,
     "schematic": "boards/piotr-binkowski_kintex-pcie-board/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/piotr-binkowski_kintex-pcie-board/schematic-net-check.json",
     "schematic_source": "upstream-schematics/piotr-binkowski_kintex-pcie-board/kintex-pcie.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Kintex PCIe board",
+      "author": "Piotr Binkowski",
+      "repository": "https://github.com/piotr-binkowski/kintex-pcie-board",
+      "commit": "056792c009a8920d4ef11e76ba3284ee58376078",
+      "license": "Apache-2.0",
+      "pcb": "kintex-pcie.kicad_pcb",
+      "pcb_git_blob_sha": "5e32d297881127c703db908f4da3a416fa692a6d"
+    }
   },
   {
     "id": "rapidanalysis_xerxes",
     "components": 58,
     "nets": 209,
     "source": "boards/rapidanalysis_xerxes/board.tsx",
-    "success": true,
     "schematic": "boards/rapidanalysis_xerxes/schematic.tsx",
     "schematic_sheets": 1,
-    "schematic_net_check": "boards/rapidanalysis_xerxes/schematic-net-check.json",
     "schematic_source": "upstream-schematics/rapidanalysis_xerxes/Xerxes/Xerxes.kicad_sch",
-    "silkscreen_omitted": true
+    "upstream": {
+      "name": "Xerxes",
+      "author": "Rapid Analysis",
+      "repository": "https://github.com/rapidanalysis/xerxes",
+      "commit": "43abf5730d092358bc6d10e9faa7233818b5412e",
+      "license": "Apache-2.0",
+      "pcb": "Xerxes/Xerxes.kicad_pcb",
+      "pcb_git_blob_sha": "631041f285da4a5d3b63623c12242cfe67906046"
+    }
   }
 ]

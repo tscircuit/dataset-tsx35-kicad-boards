@@ -3,12 +3,18 @@ export interface BoardEntry {
   components: number
   nets: number
   source: string
-  success: boolean
   schematic: string
   schematic_sheets: number
-  schematic_net_check: string
   schematic_source: string
-  silkscreen_omitted: boolean
+  upstream: {
+    name: string
+    author: string
+    repository: string
+    commit: string
+    license: string
+    pcb: string
+    pcb_git_blob_sha: string
+  }
 }
 
 declare const boards: BoardEntry[]

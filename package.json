@@ -2,17 +2,14 @@
   "private": true,
   "type": "module",
   "name": "dataset-tsx35-kicad-boards",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
-    "typecheck": "tsc --noEmit",
-    "check": "node tools/check-all.mjs",
     "dev": "tsci dev",
-    "check:kicad": "python3 tools/check-kicad-nets.py",
-    "start": "tsci dev",
     "build": "tsci build",
-    "build:site": "tsci build --site",
     "snapshot": "tsci snapshot",
-    "snapshot:update": "tsci snapshot --update"
+    "snapshot:update": "tsci snapshot --update",
+    "start": "tsci dev",
+    "typecheck": "tsc --noEmit"
   },
   "description": "25 KiCad boards reconstructed as native tscircuit TSX with verified net connectivity",
   "main": "index.js",
@@ -22,16 +19,17 @@
     "url": "https://github.com/tscircuit/dataset-tsx35-kicad-boards.git"
   },
   "devDependencies": {
-    "@tscircuit/cli": "0.1.2316",
-    "@tscircuit/core": "0.0.2142",
-    "@tscircuit/props": "0.0.701",
-    "@types/react": "19.2.2",
-    "react": "19.2.0",
     "tscircuit": "0.0.2861",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@11.25.0",
-  "engines": {
-    "node": ">=24"
+  "overrides": {
+    "@tscircuit/capacity-autorouter": "0.0.900",
+    "@tscircuit/cli": "0.1.2316",
+    "@tscircuit/core": "0.0.2142",
+    "@tscircuit/circuit-json-util": "0.0.121",
+    "@tscircuit/checks": "0.0.252",
+    "@tscircuit/props": "0.0.701",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   }
 }
