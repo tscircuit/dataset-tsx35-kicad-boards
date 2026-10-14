@@ -2,6 +2,8 @@
 
 25 KiCad boards from the [Zap comparison](https://zap.mutual.solutions/compare#cmp), reconstructed as editable, native tscircuit TSX.
 
+[View on tscircuit.com](https://tscircuit.com/0hmX/dataset-tsx35-kicad-boards). The package contains all board sources and KiCad originals; its generated preview uses the FTDI example.
+
 The dataset contains **3,981 PCB components, 4,653 nets, and 16,322 copper pad/hole primitives**. Original PCB placements and sheet grouping are retained. Silkscreen text and drawings are omitted.
 
 ## Develop and build HTML

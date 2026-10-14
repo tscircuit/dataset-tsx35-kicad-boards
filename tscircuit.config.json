@@ -19,5 +19,6 @@
     "typescriptLibrary": false,
     "routingDisabled": true,
     "workerTimeoutMs": 240000
-  }
+  },
+  "buildCommand": "pnpm build"
 }
