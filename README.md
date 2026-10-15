@@ -13,7 +13,7 @@ bun run typecheck
 bun run build --site
 ```
 
-`tsconfig.json`, `tscircuit.config.json`, and all six scripts match `tsci init`. Dependencies are pinned for compatibility. To build one board's HTML preview:
+`tsconfig.json`, `tscircuit.config.json`, and all six scripts match `tsci init`. Dependencies are pinned for compatibility. A small tracked core dependency patch avoids repeated geometry work in schematic label solvers ([upstream fix](https://github.com/tscircuit/schematic-trace-solver/pull/1331)). To build one board's HTML preview:
 
 ```sh
 bun run build examples/b03-ftdi-jtag.circuit.tsx --site

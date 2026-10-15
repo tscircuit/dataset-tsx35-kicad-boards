@@ -1,0 +1,42 @@
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -100123,14 +100123,15 @@
+     if (this.overlapMode === "traces") return this.findNextTraceOverlap();
+     for (let i2 = 0; i2 < this.outputNetLabelPlacements.length; i2++) {
+       for (let j2 = i2 + 1; j2 < this.outputNetLabelPlacements.length; j2++) {
+-        if (!this.isLabelEligible(i2) && !this.isLabelEligible(j2)) continue;
+         const overlap = {
+           type: "labels",
+           firstLabelIndex: i2,
+           secondLabelIndex: j2
+         };
++        if (!this.labelsOverlap(overlap)) continue;
+         if (this.skippedOverlapKeys.has(this.getOverlapKey(overlap))) continue;
+-        if (this.labelsOverlap(overlap)) return overlap;
++        if (!this.isLabelEligible(i2) && !this.isLabelEligible(j2)) continue;
++        return overlap;
+       }
+     }
+     return null;
+@@ -105847,6 +105848,7 @@
+         proposals: this.getTraceRefinementProposals(current),
+         queue: [],
+         collecting: true,
++        seenProposals: /* @__PURE__ */ new Set(),
+         before: getOutputLabelCollisions(current)
+       };
+     }
+@@ -105854,6 +105856,13 @@
+     if (refinement.collecting) {
+       const next2 = refinement.proposals.next();
+       if (!next2.done) {
++        const key = JSON.stringify([
++          next2.value.traces,
++          next2.value.netLabelPlacements,
++          [...next2.value.netLabelConnectorTraceIds ?? []]
++        ]);
++        if (refinement.seenProposals.has(key)) return;
++        refinement.seenProposals.add(key);
+         const distance33 = next2.value.traces.reduce(
+           (sum, trace, index2) => sum + trace.tracePath.reduce((distance42, point6, pointIndex) => {
+             const previous = current.traces[index2].tracePath[pointIndex];
