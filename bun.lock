@@ -10,6 +10,9 @@
       },
     },
   },
+  "patchedDependencies": {
+    "@tscircuit/core@0.0.2142": "patches/@tscircuit__core@0.0.2142.patch",
+  },
   "overrides": {
     "@tscircuit/capacity-autorouter": "0.0.900",
     "@tscircuit/checks": "0.0.252",
