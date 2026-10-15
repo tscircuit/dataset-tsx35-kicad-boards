@@ -18,7 +18,39 @@
        }
      }
      return null;
-@@ -105847,6 +105848,7 @@
+@@ -100780,19 +100781,28 @@
+     return !this.isSingleTerminalInlineEligible(label) && this.hasSatisfiedSingleOrientation(label) && this.isAlignedWithHostTrace(label);
+   }
+   findNextCollidingPair() {
++    if (this.outputNetLabelPlacements.length === 0) return null;
+     const labels = [
+       ...this.outputNetLabelPlacements,
+       ...this.params.fixedNetLabelPlacements ?? []
+     ];
++    const labelBounds = labels.map((label) => this.labelBounds(label));
++    const spatialIndex = new Flatbush2(labels.length);
++    for (const bounds of labelBounds) {
++      spatialIndex.add(bounds.minX, bounds.minY, bounds.maxX, bounds.maxY);
++    }
++    spatialIndex.finish();
+     for (let i2 = 0; i2 < this.outputNetLabelPlacements.length; i2++) {
+-      for (let j2 = i2 + 1; j2 < labels.length; j2++) {
++      const bounds = labelBounds[i2];
++      const nearbyIndices = spatialIndex.search(bounds.minX, bounds.minY, bounds.maxX, bounds.maxY).filter((j2) => j2 > i2).sort((a2, b2) => a2 - b2);
++      for (const j2 of nearbyIndices) {
+         const a2 = labels[i2];
+         const b2 = labels[j2];
+         if (a2.globalConnNetId === b2.globalConnNetId && !this.params.fixedNetLabelPlacements?.includes(b2))
+           continue;
++        if (!boundsOverlap2(labelBounds[i2], labelBounds[j2])) continue;
+         if (this.skippedCollisionKeys.has(this.collisionKey(a2, b2))) continue;
+-        if (boundsOverlap2(this.labelBounds(a2), this.labelBounds(b2)))
+-          return [a2, b2];
++        return [a2, b2];
+       }
+     }
+     return null;
+@@ -105847,6 +105857,7 @@
          proposals: this.getTraceRefinementProposals(current),
          queue: [],
          collecting: true,
@@ -26,7 +58,7 @@
          before: getOutputLabelCollisions(current)
        };
      }
-@@ -105854,6 +105856,13 @@
+@@ -105854,6 +105865,13 @@
      if (refinement.collecting) {
        const next2 = refinement.proposals.next();
        if (!next2.done) {
